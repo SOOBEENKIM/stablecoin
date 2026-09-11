@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "scope": "Descriptive diagnostics after primary results; no new confirmatory tests or model tuning",
+  "all_primary_models": 8,
+  "scenarios_each": 31,
+  "intervals": "Unadjusted exploratory 95% intervals on four sensitivity ratios",
+  "code_sha256": "6fa177ca574d2b412fa45a454db4482ea606fc107fb4112e3d60454bca1a5678"
+}

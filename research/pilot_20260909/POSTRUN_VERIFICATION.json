@@ -1,0 +1,18 @@
+{
+  "lightgbm": "4.5.0",
+  "input_protocol_hash_checks": {
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/binance_1h_2025-06-01_2026-03-19.csv": true,
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/upbit_1h_2025-06-01_2026-03-19.csv": true,
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/corrected_outputs/binance_btcusdt_data_vision_metrics.csv": true,
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/pilot_20260909/PROTOCOL_KO.md": true
+  },
+  "output_and_code_sha256": {
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/pilot_20260909/run_pilot.py": "4b3127101d7a846a81d805ebda917da323bc00f9853db6d7f2dce761c1cacb65",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/reanalysis_20260909/recalculate.py": "59234f1b9eec44276596c1af8e40056bc0faa2f021f8f09c02ade60e36de096b",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/pilot_20260909/RESULTS_KO.md": "2f33ba7bb75c52b47be3c673e59dc11e5e828e7810a35dee5f604d218dbb740f",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/pilot_20260909/test_scores.csv": "781d15db703617079e117ea0fd03d330a2b0d7143514e5948779c6e18a741ef7",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/pilot_20260909/monthly_scores.csv": "633eac8c3260ce7cab09893234d03d0040794e4cf255586c81428f572c78fbc3",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/pilot_20260909/paired_comparisons.csv": "b1acd75bf81a43ea78174ae9d9dd8d63b119b7a5c499d32ac6becacb747f77e7"
+  },
+  "note": "Post-run provenance record. See run_manifest.json for the pre-run input and protocol hashes."
+}

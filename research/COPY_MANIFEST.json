@@ -1,0 +1,218 @@
+{
+  "created_utc": "2026-09-08T07:56:39.514170+00:00",
+  "source": "/home/ssd-990/soobeenkim/stablecoin_v4",
+  "workshop": "/home/ssd-990/soobeenkim/stablecoin_workshop",
+  "verified_files": 42,
+  "files": [
+    {
+      "path": ".dockerignore",
+      "size": 73,
+      "sha256": "d4a0f0b83c79590ecd133fc4097a0ebf5ba87429a1aebdaa5083d676a00b0829"
+    },
+    {
+      "path": ".env.example",
+      "size": 57,
+      "sha256": "e146b0800cdd7e3bde530cd8155febc13efa0649ae17c6cd748241b423b1a6e6"
+    },
+    {
+      "path": ".gitignore",
+      "size": 65,
+      "sha256": "5f40a24c9cc239aba47cce502e659e0f42d203ef9cbd6bd36398a4daa9e72134"
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1686,
+      "sha256": "ff384ea709eff121fcfba40189864ac1950bbee229c6b1cf9304524cdfca4bda"
+    },
+    {
+      "path": "FinxLab_stablecoin_20260409_datapreprocessing - 복사본.ipynb",
+      "size": 2039458,
+      "sha256": "3755dd989dc3df5f34a5c4a72d28459ac0c47becce58bf3d7061aa6cc00967ee"
+    },
+    {
+      "path": "build_image.sh",
+      "size": 355,
+      "sha256": "60ef32ade7c058ac83b8b0cf1bee30be48618b51dec863ae60bbb86eb2b3cc88"
+    },
+    {
+      "path": "corrected_outputs/baseline_dataset_with_residual_final.csv",
+      "size": 960545,
+      "sha256": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15"
+    },
+    {
+      "path": "corrected_outputs/binance_btcusdt_data_vision_metrics.csv",
+      "size": 7786996,
+      "sha256": "726610d41d74c0ae4ef612e2c4af58166dd302b8abe6fd47294a148f82acc138"
+    },
+    {
+      "path": "corrected_outputs/binance_btcusdt_funding_rate.csv",
+      "size": 35167,
+      "sha256": "423bd4e8ba1213df39e12350918f87a691a0aa91a477ae747c85f2a3f03dbbb6"
+    },
+    {
+      "path": "corrected_outputs/binance_btcusdt_open_interest_hist.csv",
+      "size": 649010,
+      "sha256": "7d737bb63cb9376afc18b07f0828a50cba352a6001c42660a25c46063c504118"
+    },
+    {
+      "path": "create_container.sh",
+      "size": 733,
+      "sha256": "d3f802425e55c172b7b6126b9562deec0a1c00eea4dfb66eccc0ed4b7fdf5f1f"
+    },
+    {
+      "path": "data/.gitkeep",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "economic_magnitude.py",
+      "size": 3299,
+      "sha256": "0d59e4cdcaaf9f4870c89ccb19272e8bd44ea64439bb3114f82ead68368327e1"
+    },
+    {
+      "path": "enter_container.sh",
+      "size": 187,
+      "sha256": "b8ebe61ca30dfd20098b82dfeb035548240ea8166d4f4cf99098d46b51141c2f"
+    },
+    {
+      "path": "experiment1_persistence_mediation.py",
+      "size": 4542,
+      "sha256": "e0ce4723d44d5ee4b15af7dba681c69fac1d27e8d97e674d49b3ac65603e2488"
+    },
+    {
+      "path": "experiment2_subsample_stability.py",
+      "size": 4781,
+      "sha256": "f38f10d50244fe4b994fd6aed10f9b424abca2a28057c829754007885647da6d"
+    },
+    {
+      "path": "fix_permissions.sh",
+      "size": 208,
+      "sha256": "dee9c87bc61fab2024fe69071fc4fd96283d1685d6719ba3191a2294a8db7837"
+    },
+    {
+      "path": "kp_robustness.py",
+      "size": 6651,
+      "sha256": "cc6063e49b0f0e70eda554b6acd1c2703c135cd2ebdf828cca3a0ff651306aac"
+    },
+    {
+      "path": "manuscript_경영과학_김수빈.docx",
+      "size": 163078,
+      "sha256": "681e2b0c71de7009a95933801b68476e7e20bb235e34e618568e497692289a91"
+    },
+    {
+      "path": "manuscript_경영과학_김수빈_v2.docx",
+      "size": 147138,
+      "sha256": "29f3a881cae6e8b896af3c3a215110a3c346fe54a3389eb9844b4aa188ba61bc"
+    },
+    {
+      "path": "manuscript_경영과학_김수빈_v3.docx",
+      "size": 638878,
+      "sha256": "4a5cf8a9f9df33b00c6b7321fdf1e8957393b23dedeb706e39981007501d64a3"
+    },
+    {
+      "path": "manuscript_경영과학_김수빈_v4.docx",
+      "size": 168091,
+      "sha256": "cd0dec866e3b80b6503418e5f13ad717850343551c0f16b4ce83ded072d2bb9a"
+    },
+    {
+      "path": "outputs/.gitkeep",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "paper_outputs/economic_magnitude.csv",
+      "size": 502,
+      "sha256": "ecd2e01b65212b30869d659df59c2a93d41e02dbc19dddb58d78feea9f274f80"
+    },
+    {
+      "path": "paper_outputs/exp1_persistence_mediation.csv",
+      "size": 600,
+      "sha256": "15164ff8676dc2bc803d93af95a1d191240185b7bcf35e0dbf7fb8d1b35316a7"
+    },
+    {
+      "path": "paper_outputs/exp2_subsample_stability.csv",
+      "size": 352,
+      "sha256": "832a336255f3300a4ceb05788ee9db85b5c58c9468798a70e766f526ee092f7f"
+    },
+    {
+      "path": "paper_outputs/fig1_timeseries.png",
+      "size": 184866,
+      "sha256": "3df93708b3d1fcb251d598a171c6b151486a5fd68878705006522d25520eb6e6"
+    },
+    {
+      "path": "paper_outputs/fig3_localprojection.png",
+      "size": 133654,
+      "sha256": "9644c75e057fd173cfce9b1d3f4b148a4d1a2ba4b2b07605810d45c04d9f413f"
+    },
+    {
+      "path": "paper_outputs/fig4_mediation.png",
+      "size": 131926,
+      "sha256": "0f9b109ac0a6b4e5bbc8feaa09dc4b5aefab6a30e4a68146b6deb2040785b39e"
+    },
+    {
+      "path": "paper_outputs/fig5_decisive.png",
+      "size": 109361,
+      "sha256": "e9f960dcdf378e39d7788c99edf7293ca83a5a9ae48b1b39ecb5921338e06805"
+    },
+    {
+      "path": "paper_outputs/robustness_kp_main_quantile.csv",
+      "size": 332,
+      "sha256": "65619fad4336cba8a667c00362b2b120f08e2a92504647dee5e2d3a8dbb084b6"
+    },
+    {
+      "path": "paper_outputs/robustness_kp_mediation.csv",
+      "size": 500,
+      "sha256": "a14ebebb1f7345162120334d149ddc74521e3272b36c5b2552eb2ca92a02d9ee"
+    },
+    {
+      "path": "paper_outputs/table1_residual_descriptive.csv",
+      "size": 365,
+      "sha256": "e8e8e0231cf7d4fe86f1dadbad3fbe5303c3105375ce9bd85681469197dd3caa"
+    },
+    {
+      "path": "paper_outputs/table2_stationarity.csv",
+      "size": 71,
+      "sha256": "784a29ebf2c139e0350f2fc02d0803f97d1535b1d9031b651da267b6edd0566b"
+    },
+    {
+      "path": "paper_outputs/table3_main_quantile_tail.csv",
+      "size": 185,
+      "sha256": "fbb1fa45381e0975a8dace710273c9a5ae294bfad63c86a0d419b903a1cca7a1"
+    },
+    {
+      "path": "paper_outputs/table4_quantile_local_projection.csv",
+      "size": 537,
+      "sha256": "fe27c6040cee43bac01f42430d536679e34d911c1354f11a7477e0d24e64ee49"
+    },
+    {
+      "path": "paper_outputs/table5_stress_regime.csv",
+      "size": 228,
+      "sha256": "73fcf454f6cf7f7bf466df6bdf81dc80a4ea384191a771c9243db97ec7556a5e"
+    },
+    {
+      "path": "paper_outputs/table6_demand_channel_mediation.csv",
+      "size": 1528,
+      "sha256": "2b518c123a9ffb396fbc48a4c64c05734937bdd7a0446a4121e4f18f6bb6328c"
+    },
+    {
+      "path": "paper_outputs/table7_decisive_robustness.csv",
+      "size": 510,
+      "sha256": "642e3851506bced00beaaaee00766da589fdd007d353987fdafc199068ff511a"
+    },
+    {
+      "path": "src/requirements.txt",
+      "size": 62,
+      "sha256": "7d75ab3c06888b1fb206835c27eca7b509be214685a2017df6a17d499d82fc40"
+    },
+    {
+      "path": "stablecoin_paper_pipeline.py",
+      "size": 15738,
+      "sha256": "c777ef8d08a32e39a85f3a4aa8ce5da19cc5bd1534e7f837faca3e7bb8bfba8d"
+    },
+    {
+      "path": "연구정리_한국USDT잔차_레버리지채널.md",
+      "size": 14505,
+      "sha256": "3f5c7f0944024c1b4b000b956b64f4b93fc3c435f62e0b6b5b138e5c63b615cb"
+    }
+  ]
+}

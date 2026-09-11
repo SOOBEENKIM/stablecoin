@@ -1,0 +1,9 @@
+{
+  "gates_passed": {
+    "gru": false,
+    "tcn": false
+  },
+  "n_test": 1633,
+  "days": 77,
+  "status": "exploratory, same previously inspected market period; not a test of all possible AI models"
+}

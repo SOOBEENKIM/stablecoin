@@ -1,0 +1,12 @@
+{
+  "status": "started",
+  "code_sha256": "8793804aa235881f0d13dd9d3d5f479b86a0eea3f3e495ca5253b85ee40c9d80",
+  "shared_sha256": "c73710984263d48e7b0d0bc7a62e775cdb514b722e0e5e29889874632877f846",
+  "protocol_sha256": "04a71618872d668b15e69228d702832ec5e9982d52325b5ea198e46352dab80d",
+  "data_sha256": "f6fe4c0b0b259c3f41088c37ce07abe3364cb1cef8959dc7020a01e145cebf41",
+  "anchor_sha256": "597b243adf509609458001f709daf8022baf7d32a9800f67e7c1618c3d2e6bd8",
+  "torch": "2.9.1+cpu",
+  "numpy": "2.3.0",
+  "pandas": "2.3.0",
+  "device": "cpu"
+}

@@ -1,0 +1,5 @@
+scenario,common_origins
+clock_UTC_quote,0
+clock_NY_quote,0
+clock_FXUTC_USNY_quote,220
+clock_FXKST_USNY_quote,576

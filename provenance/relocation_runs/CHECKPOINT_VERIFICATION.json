@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checkpoints": 96,
+  "scenarios_each": 31,
+  "origins_each": 3,
+  "causality_checks": 96,
+  "shared_dropout_checks": 96,
+  "max_error_bp": 3.814697265625e-06,
+  "code_sha256": "6d57de1fec94472fed22005b8a528de4485dc7b84d3f191d3ea79992d86ef0f8"
+}

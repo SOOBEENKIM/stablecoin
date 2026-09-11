@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-08",
+  "measure": "Candidate direct-versus-synthetic KRW/USDT log price basis, equal weights",
+  "formula": "10000 * (log(Upbit_USDT_KRW) - mean_i(log(Upbit_coin_i_KRW) - log(Binance_coin_i_USDT)))",
+  "coins": [
+    "BTC",
+    "ETH",
+    "XRP",
+    "SOL",
+    "DOGE"
+  ],
+  "grid_rows": 6983,
+  "valid_basis_rows": 6968,
+  "days_with_basis": 292,
+  "start": "2025-06-01 18:00:00+00:00",
+  "end": "2026-03-19 16:00:00+00:00",
+  "origin_future_nonmissing_pairs": {
+    "1": 6964,
+    "3": 6956,
+    "6": 6948,
+    "12": 6942
+  },
+  "positioning_timestamp_overlap": 6926,
+  "forecast_models_fitted": false,
+  "limitations": [
+    "This proposed measure is different from the submitted paper OLS residual; it is not a corrected or expanded version of that residual.",
+    "Hourly closing prices are not synchronized executable quotes. No order-book, transaction-cost, or executable arbitrage claim.",
+    "No predictive performance, novelty, causal mechanism, or acceptance probability established.",
+    "Counts are before forecasting lags, release-time alignment, chronological splits and purging."
+  ]
+}

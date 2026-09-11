@@ -1,0 +1,106 @@
+{
+  "tcn_clean_20260910": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "tcn_clean_20260911": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "tcn_clean_20260912": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "tcn_clean_ensemble": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "tcn_shuffled_20260910": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "tcn_shuffled_20260911": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "tcn_shuffled_20260912": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "tcn_shuffled_ensemble": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "tcn_tick_20260910": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "tcn_tick_20260911": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "tcn_tick_20260912": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "tcn_tick_ensemble": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "linear_clean_20260910": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "linear_clean_20260911": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "linear_clean_20260912": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "linear_clean_ensemble": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "linear_shuffled_20260910": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "linear_shuffled_20260911": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "linear_shuffled_20260912": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "linear_shuffled_ensemble": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "linear_tick_20260910": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "linear_tick_20260911": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "linear_tick_20260912": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "linear_tick_ensemble": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "exact_qr": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  },
+  "lgbm": {
+    "min_eval_ncal": 619,
+    "max_used_time_before_origin": true
+  }
+}

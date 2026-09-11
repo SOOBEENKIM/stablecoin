@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": [
+    "518 previous artifacts preserved; same validated raw-derived data and fixed target",
+    "Fixed past-validation epoch anchors; identical four-cell initialization, candidate arrays, batches, RNG endpoint and optimizer steps",
+    "Recorded train objectives decompose correctly; all candidates/rows accounted for; frozen code, data, anchors and protocol unchanged",
+    "All 180 model-stage primary metrics independently reproduced from saved predictions",
+    "All 32 new calibrators use strict-past observed labels; same offset across scenarios; ensemble first",
+    "Factorial effects/interactions, Holm19/35 and four utility gates independently reconstructed",
+    "96 saved checkpoints replayed; temporal causality and trained common-dropout invariance pass"
+  ],
+  "max_prediction_storage_metric_error": 1.2482059830176695e-07,
+  "code_sha256": "cef7e660a8927a46b9cd649f9295f54ffcfa12785de84f5ffce45ce315e4aac1"
+}

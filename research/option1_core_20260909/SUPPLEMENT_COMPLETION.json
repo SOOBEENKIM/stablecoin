@@ -1,0 +1,144 @@
+{
+  "status": "complete",
+  "scope_sha256": "da16a52091bb4e0892476f8fe6c10ee12d0d44bb144c4584686496b30c993591",
+  "code_sha256": "f14517af39c8e3c48d0050de411a14d00a5468db5aea5bc63cd622561cabe21c",
+  "bootstrap_failures": [
+    {
+      "config": "w14_ETH_controlled",
+      "rep": 1046,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_ETH_controlled",
+      "rep": 1678,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_ETH_controlled_trend",
+      "rep": 49,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_ETH_controlled_trend",
+      "rep": 148,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_ETH_controlled_trend",
+      "rep": 672,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_ETH_controlled_trend",
+      "rep": 1046,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_ETH_controlled_trend",
+      "rep": 1062,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_ETH_controlled_trend",
+      "rep": 1678,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_ETH_controlled_trend",
+      "rep": 1925,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_XRP_controlled",
+      "rep": 1046,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_XRP_controlled",
+      "rep": 1678,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_XRP_controlled_trend",
+      "rep": 49,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_XRP_controlled_trend",
+      "rep": 148,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_XRP_controlled_trend",
+      "rep": 672,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_XRP_controlled_trend",
+      "rep": 1046,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_XRP_controlled_trend",
+      "rep": 1062,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_XRP_controlled_trend",
+      "rep": 1678,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_XRP_controlled_trend",
+      "rep": 1925,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_SOL_controlled",
+      "rep": 1046,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_SOL_controlled",
+      "rep": 1678,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_SOL_controlled_trend",
+      "rep": 49,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_SOL_controlled_trend",
+      "rep": 148,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_SOL_controlled_trend",
+      "rep": 672,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_SOL_controlled_trend",
+      "rep": 1046,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_SOL_controlled_trend",
+      "rep": 1062,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_SOL_controlled_trend",
+      "rep": 1678,
+      "error": "rank deficient resample"
+    },
+    {
+      "config": "w14_SOL_controlled_trend",
+      "rep": 1925,
+      "error": "rank deficient resample"
+    }
+  ],
+  "price_control_specs": 18,
+  "exposure": "Observed-price-band official order-grid exposure, not measured bid-ask spread"
+}

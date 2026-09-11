@@ -1,0 +1,16 @@
+{
+  "stage": "reanalysis-check",
+  "status": "passed",
+  "steps": [
+    {
+      "directory": "reanalysis_20260909",
+      "script": "recalculate.py",
+      "runtime": "analysis",
+      "returncode": 0,
+      "log": "reanalysis_20260909-recalculate.py.log"
+    }
+  ],
+  "archive_unchanged": true,
+  "python": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+  "neural_image": "stablecoin-neural:2.9.1"
+}

@@ -1,0 +1,33 @@
+{
+  "status": "design and feasibility complete; AI fitting not run",
+  "source_links": 18,
+  "old_artifacts_checked": 119,
+  "old_artifacts_unchanged": true,
+  "raw_price_files_unchanged": true,
+  "data_shape": [
+    6665,
+    24,
+    27
+  ],
+  "test_origins": 1814,
+  "test_days": 77,
+  "local_document_links_exist": true,
+  "figure_visually_reviewed": true,
+  "files": {
+    "EXPERIMENT_PROTOCOL_KO.md": "0bb65870ca0679e8eaaa8e82742bab12a20c70b6f91c624c523158913d63286b",
+    "FEASIBILITY_MANIFEST.json": "99550b7cf945cc2c2b95f1e9e867830bee57ad39f20345bcf7bfef49719e88da",
+    "PRESERVED_OPTIONS_SHA256.json": "47149da6677a8d5a8f8329b19be48a85f1d26abc254c603ec5ce3a19c662a672",
+    "README.md": "7f79350d6cfd9a1ef0e39a5e2e349f19818569187fa575d163157f4c9d4f02ae",
+    "RESEARCH_DESIGN_KO.md": "494e6d109c85035b520a978914e94345fff380dcabd572ff6d68782f54ce456b",
+    "design_data.npz": "0bf5a451210e9c1562f8c9fc1a777cba217bc112e5fec0864fff7363393f6344",
+    "feasibility_counts.csv": "60bd781b1dad41f95c78f07ca59b6b7d2a997109e31060a7afdda086276c3841",
+    "plot_feasibility.py": "66214f61f628f1bebd97481189eed62e238670b22fec13eee29f1678f25e38ea",
+    "prepare_design.py": "6f55fee9f1693e1f0bf4ab09a56bfb5618b54a69ed775d251e74d698f976556a",
+    "reference_rates.pdf": "a541d8562d54f972ffae2b9b5ba520999a3a914632e460e9c65fdf536c7703ff",
+    "reference_rates.png": "274d3aefcc56261c3f6c058a4b97b831ab8a1fc740f8ecec37d71ac29a9d8426",
+    "reference_scales.csv": "b7c24b729044f7d6f1e60f7207b145c91dff4377b0ad3b482a24df3302961549",
+    "references.csv": "d8adcd915912bd0dd7f236e6193ac302a20ad7b9da90c0585e51855823eda3e7",
+    "target_disagreement.csv": "a325bce27fb7fc4e9d746416c9f7cde5346abf6a59a0291e8f22b4388b3f2a61",
+    "target_panel.csv.gz": "463c2ab8631a1a7df05abed9de4f37c9561490054f19f945b82764561e56860c"
+  }
+}

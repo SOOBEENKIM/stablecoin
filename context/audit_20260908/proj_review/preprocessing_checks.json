@@ -1,0 +1,44 @@
+{
+  "CBOE_VIX": {
+    "expanded_file": "CBOE_VIX_9.csv",
+    "n": 9560,
+    "max_abs_error_from_same_day_close_ffill": 0.0,
+    "matching_rows": 9560,
+    "within_day_distinct_max": 1
+  },
+  "KOSPI200": {
+    "expanded_file": "KOSPI200_7.csv",
+    "n": 9560,
+    "max_abs_error_from_same_day_close_ffill": 0.0,
+    "matching_rows": 9560,
+    "within_day_distinct_max": 1
+  },
+  "USD_KRW": {
+    "expanded_file": "USD_KRW_8.csv",
+    "n": 9560,
+    "max_abs_error_from_same_day_close_ffill": 0.0,
+    "matching_rows": 9560,
+    "within_day_distinct_max": 1
+  },
+  "joined": {
+    "rows_rebuilt": 9559,
+    "rows_saved": 9559,
+    "all_index_equal": true,
+    "max_abs_errors": {
+      "open": 0.0,
+      "high": 0.0,
+      "low": 0.0,
+      "close": 0.0,
+      "volume": 0.0,
+      "value": 3.0517578125e-05,
+      "CBOE_VIX": 0.0,
+      "KOSPI200": 0.0,
+      "USD_KRW": 0.0
+    },
+    "log_return_max_error": 9.996344030316351e-17,
+    "forward_42_rows_vol_max_error": 1.8735013540549517e-16,
+    "missing_4h_timestamps": [
+      "2023-12-04 01:00:00"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": [
+    "Same hash-verified raw-derived data and fixed targets; 381 previous artifacts unchanged",
+    "All 96 fits use strict chronological outer/inner splits and the same 1,814 evaluation origins",
+    "Training code/protocol unchanged; hard-selection accounting covers each training example exactly once per epoch",
+    "All 116 model-stage primary metrics independently reproduced from predictions",
+    "All 32 new calibrators: strict past labels, ensemble before calibration, same offset for every input scenario",
+    "Holm12, combined Holm16 and all predeclared joint success gates recomputed",
+    "All 96 checkpoints replayed at 3 origins and 31 scenarios; GRU/TCN temporal causality verified"
+  ],
+  "max_prediction_storage_metric_error": 1.2482059830176695e-07,
+  "code_sha256": "2e6a86871602e007b7a117b2221081387a6ec187386c0aef751597fc458371c0"
+}

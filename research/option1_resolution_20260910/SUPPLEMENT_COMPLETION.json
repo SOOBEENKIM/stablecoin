@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "code_sha256": "42a83bb72c9a6a23306f0cce01538b11267f609e04b5cb977b784fca80d0bdc8",
+  "scope_sha256": "c8187a6aea0b8dddfb5e9c4ea40fc19f47986bea79aba5bd01922deb0d2555f0",
+  "common_X_columns": 16,
+  "bootstrap_failures": [],
+  "preserved_files": 205
+}

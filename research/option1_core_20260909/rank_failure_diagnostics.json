@@ -1,0 +1,606 @@
+[
+  {
+    "config": "h1_q00_b5",
+    "rep": 889,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h1_q00_b5",
+    "rep": 1036,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h1_q00_b5",
+    "rep": 1183,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h1_q00_b5",
+    "rep": 1355,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h1_q00_b5",
+    "rep": 1550,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h1_q00_b5",
+    "rep": 1650,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q00_b5",
+    "rep": 7,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q00_b5",
+    "rep": 141,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q00_b5",
+    "rep": 276,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q00_b5",
+    "rep": 510,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q00_b5",
+    "rep": 721,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q00_b5",
+    "rep": 781,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q00_b5",
+    "rep": 1146,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q00_b5",
+    "rep": 1710,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q00_b5",
+    "rep": 1783,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [],
+    "rank": 16,
+    "p": 17,
+    "months_present": [
+      2,
+      3
+    ]
+  },
+  {
+    "config": "h6_q00_b5",
+    "rep": 1832,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q00_b5",
+    "rep": 1983,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h12_q00_b5",
+    "rep": 106,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h12_q00_b5",
+    "rep": 774,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h12_q00_b5",
+    "rep": 1048,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h12_q00_b5",
+    "rep": 1246,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h12_q00_b5",
+    "rep": 1421,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h12_q00_b5",
+    "rep": 1471,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h12_q00_b5",
+    "rep": 1716,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h12_q00_b5",
+    "rep": 1763,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h12_q00_b5",
+    "rep": 1841,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h12_q00_b5",
+    "rep": 1844,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h12_q00_b5",
+    "rep": 1908,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h12_q00_b5",
+    "rep": 1995,
+    "error": "rank deficient resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b5",
+    "rep": 158,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b5",
+    "rep": 315,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b5",
+    "rep": 468,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b5",
+    "rep": 479,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b5",
+    "rep": 481,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b5",
+    "rep": 871,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Feb"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b5",
+    "rep": 886,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h1_q10_b5",
+    "rep": 105,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h1_q10_b5",
+    "rep": 201,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h12_q10_b5",
+    "rep": 10,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h12_q10_b5",
+    "rep": 56,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [],
+    "rank": 16,
+    "p": 17,
+    "months_present": [
+      2,
+      3
+    ]
+  },
+  {
+    "config": "h12_q10_b5",
+    "rep": 438,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Feb"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 49,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 84,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 90,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 98,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 106,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 170,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 276,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Feb"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 283,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 290,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 323,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 347,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 386,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 399,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Feb"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 429,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 430,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 436,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 438,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Feb"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 450,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  },
+  {
+    "config": "h6_q10_b10",
+    "rep": 454,
+    "error": "rank deficient quantile resample",
+    "constant_nonintercept_columns": [
+      "month_Mar"
+    ],
+    "rank": 16,
+    "p": 17
+  }
+]

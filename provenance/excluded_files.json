@@ -1,0 +1,116 @@
+[
+  {
+    "path": "extension_20260909/__pycache__/analyze_extension.cpython-38.pyc",
+    "reason": "Python runtime cache",
+    "bytes": 8260,
+    "sha256": "c2f953ce88917da1cce538f51b8480a880331df4c6c724cf186ba9e3c76bdeaf"
+  },
+  {
+    "path": "extension_20260909/__pycache__/run_extension.cpython-38.pyc",
+    "reason": "Python runtime cache",
+    "bytes": 12574,
+    "sha256": "f8a37e774c77b2edc61b6796d3487cf8f96e12bfc8d82f28b559e62ec07ad018"
+  },
+  {
+    "path": "pilot_20260909/__pycache__/run_pilot.cpython-38.pyc",
+    "reason": "Python runtime cache",
+    "bytes": 11480,
+    "sha256": "f83d4377e0f50a72cd8c2a1ced1569d84d9c411773439804a1f78b6fdb1812f4"
+  },
+  {
+    "path": "reanalysis_20260909/__pycache__/recalculate.cpython-38.pyc",
+    "reason": "Python runtime cache",
+    "bytes": 18392,
+    "sha256": "a832b564a540977fb1ac969c604534ed137f8853073292eba61b4cc23ab0aeeb"
+  },
+  {
+    "path": "reanalysis_20260909/sources/bis_fx_2026.pdf",
+    "reason": "Downloaded third-party paper full text; bibliography links retained in research notes",
+    "bytes": 3484586,
+    "sha256": "fe2a024777ecb75e23eb4df84341c9747a59f19ad4a5bcf0880fc35655d134a7"
+  },
+  {
+    "path": "reanalysis_20260909/sources/bis_fx_2026.txt",
+    "reason": "Downloaded third-party paper full text; bibliography links retained in research notes",
+    "bytes": 211837,
+    "sha256": "f2b1861e61d1ea4541381846c3e489103890739323e35eba1953997955f5b17c"
+  },
+  {
+    "path": "reanalysis_20260909/sources/gorton_leverage.pdf",
+    "reason": "Downloaded third-party paper full text; bibliography links retained in research notes",
+    "bytes": 1286591,
+    "sha256": "e19781a62ca5c6b6f0b695ee543e8d04ef841062dc073da5c35c6bf441db8159"
+  },
+  {
+    "path": "reanalysis_20260909/sources/gorton_leverage.txt",
+    "reason": "Downloaded third-party paper full text; bibliography links retained in research notes",
+    "bytes": 226480,
+    "sha256": "8e9d4f4412baf67ffd4e69e37bf5c6d20b1f67504a35fee59e6ca36cda96b873"
+  },
+  {
+    "path": "reanalysis_20260909/sources/kvsi_2026.pdf",
+    "reason": "Downloaded third-party paper full text; bibliography links retained in research notes",
+    "bytes": 2327451,
+    "sha256": "c98ebbc88086a613b14a48b381e5aad3cb5700075a52921b683d50d6ab292081"
+  },
+  {
+    "path": "reanalysis_20260909/sources/kvsi_2026.txt",
+    "reason": "Downloaded third-party paper full text; bibliography links retained in research notes",
+    "bytes": 144378,
+    "sha256": "70b3815b5c90578288fc238cd084c5f15ed9e966c4de983c69632b58e167010c"
+  },
+  {
+    "path": "reanalysis_20260909/sources/threshold_2024.pdf",
+    "reason": "Downloaded third-party paper full text; bibliography links retained in research notes",
+    "bytes": 1090587,
+    "sha256": "9ded26a11fa23a47370544f16dd00ce5298dc9bfb58036e301deda773eec670a"
+  },
+  {
+    "path": "reanalysis_20260909/sources/threshold_2024.txt",
+    "reason": "Downloaded third-party paper full text; bibliography links retained in research notes",
+    "bytes": 77387,
+    "sha256": "7a779d98974c4c9d633873d0109a8e433b578a700ce2f53502203e866384bc91"
+  },
+  {
+    "path": "reference/audit_20260908/__pycache__/audit_numeric.cpython-38.pyc",
+    "reason": "Python runtime cache",
+    "bytes": 9188,
+    "sha256": "42c6a84c1fe4dbf3d332a2232ab1a6b17ef7532b767aeb9d5b6fab450a47e99b"
+  },
+  {
+    "path": "reference/audit_20260908/reproduction/__pycache__/stablecoin_paper_pipeline.cpython-38.pyc",
+    "reason": "Python runtime cache",
+    "bytes": 16222,
+    "sha256": "85ee4b14264f4952a0967160fae8f7f134e7bc2c4e4776a7f96daaef9fe4e54b"
+  },
+  {
+    "path": "reference/deferred_edits_not_applied/__pycache__/workshop_core.cpython-38.pyc",
+    "reason": "Python runtime cache",
+    "bytes": 12036,
+    "sha256": "6f73d58142b7a716cc77d1fdfac455e7d9f925836f82a640bd5555c73e97c54d"
+  },
+  {
+    "path": "reference/deferred_edits_not_applied/tests/__pycache__/test_workshop.cpython-38.pyc",
+    "reason": "Python runtime cache",
+    "bytes": 5996,
+    "sha256": "a07390e54a3c2b4255c4b24709d8be766100a0489388dd52593c827ef7d94fe2"
+  },
+  {
+    "path": "workshop2_20260909/__pycache__/analyze_pilot.cpython-38.pyc",
+    "reason": "Python runtime cache",
+    "bytes": 3799,
+    "sha256": "3730558abade6b661a196ffce1b35d267a9faff877ad6f31e82c1d9c87a6187d"
+  },
+  {
+    "path": "workshop2_20260909/__pycache__/feasibility.cpython-38.pyc",
+    "reason": "Python runtime cache",
+    "bytes": 4478,
+    "sha256": "f1bfca7432cf51842cc48384968ddaeabf014cb91ad0f496fd1431f0039368e7"
+  },
+  {
+    "path": "workshop2_20260909/__pycache__/run_pilot.cpython-38.pyc",
+    "reason": "Python runtime cache",
+    "bytes": 8294,
+    "sha256": "a835e5b221b62d61142a122dde8faec2df79e94fcd879c7ceb042b32b8612057"
+  }
+]

@@ -1,0 +1,407 @@
+{
+  "original_files": 261,
+  "categories": {
+    "keep_related_reference": 175,
+    "remove_other_research": 54,
+    "keep_primary": 7,
+    "keep_reproduced_intermediate": 21,
+    "remove_exact_duplicate": 1,
+    "keep_uncertain": 3
+  },
+  "selected_for_removal": 55,
+  "selected_bytes": 23296517,
+  "backup": "/home/ssd-990/soobeenkim/stablecoin_audit_20260908/raw_data_review/removed_files_backup.tar.gz",
+  "backup_sha256": "f7b23bc07aa249c8d986c3c3065232ee2bea81b08feaad805786cf3341be025c",
+  "backup_verified": true,
+  "removed_files": [
+    {
+      "file": "2_ver2_result_test_ret_h4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "feda40e09ffc5c1a9d908cb56614226b6803e47139819fa91a1fda2655bc013e",
+      "bytes": 127209
+    },
+    {
+      "file": "2_ver2_result_test_ret_h4_l4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "90b208a9cab3575034a164945d19aa59776a2f0481f1ad8c6f1730a093be804e",
+      "bytes": 136163
+    },
+    {
+      "file": "2_ver2_result_test_ret_l4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "52ed4f7abcdfd4b017697ae5a001393ece4b2cee4a28ca5eafd9a92974f4f5db",
+      "bytes": 127964
+    },
+    {
+      "file": "Basis-Momentum-Results.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "54db6f6864cc3955476cf7f70a1daacf45341a83f17d3bba0782653894604fba",
+      "bytes": 2015182
+    },
+    {
+      "file": "DM_table1_final_basis-momentum.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "676559d16583a5c0b039d0badbcd2a0fb6f3b11a5f7e302cb6b2853072f845f7",
+      "bytes": 7900
+    },
+    {
+      "file": "Exhibit14_market_SV_lambda0.csv",
+      "category": "remove_other_research",
+      "reason": "주식 옵션·행사경계·델타·강화학습 헤지 결과; 열과 표본 확인, 현 논문 입력 아님",
+      "sha256": "36ed4cb39f272644242a9ad5128d4c1d77d2143795ad7d02a263d0142ed5d6f0",
+      "bytes": 1467
+    },
+    {
+      "file": "Exhibit15_market_SV_lambda3.csv",
+      "category": "remove_other_research",
+      "reason": "주식 옵션·행사경계·델타·강화학습 헤지 결과; 열과 표본 확인, 현 논문 입력 아님",
+      "sha256": "4ee95eb6992de5cff2181b509111e7597d7ee28900d642aecb109c963537c80a",
+      "bytes": 1467
+    },
+    {
+      "file": "Exhibit16_empirical_lambda3.csv",
+      "category": "remove_other_research",
+      "reason": "주식 옵션·행사경계·델타·강화학습 헤지 결과; 열과 표본 확인, 현 논문 입력 아님",
+      "sha256": "aab2e0d2c3b89ea316dac8dfd9b255a6f3754642546d54297409f95b89d609b6",
+      "bytes": 868
+    },
+    {
+      "file": "Final_ARIMA_mom_single.ipynb",
+      "category": "remove_other_research",
+      "reason": "노트북 코드에서 CL/NG 등 19종 원자재의 ARIMA/VAR 모멘텀 연구 확인",
+      "sha256": "6661047f3d51cbde8bce2ef3efe805866fc351e39bb94c78f28a059bb6cba27e",
+      "bytes": 30938
+    },
+    {
+      "file": "Global Prices_v1_daily_no_missing.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "2c9189fb93c9c7df31f66315c5841bbfa5645488f8a7d0b91e81253ea86c1af0",
+      "bytes": 3133373
+    },
+    {
+      "file": "RealPath_results.csv",
+      "category": "remove_other_research",
+      "reason": "주식 옵션·행사경계·델타·강화학습 헤지 결과; 열과 표본 확인, 현 논문 입력 아님",
+      "sha256": "0d4431e39dcc7f548154683c6754ffee63245080c99b8807b33056b945cd2ad2",
+      "bytes": 7462
+    },
+    {
+      "file": "b_extended_grid_search_results_0.csv",
+      "category": "remove_other_research",
+      "reason": "Basis-Momentum/LSTM 학습·성과 요약 결과; 파일명·열·표본을 확인, 현 논문 입력 아님",
+      "sha256": "72c7f0b4cd9e302d58780d071047ea37b7bf3922628181f18175708c80bacf66",
+      "bytes": 1287
+    },
+    {
+      "file": "b_result_test_h4_l4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "4cc8707a5d4b195a4b51eb3b62c8d3650193cc46be5f8c4d93082e56ba0dd391",
+      "bytes": 126868
+    },
+    {
+      "file": "b_result_test_ret_h4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "97f9fc290964adf76033a0def70f97def1db2eae6cd675d2a9992e116a2d9e71",
+      "bytes": 117394
+    },
+    {
+      "file": "b_result_test_ret_l4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "15b8bbffc41dc219d0d9141bb31a2c689ebecc57283d4c657fa7d6cd7097a8c5",
+      "bytes": 117446
+    },
+    {
+      "file": "bm_extended_grid_search_results_0.csv",
+      "category": "remove_other_research",
+      "reason": "Basis-Momentum/LSTM 학습·성과 요약 결과; 파일명·열·표본을 확인, 현 논문 입력 아님",
+      "sha256": "88b245a8d72a88ac003ab1de7b330965f8ce48eb3b649977931fafe599dc8a82",
+      "bytes": 1276
+    },
+    {
+      "file": "bm_result_test_h4_l4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "36727281f6a4fc1946ccb7e24247f38b8c5230841303b00266bea0dfbfc8ce6e",
+      "bytes": 126206
+    },
+    {
+      "file": "bm_result_test_ret_h4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "f7bb2878bb57d2a9ecb223471abdffaf62391e84070542ddc4296c2d6fadd111",
+      "bytes": 117728
+    },
+    {
+      "file": "bm_result_test_ret_l4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "22b4e86d148a9e6fb13ed862b8818f36cb01c51fa0b3b56241d262c848608ea1",
+      "bytes": 117882
+    },
+    {
+      "file": "bmom_lstm_noise_experiment_results.csv",
+      "category": "remove_other_research",
+      "reason": "Basis-Momentum/LSTM 학습·성과 요약 결과; 파일명·열·표본을 확인, 현 논문 입력 아님",
+      "sha256": "d1a4560c5d2252511b7e650486810aae54feaa62b1bf23d2bfcf4b8bf8bb63b5",
+      "bytes": 175
+    },
+    {
+      "file": "bmom_noise_robustness_comparison.csv",
+      "category": "remove_other_research",
+      "reason": "Basis-Momentum/LSTM 학습·성과 요약 결과; 파일명·열·표본을 확인, 현 논문 입력 아님",
+      "sha256": "4b5aee026f07e66896dfd3079225e61e522d48eb60e5c9f64ab6001eac2cfdfd",
+      "bytes": 592
+    },
+    {
+      "file": "bmom_noise_robustness_results.csv",
+      "category": "remove_other_research",
+      "reason": "Basis-Momentum/LSTM 학습·성과 요약 결과; 파일명·열·표본을 확인, 현 논문 입력 아님",
+      "sha256": "0a453709f0947474726d5f438a91f4f4e552e36c87b39021ed506713b65a7233",
+      "bytes": 607
+    },
+    {
+      "file": "cheb_fit.csv",
+      "category": "remove_other_research",
+      "reason": "주식 옵션·행사경계·델타·강화학습 헤지 결과; 열과 표본 확인, 현 논문 입력 아님",
+      "sha256": "9fc591b517ae125b02595bd434224968a41cc69762a1151c407341e9caf53e2f",
+      "bytes": 832
+    },
+    {
+      "file": "dailymonthly_train_data.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "858c8a07c3b1d8b9898745b5254eee49a6ee5531b6986b8cfcf5e4215e4b7469",
+      "bytes": 4553593
+    },
+    {
+      "file": "dailymonthly_train_data.xlsx",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "beaf8da81eddb53cfd6c240916f7c65223e569b62aba82375a927c4a208893e8",
+      "bytes": 3324649
+    },
+    {
+      "file": "data_2_ver2_result_test_ret_h4_l4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "0b2b8a2addaa6e39c3f00d47cb997da280d6f982054ffc713887dedb1e270365",
+      "bytes": 445867
+    },
+    {
+      "file": "delta_actions_all.csv",
+      "category": "remove_other_research",
+      "reason": "주식 옵션·행사경계·델타·강화학습 헤지 결과; 열과 표본 확인, 현 논문 입력 아님",
+      "sha256": "04534aec3ce099bfb59b9c9295806a0deb173a8ba71080e1583ee3b3cd464c87",
+      "bytes": 161137
+    },
+    {
+      "file": "delta_by_t_summary.csv",
+      "category": "remove_other_research",
+      "reason": "주식 옵션·행사경계·델타·강화학습 헤지 결과; 열과 표본 확인, 현 논문 입력 아님",
+      "sha256": "c3e8589aab61c2d0a464adc69e3f93732bcf60613348286b22e4d845d35769f9",
+      "bytes": 3292
+    },
+    {
+      "file": "mdd example.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "9da420ba095d85c666cf7d782c4fb07083a5cbb6feaba65d27fc276568ea99c3",
+      "bytes": 580671
+    },
+    {
+      "file": "momentum_sheet.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "1919f0cc6d83f9346ee29f6436c61c1c6eb16021d3cc6c3a25069fc2467a1a48",
+      "bytes": 71606
+    },
+    {
+      "file": "options_2023-08-17.csv",
+      "category": "remove_other_research",
+      "reason": "주식 옵션·행사경계·델타·강화학습 헤지 결과; 열과 표본 확인, 현 논문 입력 아님",
+      "sha256": "45bbd9da8314c77b4dcf44aa5170c1f581b76672a4545c62cd14dfc4be8d290a",
+      "bytes": 3306
+    },
+    {
+      "file": "panel_full_checked.parquet",
+      "category": "remove_exact_duplicate",
+      "reason": "SHA-256이 panel_upbit_binance_fx_kp_full_1h.parquet와 동일; 해당 파일 보존",
+      "sha256": "55eab11bb66e57b59a8ac67c0d0a6a29f96654309fa6a81bdcd0ffd89699134c",
+      "bytes": 4729258
+    },
+    {
+      "file": "perf_monthly_lstm_bmom.csv",
+      "category": "remove_other_research",
+      "reason": "Basis-Momentum/LSTM 학습·성과 요약 결과; 파일명·열·표본을 확인, 현 논문 입력 아님",
+      "sha256": "b03d00e495d9abd09b71aa4ee1ab5968593d8234a7bc02ca5a9cd8c5487ea26b",
+      "bytes": 783
+    },
+    {
+      "file": "prices_realpath.csv",
+      "category": "remove_other_research",
+      "reason": "주식 옵션·행사경계·델타·강화학습 헤지 결과; 열과 표본 확인, 현 논문 입력 아님",
+      "sha256": "4c768b371b0d75f6cf735100df46b588853ec59907d3d05c5033fcb5c829ebfa",
+      "bytes": 12286
+    },
+    {
+      "file": "result_static_sigma000.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "c979b20d6a77d0860107b6e618633beb63aa3fdcef2912f5edd9dcad026d2623",
+      "bytes": 80776
+    },
+    {
+      "file": "result_static_sigma005.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "a2aa770308f00de2294920a963c9825ffbd309878a0e53794317679fe76d3bfb",
+      "bytes": 80776
+    },
+    {
+      "file": "result_static_sigma010.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "c8c4e4303c95225ca98338ca283dcf323fc41e85d5b2b14460bad981f296fbfd",
+      "bytes": 80776
+    },
+    {
+      "file": "result_test.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "fad2f71d5c3bab3b64f9713f9442ee057f215c661cdc2ad083e6cd2a477e672c",
+      "bytes": 433792
+    },
+    {
+      "file": "result_test_h4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "8507b38ab85b008578c223bae485bbdc02704689e6223dd618819684b13f9850",
+      "bytes": 111312
+    },
+    {
+      "file": "result_test_h4_l4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "5e605ceefa638febb1b8697a33d26be0d527bbc7b4e64ee919aa2ea08e0e792b",
+      "bytes": 126561
+    },
+    {
+      "file": "result_test_l4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "41b0c0a397de02b97b989121fc81eaca08e460ce75f06236687fed4fc00d9145",
+      "bytes": 111513
+    },
+    {
+      "file": "result_test_ret_arima_h4-l4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "4af2122f7e478e717f762325877d9a4df80e06d005782c69a9d4a14af35ca368",
+      "bytes": 156991
+    },
+    {
+      "file": "result_test_ret_arima_h4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "ca54196edbc938d2cceb8b9a23de7779acac4bac6c8042b6b1e9b48f6387c744",
+      "bytes": 146892
+    },
+    {
+      "file": "result_test_ret_arima_l4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "0517412ba3d6753355e76b665573673803c1c67f00e4d6c3e504e2a2b09dac8a",
+      "bytes": 146538
+    },
+    {
+      "file": "result_test_ret_h4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "3b19ce0660a17249f53c7a0f831b5645d3575d070d28421c4cec49e6ec19ac09",
+      "bytes": 117702
+    },
+    {
+      "file": "result_test_ret_l4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "ef0f4918c60d341dd08fa3ca101b32d879bbe734719afdd2cff9ff1fffdf0cfc",
+      "bytes": 117516
+    },
+    {
+      "file": "result_test_ret_var_h4-l4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "2d23cb2c0de4aa1e5aa5c44953065b6cfba8d28ea5af21c8cbf9873bdbf33602",
+      "bytes": 156639
+    },
+    {
+      "file": "result_test_ret_var_h4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "c01ecdee61baf4a7210e8743cf0c06ff5cf27899b5e814c9e39f9cb8009bbe04",
+      "bytes": 146566
+    },
+    {
+      "file": "result_test_ret_var_l4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "6cab8d621a05b7cd24d5329921e7426077775401e547a44b49e8806f085d0bfa",
+      "bytes": 146656
+    },
+    {
+      "file": "result_test_sigma010.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "352fd8cf44f21eeb38919af1859bfd540ddbd265edefa21c7ae535558f4ac528",
+      "bytes": 126753
+    },
+    {
+      "file": "robust_rl_buyer24_0pct.csv",
+      "category": "remove_other_research",
+      "reason": "주식 옵션·행사경계·델타·강화학습 헤지 결과; 열과 표본 확인, 현 논문 입력 아님",
+      "sha256": "138b1ed40a05e01deac1da6d3a3a5ef16998381e28c1d89fb793cc0fbdd0b056",
+      "bytes": 207443
+    },
+    {
+      "file": "robust_rl_buyer24_3pct.csv",
+      "category": "remove_other_research",
+      "reason": "주식 옵션·행사경계·델타·강화학습 헤지 결과; 열과 표본 확인, 현 논문 입력 아님",
+      "sha256": "a65c384c7c4723862d15c8c3de801b247f5e50e799a924af5c1adc2c869f5e18",
+      "bytes": 204092
+    },
+    {
+      "file": "ver2_result_test_h4_l4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "77c59886bcc95cebeb31362176f35ba92daac49a68d037ef99a8af49f12e79c2",
+      "bytes": 136512
+    },
+    {
+      "file": "ver2_result_test_ret_h4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "d0aadcea8045ddafb51134f198d7c1c21dbfdc80107eba9406998a0254160cc9",
+      "bytes": 127535
+    },
+    {
+      "file": "ver2_result_test_ret_l4.csv",
+      "category": "remove_other_research",
+      "reason": "CL/NG 등 원자재 선물 가격·모멘텀·예측/백테스트 열 확인; 이 논문 입력과 무관",
+      "sha256": "413a70e817df95d762a1d378a8c4694daa16709eb9167ee54083bdb5572c0b16",
+      "bytes": 128442
+    }
+  ],
+  "remaining_files": 206,
+  "remaining_bytes": 427053804,
+  "retained_hashes_verified": true,
+  "completed": true
+}

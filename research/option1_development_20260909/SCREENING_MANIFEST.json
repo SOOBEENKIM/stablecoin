@@ -1,0 +1,22 @@
+{
+  "status": "exploratory descriptive screening; no new predictive model fitted",
+  "probe_inspected_before_script_saved": true,
+  "raw_sha256": {
+    "data/raw data/binance_1h_2025-06-01_2026-03-19.csv": "f32e54fadbedfb38a9514ecb4682bc2bc2e2eb418b314f672af7f783b61af3d0",
+    "data/raw data/upbit_1h_2025-06-01_2026-03-19.csv": "c0ea17c465872dafc4e641c5486fe4edd15b7abdc064ed587869882b78ad1efe"
+  },
+  "preserved_artifact_count": 135,
+  "preserved_options_unchanged": true,
+  "n_2026_complete_prices": 1865,
+  "q10_threshold_bp": -9.9782572592364,
+  "tests": [
+    "raw-price and frozen-basis agreement",
+    "one-tick scenarios recalculated from raw prices",
+    "USDT-free spread identity",
+    "post-policy price bands",
+    "old options and raw prices unchanged"
+  ],
+  "scenario_scope": "single local quote changed by one tick; all other prices fixed; NOT false alarms or causal effects",
+  "policy_scope": "14/28/42-day descriptive windows excluding transition; NOT a causal policy estimate",
+  "virtual_regridding_scope": "deterministic transformations of previously observed pre-policy prices; no latent efficient price or behavioural response identified"
+}

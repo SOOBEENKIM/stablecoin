@@ -1,0 +1,26 @@
+{
+  "source": "/home/ssd-990/soobeenkim/stablecoin_v4/PROJ",
+  "file_counts": {
+    ".csv": 133,
+    ".ipynb": 25,
+    ".xlsx": 54,
+    ".code-workspace": 1
+  },
+  "root_files": 213,
+  "baseline_rows": 715,
+  "baseline_start": "2025-06-03 09:00:00+00:00",
+  "baseline_end": "2026-03-19 12:00:00+00:00",
+  "csv_files_with_datetime": 115,
+  "csv_files_overlapping_stablecoin_period": [],
+  "stablecoin_related_column_names": [],
+  "notebooks_with_stablecoin_terms": [],
+  "infinite_value_files": [
+    {
+      "file": "BTC_normalized.csv",
+      "infinite_cells": 410899
+    }
+  ],
+  "required_source_files_found": [],
+  "source_changed_during_review": [],
+  "files_added_during_review": []
+}

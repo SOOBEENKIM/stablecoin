@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.env
+.venv*/
+.runs/
+.cache/
+.DS_Store
+
+# Archived data are intentionally versioned. research/.gitignore is preserved
+# as a historical file; the initial archive import is staged explicitly.

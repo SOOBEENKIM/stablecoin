@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "code_sha256": "32e5500c1b0e2862c82cbe594c84b1cfb96afb5dd8778a2792c6b6bda5112a6d",
+  "protocol_sha256": "8574c1415868851e22f6407fc8b0cd3138dcf127b5d57fa149285acd22da10b8",
+  "n_common": 1837,
+  "days": 78,
+  "input_forecasts_sha256": {
+    "extension_20260909/mean5_h6_forecasts.csv.gz": "010faabc885797620c798acd1aa6902e225d31499df19b5df5491950de1f58a7",
+    "extension_20260909/median5_h6_forecasts.csv.gz": "7a20558928d97443eaee426988b32073fafa6b56dad84918a068d0be39f54aff",
+    "extension_20260909/btc_h6_forecasts.csv.gz": "68e35a386b801b648dbe34c2621c45150b783e253413e555e9c52289573bc65d"
+  },
+  "checks": [
+    "mean5 update_linear_local_cal28 exact frozen scores",
+    "mean5 update_lgbm_local_cal28 exact frozen scores",
+    "median5 update_linear_local_cal28 exact frozen scores",
+    "median5 update_lgbm_local_cal28 exact frozen scores",
+    "BTC update_linear_local_cal28 exact frozen scores",
+    "BTC update_lgbm_local_cal28 exact frozen scores"
+  ],
+  "preserved_files": 205,
+  "scope": "Frozen predictions; target-evaluation stress scenarios, not newly fitted predictive improvements"
+}

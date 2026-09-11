@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "scope": "Local repository export, relocated execution, and newly built CPU environment; remote transfer is checked separately after push",
+  "verified_at_utc": "2026-09-11T10:41:12.830484+00:00",
+  "source_research_files": 917,
+  "context_files": 60,
+  "raw_files_verified": 7,
+  "latest_manifest_entries": 141,
+  "previous_preserved_entries": 518,
+  "relocated_stages": {
+    "prepare-data": "passed",
+    "core-checks": "passed",
+    "measurement-checks": "passed",
+    "reanalysis-check": "passed",
+    "latest-analysis": "passed",
+    "latest-checkpoints": "passed"
+  },
+  "analysis_environment": {
+    "python": "3.8.10",
+    "packages": {
+      "numpy": "1.23.5",
+      "pandas": "2.0.3",
+      "scipy": "1.10.1",
+      "statsmodels": "0.14.1",
+      "matplotlib": "3.7.5",
+      "scikit-learn": "1.3.2",
+      "lightgbm": "4.5.0",
+      "Pillow": "7.0.0",
+      "reportlab": "3.5.34"
+    }
+  },
+  "neural_environment": {
+    "python": "3.11.13",
+    "torch": "2.9.1+cpu",
+    "numpy": "2.3.0",
+    "pandas": "2.3.0",
+    "image_id": "sha256:fc47e76bd6fe76ffdb7cfdd8ad509c603b8a5f743b640666a55a592c21ff70e3",
+    "dockerfile_sha256": "825fbd4a9b79c76739a3bba6395a0760c0e7bcf16b8aa846a08fd90327bad62e",
+    "requirements_sha256": "f9b72a9519ba26a58fb8eff9207007fe2f636b57621375bfec6c3db710a7094e"
+  },
+  "checkpoint_replay": {
+    "status": "passed",
+    "checkpoints": 96,
+    "scenarios_each": 31,
+    "origins_each": 3,
+    "causality_checks": 96,
+    "shared_dropout_checks": 96,
+    "max_error_bp": 3.814697265625e-06,
+    "code_sha256": "6d57de1fec94472fed22005b8a528de4485dc7b84d3f191d3ea79992d86ef0f8"
+  },
+  "source_archive_unchanged": true,
+  "credential_pattern_scan": "No matches in research/context source text for checked token/private-key patterns; not an exhaustive security certification",
+  "historical_paper_and_models_retrained_for_packaging": false,
+  "notes": [
+    "Raw preprocessing recreated all arrays exactly.",
+    "Core and measurement checks passed in relocated copies.",
+    "Latest stored predictions were reanalyzed, verified and plotted.",
+    "All 96 saved checkpoints passed sample replay in the Dockerfile-built CPU image.",
+    "Long historical bootstrap fits and neural retraining were not repeated merely for packaging."
+  ],
+  "local_document_links_verified": 265
+}

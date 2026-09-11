@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "date": "2026-09-10",
+  "study": "option1_tick_learning",
+  "n_evaluation": 1814,
+  "observed_days": 77,
+  "neural_outer_fits": 72,
+  "primary_comparisons": 4,
+  "all_gates_pass": 0,
+  "decision": "Partial input-sensitivity improvement; no established predictive superiority",
+  "option3": "paused",
+  "host": {
+    "python": "3.8.10",
+    "numpy": "1.23.5",
+    "pandas": "2.0.3",
+    "scipy": "1.10.1",
+    "sklearn": "1.3.2",
+    "statsmodels": "0.14.1",
+    "lightgbm": "4.5.0",
+    "matplotlib": "3.7.5"
+  },
+  "docker_image": "sha256:3d32f82477e107e1b101af118b314c66055550400f46bffb073c0f9dc61d6d7a",
+  "neural_seconds": 225.0956563949585,
+  "verification": "passed"
+}

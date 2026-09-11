@@ -1,0 +1,1847 @@
+[
+  {
+    "file": "base_grid_1h_canonical.parquet",
+    "footer_bytes": 2834,
+    "pandas_metadata": {
+      "index_columns": [],
+      "column_indexes": [],
+      "columns": [
+        {
+          "name": "bar_end_utc",
+          "field_name": "bar_end_utc",
+          "pandas_type": "datetimetz",
+          "numpy_type": "datetime64[ns]",
+          "metadata": {
+            "timezone": "UTC"
+          }
+        },
+        {
+          "name": "trade_price",
+          "field_name": "trade_price",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "candle_acc_trade_volume",
+          "field_name": "candle_acc_trade_volume",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "candle_acc_trade_price",
+          "field_name": "candle_acc_trade_price",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        }
+      ],
+      "creator": {
+        "library": "pyarrow",
+        "version": "19.0.1"
+      },
+      "pandas_version": "2.2.2"
+    }
+  },
+  {
+    "file": "fx_USDKRW_aligned.parquet",
+    "footer_bytes": 1572,
+    "pandas_metadata": {
+      "index_columns": [],
+      "column_indexes": [],
+      "columns": [
+        {
+          "name": "bar_end_utc",
+          "field_name": "bar_end_utc",
+          "pandas_type": "datetime",
+          "numpy_type": "datetime64[ns]",
+          "metadata": null
+        },
+        {
+          "name": "USDKRW",
+          "field_name": "USDKRW",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        }
+      ],
+      "creator": {
+        "library": "pyarrow",
+        "version": "19.0.1"
+      },
+      "pandas_version": "2.2.2"
+    }
+  },
+  {
+    "file": "panel_full_checked.parquet",
+    "footer_bytes": 14716,
+    "pandas_metadata": {
+      "index_columns": [],
+      "column_indexes": [],
+      "columns": [
+        {
+          "name": "bar_end_utc",
+          "field_name": "bar_end_utc",
+          "pandas_type": "datetimetz",
+          "numpy_type": "datetime64[ns]",
+          "metadata": {
+            "timezone": "UTC"
+          }
+        },
+        {
+          "name": "USDKRW",
+          "field_name": "USDKRW",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_USDT",
+          "field_name": "UPBIT_KRW_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_USDT",
+          "field_name": "UPBIT_KRW_NOTIONAL_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_BTC",
+          "field_name": "UPBIT_KRW_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_BTC",
+          "field_name": "UPBIT_KRW_NOTIONAL_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_BTC",
+          "field_name": "BIN_USD_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_ETH",
+          "field_name": "UPBIT_KRW_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_ETH",
+          "field_name": "UPBIT_KRW_NOTIONAL_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_ETH",
+          "field_name": "BIN_USD_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_XRP",
+          "field_name": "UPBIT_KRW_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_XRP",
+          "field_name": "UPBIT_KRW_NOTIONAL_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_XRP",
+          "field_name": "BIN_USD_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_SOL",
+          "field_name": "UPBIT_KRW_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_SOL",
+          "field_name": "UPBIT_KRW_NOTIONAL_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_SOL",
+          "field_name": "BIN_USD_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_DOGE",
+          "field_name": "UPBIT_KRW_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_DOGE",
+          "field_name": "UPBIT_KRW_NOTIONAL_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_DOGE",
+          "field_name": "BIN_USD_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_BTC",
+          "field_name": "KP_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_ETH",
+          "field_name": "KP_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_XRP",
+          "field_name": "KP_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_SOL",
+          "field_name": "KP_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_DOGE",
+          "field_name": "KP_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_MKT",
+          "field_name": "KP_MKT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_USDT",
+          "field_name": "KP_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RESIDUAL",
+          "field_name": "RESIDUAL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "D_RESIDUAL",
+          "field_name": "D_RESIDUAL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        }
+      ],
+      "creator": {
+        "library": "pyarrow",
+        "version": "19.0.1"
+      },
+      "pandas_version": "2.2.2"
+    }
+  },
+  {
+    "file": "panel_model_exog_1h.parquet",
+    "footer_bytes": 41001,
+    "pandas_metadata": {
+      "index_columns": [],
+      "column_indexes": [],
+      "columns": [
+        {
+          "name": "bar_end_utc",
+          "field_name": "bar_end_utc",
+          "pandas_type": "datetimetz",
+          "numpy_type": "datetime64[ns]",
+          "metadata": {
+            "timezone": "UTC"
+          }
+        },
+        {
+          "name": "USDKRW",
+          "field_name": "USDKRW",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_USDT",
+          "field_name": "UPBIT_KRW_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_USDT",
+          "field_name": "UPBIT_KRW_NOTIONAL_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_BTC",
+          "field_name": "UPBIT_KRW_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_BTC",
+          "field_name": "UPBIT_KRW_NOTIONAL_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_BTC",
+          "field_name": "BIN_USD_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_ETH",
+          "field_name": "UPBIT_KRW_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_ETH",
+          "field_name": "UPBIT_KRW_NOTIONAL_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_ETH",
+          "field_name": "BIN_USD_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_XRP",
+          "field_name": "UPBIT_KRW_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_XRP",
+          "field_name": "UPBIT_KRW_NOTIONAL_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_XRP",
+          "field_name": "BIN_USD_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_SOL",
+          "field_name": "UPBIT_KRW_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_SOL",
+          "field_name": "UPBIT_KRW_NOTIONAL_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_SOL",
+          "field_name": "BIN_USD_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_DOGE",
+          "field_name": "UPBIT_KRW_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_DOGE",
+          "field_name": "UPBIT_KRW_NOTIONAL_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_DOGE",
+          "field_name": "BIN_USD_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_BTC",
+          "field_name": "KP_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_ETH",
+          "field_name": "KP_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_XRP",
+          "field_name": "KP_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_SOL",
+          "field_name": "KP_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_DOGE",
+          "field_name": "KP_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_MKT",
+          "field_name": "KP_MKT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_USDT",
+          "field_name": "KP_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RESIDUAL",
+          "field_name": "RESIDUAL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "D_RESIDUAL",
+          "field_name": "D_RESIDUAL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "PX_BTC_USDT",
+          "field_name": "PX_BTC_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "PX_ETH_USDT",
+          "field_name": "PX_ETH_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "PX_XRP_USDT",
+          "field_name": "PX_XRP_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "PX_SOL_USDT",
+          "field_name": "PX_SOL_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "PX_DOGE_USDT",
+          "field_name": "PX_DOGE_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "USDT_DEPEG_PROXY",
+          "field_name": "USDT_DEPEG_PROXY",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "R_BTC_1h",
+          "field_name": "R_BTC_1h",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "R_ETH_1h",
+          "field_name": "R_ETH_1h",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_BTC_24h",
+          "field_name": "RV_BTC_24h",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_BTC_168h",
+          "field_name": "RV_BTC_168h",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_ETH_24h",
+          "field_name": "RV_ETH_24h",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_ETH_168h",
+          "field_name": "RV_ETH_168h",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BTC_RET_Q05_1w",
+          "field_name": "BTC_RET_Q05_1w",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "ETH_RET_Q05_1w",
+          "field_name": "ETH_RET_Q05_1w",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "ABSRET_BTC_1h",
+          "field_name": "ABSRET_BTC_1h",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "ABSRET_ETH_1h",
+          "field_name": "ABSRET_ETH_1h",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "R_TOP5_EW_1h",
+          "field_name": "R_TOP5_EW_1h",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_TOP5_EW_24h",
+          "field_name": "RV_TOP5_EW_24h",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_TOP5_EW_168h",
+          "field_name": "RV_TOP5_EW_168h",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_NOTIONAL_TOP5_SUM",
+          "field_name": "UPBIT_NOTIONAL_TOP5_SUM",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_NOTIONAL_SHOCK_1h",
+          "field_name": "UPBIT_NOTIONAL_SHOCK_1h",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "USDT_DEPEG_PROXY_L1",
+          "field_name": "USDT_DEPEG_PROXY_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "USDT_DEPEG_PROXY_L6",
+          "field_name": "USDT_DEPEG_PROXY_L6",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "R_BTC_1h_L1",
+          "field_name": "R_BTC_1h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "R_BTC_1h_L6",
+          "field_name": "R_BTC_1h_L6",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "R_ETH_1h_L1",
+          "field_name": "R_ETH_1h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "R_ETH_1h_L6",
+          "field_name": "R_ETH_1h_L6",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "R_TOP5_EW_1h_L1",
+          "field_name": "R_TOP5_EW_1h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "R_TOP5_EW_1h_L6",
+          "field_name": "R_TOP5_EW_1h_L6",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_BTC_24h_L1",
+          "field_name": "RV_BTC_24h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_BTC_24h_L6",
+          "field_name": "RV_BTC_24h_L6",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_BTC_168h_L1",
+          "field_name": "RV_BTC_168h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_BTC_168h_L6",
+          "field_name": "RV_BTC_168h_L6",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_ETH_24h_L1",
+          "field_name": "RV_ETH_24h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_ETH_24h_L6",
+          "field_name": "RV_ETH_24h_L6",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_ETH_168h_L1",
+          "field_name": "RV_ETH_168h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_ETH_168h_L6",
+          "field_name": "RV_ETH_168h_L6",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_TOP5_EW_24h_L1",
+          "field_name": "RV_TOP5_EW_24h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_TOP5_EW_24h_L6",
+          "field_name": "RV_TOP5_EW_24h_L6",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_TOP5_EW_168h_L1",
+          "field_name": "RV_TOP5_EW_168h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_TOP5_EW_168h_L6",
+          "field_name": "RV_TOP5_EW_168h_L6",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "ABSRET_BTC_1h_L1",
+          "field_name": "ABSRET_BTC_1h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "ABSRET_BTC_1h_L6",
+          "field_name": "ABSRET_BTC_1h_L6",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "ABSRET_ETH_1h_L1",
+          "field_name": "ABSRET_ETH_1h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "ABSRET_ETH_1h_L6",
+          "field_name": "ABSRET_ETH_1h_L6",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BTC_RET_Q05_1w_L1",
+          "field_name": "BTC_RET_Q05_1w_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BTC_RET_Q05_1w_L6",
+          "field_name": "BTC_RET_Q05_1w_L6",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "ETH_RET_Q05_1w_L1",
+          "field_name": "ETH_RET_Q05_1w_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "ETH_RET_Q05_1w_L6",
+          "field_name": "ETH_RET_Q05_1w_L6",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_NOTIONAL_SHOCK_1h_L1",
+          "field_name": "UPBIT_NOTIONAL_SHOCK_1h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_NOTIONAL_SHOCK_1h_L6",
+          "field_name": "UPBIT_NOTIONAL_SHOCK_1h_L6",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        }
+      ],
+      "creator": {
+        "library": "pyarrow",
+        "version": "19.0.1"
+      },
+      "pandas_version": "2.2.2"
+    }
+  },
+  {
+    "file": "panel_model_exog_strict_L1.parquet",
+    "footer_bytes": 8512,
+    "pandas_metadata": {
+      "index_columns": [],
+      "column_indexes": [],
+      "columns": [
+        {
+          "name": "bar_end_utc",
+          "field_name": "bar_end_utc",
+          "pandas_type": "datetimetz",
+          "numpy_type": "datetime64[ns]",
+          "metadata": {
+            "timezone": "UTC"
+          }
+        },
+        {
+          "name": "D_RESIDUAL",
+          "field_name": "D_RESIDUAL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "USDT_DEPEG_PROXY_L1",
+          "field_name": "USDT_DEPEG_PROXY_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "R_BTC_1h_L1",
+          "field_name": "R_BTC_1h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "R_ETH_1h_L1",
+          "field_name": "R_ETH_1h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "R_TOP5_EW_1h_L1",
+          "field_name": "R_TOP5_EW_1h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_BTC_24h_L1",
+          "field_name": "RV_BTC_24h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_BTC_168h_L1",
+          "field_name": "RV_BTC_168h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_ETH_24h_L1",
+          "field_name": "RV_ETH_24h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_ETH_168h_L1",
+          "field_name": "RV_ETH_168h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_TOP5_EW_24h_L1",
+          "field_name": "RV_TOP5_EW_24h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RV_TOP5_EW_168h_L1",
+          "field_name": "RV_TOP5_EW_168h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "ABSRET_BTC_1h_L1",
+          "field_name": "ABSRET_BTC_1h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "ABSRET_ETH_1h_L1",
+          "field_name": "ABSRET_ETH_1h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BTC_RET_Q05_1w_L1",
+          "field_name": "BTC_RET_Q05_1w_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "ETH_RET_Q05_1w_L1",
+          "field_name": "ETH_RET_Q05_1w_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_NOTIONAL_SHOCK_1h_L1",
+          "field_name": "UPBIT_NOTIONAL_SHOCK_1h_L1",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        }
+      ],
+      "creator": {
+        "library": "pyarrow",
+        "version": "19.0.1"
+      },
+      "pandas_version": "2.2.2"
+    }
+  },
+  {
+    "file": "panel_model_ready.parquet",
+    "footer_bytes": 14696,
+    "pandas_metadata": {
+      "index_columns": [],
+      "column_indexes": [],
+      "columns": [
+        {
+          "name": "bar_end_utc",
+          "field_name": "bar_end_utc",
+          "pandas_type": "datetimetz",
+          "numpy_type": "datetime64[ns]",
+          "metadata": {
+            "timezone": "UTC"
+          }
+        },
+        {
+          "name": "USDKRW",
+          "field_name": "USDKRW",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_USDT",
+          "field_name": "UPBIT_KRW_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_USDT",
+          "field_name": "UPBIT_KRW_NOTIONAL_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_BTC",
+          "field_name": "UPBIT_KRW_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_BTC",
+          "field_name": "UPBIT_KRW_NOTIONAL_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_BTC",
+          "field_name": "BIN_USD_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_ETH",
+          "field_name": "UPBIT_KRW_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_ETH",
+          "field_name": "UPBIT_KRW_NOTIONAL_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_ETH",
+          "field_name": "BIN_USD_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_XRP",
+          "field_name": "UPBIT_KRW_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_XRP",
+          "field_name": "UPBIT_KRW_NOTIONAL_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_XRP",
+          "field_name": "BIN_USD_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_SOL",
+          "field_name": "UPBIT_KRW_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_SOL",
+          "field_name": "UPBIT_KRW_NOTIONAL_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_SOL",
+          "field_name": "BIN_USD_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_DOGE",
+          "field_name": "UPBIT_KRW_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_DOGE",
+          "field_name": "UPBIT_KRW_NOTIONAL_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_DOGE",
+          "field_name": "BIN_USD_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_BTC",
+          "field_name": "KP_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_ETH",
+          "field_name": "KP_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_XRP",
+          "field_name": "KP_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_SOL",
+          "field_name": "KP_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_DOGE",
+          "field_name": "KP_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_MKT",
+          "field_name": "KP_MKT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_USDT",
+          "field_name": "KP_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RESIDUAL",
+          "field_name": "RESIDUAL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "D_RESIDUAL",
+          "field_name": "D_RESIDUAL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        }
+      ],
+      "creator": {
+        "library": "pyarrow",
+        "version": "19.0.1"
+      },
+      "pandas_version": "2.2.2"
+    }
+  },
+  {
+    "file": "panel_resid_checked.parquet",
+    "footer_bytes": 14696,
+    "pandas_metadata": {
+      "index_columns": [],
+      "column_indexes": [],
+      "columns": [
+        {
+          "name": "bar_end_utc",
+          "field_name": "bar_end_utc",
+          "pandas_type": "datetimetz",
+          "numpy_type": "datetime64[ns]",
+          "metadata": {
+            "timezone": "UTC"
+          }
+        },
+        {
+          "name": "USDKRW",
+          "field_name": "USDKRW",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_USDT",
+          "field_name": "UPBIT_KRW_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_USDT",
+          "field_name": "UPBIT_KRW_NOTIONAL_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_BTC",
+          "field_name": "UPBIT_KRW_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_BTC",
+          "field_name": "UPBIT_KRW_NOTIONAL_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_BTC",
+          "field_name": "BIN_USD_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_ETH",
+          "field_name": "UPBIT_KRW_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_ETH",
+          "field_name": "UPBIT_KRW_NOTIONAL_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_ETH",
+          "field_name": "BIN_USD_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_XRP",
+          "field_name": "UPBIT_KRW_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_XRP",
+          "field_name": "UPBIT_KRW_NOTIONAL_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_XRP",
+          "field_name": "BIN_USD_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_SOL",
+          "field_name": "UPBIT_KRW_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_SOL",
+          "field_name": "UPBIT_KRW_NOTIONAL_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_SOL",
+          "field_name": "BIN_USD_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_DOGE",
+          "field_name": "UPBIT_KRW_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_DOGE",
+          "field_name": "UPBIT_KRW_NOTIONAL_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_DOGE",
+          "field_name": "BIN_USD_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_BTC",
+          "field_name": "KP_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_ETH",
+          "field_name": "KP_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_XRP",
+          "field_name": "KP_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_SOL",
+          "field_name": "KP_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_DOGE",
+          "field_name": "KP_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_MKT",
+          "field_name": "KP_MKT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_USDT",
+          "field_name": "KP_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RESIDUAL",
+          "field_name": "RESIDUAL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "D_RESIDUAL",
+          "field_name": "D_RESIDUAL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        }
+      ],
+      "creator": {
+        "library": "pyarrow",
+        "version": "19.0.1"
+      },
+      "pandas_version": "2.2.2"
+    }
+  },
+  {
+    "file": "panel_upbit_binance_fx_kp_full_1h.parquet",
+    "footer_bytes": 14716,
+    "pandas_metadata": {
+      "index_columns": [],
+      "column_indexes": [],
+      "columns": [
+        {
+          "name": "bar_end_utc",
+          "field_name": "bar_end_utc",
+          "pandas_type": "datetimetz",
+          "numpy_type": "datetime64[ns]",
+          "metadata": {
+            "timezone": "UTC"
+          }
+        },
+        {
+          "name": "USDKRW",
+          "field_name": "USDKRW",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_USDT",
+          "field_name": "UPBIT_KRW_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_USDT",
+          "field_name": "UPBIT_KRW_NOTIONAL_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_BTC",
+          "field_name": "UPBIT_KRW_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_BTC",
+          "field_name": "UPBIT_KRW_NOTIONAL_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_BTC",
+          "field_name": "BIN_USD_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_ETH",
+          "field_name": "UPBIT_KRW_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_ETH",
+          "field_name": "UPBIT_KRW_NOTIONAL_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_ETH",
+          "field_name": "BIN_USD_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_XRP",
+          "field_name": "UPBIT_KRW_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_XRP",
+          "field_name": "UPBIT_KRW_NOTIONAL_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_XRP",
+          "field_name": "BIN_USD_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_SOL",
+          "field_name": "UPBIT_KRW_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_SOL",
+          "field_name": "UPBIT_KRW_NOTIONAL_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_SOL",
+          "field_name": "BIN_USD_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_DOGE",
+          "field_name": "UPBIT_KRW_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_DOGE",
+          "field_name": "UPBIT_KRW_NOTIONAL_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_DOGE",
+          "field_name": "BIN_USD_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_BTC",
+          "field_name": "KP_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_ETH",
+          "field_name": "KP_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_XRP",
+          "field_name": "KP_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_SOL",
+          "field_name": "KP_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_DOGE",
+          "field_name": "KP_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_MKT",
+          "field_name": "KP_MKT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_USDT",
+          "field_name": "KP_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RESIDUAL",
+          "field_name": "RESIDUAL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "D_RESIDUAL",
+          "field_name": "D_RESIDUAL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        }
+      ],
+      "creator": {
+        "library": "pyarrow",
+        "version": "19.0.1"
+      },
+      "pandas_version": "2.2.2"
+    }
+  },
+  {
+    "file": "panel_upbit_binance_fx_kp_residual_1h.parquet",
+    "footer_bytes": 14696,
+    "pandas_metadata": {
+      "index_columns": [],
+      "column_indexes": [],
+      "columns": [
+        {
+          "name": "bar_end_utc",
+          "field_name": "bar_end_utc",
+          "pandas_type": "datetimetz",
+          "numpy_type": "datetime64[ns]",
+          "metadata": {
+            "timezone": "UTC"
+          }
+        },
+        {
+          "name": "USDKRW",
+          "field_name": "USDKRW",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_USDT",
+          "field_name": "UPBIT_KRW_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_USDT",
+          "field_name": "UPBIT_KRW_NOTIONAL_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_BTC",
+          "field_name": "UPBIT_KRW_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_BTC",
+          "field_name": "UPBIT_KRW_NOTIONAL_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_BTC",
+          "field_name": "BIN_USD_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_ETH",
+          "field_name": "UPBIT_KRW_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_ETH",
+          "field_name": "UPBIT_KRW_NOTIONAL_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_ETH",
+          "field_name": "BIN_USD_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_XRP",
+          "field_name": "UPBIT_KRW_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_XRP",
+          "field_name": "UPBIT_KRW_NOTIONAL_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_XRP",
+          "field_name": "BIN_USD_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_SOL",
+          "field_name": "UPBIT_KRW_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_SOL",
+          "field_name": "UPBIT_KRW_NOTIONAL_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_SOL",
+          "field_name": "BIN_USD_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_DOGE",
+          "field_name": "UPBIT_KRW_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "UPBIT_KRW_NOTIONAL_DOGE",
+          "field_name": "UPBIT_KRW_NOTIONAL_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "BIN_USD_DOGE",
+          "field_name": "BIN_USD_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_BTC",
+          "field_name": "KP_BTC",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_ETH",
+          "field_name": "KP_ETH",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_XRP",
+          "field_name": "KP_XRP",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_SOL",
+          "field_name": "KP_SOL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_DOGE",
+          "field_name": "KP_DOGE",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_MKT",
+          "field_name": "KP_MKT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "KP_USDT",
+          "field_name": "KP_USDT",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "RESIDUAL",
+          "field_name": "RESIDUAL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        },
+        {
+          "name": "D_RESIDUAL",
+          "field_name": "D_RESIDUAL",
+          "pandas_type": "float64",
+          "numpy_type": "float64",
+          "metadata": null
+        }
+      ],
+      "creator": {
+        "library": "pyarrow",
+        "version": "19.0.1"
+      },
+      "pandas_version": "2.2.2"
+    }
+  }
+]

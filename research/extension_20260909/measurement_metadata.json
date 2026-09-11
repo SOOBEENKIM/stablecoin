@@ -1,0 +1,10 @@
+{
+  "common_n": 6968,
+  "definition_identity_max_abs_error": 1.9539925233402755e-11,
+  "note": "Target comparisons and calendar co-occurrences are descriptive, not evidence of latent fair value or causal tick effects.",
+  "official_policy_sources": [
+    "https://docs.upbit.com/kr/kr/changelog/usdtkrw_tick_unit_change",
+    "https://docs.upbit.com/kr/changelog/krw_tick_unit_change_250731",
+    "https://docs.upbit.com/kr/docs/krw-market-info"
+  ]
+}

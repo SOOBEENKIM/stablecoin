@@ -1,0 +1,10 @@
+scenario,h,model,q,target,n,beta_standardized,ci95_low,ci95_high,bootstrap_sign_tail,B,successful,block_calendar_days,refit_residual_stages,projection,note
+clock_NY_quote,1,M0,0.1,e_origin,1350,0.413788492422041,0.1314335837044936,0.5338874509915575,0.004,499,499,5,True,joint,percentile sensitivity intervals; sign-tail statistic is not a calibrated null-imposed p-value
+clock_NY_quote,1,M0,0.1,downside,1350,-0.24351485796436506,-0.6032311486783684,-0.03238872032543431,0.016,499,499,5,True,joint,percentile sensitivity intervals; sign-tail statistic is not a calibrated null-imposed p-value
+clock_NY_quote,1,M1,0.1,e_origin,1350,0.4104568814459916,0.12254643323301738,0.5331160401480489,0.004,499,499,5,True,joint,percentile sensitivity intervals; sign-tail statistic is not a calibrated null-imposed p-value
+clock_NY_quote,1,M1,0.1,downside,1350,0.10721015084585855,-0.4572368984896758,0.25449321112589285,0.896,499,499,5,True,joint,percentile sensitivity intervals; sign-tail statistic is not a calibrated null-imposed p-value
+clock_NY_quote,1,M1,0.1,btc_vol,1350,-0.33239336203362096,-0.4497854698138497,-0.00011629853555927654,0.056,499,499,5,True,joint,percentile sensitivity intervals; sign-tail statistic is not a calibrated null-imposed p-value
+clock_NY_quote,1,M2,0.1,e_origin,1350,0.4194554117087348,0.12832508364391518,0.5399673745130009,0.004,499,499,5,True,joint,percentile sensitivity intervals; sign-tail statistic is not a calibrated null-imposed p-value
+clock_NY_quote,1,M2,0.1,downside,1350,0.1173802765869981,-0.43514200800413755,0.25691105087377736,0.88,499,499,5,True,joint,percentile sensitivity intervals; sign-tail statistic is not a calibrated null-imposed p-value
+clock_NY_quote,1,M2,0.1,btc_vol,1350,-0.32113248501147823,-0.445137862732703,0.006390675921721668,0.06,499,499,5,True,joint,percentile sensitivity intervals; sign-tail statistic is not a calibrated null-imposed p-value
+clock_NY_quote,1,M2,0.1,account_ls,1350,-0.01925062345453035,-0.1431039121324453,0.06791946161349072,0.664,499,499,5,True,joint,percentile sensitivity intervals; sign-tail statistic is not a calibrated null-imposed p-value

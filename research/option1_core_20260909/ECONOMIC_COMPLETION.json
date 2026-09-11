@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "seconds": 88.11953496932983,
+  "bootstrap_draws": 9491,
+  "failures": 60,
+  "max_quantile_primal_dual_gap": 7.953531167004257e-10,
+  "max_OLS_decomposition_error": 2.8976820942716586e-14,
+  "description": "Same-period explanatory associations; not causal leverage effects or forecast gains"
+}

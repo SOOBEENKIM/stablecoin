@@ -1,0 +1,7 @@
+FROM python:3.11.13-slim@sha256:9bffe4353b925a1656688797ebc68f9c525e79b1d377a764d232182a519eeec4
+ENV PYTHONDONTWRITEBYTECODE=1 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1
+COPY environments/requirements-neural.txt /tmp/requirements-neural.txt
+RUN pip install --no-cache-dir -r /tmp/requirements-neural.txt \
+    && pip install --no-cache-dir --no-deps torch==2.9.1+cpu --index-url https://download.pytorch.org/whl/cpu
+WORKDIR /work
+ENTRYPOINT ["python"]

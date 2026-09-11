@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checks": [
+    "tcn: parameter count, common-mask duplicate invariance, independent mean/max objective and gradient",
+    "gru: parameter count, common-mask duplicate invariance, independent mean/max objective and gradient",
+    "Four cells: identical initialization, batches, dropout RNG trajectory, steps and paired candidates; financial/control price budgets match"
+  ],
+  "code_sha256": "d0d0731405b730ab4d0581f804f0bfb8769b6967bb53d932958a653487d3966d"
+}

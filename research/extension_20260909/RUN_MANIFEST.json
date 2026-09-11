@@ -1,0 +1,15 @@
+{
+  "started_utc": "2026-09-09 07:47:47.344325+00:00",
+  "sha256": {
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/binance_1h_2025-06-01_2026-03-19.csv": "f32e54fadbedfb38a9514ecb4682bc2bc2e2eb418b314f672af7f783b61af3d0",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/upbit_1h_2025-06-01_2026-03-19.csv": "c0ea17c465872dafc4e641c5486fe4edd15b7abdc064ed587869882b78ad1efe",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/corrected_outputs/binance_btcusdt_data_vision_metrics.csv": "726610d41d74c0ae4ef612e2c4af58166dd302b8abe6fd47294a148f82acc138",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/corrected_outputs/binance_btcusdt_funding_rate.csv": "423bd4e8ba1213df39e12350918f87a691a0aa91a477ae747c85f2a3f03dbbb6",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/extension_20260909/PROTOCOL_KO.md": "9e1bd0dfa5e07ab1f81ca105b2990af22f933aef895619fdda0017aa1dd7c02e",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/extension_20260909/run_extension.py": "2760df5daeb94da5e616a1d03710446cceeb2b8b3100fb2ad8b54c487513e7ab",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/reanalysis_20260909/recalculate.py": "59234f1b9eec44276596c1af8e40056bc0faa2f021f8f09c02ade60e36de096b"
+  },
+  "lightgbm": "4.5.0",
+  "numpy": "1.23.5",
+  "pandas": "2.0.3"
+}

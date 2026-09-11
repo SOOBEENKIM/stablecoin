@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "models": [
+    {
+      "family": "gru",
+      "parameters": 5673
+    },
+    {
+      "family": "mlp",
+      "parameters": 5795
+    },
+    {
+      "family": "tcn",
+      "parameters": 5923
+    }
+  ],
+  "checks": [
+    "same 24x30 information",
+    "near-matched parameter count",
+    "matched candidate perturbation magnitude",
+    "independent worst-candidate loss and argmax",
+    "finite gradients for each new training branch"
+  ],
+  "code_sha256": "3783a362f57f9993720c1d026bb384da0f485a6b828adf7cc274427f124b9a47"
+}

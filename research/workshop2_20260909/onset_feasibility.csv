@@ -1,0 +1,10 @@
+definition,period,at_risk_n,future_any_n,positive_days,fresh_alarm_n,fresh_alarm_future_any
+btc_eth,train,3522,529,79,101,17
+btc_eth,validation,1340,378,46,50,15
+btc_eth,test,1677,616,67,59,22
+three_of_five,train,3457,722,93,77,18
+three_of_five,validation,1284,506,55,41,17
+three_of_five,test,1606,739,70,48,25
+three_of_four_no_doge,train,3520,516,80,101,22
+three_of_four_no_doge,validation,1342,392,47,50,11
+three_of_four_no_doge,test,1686,637,64,56,23

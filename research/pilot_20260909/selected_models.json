@@ -1,0 +1,24 @@
+{
+  "unconditional": {},
+  "persistence": {},
+  "linear_base": {
+    "alpha": 0.01
+  },
+  "linear_full": {
+    "alpha": 0.01
+  },
+  "threshold_base": {
+    "alpha": 0.01
+  },
+  "threshold_full": {
+    "alpha": 0.01
+  },
+  "lgbm_base": {
+    "leaves": 7,
+    "trees": 150
+  },
+  "lgbm_full": {
+    "leaves": 7,
+    "trees": 150
+  }
+}

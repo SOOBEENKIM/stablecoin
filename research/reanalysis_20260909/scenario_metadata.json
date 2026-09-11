@@ -1,0 +1,230 @@
+[
+  {
+    "time_rule": "archived candle labels and irregular row lags",
+    "quote_corrected": false,
+    "timezone_confirmed": false,
+    "scenario": "archived",
+    "rows": 715,
+    "valid_residuals": 715,
+    "residual_std_bp": 9.426536867851597,
+    "market_r2": 0.9970805782372263,
+    "residual_market_corr": 0.029304219132366523,
+    "risk_definition": "24 consecutive hourly BTC/USDT log returns, downside mean squared negative returns",
+    "projection": "original sequential OLS",
+    "usdc_usd_assumption": 1.0,
+    "publication_ready": false
+  },
+  {
+    "time_rule": "archived candle labels and irregular row lags",
+    "quote_corrected": true,
+    "timezone_confirmed": false,
+    "scenario": "quote_only",
+    "rows": 715,
+    "valid_residuals": 715,
+    "residual_std_bp": 8.1823905280879,
+    "market_r2": 0.9978416304263932,
+    "residual_market_corr": 0.002443448947598802,
+    "risk_definition": "24 consecutive hourly BTC/USDT log returns, downside mean squared negative returns",
+    "projection": "original sequential OLS",
+    "usdc_usd_assumption": 1.0,
+    "publication_ready": false
+  },
+  {
+    "time_rule": "crypto candle ends, backward macro age <60min, exact t+h targets",
+    "fx_timezone_assumption": "UTC",
+    "vix_dxy_timezone_assumption": "UTC",
+    "macro_additional_availability_delay_hours": 0,
+    "macro_ages": {
+      "USDKRW": {
+        "n": 3462,
+        "max_age_minutes": 0.0
+      },
+      "DXY": {
+        "n": 4592,
+        "max_age_minutes": 30.0
+      },
+      "VIX": {
+        "n": 2859,
+        "max_age_minutes": 45.0
+      }
+    },
+    "metric_availability_delay_minutes": 5,
+    "quote_corrected": false,
+    "timezone_confirmed": false,
+    "scenario": "clock_UTC_oldquote",
+    "rows": 6983,
+    "valid_residuals": 3459,
+    "residual_std_bp": 10.650141866842793,
+    "market_r2": 0.9960919219084226,
+    "residual_market_corr": 0.016470557516718574,
+    "risk_definition": "24 consecutive hourly BTC/USDT log returns, downside mean squared negative returns",
+    "projection": "original sequential OLS",
+    "usdc_usd_assumption": 1.0,
+    "publication_ready": false
+  },
+  {
+    "time_rule": "crypto candle ends, backward macro age <60min, exact t+h targets",
+    "fx_timezone_assumption": "UTC",
+    "vix_dxy_timezone_assumption": "UTC",
+    "macro_additional_availability_delay_hours": 0,
+    "macro_ages": {
+      "USDKRW": {
+        "n": 3462,
+        "max_age_minutes": 0.0
+      },
+      "DXY": {
+        "n": 4592,
+        "max_age_minutes": 30.0
+      },
+      "VIX": {
+        "n": 2859,
+        "max_age_minutes": 45.0
+      }
+    },
+    "metric_availability_delay_minutes": 5,
+    "quote_corrected": true,
+    "timezone_confirmed": false,
+    "scenario": "clock_UTC_quote",
+    "rows": 6983,
+    "valid_residuals": 3459,
+    "residual_std_bp": 9.293039704275255,
+    "market_r2": 0.9970412838371018,
+    "residual_market_corr": -0.010120479353416818,
+    "risk_definition": "24 consecutive hourly BTC/USDT log returns, downside mean squared negative returns",
+    "projection": "original sequential OLS",
+    "usdc_usd_assumption": 1.0,
+    "publication_ready": false
+  },
+  {
+    "time_rule": "crypto candle ends, backward macro age <60min, exact t+h targets",
+    "fx_timezone_assumption": "America/New_York",
+    "vix_dxy_timezone_assumption": "America/New_York",
+    "macro_additional_availability_delay_hours": 0,
+    "macro_ages": {
+      "USDKRW": {
+        "n": 3462,
+        "max_age_minutes": 0.0
+      },
+      "DXY": {
+        "n": 4588,
+        "max_age_minutes": 30.0
+      },
+      "VIX": {
+        "n": 2855,
+        "max_age_minutes": 45.0
+      }
+    },
+    "metric_availability_delay_minutes": 5,
+    "quote_corrected": true,
+    "timezone_confirmed": false,
+    "scenario": "clock_NY_quote",
+    "rows": 6983,
+    "valid_residuals": 3462,
+    "residual_std_bp": 9.260362166077712,
+    "market_r2": 0.9969486225946917,
+    "residual_market_corr": -0.010495733268828206,
+    "risk_definition": "24 consecutive hourly BTC/USDT log returns, downside mean squared negative returns",
+    "projection": "original sequential OLS",
+    "usdc_usd_assumption": 1.0,
+    "publication_ready": false
+  },
+  {
+    "time_rule": "crypto candle ends, backward macro age <60min, exact t+h targets",
+    "fx_timezone_assumption": "UTC",
+    "vix_dxy_timezone_assumption": "America/New_York",
+    "macro_additional_availability_delay_hours": 0,
+    "macro_ages": {
+      "USDKRW": {
+        "n": 3462,
+        "max_age_minutes": 0.0
+      },
+      "DXY": {
+        "n": 4588,
+        "max_age_minutes": 30.0
+      },
+      "VIX": {
+        "n": 2855,
+        "max_age_minutes": 45.0
+      }
+    },
+    "metric_availability_delay_minutes": 5,
+    "quote_corrected": true,
+    "timezone_confirmed": false,
+    "scenario": "clock_FXUTC_USNY_quote",
+    "rows": 6983,
+    "valid_residuals": 3459,
+    "residual_std_bp": 9.293039704275255,
+    "market_r2": 0.9970412838371018,
+    "residual_market_corr": -0.010120479353416818,
+    "risk_definition": "24 consecutive hourly BTC/USDT log returns, downside mean squared negative returns",
+    "projection": "original sequential OLS",
+    "usdc_usd_assumption": 1.0,
+    "publication_ready": false
+  },
+  {
+    "time_rule": "crypto candle ends, backward macro age <60min, exact t+h targets",
+    "fx_timezone_assumption": "Asia/Seoul",
+    "vix_dxy_timezone_assumption": "America/New_York",
+    "macro_additional_availability_delay_hours": 0,
+    "macro_ages": {
+      "USDKRW": {
+        "n": 3459,
+        "max_age_minutes": 0.0
+      },
+      "DXY": {
+        "n": 4588,
+        "max_age_minutes": 30.0
+      },
+      "VIX": {
+        "n": 2855,
+        "max_age_minutes": 45.0
+      }
+    },
+    "metric_availability_delay_minutes": 5,
+    "quote_corrected": true,
+    "timezone_confirmed": false,
+    "scenario": "clock_FXKST_USNY_quote",
+    "rows": 6983,
+    "valid_residuals": 3454,
+    "residual_std_bp": 8.928399957866638,
+    "market_r2": 0.9973796005625606,
+    "residual_market_corr": -0.0073087094541396036,
+    "risk_definition": "24 consecutive hourly BTC/USDT log returns, downside mean squared negative returns",
+    "projection": "original sequential OLS",
+    "usdc_usd_assumption": 1.0,
+    "publication_ready": false
+  },
+  {
+    "time_rule": "crypto candle ends, backward macro age <60min, exact t+h targets",
+    "fx_timezone_assumption": "America/New_York",
+    "vix_dxy_timezone_assumption": "America/New_York",
+    "macro_additional_availability_delay_hours": 1,
+    "macro_ages": {
+      "USDKRW": {
+        "n": 3462,
+        "max_age_minutes": 0.0
+      },
+      "DXY": {
+        "n": 4587,
+        "max_age_minutes": 30.0
+      },
+      "VIX": {
+        "n": 2854,
+        "max_age_minutes": 45.0
+      }
+    },
+    "metric_availability_delay_minutes": 5,
+    "quote_corrected": true,
+    "timezone_confirmed": false,
+    "scenario": "clock_NY_macro_end1h_quote",
+    "rows": 6983,
+    "valid_residuals": 3461,
+    "residual_std_bp": 9.360997595027325,
+    "market_r2": 0.9968663887766619,
+    "residual_market_corr": -0.01098649627416012,
+    "risk_definition": "24 consecutive hourly BTC/USDT log returns, downside mean squared negative returns",
+    "projection": "original sequential OLS",
+    "usdc_usd_assumption": 1.0,
+    "publication_ready": false
+  }
+]

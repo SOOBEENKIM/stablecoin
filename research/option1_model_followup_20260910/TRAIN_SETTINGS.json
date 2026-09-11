@@ -1,0 +1,49 @@
+{
+  "status": "started",
+  "torch": "2.9.1+cpu",
+  "numpy": "2.3.0",
+  "pandas": "2.3.0",
+  "code_sha256": "34e8895fa052883d0f34d01cf5631868329fa3562761ebf3ab98280bf0daea37",
+  "shared_sha256": "c73710984263d48e7b0d0bc7a62e775cdb514b722e0e5e29889874632877f846",
+  "protocol_sha256": "456aa46466e94a578938e45abcb9f95673cb9f9d0dffaef2030758787c20a038",
+  "data_sha256": "f6fe4c0b0b259c3f41088c37ce07abe3364cb1cef8959dc7020a01e145cebf41",
+  "families": [
+    [
+      "gru",
+      "clean"
+    ],
+    [
+      "gru",
+      "shuffled"
+    ],
+    [
+      "gru",
+      "tick"
+    ],
+    [
+      "mlp",
+      "clean"
+    ],
+    [
+      "mlp",
+      "shuffled"
+    ],
+    [
+      "mlp",
+      "tick"
+    ],
+    [
+      "tcn",
+      "hard_shuffled"
+    ],
+    [
+      "tcn",
+      "hard_tick"
+    ]
+  ],
+  "seeds": [
+    20260910,
+    20260911,
+    20260912
+  ]
+}

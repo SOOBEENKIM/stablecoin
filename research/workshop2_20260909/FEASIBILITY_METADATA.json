@@ -1,0 +1,10 @@
+{
+  "source": "/home/ssd-990/soobeenkim/stablecoin_workshop/extension_20260909/basis_definitions.csv",
+  "source_sha256": "6dd17ecc19136f5056d8b34d8360b1614b4740bc614f5359230c118d6b726209",
+  "clock_start": "2025-06-01 19:00:00+00:00",
+  "clock_end": "2026-03-19 16:00:00+00:00",
+  "grid_hours": 6982,
+  "valid_price_hours": 6968,
+  "last_label_time": "2026-03-19 10:00:00+00:00",
+  "note": "Descriptive feasibility only. Overlapping positive origins and separated onsets are not independent observations. No performance-based target selection."
+}

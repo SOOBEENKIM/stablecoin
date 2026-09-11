@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "code_sha256": "afb9d652e096ae15966bac99d347cc913cfea92f089b7a96bde909a135411091",
+  "protocol_sha256": "8574c1415868851e22f6407fc8b0cd3138dcf127b5d57fa149285acd22da10b8",
+  "variants": 65,
+  "bootstrap_errors": [],
+  "preserved_files": 205,
+  "comparison_scope": "Pair-specific control sets of identical form; cross-pair differences are conditional associations, not a common-X causal dose response"
+}

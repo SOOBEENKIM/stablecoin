@@ -1,0 +1,22 @@
+{
+  "status": "development plan and descriptive screening completed; full follow-up experiments remain",
+  "original_artifacts_unchanged": 135,
+  "raw_price_files_unchanged": true,
+  "local_links_valid": true,
+  "files": {
+    "DEVELOPMENT_PLAN_KO.md": "4aebac139c6261c05aedc9d92d671fd0f86f3c41dce7e62beee12b9faada5eec",
+    "PRESERVED_OPTIONS_SHA256.json": "0e1502b5262e2d0bec452188cc1d040db428b2d509783988916c6f0da85a7c7d",
+    "README.md": "294750f5a71fb453d9404b2cade21e19778842a5771eb7ae0fd2c99ecb66a29f",
+    "SCREENING_MANIFEST.json": "6ac45e5bfb523ec8bf472aa070fa92c1b4850e25196c69d88a7500d70f3342f5",
+    "event_group_feasibility.csv": "439a27bb27c94341a95177a559e384161382ac497d54de3283c3ab0e808df3e5",
+    "measurement_screening.pdf": "b8d685916ed1ecd79ffc99839c5be583d523a7bb5208b1a9274c6fe5f96d9f91",
+    "measurement_screening.png": "fab305e7ed74b444552ef7da293ed3a515943f71d2f2d62aa37b812fe7de2198",
+    "measurement_screening_panel.csv.gz": "d2f190f9a74df7065cdeffca936bf958d98d1f44305cdfe01d943e5cd5de1cd3",
+    "one_tick_scenarios.csv": "9981bf111ea57fb85235d75a56f8d4a182be6a890155412022379efecde42ad4",
+    "plot_screening.py": "ed9b9d692d4b537004cddc2a606c4af120bbf2c345b4d9251e23464ea097cc26",
+    "policy_window_descriptive.csv": "87dcb0782c8766b521fbddedf80bda432a2879102795591368e25d31c5d70f97",
+    "references.csv": "4ee61fc985ca86eb7629a43c91a182c4caef2267818a85c550ee7a74ca026d3b",
+    "screen_measurement.py": "5df59b1b09080d8dade851e61cadc938012ec63e4a3eaeebf85652c6b743e98e",
+    "virtual_regridding.csv": "4b161b4ec8fa7c369f51757305e843898ef03d89ee268d7f01823dbf5fb4ad8c"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "checks": {
+    "independent_primal_QR_objective_gap_max": 3.552713678800501e-15,
+    "QR_exact_linear_model_recovery": true,
+    "calendar_HAC_matches_statsmodels_and_explicit_missing_days": true,
+    "calendar_weights_identical_within_days_and_preserve_draw_length": true,
+    "exact_horizons_full_rank_same_samples_and_OLS_decomposition": true,
+    "preserved_options_files_unchanged": 150,
+    "input_data_and_preresult_protocol_unchanged": true,
+    "primary_policy_count": 1,
+    "primary_economic_Holm_family_count": 24,
+    "economic_failed_replicates": {
+      "h1_q00_b5": 6,
+      "h6_q00_b5": 11,
+      "h12_q00_b5": 12,
+      "h6_q10_b5": 7,
+      "h6_q50_b5": 0,
+      "h1_q10_b5": 2,
+      "h12_q10_b5": 3,
+      "h6_q10_b1": 0,
+      "h6_q10_b10": 19
+    },
+    "data_reconstruction_checks": [
+      "raw and frozen basis agreement",
+      "USDT cancels from policy contrasts",
+      "exact raw-price h-hour targets",
+      "metric backward availability",
+      "full-rank common economic matrices",
+      "historical files unchanged"
+    ],
+    "economic_solver_and_identity": {
+      "status": "complete",
+      "seconds": 88.11953496932983,
+      "bootstrap_draws": 9491,
+      "failures": 60,
+      "max_quantile_primal_dual_gap": 7.953531167004257e-10,
+      "max_OLS_decomposition_error": 2.8976820942716586e-14,
+      "description": "Same-period explanatory associations; not causal leverage effects or forecast gains"
+    },
+    "policy_supplement_all_designs_full_rank_and_valid_bootstrap_rates": true,
+    "policy_order_grid_exposure_matches_observed_price_bands": true
+  }
+}

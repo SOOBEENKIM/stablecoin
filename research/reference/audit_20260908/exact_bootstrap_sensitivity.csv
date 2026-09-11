@@ -1,0 +1,7 @@
+model,variant,block_days,n,B,q,target,beta,p_sign,p_sign_plus_one,ci95_low,ci95_high,note
+M2,archived,1,714,999,0.1,ACCOUNT_LS_lag1,-0.15052188613876058,0.002002002002002002,0.004,-0.31721077458095004,-0.05666703551918421,first-stage residuals fixed; original row lags; circular moving-day blocks if block_days=5
+M2,quote_corrected,1,714,999,0.1,ACCOUNT_LS_lag1,0.03281074318529561,0.7287287287287287,0.73,-0.15889958551297606,0.1595076040887343,first-stage residuals fixed; original row lags; circular moving-day blocks if block_days=5
+M2,archived,5,714,999,0.1,ACCOUNT_LS_lag1,-0.15052188613876058,0.02002002002002002,0.022,-0.3235996181915262,-0.03102716749400894,first-stage residuals fixed; original row lags; circular moving-day blocks if block_days=5
+M2,quote_corrected,5,714,999,0.1,ACCOUNT_LS_lag1,0.03281074318529561,0.6826826826826827,0.684,-0.17504570178287635,0.19004404063916472,first-stage residuals fixed; original row lags; circular moving-day blocks if block_days=5
+main,archived,1,714,999,0.1,BTC_DOWNSIDE_24_lag1,-6.779239390168971,0.002002002002002002,0.004,-20.72244493514961,-2.301983349230727,first-stage residuals fixed; original row lags; circular moving-day blocks if block_days=5
+main,quote_corrected,1,714,999,0.1,BTC_DOWNSIDE_24_lag1,-12.82606424806191,0.026026026026026026,0.028,-19.12993874882733,-0.8734520747225923,first-stage residuals fixed; original row lags; circular moving-day blocks if block_days=5

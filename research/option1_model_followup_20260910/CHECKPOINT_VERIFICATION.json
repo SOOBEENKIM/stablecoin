@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checkpoints": 96,
+  "scenarios_per_checkpoint": 31,
+  "origins_per_checkpoint": 3,
+  "causality_checks": 60,
+  "max_error_bp": 3.814697265625e-06,
+  "code_sha256": "1bad8050093c0cd2b7f01aa90b2232cdd52e7c1d409dc8e4480b9a784de72cf4"
+}

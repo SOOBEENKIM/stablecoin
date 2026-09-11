@@ -1,0 +1,10 @@
+period,definition,observed_hours,current_consensus_hours,current_consensus_days,separated_consensus_onsets,eligible_origins,positive_future_sustain_origins,positive_future_days,fresh_mean_alarm_origins,fresh_mean_alarms_followed_by_sustain,fresh_mean_alarm_followthrough
+train_Jun_Oct,btc_eth,3642,109,68,76,3632,0,0,129,0,0.0
+validation_Nov_Dec,btc_eth,1461,115,41,45,1456,23,3,62,0,0.0
+evaluation_Jan_Mar,btc_eth,1865,184,58,69,1859,22,5,71,1,0.014084507042253521
+train_Jun_Oct,three_of_five,3642,173,84,97,3632,23,4,129,1,0.007751937984496124
+validation_Nov_Dec,three_of_five,1461,173,54,58,1456,40,6,62,3,0.04838709677419355
+evaluation_Jan_Mar,three_of_five,1865,255,66,73,1859,43,12,71,2,0.028169014084507043
+train_Jun_Oct,three_of_four_no_doge,3642,110,68,77,3632,4,1,129,0,0.0
+validation_Nov_Dec,three_of_four_no_doge,1461,113,43,48,1456,22,3,62,0,0.0
+evaluation_Jan_Mar,three_of_four_no_doge,1865,175,60,74,1859,13,4,71,0,0.0

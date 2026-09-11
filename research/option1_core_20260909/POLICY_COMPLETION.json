@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "code_sha256": "72b27568d5f03c6f45448ead7ef0da1195f5a57e2c98426964a2771356bb1d04",
+  "common_sha256": "40f0996e94c81b35d98399e82bd108d68af8fe5881d56b8941c46c53c73039f8",
+  "protocol_sha256": "039e0c830edf95fa88680c45d343fca56e803493c669bcb93323c2de316c8037",
+  "seconds": 6.009708642959595,
+  "seed": 20260909,
+  "B": 1999,
+  "bootstrap_failures": 0,
+  "primary": "28-day ETH comparison, market controlled, no local trend",
+  "uncertainty": "3-calendar-day HAC; 5-day circular pairs blocks separately within pre and post",
+  "causal_limit": "One strongly exposed asset; contemporaneous controls and pretrend diagnostics cannot identify an isolated tick-policy causal effect"
+}

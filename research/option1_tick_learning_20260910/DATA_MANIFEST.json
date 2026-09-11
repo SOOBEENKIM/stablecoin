@@ -1,0 +1,20 @@
+{
+  "status": "prepared",
+  "protocol_sha256": "fdb7c7ae7e3d3f64e432a3ab666ef83785362a0482df9abc13308080e1fdfef8",
+  "code_sha256": "083728c3fe72590927dfec777587f6c55baee167cc38de9502aa5ec860134463",
+  "shared_sha256": "c73710984263d48e7b0d0bc7a62e775cdb514b722e0e5e29889874632877f846",
+  "input_hashes": {
+    "data/raw data/binance_1h_2025-06-01_2026-03-19.csv": "f32e54fadbedfb38a9514ecb4682bc2bc2e2eb418b314f672af7f783b61af3d0",
+    "data/raw data/upbit_1h_2025-06-01_2026-03-19.csv": "c0ea17c465872dafc4e641c5486fe4edd15b7abdc064ed587869882b78ad1efe"
+  },
+  "data_sha256": "f6fe4c0b0b259c3f41088c37ce07abe3364cb1cef8959dc7020a01e145cebf41",
+  "n": 5372,
+  "p": 30,
+  "checks": [
+    "raw basis reproduction",
+    "exact 24h histories and 6h targets",
+    "chronological purges",
+    "raw scenario recomputation",
+    "equal log-price perturbation budget"
+  ]
+}

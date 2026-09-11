@@ -1,0 +1,66 @@
+{
+  "status": "design and data feasibility only; no new AI fitted",
+  "dataset_shape": [
+    6665,
+    24,
+    27
+  ],
+  "reference_names": [
+    "mean5",
+    "median5",
+    "BTC"
+  ],
+  "feature_names": [
+    "basis",
+    "change1",
+    "change6",
+    "mean24",
+    "std24",
+    "btc_ret1",
+    "btc_ret6",
+    "btc_vol24",
+    "btc_downside24",
+    "hour_sin",
+    "hour_cos",
+    "weekend",
+    "q10_7d",
+    "q90_7d",
+    "dispersion",
+    "usdt_range",
+    "venue_volume",
+    "usdt_volume_surprise",
+    "usdt_unchanged",
+    "basis_BTC",
+    "basis_ETH",
+    "basis_XRP",
+    "basis_SOL",
+    "basis_DOGE",
+    "basis_median5",
+    "doge_one_won_bp",
+    "usdt_one_won_bp"
+  ],
+  "actual_lookback_hours": 24,
+  "target_horizon_hours": 6,
+  "earliest_origin": "2025-06-07 17:00:00+00:00",
+  "latest_origin": "2026-03-19 10:00:00+00:00",
+  "n_complete_price_rows": 6968,
+  "n_grid": 6983,
+  "partition_boundary_origins": 7,
+  "train_dispersion_q75": 9.304347217352667,
+  "raw_sha256": {
+    "data/raw data/binance_1h_2025-06-01_2026-03-19.csv": "f32e54fadbedfb38a9514ecb4682bc2bc2e2eb418b314f672af7f783b61af3d0",
+    "data/raw data/upbit_1h_2025-06-01_2026-03-19.csv": "c0ea17c465872dafc4e641c5486fe4edd15b7abdc064ed587869882b78ad1efe"
+  },
+  "prepared_data_sha256": "0bf5a451210e9c1562f8c9fc1a777cba217bc112e5fec0864fff7363393f6344",
+  "script_sha256": "6f55fee9f1693e1f0bf4ab09a56bfb5618b54a69ed775d251e74d698f976556a",
+  "preserved_artifacts": 119,
+  "previous_options_unchanged": true,
+  "reused_evaluation_period": true,
+  "checks": [
+    "same basis as option1",
+    "exact six-hour raw-price targets",
+    "complete 24 actual-hour histories",
+    "all inputs and targets finite",
+    "original options and raw prices unchanged"
+  ]
+}

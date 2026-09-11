@@ -1,0 +1,10 @@
+{
+  "oi_resample_matches": true,
+  "generated_rows": 715,
+  "saved_rows": 715,
+  "same_index": true,
+  "generated_columns_including_timestamp": 89,
+  "saved_columns_including_timestamp": 89,
+  "saved_columns_not_generated": [],
+  "mismatching_columns": []
+}

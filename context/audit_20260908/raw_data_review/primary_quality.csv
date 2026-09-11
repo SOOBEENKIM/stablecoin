@@ -1,0 +1,8 @@
+file,rows,valid_timestamp_rows,all_blank_rows,invalid_nonblank_timestamp_rows,missing_cells_with_valid_timestamp,duplicate_valid_timestamps,start,end,timezone,grid_hours,numeric_infinite_cells
+USDKRW.csv,3603,3603,0,0,0,0,2025-05-20 20:00:00,2026-03-20 00:00:00,None,7277,0
+VIXY.csv,3603,2980,623,0,0,0,2025-05-20 03:15:00,2026-03-19 16:15:00,None,7286,0
+SPY US.csv,3603,2367,1236,0,0,0,2025-05-09 09:30:00,2026-03-19 19:30:00,None,7547,0
+DXY.csv,4797,4797,0,0,0,0,2025-05-19 19:30:00,2026-03-20 00:30:00,None,7302,0
+XAUUSD.csv,4797,4783,14,0,0,0,2025-06-01 18:00:00,2026-03-20 01:00:00,None,6992,0
+binance_1h_2025-06-01_2026-03-19.csv,6983,6983,0,0,0,0,2025-06-01 18:00:00+00:00,2026-03-19 16:00:00+00:00,UTC,6983,0
+upbit_1h_2025-06-01_2026-03-19.csv,6983,6983,0,0,400,0,2025-06-01 18:00:00+00:00,2026-03-19 16:00:00+00:00,UTC,6983,0

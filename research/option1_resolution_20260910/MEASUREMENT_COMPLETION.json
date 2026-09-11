@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "protocol_sha256": "8574c1415868851e22f6407fc8b0cd3138dcf127b5d57fa149285acd22da10b8",
+  "code_sha256": "a5bc3b90ee4927ef560e22f90cae5a6c3081a6d0579082f60a00325c37cf63a6",
+  "shared_sha256": "2378f13ad4a4e99e1ef183188384fda39ce4eda2dc6eddf839f7aebd319aeac9",
+  "n": 1865,
+  "days": 78,
+  "first": "2026-01-01 00:00:00+00:00",
+  "last": "2026-03-19 16:00:00+00:00",
+  "n_pre": 5103,
+  "inputs_sha256": {
+    "data/raw data/binance_1h_2025-06-01_2026-03-19.csv": "f32e54fadbedfb38a9514ecb4682bc2bc2e2eb418b314f672af7f783b61af3d0",
+    "data/raw data/upbit_1h_2025-06-01_2026-03-19.csv": "c0ea17c465872dafc4e641c5486fe4edd15b7abdc064ed587869882b78ad1efe"
+  },
+  "preserved_files": 205,
+  "interpretation": "Deterministic local-price perturbation sensitivity, not probabilities of mispricing or false alarms"
+}

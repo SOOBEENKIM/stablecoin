@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-08",
+  "copied_files": [
+    {
+      "source": "/home/ssd-990/soobeenkim/stablecoin_v4/data/raw data/USDKRW.csv",
+      "destination": "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/USDKRW.csv",
+      "sha256": "781044d8ceaca50dd2b175681295e9c603cfdfb451058e5a360c1de13dcc6c59",
+      "bytes": 91091
+    },
+    {
+      "source": "/home/ssd-990/soobeenkim/stablecoin_v4/data/raw data/VIXY.csv",
+      "destination": "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/VIXY.csv",
+      "sha256": "80b8e7f03cf4212abfa615badd2887e68e11a7f5095128d13cea0e30cfc8cc12",
+      "bytes": 71508
+    },
+    {
+      "source": "/home/ssd-990/soobeenkim/stablecoin_v4/data/raw data/SPY US.csv",
+      "destination": "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/SPY US.csv",
+      "sha256": "d707430ca5163b7784ea7a320d638574177c7626515c9913c408e3925accf065",
+      "bytes": 116618
+    },
+    {
+      "source": "/home/ssd-990/soobeenkim/stablecoin_v4/data/raw data/DXY.csv",
+      "destination": "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/DXY.csv",
+      "sha256": "31603a17ddc38908580d1472c2157dcc3b092eaeed074288b16545a23baa24c4",
+      "bytes": 117408
+    },
+    {
+      "source": "/home/ssd-990/soobeenkim/stablecoin_v4/data/raw data/XAUUSD.csv",
+      "destination": "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/XAUUSD.csv",
+      "sha256": "e1ac1014c57fc9fbe9fd849883373c976604d2a9fce1c5dea94c570c67184701",
+      "bytes": 234783
+    },
+    {
+      "source": "/home/ssd-990/soobeenkim/stablecoin_v4/data/raw data/binance_1h_2025-06-01_2026-03-19.csv",
+      "destination": "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/binance_1h_2025-06-01_2026-03-19.csv",
+      "sha256": "f32e54fadbedfb38a9514ecb4682bc2bc2e2eb418b314f672af7f783b61af3d0",
+      "bytes": 1901022
+    },
+    {
+      "source": "/home/ssd-990/soobeenkim/stablecoin_v4/data/raw data/upbit_1h_2025-06-01_2026-03-19.csv",
+      "destination": "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/upbit_1h_2025-06-01_2026-03-19.csv",
+      "sha256": "c0ea17c465872dafc4e641c5486fe4edd15b7abdc064ed587869882b78ad1efe",
+      "bytes": 2247183
+    }
+  ],
+  "purpose": "Recovered sources reproduce the archived dataset; timezone, quote conversion and collection gaps remain to resolve. No model/data corrections applied.",
+  "report": "/home/ssd-990/soobeenkim/stablecoin_audit_20260908/raw_data_review/REVIEW_KO.md"
+}

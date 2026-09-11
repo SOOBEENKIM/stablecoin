@@ -1,0 +1,474 @@
+[
+  {
+    "file": "USDKRW.csv",
+    "rows": 3603,
+    "valid_timestamp_rows": 3603,
+    "all_blank_rows": 0,
+    "invalid_nonblank_timestamp_rows": 0,
+    "missing_cells_with_valid_timestamp": 0,
+    "duplicate_valid_timestamps": 0,
+    "start": "2025-05-20 20:00:00",
+    "end": "2026-03-20 00:00:00",
+    "timezone": "None",
+    "observed_minutes": [
+      0
+    ],
+    "observed_hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      18,
+      20,
+      21,
+      22,
+      23
+    ],
+    "grid_hours": 7277,
+    "numeric_infinite_cells": 0,
+    "per_column_valid_counts": {
+      "price": 3603
+    },
+    "ohlc_checks": {},
+    "all_missing_timestamps": []
+  },
+  {
+    "file": "VIXY.csv",
+    "rows": 3603,
+    "valid_timestamp_rows": 2980,
+    "all_blank_rows": 623,
+    "invalid_nonblank_timestamp_rows": 0,
+    "missing_cells_with_valid_timestamp": 0,
+    "duplicate_valid_timestamps": 0,
+    "start": "2025-05-20 03:15:00",
+    "end": "2026-03-19 16:15:00",
+    "timezone": "None",
+    "observed_minutes": [
+      15
+    ],
+    "observed_hours": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "grid_hours": 7286,
+    "numeric_infinite_cells": 0,
+    "per_column_valid_counts": {
+      "price": 2980
+    },
+    "ohlc_checks": {},
+    "all_missing_timestamps": []
+  },
+  {
+    "file": "SPY US.csv",
+    "rows": 3603,
+    "valid_timestamp_rows": 2367,
+    "all_blank_rows": 1236,
+    "invalid_nonblank_timestamp_rows": 0,
+    "missing_cells_with_valid_timestamp": 0,
+    "duplicate_valid_timestamps": 0,
+    "start": "2025-05-09 09:30:00",
+    "end": "2026-03-19 19:30:00",
+    "timezone": "None",
+    "observed_minutes": [
+      30
+    ],
+    "observed_hours": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "grid_hours": 7547,
+    "numeric_infinite_cells": 0,
+    "per_column_valid_counts": {
+      "open": 2367,
+      "high": 2367,
+      "low": 2367,
+      "close": 2367
+    },
+    "ohlc_checks": {
+      "SPY US.csv": {
+        "complete_bars": 2367,
+        "invalid_bars": 0,
+        "flat_bars": 864,
+        "negative_volume": null
+      }
+    },
+    "all_missing_timestamps": []
+  },
+  {
+    "file": "DXY.csv",
+    "rows": 4797,
+    "valid_timestamp_rows": 4797,
+    "all_blank_rows": 0,
+    "invalid_nonblank_timestamp_rows": 0,
+    "missing_cells_with_valid_timestamp": 0,
+    "duplicate_valid_timestamps": 0,
+    "start": "2025-05-19 19:30:00",
+    "end": "2026-03-20 00:30:00",
+    "timezone": "None",
+    "observed_minutes": [
+      30
+    ],
+    "observed_hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "grid_hours": 7302,
+    "numeric_infinite_cells": 0,
+    "per_column_valid_counts": {
+      "price": 4797
+    },
+    "ohlc_checks": {},
+    "all_missing_timestamps": []
+  },
+  {
+    "file": "XAUUSD.csv",
+    "rows": 4797,
+    "valid_timestamp_rows": 4783,
+    "all_blank_rows": 14,
+    "invalid_nonblank_timestamp_rows": 0,
+    "missing_cells_with_valid_timestamp": 0,
+    "duplicate_valid_timestamps": 0,
+    "start": "2025-06-01 18:00:00",
+    "end": "2026-03-20 01:00:00",
+    "timezone": "None",
+    "observed_minutes": [
+      0
+    ],
+    "observed_hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "grid_hours": 6992,
+    "numeric_infinite_cells": 0,
+    "per_column_valid_counts": {
+      "open": 4783,
+      "high": 4783,
+      "low": 4783,
+      "close": 4783
+    },
+    "ohlc_checks": {
+      "XAUUSD.csv": {
+        "complete_bars": 4783,
+        "invalid_bars": 0,
+        "flat_bars": 2,
+        "negative_volume": null
+      }
+    },
+    "all_missing_timestamps": []
+  },
+  {
+    "file": "binance_1h_2025-06-01_2026-03-19.csv",
+    "rows": 6983,
+    "valid_timestamp_rows": 6983,
+    "all_blank_rows": 0,
+    "invalid_nonblank_timestamp_rows": 0,
+    "missing_cells_with_valid_timestamp": 0,
+    "duplicate_valid_timestamps": 0,
+    "start": "2025-06-01 18:00:00+00:00",
+    "end": "2026-03-19 16:00:00+00:00",
+    "timezone": "UTC",
+    "observed_minutes": [
+      0
+    ],
+    "observed_hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "grid_hours": 6983,
+    "numeric_infinite_cells": 0,
+    "per_column_valid_counts": {
+      "BTC_BINANCE_OPEN": 6983,
+      "BTC_BINANCE_HIGH": 6983,
+      "BTC_BINANCE_LOW": 6983,
+      "BTC_BINANCE_CLOSE": 6983,
+      "BTC_BINANCE_VOLUME": 6983,
+      "ETH_BINANCE_OPEN": 6983,
+      "ETH_BINANCE_HIGH": 6983,
+      "ETH_BINANCE_LOW": 6983,
+      "ETH_BINANCE_CLOSE": 6983,
+      "ETH_BINANCE_VOLUME": 6983,
+      "XRP_BINANCE_OPEN": 6983,
+      "XRP_BINANCE_HIGH": 6983,
+      "XRP_BINANCE_LOW": 6983,
+      "XRP_BINANCE_CLOSE": 6983,
+      "XRP_BINANCE_VOLUME": 6983,
+      "SOL_BINANCE_OPEN": 6983,
+      "SOL_BINANCE_HIGH": 6983,
+      "SOL_BINANCE_LOW": 6983,
+      "SOL_BINANCE_CLOSE": 6983,
+      "SOL_BINANCE_VOLUME": 6983,
+      "DOGE_BINANCE_OPEN": 6983,
+      "DOGE_BINANCE_HIGH": 6983,
+      "DOGE_BINANCE_LOW": 6983,
+      "DOGE_BINANCE_CLOSE": 6983,
+      "DOGE_BINANCE_VOLUME": 6983,
+      "USDT_BINANCE_OPEN": 6983,
+      "USDT_BINANCE_HIGH": 6983,
+      "USDT_BINANCE_LOW": 6983,
+      "USDT_BINANCE_CLOSE": 6983,
+      "USDT_BINANCE_VOLUME": 6983
+    },
+    "ohlc_checks": {
+      "BTC_BINANCE": {
+        "complete_bars": 6983,
+        "invalid_bars": 0,
+        "flat_bars": 0,
+        "negative_volume": 0
+      },
+      "ETH_BINANCE": {
+        "complete_bars": 6983,
+        "invalid_bars": 0,
+        "flat_bars": 0,
+        "negative_volume": 0
+      },
+      "XRP_BINANCE": {
+        "complete_bars": 6983,
+        "invalid_bars": 0,
+        "flat_bars": 0,
+        "negative_volume": 0
+      },
+      "SOL_BINANCE": {
+        "complete_bars": 6983,
+        "invalid_bars": 0,
+        "flat_bars": 0,
+        "negative_volume": 0
+      },
+      "DOGE_BINANCE": {
+        "complete_bars": 6983,
+        "invalid_bars": 0,
+        "flat_bars": 0,
+        "negative_volume": 0
+      },
+      "USDT_BINANCE": {
+        "complete_bars": 6983,
+        "invalid_bars": 0,
+        "flat_bars": 0,
+        "negative_volume": 0
+      }
+    },
+    "all_missing_timestamps": []
+  },
+  {
+    "file": "upbit_1h_2025-06-01_2026-03-19.csv",
+    "rows": 6983,
+    "valid_timestamp_rows": 6983,
+    "all_blank_rows": 0,
+    "invalid_nonblank_timestamp_rows": 0,
+    "missing_cells_with_valid_timestamp": 400,
+    "duplicate_valid_timestamps": 0,
+    "start": "2025-06-01 18:00:00+00:00",
+    "end": "2026-03-19 16:00:00+00:00",
+    "timezone": "UTC",
+    "observed_minutes": [
+      0
+    ],
+    "observed_hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "grid_hours": 6983,
+    "numeric_infinite_cells": 0,
+    "per_column_valid_counts": {
+      "BTC_UPBIT_OPEN": 6970,
+      "BTC_UPBIT_HIGH": 6970,
+      "BTC_UPBIT_LOW": 6970,
+      "BTC_UPBIT_CLOSE": 6970,
+      "BTC_UPBIT_VOLUME": 6970,
+      "ETH_UPBIT_OPEN": 6970,
+      "ETH_UPBIT_HIGH": 6970,
+      "ETH_UPBIT_LOW": 6970,
+      "ETH_UPBIT_CLOSE": 6970,
+      "ETH_UPBIT_VOLUME": 6970,
+      "XRP_UPBIT_OPEN": 6970,
+      "XRP_UPBIT_HIGH": 6970,
+      "XRP_UPBIT_LOW": 6970,
+      "XRP_UPBIT_CLOSE": 6970,
+      "XRP_UPBIT_VOLUME": 6970,
+      "SOL_UPBIT_OPEN": 6969,
+      "SOL_UPBIT_HIGH": 6969,
+      "SOL_UPBIT_LOW": 6969,
+      "SOL_UPBIT_CLOSE": 6969,
+      "SOL_UPBIT_VOLUME": 6969,
+      "DOGE_UPBIT_OPEN": 6969,
+      "DOGE_UPBIT_HIGH": 6969,
+      "DOGE_UPBIT_LOW": 6969,
+      "DOGE_UPBIT_CLOSE": 6969,
+      "DOGE_UPBIT_VOLUME": 6969,
+      "USDT_UPBIT_OPEN": 6970,
+      "USDT_UPBIT_HIGH": 6970,
+      "USDT_UPBIT_LOW": 6970,
+      "USDT_UPBIT_CLOSE": 6970,
+      "USDT_UPBIT_VOLUME": 6970
+    },
+    "ohlc_checks": {
+      "BTC_UPBIT": {
+        "complete_bars": 6970,
+        "invalid_bars": 0,
+        "flat_bars": 0,
+        "negative_volume": 0
+      },
+      "ETH_UPBIT": {
+        "complete_bars": 6970,
+        "invalid_bars": 0,
+        "flat_bars": 3,
+        "negative_volume": 0
+      },
+      "XRP_UPBIT": {
+        "complete_bars": 6970,
+        "invalid_bars": 0,
+        "flat_bars": 2,
+        "negative_volume": 0
+      },
+      "SOL_UPBIT": {
+        "complete_bars": 6969,
+        "invalid_bars": 0,
+        "flat_bars": 2,
+        "negative_volume": 0
+      },
+      "DOGE_UPBIT": {
+        "complete_bars": 6969,
+        "invalid_bars": 0,
+        "flat_bars": 1,
+        "negative_volume": 0
+      },
+      "USDT_UPBIT": {
+        "complete_bars": 6970,
+        "invalid_bars": 0,
+        "flat_bars": 2,
+        "negative_volume": 0
+      }
+    },
+    "all_missing_timestamps": [
+      "2025-06-30 18:00:00+00:00",
+      "2025-06-30 19:00:00+00:00",
+      "2025-06-30 20:00:00+00:00",
+      "2025-06-30 21:00:00+00:00",
+      "2025-10-25 18:00:00+00:00",
+      "2025-10-25 19:00:00+00:00",
+      "2025-10-25 20:00:00+00:00",
+      "2025-10-25 21:00:00+00:00",
+      "2025-10-25 22:00:00+00:00",
+      "2025-12-31 18:00:00+00:00",
+      "2025-12-31 19:00:00+00:00",
+      "2025-12-31 20:00:00+00:00",
+      "2026-03-19 16:00:00+00:00"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "n": 1814,
+  "days": 77,
+  "model_stages": 180,
+  "primary_contrasts": 19,
+  "utility_joint_pass": 0,
+  "previous_metrics_reproduced": true,
+  "code_sha256": "b9be62a8295e6c7f12781fe01a3cc5d1397b6cfa86c4cdde6bde018636105247"
+}

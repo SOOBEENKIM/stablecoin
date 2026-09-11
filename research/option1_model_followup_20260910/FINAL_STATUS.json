@@ -1,0 +1,60 @@
+{
+  "status": "complete",
+  "date": "2026-09-10",
+  "new_outer_fits": 96,
+  "n_evaluation": 1814,
+  "observed_days": 77,
+  "new_primary_comparisons": 12,
+  "joint_gates_pass": 0,
+  "signal": "Positive exploratory accuracy/stress improvements; locked ten-percent worst-loss target unmet",
+  "leading_method": "tcn_hard_tick",
+  "option3": "paused",
+  "verification": "passed",
+  "seconds": 664.5599963665009,
+  "hard_tick_comparisons": [
+    {
+      "reference": "tcn_clean_ensemble_cal",
+      "clean_tail_change_pct": -1.3809382619790145,
+      "worst_tail_h1_change_pct": -4.355238361099845,
+      "sensitivity_h1_change_pct": -80.45006659144872,
+      "worst_tail_h6_change_pct": -4.696652537008106,
+      "worst_tail_h24_change_pct": -4.723511577491313,
+      "proposal_stress_excess": 0.017182887311687,
+      "reference_stress_excess": 0.0700067671472899,
+      "excess_reduction_pct": 75.45539094022824
+    },
+    {
+      "reference": "tcn_tick_ensemble_cal",
+      "clean_tail_change_pct": -1.6343280514687364,
+      "worst_tail_h1_change_pct": -4.45948149982327,
+      "sensitivity_h1_change_pct": -78.07661239524163,
+      "worst_tail_h6_change_pct": -4.247170769936215,
+      "worst_tail_h24_change_pct": -4.19406440767649,
+      "proposal_stress_excess": 0.017182887311687,
+      "reference_stress_excess": 0.0675981537062562,
+      "excess_reduction_pct": 74.58083339619857
+    },
+    {
+      "reference": "tcn_hard_shuffled_ensemble_cal",
+      "clean_tail_change_pct": -1.3666862481036657,
+      "worst_tail_h1_change_pct": -2.480922524263796,
+      "sensitivity_h1_change_pct": -63.19169678412819,
+      "worst_tail_h6_change_pct": -7.864911344871328,
+      "worst_tail_h24_change_pct": -10.302314493807474,
+      "proposal_stress_excess": 0.017182887311687,
+      "reference_stress_excess": 0.0367383903180322,
+      "excess_reduction_pct": 53.22906865831523
+    },
+    {
+      "reference": "exact_qr_cal",
+      "clean_tail_change_pct": -0.2404420868334478,
+      "worst_tail_h1_change_pct": -5.975763277468804,
+      "sensitivity_h1_change_pct": -89.09643024256302,
+      "worst_tail_h6_change_pct": -6.228244743213374,
+      "worst_tail_h24_change_pct": -4.704581282339026,
+      "proposal_stress_excess": 0.017182887311687,
+      "reference_stress_excess": 0.1191886363988166,
+      "excess_reduction_pct": 85.58345171917945
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "stage": "prepare-data",
+  "status": "passed",
+  "steps": [
+    {
+      "directory": "option1_tick_learning_20260910",
+      "script": "prepare.py",
+      "runtime": "analysis",
+      "returncode": 0,
+      "log": "option1_tick_learning_20260910-prepare.py.log"
+    },
+    {
+      "check": "All raw-derived prepared arrays exactly equal the archived arrays",
+      "status": "passed"
+    }
+  ],
+  "archive_unchanged": true,
+  "python": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+  "neural_image": "stablecoin-neural:2.9.1"
+}

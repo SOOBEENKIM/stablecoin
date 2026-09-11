@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": {
+    "independent_raw_price_reconstruction": true,
+    "all_single_quote_scenarios_and_equal_relative_shock_identity": true,
+    "joint_intervals_contain_independent_multivariate_price_perturbations": true,
+    "integer_price_steps_cross_tick_boundaries_correctly": true,
+    "prior_one_tick_results_exactly_reproduced": true,
+    "minimum_steps_one_tick_matches_independent_scenarios": true,
+    "core_policy_result_and_block_CI_exactly_reproduced": true,
+    "prediction_states_use_only_current_prices_and_past_thresholds": true,
+    "common_target_loss_bounds_and_DOGE_independent_BTC_invariance": true,
+    "common_policy_controls_and_secondary_multiplicity": true,
+    "unchanged_historical_files": 205,
+    "all_data_code_protocol_and_frozen_prediction_hashes_verified": true
+  }
+}

@@ -1,0 +1,10 @@
+.git
+__pycache__
+*.pyc
+.cache
+.config
+.nv
+outputs
+checkpoints
+runs
+wandb

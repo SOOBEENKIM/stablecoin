@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checkpoints": 72,
+  "scenarios_per_checkpoint": 31,
+  "origins_per_checkpoint": 3,
+  "normalization": "past training only",
+  "max_replay_error_bp": 3.814697265625e-06,
+  "tcn_causality_checks": 36,
+  "torch": "2.9.1+cpu",
+  "code_sha256": "f32161aaca6164810aee55da5de9965ec33891e576ffe41fa99d8b153aa2a4db"
+}

@@ -1,0 +1,16 @@
+{
+  "python": "3.8.10",
+  "numpy": "1.23.5",
+  "pandas": "2.0.3",
+  "sha256": {
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/binance_1h_2025-06-01_2026-03-19.csv": "f32e54fadbedfb38a9514ecb4682bc2bc2e2eb418b314f672af7f783b61af3d0",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/SPY US.csv": "d707430ca5163b7784ea7a320d638574177c7626515c9913c408e3925accf065",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/upbit_1h_2025-06-01_2026-03-19.csv": "c0ea17c465872dafc4e641c5486fe4edd15b7abdc064ed587869882b78ad1efe",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/USDKRW.csv": "781044d8ceaca50dd2b175681295e9c603cfdfb451058e5a360c1de13dcc6c59",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/DXY.csv": "31603a17ddc38908580d1472c2157dcc3b092eaeed074288b16545a23baa24c4",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/XAUUSD.csv": "e1ac1014c57fc9fbe9fd849883373c976604d2a9fce1c5dea94c570c67184701",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/VIXY.csv": "80b8e7f03cf4212abfa615badd2887e68e11a7f5095128d13cea0e30cfc8cc12",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/corrected_outputs/baseline_dataset_with_residual_final.csv": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/corrected_outputs/binance_btcusdt_data_vision_metrics.csv": "726610d41d74c0ae4ef612e2c4af58166dd302b8abe6fd47294a148f82acc138"
+  }
+}

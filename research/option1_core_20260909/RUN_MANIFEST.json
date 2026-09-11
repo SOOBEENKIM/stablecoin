@@ -1,0 +1,49 @@
+{
+  "status": "data and protocol frozen before new regression results",
+  "inputs_sha256": {
+    "data/raw data/binance_1h_2025-06-01_2026-03-19.csv": "f32e54fadbedfb38a9514ecb4682bc2bc2e2eb418b314f672af7f783b61af3d0",
+    "data/raw data/upbit_1h_2025-06-01_2026-03-19.csv": "c0ea17c465872dafc4e641c5486fe4edd15b7abdc064ed587869882b78ad1efe",
+    "corrected_outputs/binance_btcusdt_data_vision_metrics.csv": "726610d41d74c0ae4ef612e2c4af58166dd302b8abe6fd47294a148f82acc138"
+  },
+  "protocol_sha256": "039e0c830edf95fa88680c45d343fca56e803493c669bcb93323c2de316c8037",
+  "source_prepare_sha256": "e7c4b4bae89974b0a5932b5f9f149e94799a508dff115c3e31480f10557a13c7",
+  "economic_data_sha256": "303c52964022ea085fe5c0d97a2aa4aa05e4f4e7522b73774ba91612a9570e1a",
+  "preserved_files": 150,
+  "n_policy_days": 288,
+  "n_scaling_pre2026": 5013,
+  "features": [
+    "const",
+    "current_btc",
+    "current_refspread",
+    "down_pct",
+    "up_pct",
+    "btc_vol24",
+    "ls_z",
+    "usdt_range",
+    "venue_volume",
+    "usdt_volume_surprise",
+    "usdt_unchanged",
+    "hour_sin",
+    "hour_cos",
+    "weekend",
+    "down_x_ls",
+    "month_Feb",
+    "month_Mar"
+  ],
+  "references": [
+    "mean5",
+    "median5",
+    "BTC",
+    "ETH",
+    "without_DOGE"
+  ],
+  "metric_age_max_min": 5.0,
+  "checks": [
+    "raw and frozen basis agreement",
+    "USDT cancels from policy contrasts",
+    "exact raw-price h-hour targets",
+    "metric backward availability",
+    "full-rank common economic matrices",
+    "historical files unchanged"
+  ]
+}

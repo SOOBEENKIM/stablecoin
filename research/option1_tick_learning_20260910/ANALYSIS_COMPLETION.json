@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "code_sha256": "d555049b11027afb77cc9c223d9e4a78c7f55c2d91cebf39e68dd889ac20e32d",
+  "protocol_sha256": "fdb7c7ae7e3d3f64e432a3ab666ef83785362a0482df9abc13308080e1fdfef8",
+  "n": 1814,
+  "days": 77,
+  "primary_comparisons": 4,
+  "all_gates_pass": 0,
+  "tick_specific_value": false
+}

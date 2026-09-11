@@ -1,0 +1,46 @@
+{
+  "strong_ai_gate_passed": false,
+  "status": "exploratory pilot, no independently unseen evaluation period",
+  "primary_comparisons": [
+    {
+      "primary": true,
+      "candidate": "tree_reference_cal",
+      "reference": "logistic_reference_cal",
+      "block_days": 5,
+      "n": 1655,
+      "brier_improvement": -0.00814705338550306,
+      "relative_improvement_pct": -3.6369590939382612,
+      "low95": -0.017863387339481143,
+      "high95": 0.0004864046930643691,
+      "p_centered": 0.081,
+      "p_holm_primary": 0.243
+    },
+    {
+      "primary": true,
+      "candidate": "tree_reference_cal",
+      "reference": "spline_reference_cal",
+      "block_days": 5,
+      "n": 1655,
+      "brier_improvement": -0.005783408062715593,
+      "relative_improvement_pct": -2.5548368823181504,
+      "low95": -0.02321113066992583,
+      "high95": 0.013570976143255463,
+      "p_centered": 0.5265,
+      "p_holm_primary": 1.0
+    },
+    {
+      "primary": true,
+      "candidate": "tree_reference_cal",
+      "reference": "recent28",
+      "block_days": 5,
+      "n": 1655,
+      "brier_improvement": 0.0009362087780476648,
+      "relative_improvement_pct": 0.4016502524558541,
+      "low95": -0.017022268909384648,
+      "high95": 0.017480968248664873,
+      "p_centered": 0.918,
+      "p_holm_primary": 1.0
+    }
+  ],
+  "next_stage": "No automatic model/horizon search. Report failure of the fixed AI gate; design decisions must be distinguished from validated effects."
+}

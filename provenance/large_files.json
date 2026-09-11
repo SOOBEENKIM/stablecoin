@@ -1,0 +1,10 @@
+{
+  "research/option1_factorial_20260910/evaluated_predictions.npz": {
+    "bytes": 109282931,
+    "sha256": "022c27f066a631349b3eec5dfb7f8e15918e30934676fdcffe26aae480cdc292"
+  },
+  "research/option1_model_followup_20260910/evaluated_predictions.npz": {
+    "bytes": 70316597,
+    "sha256": "0f5efa9edab07fa3333cb9dba4d91cde78f62f4c09647e8eaff1660aae93faaf"
+  }
+}

@@ -1,0 +1,210 @@
+[
+  {
+    "name": "tcn_training_main",
+    "family": "tcn",
+    "term": "training_main",
+    "kind": "factorial",
+    "weights": {
+      "tcn_tick_max_ensemble_cal": 0.5,
+      "tcn_tick_mean_ensemble_cal": -0.5,
+      "tcn_shuffled_max_ensemble_cal": 0.5,
+      "tcn_shuffled_mean_ensemble_cal": -0.5
+    }
+  },
+  {
+    "name": "tcn_financial_main",
+    "family": "tcn",
+    "term": "financial_main",
+    "kind": "factorial",
+    "weights": {
+      "tcn_tick_max_ensemble_cal": 0.5,
+      "tcn_shuffled_max_ensemble_cal": -0.5,
+      "tcn_tick_mean_ensemble_cal": 0.5,
+      "tcn_shuffled_mean_ensemble_cal": -0.5
+    }
+  },
+  {
+    "name": "tcn_interaction",
+    "family": "tcn",
+    "term": "interaction",
+    "kind": "factorial",
+    "weights": {
+      "tcn_tick_max_ensemble_cal": 1,
+      "tcn_tick_mean_ensemble_cal": -1,
+      "tcn_shuffled_max_ensemble_cal": -1,
+      "tcn_shuffled_mean_ensemble_cal": 1
+    }
+  },
+  {
+    "name": "tcn_max_minus_mean_tick",
+    "family": "tcn",
+    "term": "max_minus_mean_tick",
+    "kind": "factorial",
+    "weights": {
+      "tcn_tick_max_ensemble_cal": 1,
+      "tcn_tick_mean_ensemble_cal": -1
+    }
+  },
+  {
+    "name": "tcn_max_minus_mean_shuffled",
+    "family": "tcn",
+    "term": "max_minus_mean_shuffled",
+    "kind": "factorial",
+    "weights": {
+      "tcn_shuffled_max_ensemble_cal": 1,
+      "tcn_shuffled_mean_ensemble_cal": -1
+    }
+  },
+  {
+    "name": "tcn_tick_minus_shuffled_mean",
+    "family": "tcn",
+    "term": "tick_minus_shuffled_mean",
+    "kind": "factorial",
+    "weights": {
+      "tcn_tick_mean_ensemble_cal": 1,
+      "tcn_shuffled_mean_ensemble_cal": -1
+    }
+  },
+  {
+    "name": "tcn_tick_minus_shuffled_max",
+    "family": "tcn",
+    "term": "tick_minus_shuffled_max",
+    "kind": "factorial",
+    "weights": {
+      "tcn_tick_max_ensemble_cal": 1,
+      "tcn_shuffled_max_ensemble_cal": -1
+    }
+  },
+  {
+    "name": "gru_training_main",
+    "family": "gru",
+    "term": "training_main",
+    "kind": "factorial",
+    "weights": {
+      "gru_tick_max_ensemble_cal": 0.5,
+      "gru_tick_mean_ensemble_cal": -0.5,
+      "gru_shuffled_max_ensemble_cal": 0.5,
+      "gru_shuffled_mean_ensemble_cal": -0.5
+    }
+  },
+  {
+    "name": "gru_financial_main",
+    "family": "gru",
+    "term": "financial_main",
+    "kind": "factorial",
+    "weights": {
+      "gru_tick_max_ensemble_cal": 0.5,
+      "gru_shuffled_max_ensemble_cal": -0.5,
+      "gru_tick_mean_ensemble_cal": 0.5,
+      "gru_shuffled_mean_ensemble_cal": -0.5
+    }
+  },
+  {
+    "name": "gru_interaction",
+    "family": "gru",
+    "term": "interaction",
+    "kind": "factorial",
+    "weights": {
+      "gru_tick_max_ensemble_cal": 1,
+      "gru_tick_mean_ensemble_cal": -1,
+      "gru_shuffled_max_ensemble_cal": -1,
+      "gru_shuffled_mean_ensemble_cal": 1
+    }
+  },
+  {
+    "name": "gru_max_minus_mean_tick",
+    "family": "gru",
+    "term": "max_minus_mean_tick",
+    "kind": "factorial",
+    "weights": {
+      "gru_tick_max_ensemble_cal": 1,
+      "gru_tick_mean_ensemble_cal": -1
+    }
+  },
+  {
+    "name": "gru_max_minus_mean_shuffled",
+    "family": "gru",
+    "term": "max_minus_mean_shuffled",
+    "kind": "factorial",
+    "weights": {
+      "gru_shuffled_max_ensemble_cal": 1,
+      "gru_shuffled_mean_ensemble_cal": -1
+    }
+  },
+  {
+    "name": "gru_tick_minus_shuffled_mean",
+    "family": "gru",
+    "term": "tick_minus_shuffled_mean",
+    "kind": "factorial",
+    "weights": {
+      "gru_tick_mean_ensemble_cal": 1,
+      "gru_shuffled_mean_ensemble_cal": -1
+    }
+  },
+  {
+    "name": "gru_tick_minus_shuffled_max",
+    "family": "gru",
+    "term": "tick_minus_shuffled_max",
+    "kind": "factorial",
+    "weights": {
+      "gru_tick_max_ensemble_cal": 1,
+      "gru_shuffled_max_ensemble_cal": -1
+    }
+  },
+  {
+    "name": "gru_minus_tcn_interaction",
+    "family": "cross",
+    "term": "interaction_difference",
+    "kind": "factorial",
+    "weights": {
+      "gru_tick_max_ensemble_cal": 1,
+      "gru_tick_mean_ensemble_cal": -1,
+      "gru_shuffled_max_ensemble_cal": -1,
+      "gru_shuffled_mean_ensemble_cal": 1,
+      "tcn_tick_max_ensemble_cal": -1,
+      "tcn_tick_mean_ensemble_cal": 1,
+      "tcn_shuffled_max_ensemble_cal": 1,
+      "tcn_shuffled_mean_ensemble_cal": -1
+    }
+  },
+  {
+    "name": "tcn_tick_max_vs_clean",
+    "family": "tcn",
+    "term": "clean",
+    "kind": "utility",
+    "weights": {
+      "tcn_tick_max_ensemble_cal": 1,
+      "tcn_clean_ensemble_cal": -1
+    }
+  },
+  {
+    "name": "tcn_tick_max_vs_qr",
+    "family": "tcn",
+    "term": "qr",
+    "kind": "utility",
+    "weights": {
+      "tcn_tick_max_ensemble_cal": 1,
+      "exact_qr_cal": -1
+    }
+  },
+  {
+    "name": "gru_tick_max_vs_clean",
+    "family": "gru",
+    "term": "clean",
+    "kind": "utility",
+    "weights": {
+      "gru_tick_max_ensemble_cal": 1,
+      "gru_clean_ensemble_cal": -1
+    }
+  },
+  {
+    "name": "gru_tick_max_vs_qr",
+    "family": "gru",
+    "term": "qr",
+    "kind": "utility",
+    "weights": {
+      "gru_tick_max_ensemble_cal": 1,
+      "exact_qr_cal": -1
+    }
+  }
+]

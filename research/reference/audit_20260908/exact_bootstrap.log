@@ -1,0 +1,33 @@
+M2 1 100 seconds 9.3
+M2 1 200 seconds 18.6
+M2 1 300 seconds 27.9
+M2 1 400 seconds 37.2
+M2 1 500 seconds 46.5
+M2 1 600 seconds 55.7
+M2 1 700 seconds 65.0
+M2 1 800 seconds 74.3
+M2 1 900 seconds 83.7
+{'model': 'M2', 'variant': 'archived', 'block_days': 1, 'n': 714, 'B': 999, 'q': 0.1, 'target': 'ACCOUNT_LS_lag1', 'beta': -0.15052188613876058, 'p_sign': 0.002002002002002002, 'p_sign_plus_one': 0.004, 'ci95_low': -0.31721077458095004, 'ci95_high': -0.05666703551918421, 'note': 'first-stage residuals fixed; original row lags; circular moving-day blocks if block_days=5'}
+{'model': 'M2', 'variant': 'quote_corrected', 'block_days': 1, 'n': 714, 'B': 999, 'q': 0.1, 'target': 'ACCOUNT_LS_lag1', 'beta': 0.03281074318529561, 'p_sign': 0.7287287287287287, 'p_sign_plus_one': 0.73, 'ci95_low': -0.15889958551297606, 'ci95_high': 0.1595076040887343, 'note': 'first-stage residuals fixed; original row lags; circular moving-day blocks if block_days=5'}
+M2 5 100 seconds 9.2
+M2 5 200 seconds 18.5
+M2 5 300 seconds 27.8
+M2 5 400 seconds 37.1
+M2 5 500 seconds 46.5
+M2 5 600 seconds 55.8
+M2 5 700 seconds 65.1
+M2 5 800 seconds 74.4
+M2 5 900 seconds 83.7
+{'model': 'M2', 'variant': 'archived', 'block_days': 5, 'n': 714, 'B': 999, 'q': 0.1, 'target': 'ACCOUNT_LS_lag1', 'beta': -0.15052188613876058, 'p_sign': 0.02002002002002002, 'p_sign_plus_one': 0.022, 'ci95_low': -0.3235996181915262, 'ci95_high': -0.03102716749400894, 'note': 'first-stage residuals fixed; original row lags; circular moving-day blocks if block_days=5'}
+{'model': 'M2', 'variant': 'quote_corrected', 'block_days': 5, 'n': 714, 'B': 999, 'q': 0.1, 'target': 'ACCOUNT_LS_lag1', 'beta': 0.03281074318529561, 'p_sign': 0.6826826826826827, 'p_sign_plus_one': 0.684, 'ci95_low': -0.17504570178287635, 'ci95_high': 0.19004404063916472, 'note': 'first-stage residuals fixed; original row lags; circular moving-day blocks if block_days=5'}
+main 1 100 seconds 6.5
+main 1 200 seconds 13.0
+main 1 300 seconds 19.5
+main 1 400 seconds 26.0
+main 1 500 seconds 32.5
+main 1 600 seconds 38.9
+main 1 700 seconds 45.4
+main 1 800 seconds 51.9
+main 1 900 seconds 58.4
+{'model': 'main', 'variant': 'archived', 'block_days': 1, 'n': 714, 'B': 999, 'q': 0.1, 'target': 'BTC_DOWNSIDE_24_lag1', 'beta': -6.779239390168971, 'p_sign': 0.002002002002002002, 'p_sign_plus_one': 0.004, 'ci95_low': -20.72244493514961, 'ci95_high': -2.301983349230727, 'note': 'first-stage residuals fixed; original row lags; circular moving-day blocks if block_days=5'}
+{'model': 'main', 'variant': 'quote_corrected', 'block_days': 1, 'n': 714, 'B': 999, 'q': 0.1, 'target': 'BTC_DOWNSIDE_24_lag1', 'beta': -12.82606424806191, 'p_sign': 0.026026026026026026, 'p_sign_plus_one': 0.028, 'ci95_low': -19.12993874882733, 'ci95_high': -0.8734520747225923, 'note': 'first-stage residuals fixed; original row lags; circular moving-day blocks if block_days=5'}

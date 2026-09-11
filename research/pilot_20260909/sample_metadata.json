@@ -1,0 +1,76 @@
+{
+  "horizon_hours": 6,
+  "base_features": [
+    "basis",
+    "basis_change1",
+    "basis_change6",
+    "basis_mean24",
+    "basis_std24",
+    "cross_coin_dispersion",
+    "btc_ret1",
+    "btc_ret6",
+    "btc_vol24",
+    "btc_downside24",
+    "usdt_range",
+    "hour_sin",
+    "hour_cos",
+    "weekend",
+    "venue_volume_ratio",
+    "usdt_volume_surprise"
+  ],
+  "full_features": [
+    "basis",
+    "basis_change1",
+    "basis_change6",
+    "basis_mean24",
+    "basis_std24",
+    "cross_coin_dispersion",
+    "btc_ret1",
+    "btc_ret6",
+    "btc_vol24",
+    "btc_downside24",
+    "usdt_range",
+    "hour_sin",
+    "hour_cos",
+    "weekend",
+    "venue_volume_ratio",
+    "usdt_volume_surprise",
+    "account_ls",
+    "top_position_ls",
+    "account_ls_change6",
+    "oi_change1",
+    "oi_change6",
+    "taker_1h"
+  ],
+  "splits": {
+    "train": {
+      "n": 3528,
+      "start": "2025-06-03 16:00:00+00:00",
+      "end": "2025-10-31 17:00:00+00:00",
+      "target_end": "2025-10-31 23:00:00+00:00",
+      "days": 150
+    },
+    "validation": {
+      "n": 1455,
+      "start": "2025-11-01 00:00:00+00:00",
+      "end": "2025-12-31 17:00:00+00:00",
+      "target_end": "2025-12-31 23:00:00+00:00",
+      "days": 61
+    },
+    "refit": {
+      "n": 4989,
+      "start": "2025-06-03 16:00:00+00:00",
+      "end": "2025-12-31 17:00:00+00:00",
+      "target_end": "2025-12-31 23:00:00+00:00",
+      "days": 211
+    },
+    "test": {
+      "n": 1837,
+      "start": "2026-01-01 22:00:00+00:00",
+      "end": "2026-03-19 10:00:00+00:00",
+      "target_end": "2026-03-19 16:00:00+00:00",
+      "days": 78
+    }
+  },
+  "limitations": "exploratory design after full-period descriptive analysis; not independent external validation; quote-basis target differs from submitted OLS residual"
+}

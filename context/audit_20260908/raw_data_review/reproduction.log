@@ -1,0 +1,290 @@
+REPLAY CELL 2
+REPLAY CELL 3
+REPLAY CELL 4
+REPLAY CELL 5
+REPLAY CELL 6
+REPLAY CELL 7
+REPLAY CELL 8
+REPLAY CELL 9
+REPLAY CELL 10
+REPLAY CELL 11
+REPLAY CELL 26
+REPLAY CELL 27
+                            USDKRW  VIX  SPY     DXY   XAUUSD
+datetime                                                     
+2025-06-01 18:00:00+00:00      NaN  NaN  NaN  99.340  3313.04
+2025-06-01 19:00:00+00:00      NaN  NaN  NaN  99.215  3310.01
+2025-06-01 20:00:00+00:00  1377.81  NaN  NaN  99.123  3311.67
+2025-06-01 21:00:00+00:00  1378.93  NaN  NaN  99.236  3303.48
+2025-06-01 22:00:00+00:00  1378.50  NaN  NaN  99.303  3307.23
+['USDKRW', 'VIX', 'SPY', 'DXY', 'XAUUSD']
+(6983, 5)
+baseline shape: (719, 5)
+robust shape  : (920, 10)
+REPLAY CELL 35
+CSV 저장 완료
+REPLAY CELL 50
+binance: (6983, 30)
+upbit  : (6983, 30)
+exog   : (719, 5)
+REPLAY CELL 51
+REPLAY CELL 52
+(6983, 12)
+                           BTC_BINANCE_CLOSE  ...  USDT_UPBIT_CLOSE
+datetime_utc                                  ...                  
+2025-06-01 18:00:00+00:00          104900.01  ...            1413.5
+2025-06-01 19:00:00+00:00          105121.94  ...            1411.0
+2025-06-01 20:00:00+00:00          104948.91  ...            1411.0
+2025-06-01 21:00:00+00:00          105496.54  ...            1410.5
+2025-06-01 22:00:00+00:00          105512.18  ...            1412.0
+
+[5 rows x 12 columns]
+REPLAY CELL 54
+(6983, 13)
+                           USDKRW
+datetime_utc                     
+2025-06-01 18:00:00+00:00     NaN
+2025-06-01 19:00:00+00:00     NaN
+2025-06-01 20:00:00+00:00     NaN
+2025-06-01 21:00:00+00:00     NaN
+2025-06-01 22:00:00+00:00     NaN
+
+USDKRW NaN count: 6264
+REPLAY CELL 55
+REPLAY CELL 56
+
+Head:
+                           BTC_KP  ETH_KP  ...  MKT_KP_EQ  RESIDUAL_RAW
+datetime_utc                               ...                         
+2025-06-01 18:00:00+00:00     NaN     NaN  ...        NaN           NaN
+2025-06-01 19:00:00+00:00     NaN     NaN  ...        NaN           NaN
+2025-06-01 20:00:00+00:00     NaN     NaN  ...        NaN           NaN
+2025-06-01 21:00:00+00:00     NaN     NaN  ...        NaN           NaN
+2025-06-01 22:00:00+00:00     NaN     NaN  ...        NaN           NaN
+
+[5 rows x 8 columns]
+
+NaN counts:
+BTC_KP          6264
+ETH_KP          6264
+XRP_KP          6264
+SOL_KP          6264
+DOGE_KP         6264
+USDT_KP         6264
+MKT_KP_EQ       6264
+RESIDUAL_RAW    6264
+dtype: int64
+
+Summary stats:
+           BTC_KP      ETH_KP      XRP_KP  ...     USDT_KP   MKT_KP_EQ  RESIDUAL_RAW
+count  719.000000  719.000000  719.000000  ...  719.000000  719.000000    719.000000
+mean     0.010381    0.010289    0.010341  ...    0.010407    0.010382      0.000025
+std      0.017814    0.017822    0.017671  ...    0.017635    0.017802      0.000972
+min     -0.022618   -0.022414   -0.023345  ...   -0.022704   -0.022695     -0.005381
+25%     -0.000210   -0.000312   -0.000463  ...   -0.000017   -0.000438     -0.000495
+50%      0.009487    0.009794    0.009556  ...    0.009743    0.009624      0.000143
+75%      0.018310    0.018111    0.018205  ...    0.017852    0.018220      0.000659
+max      0.082502    0.082924    0.080986  ...    0.081208    0.082352      0.002410
+
+[8 rows x 8 columns]
+REPLAY CELL 58
+REPLAY CELL 59
+저장 완료: crypto_kp_panel_baseline.csv
+REPLAY CELL 61
+(6983, 33)
+                           BTC_BINANCE_CLOSE  ETH_BINANCE_CLOSE  ...  DXY  XAUUSD
+datetime_utc                                                     ...             
+2025-06-01 18:00:00+00:00          104900.01            2520.20  ...  NaN     NaN
+2025-06-01 19:00:00+00:00          105121.94            2526.38  ...  NaN     NaN
+2025-06-01 20:00:00+00:00          104948.91            2525.70  ...  NaN     NaN
+2025-06-01 21:00:00+00:00          105496.54            2539.40  ...  NaN     NaN
+2025-06-01 22:00:00+00:00          105512.18            2535.28  ...  NaN     NaN
+
+[5 rows x 33 columns]
+USDKRW    6264
+VIX       6264
+SPY       6264
+DXY       6264
+XAUUSD    6264
+dtype: int64
+최종 저장 완료: final_dataset_baseline.csv
+REPLAY CELL 64
+final_df shape: (6983, 33)
+                           BTC_BINANCE_CLOSE  ETH_BINANCE_CLOSE  ...  DXY  XAUUSD
+datetime_utc                                                     ...             
+2025-06-01 18:00:00+00:00          104900.01            2520.20  ...  NaN     NaN
+2025-06-01 19:00:00+00:00          105121.94            2526.38  ...  NaN     NaN
+2025-06-01 20:00:00+00:00          104948.91            2525.70  ...  NaN     NaN
+2025-06-01 21:00:00+00:00          105496.54            2539.40  ...  NaN     NaN
+2025-06-01 22:00:00+00:00          105512.18            2535.28  ...  NaN     NaN
+
+[5 rows x 33 columns]
+baseline_df shape: (719, 33)
+                             VIX      SPY  ...   DXY_ret  XAUUSD_ret
+datetime_utc                               ...                      
+2025-06-02 09:00:00+00:00  19.45  588.590  ...       NaN         NaN
+2025-06-02 10:00:00+00:00  18.97  588.550  ...  0.000638    0.001221
+2025-06-02 11:00:00+00:00  18.94  589.390  ...  0.001033   -0.000412
+2025-06-02 12:00:00+00:00  18.92  589.840  ...  0.000566   -0.000851
+2025-06-03 09:00:00+00:00  18.32  593.835  ...  0.002777   -0.007708
+
+[5 rows x 8 columns]
+REPLAY CELL 66
+reg_df shape: (718, 10)
+                             BTC_KP    ETH_KP  ...   DXY_ret  XAUUSD_ret
+datetime_utc                                   ...                      
+2025-06-02 10:00:00+00:00  0.022679  0.022106  ...  0.000638    0.001221
+2025-06-02 11:00:00+00:00  0.022892  0.022224  ...  0.001033   -0.000412
+2025-06-02 12:00:00+00:00  0.020342  0.019509  ...  0.000566   -0.000851
+2025-06-03 09:00:00+00:00  0.015298  0.014369  ...  0.002777   -0.007708
+2025-06-03 10:00:00+00:00  0.015599  0.015537  ...  0.000544    0.000161
+
+[5 rows x 10 columns]
+REPLAY CELL 67
+저장 완료
+1) final_dataset_baseline_with_returns.csv
+2) baseline_dataset_clean.csv
+3) regression_dataset_baseline.csv
+REPLAY CELL 73
+baseline_df: (719, 37)
+binance    : (6983, 30)
+upbit      : (6983, 30)
+REPLAY CELL 74
+
+Micro variables head:
+                            BTC_RET  ...  USDT_VOL_RATIO_LOG
+datetime_utc                         ...                    
+2025-06-02 09:00:00+00:00 -0.007080  ...            2.192131
+2025-06-02 10:00:00+00:00 -0.002053  ...            2.898081
+2025-06-02 11:00:00+00:00 -0.003102  ...            2.977325
+2025-06-02 12:00:00+00:00  0.001466  ...            3.559781
+2025-06-03 09:00:00+00:00  0.000981  ...            2.386400
+
+[5 rows x 20 columns]
+
+NaN counts in micro:
+BTC_RET               0
+BTC_VOL_24            4
+BTC_RET_POS           0
+BTC_RET_NEG           0
+BTC_RET_ABS           0
+BTC_DOWNSIDE_24       4
+BTC_BIG_UP            0
+BTC_BIG_DOWN          0
+BTC_VOL_RATIO         0
+BTC_VOL_RATIO_LOG     0
+ETH_VOL_RATIO         0
+ETH_VOL_RATIO_LOG     0
+XRP_VOL_RATIO         0
+XRP_VOL_RATIO_LOG     0
+SOL_VOL_RATIO         0
+SOL_VOL_RATIO_LOG     0
+DOGE_VOL_RATIO        0
+DOGE_VOL_RATIO_LOG    0
+USDT_VOL_RATIO        0
+USDT_VOL_RATIO_LOG    0
+dtype: int64
+
+Merged shape: (719, 58)
+                           BTC_BINANCE_CLOSE  ...  USDT_VOL_RATIO_LOG
+datetime_utc                                  ...                    
+2025-06-02 09:00:00+00:00          104585.36  ...            2.192131
+2025-06-02 10:00:00+00:00          104370.85  ...            2.898081
+2025-06-02 11:00:00+00:00          104047.64  ...            2.977325
+2025-06-02 12:00:00+00:00          104200.32  ...            3.559781
+2025-06-03 09:00:00+00:00          105198.11  ...            2.386400
+
+[5 rows x 58 columns]
+REPLAY CELL 77
+
+Missing columns in reg_cols_kp: []
+
+reg_kp_df shape: (715, 26)
+                            USDT_KP  ...  USDT_VOL_RATIO_LOG
+datetime_utc                         ...                    
+2025-06-03 09:00:00+00:00  0.014801  ...            2.386400
+2025-06-03 10:00:00+00:00  0.015364  ...            2.651287
+2025-06-03 11:00:00+00:00  0.014405  ...            2.879421
+2025-06-03 12:00:00+00:00  0.014606  ...            3.771512
+2025-06-04 09:00:00+00:00  0.017073  ...            2.175561
+
+[5 rows x 26 columns]
+
+Missing columns in reg_cols_resid: []
+
+reg_resid_df shape: (715, 22)
+                           RESIDUAL_RAW  ...  USDT_VOL_RATIO_LOG
+datetime_utc                             ...                    
+2025-06-03 09:00:00+00:00     -0.000078  ...            2.386400
+2025-06-03 10:00:00+00:00     -0.000185  ...            2.651287
+2025-06-03 11:00:00+00:00      0.000235  ...            2.879421
+2025-06-03 12:00:00+00:00     -0.000059  ...            3.771512
+2025-06-04 09:00:00+00:00      0.000849  ...            2.175561
+
+[5 rows x 22 columns]
+
+저장 완료
+1) baseline_dataset_with_micro.csv
+2) regression_dataset_kp.csv
+3) regression_dataset_residual.csv
+REPLAY CELL 227
+df_emp shape: (714, 67)
+sample: 2025-06-03 10:00:00+00:00 ~ 2026-03-19 12:00:00+00:00
+
+Step 1: USDT_KP ~ MKT_KP_EQ
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                USDT_KP   R-squared:                       0.997
+Model:                            OLS   Adj. R-squared:                  0.997
+Method:                 Least Squares   F-statistic:                 1.002e+05
+Date:                Tue, 08 Sep 2026   Prob (F-statistic):               0.00
+Time:                        17:33:49   Log-Likelihood:                 3958.3
+No. Observations:                 715   AIC:                            -7913.
+Df Residuals:                     713   BIC:                            -7903.
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0001   5.82e-05      2.364      0.018    2.35e-05       0.000
+MKT_KP_EQ      0.9892      0.003    316.586      0.000       0.983       0.995
+==============================================================================
+Omnibus:                      110.919   Durbin-Watson:                   1.073
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              224.629
+Skew:                          -0.888   Prob(JB):                     1.67e-49
+Kurtosis:                       5.094   Cond. No.                         56.1
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 5 lags and without small sample correction
+
+Step 2: RESIDUAL_OLS ~ DEPEG_GLOBAL
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           RESIDUAL_OLS   R-squared:                       0.025
+Model:                            OLS   Adj. R-squared:                  0.023
+Method:                 Least Squares   F-statistic:                     4.101
+Date:                Tue, 08 Sep 2026   Prob (F-statistic):             0.0432
+Time:                        17:33:49   Log-Likelihood:                 3967.2
+No. Observations:                 715   AIC:                            -7930.
+Df Residuals:                     713   BIC:                            -7921.
+Df Model:                           1                                         
+Covariance Type:                  HAC                                         
+================================================================================
+                   coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.0002   9.78e-05      1.904      0.057   -5.46e-06       0.000
+DEPEG_GLOBAL    -0.4964      0.245     -2.025      0.043      -0.977      -0.016
+==============================================================================
+Omnibus:                      113.130   Durbin-Watson:                   1.104
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              259.716
+Skew:                          -0.858   Prob(JB):                     4.01e-57
+Kurtosis:                       5.402   Cond. No.                     3.31e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 5 lags and without small sample correction
+[2] The condition number is large, 3.31e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Saved: baseline_dataset_with_residual_final.csv

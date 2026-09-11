@@ -1,0 +1,5 @@
+name,proposal,reference,clean_loss_ratio,clean_ratio_upper95,worst_loss_ratio,sensitivity_ratio,width_ratio,coverage_error_increase,p_holm_19,clean_noninferior_2pct,worst_reduction_10pct,sensitivity_reduction_10pct,width_increase_le5pct,coverage_error_increase_le1pp,all_gates_pass
+tcn_tick_max_vs_clean,tcn_tick_max_ensemble_cal,tcn_clean_ensemble_cal,0.9986335188174733,1.0004042305386291,0.9701247922790044,0.2619550512746277,0.9980944860821226,0.0011025358324145973,0.0095,True,False,True,True,True,False
+tcn_tick_max_vs_qr,tcn_tick_max_ensemble_cal,exact_qr_cal,1.0101823785258435,1.0179597258234867,0.9536878084762659,0.14609999508420538,1.0076845602406455,-0.0005512679162072986,0.0095,True,False,True,True,True,False
+gru_tick_max_vs_clean,gru_tick_max_ensemble_cal,gru_clean_ensemble_cal,1.000299681128351,1.0020676747855792,0.9700928322003068,0.22186421220224475,0.9955663466532028,0.00033076074972426817,0.0095,True,False,True,True,True,False
+gru_tick_max_vs_qr,gru_tick_max_ensemble_cal,exact_qr_cal,0.9985054597324753,1.004417293978736,0.9417718335632553,0.12461474734204062,0.9932869363916482,-0.0013230429988976278,0.0095,True,False,True,True,True,False

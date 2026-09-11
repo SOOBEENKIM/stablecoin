@@ -1,0 +1,6 @@
+research/option1_factorial_20260910/evaluated_predictions.npz filter=lfs diff=lfs merge=lfs -text
+research/option1_model_followup_20260910/evaluated_predictions.npz filter=lfs diff=lfs merge=lfs -text
+
+# Exact historical hashes include line endings. Do not normalize the archive.
+research/** -text
+context/** -text

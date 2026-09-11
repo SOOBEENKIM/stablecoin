@@ -1,0 +1,23 @@
+{
+  "stage": "latest-checkpoints",
+  "status": "passed",
+  "steps": [
+    {
+      "directory": "option1_factorial_20260910",
+      "script": "verify_checkpoints.py",
+      "runtime": "neural",
+      "returncode": 0,
+      "log": "option1_factorial_20260910-verify_checkpoints.py.log"
+    },
+    {
+      "directory": "option1_factorial_20260910",
+      "script": "verify.py",
+      "runtime": "analysis",
+      "returncode": 0,
+      "log": "option1_factorial_20260910-verify.py.log"
+    }
+  ],
+  "archive_unchanged": true,
+  "python": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+  "neural_image": "stablecoin-neural:2.9.1"
+}

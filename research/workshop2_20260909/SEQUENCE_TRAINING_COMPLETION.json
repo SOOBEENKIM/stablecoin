@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "elapsed_sec": 120.27431774139404,
+  "fits": 45,
+  "freeze_checks": {
+    "SEQUENCE_PROTOCOL_KO.md": true,
+    "prepare_sequences.py": true,
+    "train_sequences.py": true,
+    "sequence_data.npz": true
+  }
+}

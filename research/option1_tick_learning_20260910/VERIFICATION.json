@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checks": [
+    "Exact six-hour target clock and ordered origins",
+    "Raw prices reproduce 24-hour windows and all future targets",
+    "Observed prices lie on official grid; all 30 scenarios legal; magnitude-matched controls and recomputed features",
+    "72 fits, matching targets and origins, all training target timestamps before test",
+    "All 52 model-stage metrics independently reproduced from saved predictions",
+    "All 26 calibrators use strictly observed past targets and identical offsets for all scenarios; ensemble first",
+    "Four-comparison Holm adjustment and all frozen success gates independently recomputed",
+    "Raw files, training code, protocol and 260 earlier artifacts unchanged; all checkpoint replay checks passed"
+  ],
+  "max_augmentation_error_bp": 7.605287862588739e-06,
+  "max_control_budget_error_bp": 1.52587890625e-05,
+  "max_metric_storage_error": 1.2482059830176695e-07,
+  "code_sha256": "9555502c8254dd81723963c5394a8ac09d68e23e2e425c23f98a6decfd415f38",
+  "checks_count": 8
+}

@@ -1,0 +1,16 @@
+{
+  "torch": "2.9.1+cpu",
+  "numpy": "2.3.0",
+  "hashes": {
+    "SEQUENCE_PROTOCOL_KO.md": "a201f1f812456e86a8ff61f1e09c1e3f1f4d9375210282f86f9fc9a58b05aa79",
+    "prepare_sequences.py": "197b810c2d7fbcc857940fffa41221de55ddf589284b71be4fe4fe350ec15791",
+    "train_sequences.py": "7777de09da8c51c6cfcab3cbc3a62cb6e8c4e00d425c13f2e5cdb959f0b8f1c5",
+    "sequence_data.npz": "2ade7a0a369c6690c846251347d95e07bb2cb824808144668f999e3939cf651d"
+  },
+  "seeds": [
+    20260909,
+    20260910,
+    20260911
+  ],
+  "device": "cpu"
+}

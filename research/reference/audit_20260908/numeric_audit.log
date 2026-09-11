@@ -1,0 +1,137 @@
+{
+  "rebuild": {
+    "step1_r2": 0.9970805782372263,
+    "step1_beta": 0.9892085070564012,
+    "step2_r2": 0.02467725372676688,
+    "rebuild_max_dev": 1.1340754724198376e-16,
+    "downside_thr": 2.4554770321072723e-05
+  },
+  "n": 715,
+  "python": "3.8.10",
+  "table1_cells": 120,
+  "table1_mismatches": [
+    {
+      "variable": "BTC_DOWNSIDE_24",
+      "stat": "skew",
+      "submitted": "4.90",
+      "recomputed": 4.894514736426965,
+      "matches_rounding": 0.0
+    }
+  ],
+  "horizons": [
+    {
+      "h": 1,
+      "n": 714,
+      "min_hours": 1.0,
+      "median_hours": 1.0,
+      "max_hours": 94.0,
+      "exact_h_hours": 515,
+      "shock_to_outcome_median": 22.0
+    },
+    {
+      "h": 2,
+      "n": 713,
+      "min_hours": 2.0,
+      "median_hours": 22.0,
+      "max_hours": 95.0,
+      "exact_h_hours": 315,
+      "shock_to_outcome_median": 23.0
+    },
+    {
+      "h": 3,
+      "n": 712,
+      "min_hours": 3.0,
+      "median_hours": 23.0,
+      "max_hours": 96.0,
+      "exact_h_hours": 115,
+      "shock_to_outcome_median": 24.0
+    },
+    {
+      "h": 6,
+      "n": 709,
+      "min_hours": 26.0,
+      "median_hours": 48.0,
+      "max_hours": 120.0,
+      "exact_h_hours": 0,
+      "shock_to_outcome_median": 49.0
+    },
+    {
+      "h": 12,
+      "n": 703,
+      "min_hours": 72.0,
+      "median_hours": 120.0,
+      "max_hours": 168.0,
+      "exact_h_hours": 0,
+      "shock_to_outcome_median": 122.0
+    }
+  ],
+  "hours_utc": {
+    "9": 200,
+    "10": 200,
+    "11": 200,
+    "12": 115
+  },
+  "n_days": 200,
+  "daily_counts": {
+    "4": 115,
+    "3": 85
+  },
+  "lag_gap_counts": {
+    "1.0": 515,
+    "21.0": 90,
+    "22.0": 64,
+    "69.0": 21,
+    "70.0": 16,
+    "46.0": 3,
+    "93.0": 2,
+    "94.0": 2,
+    "45.0": 1
+  },
+  "return_rebuild_errors": {
+    "DXY": 9.974659986866641e-17,
+    "USDKRW": 9.985502008591496e-17,
+    "VIX": 9.8879238130678e-17
+  },
+  "lag_rebuild_errors": {
+    "BTC_DOWNSIDE_24": 0.0,
+    "ACCOUNT_LS": 0.0,
+    "TOPTRADER_ACCOUNT_LS": 0.0
+  },
+  "residual_checks": {
+    "stored_usdt_kp_formula_error": 9.8879238130678e-17,
+    "depeg_formula_error": 0.0,
+    "pair_price_min": 0.9991,
+    "pair_price_max": 1.0016,
+    "usdt_kp_quote_correction_max_bp": 32.100354590004365,
+    "currency_corrected_residual_std_bp": 8.182390528087879,
+    "currency_corrected_residual_corr": 0.8679120900539804,
+    "currency_corrected_residual_difference_max_bp": 11.189995608693625,
+    "sequential_residual_corr_market": 0.029304219132370884,
+    "sequential_vs_joint_residual_max_bp": 1.2030119712484386,
+    "market_depeg_corr": 0.18422811838811226,
+    "downside_vol_corr": 0.8305520137528392
+  },
+  "daily_mean_lag1_autocorrelation": {
+    "RESIDUAL_FINAL": 0.48966682959070595,
+    "BTC_DOWNSIDE_24": 0.27421563540616156,
+    "ACCOUNT_LS": 0.865202683609966
+  }
+}
+                  model    q   n               target  archived_algorithm   exact_lp  statsmodels_scaled  loss_original  loss_exact  relative_loss_gap  standardized
+                   main 0.10 714 BTC_DOWNSIDE_24_lag1           -6.779103  -6.779239           -6.779230       0.110912    0.110912       1.059249e-06         False
+                   main 0.25 714 BTC_DOWNSIDE_24_lag1          -11.453036 -11.462280          -11.462255       0.192922    0.192922       4.495049e-07         False
+                   main 0.50 714 BTC_DOWNSIDE_24_lag1           -9.276945  -9.276768           -9.276770       0.229470    0.229470       2.172685e-07         False
+                   main 0.75 714 BTC_DOWNSIDE_24_lag1           -5.531164  -5.537697           -5.537635       0.178464    0.178464       2.125023e-07         False
+                   main 0.90 714 BTC_DOWNSIDE_24_lag1           -4.248639  -4.248455           -4.248457       0.096169    0.096169       1.003561e-06         False
+                     M2 0.10 714 BTC_DOWNSIDE_24_lag1            0.121353   0.117349            0.117349     112.224260  112.216802       6.645708e-05          True
+                     M2 0.10 714      BTC_VOL_24_lag1           -0.274974  -0.275169           -0.275169     112.224260  112.216802       6.645708e-05          True
+                     M2 0.10 714      ACCOUNT_LS_lag1           -0.156813  -0.150522           -0.150522     112.224260  112.216802       6.645708e-05          True
+                     M2 0.25 714 BTC_DOWNSIDE_24_lag1           -0.019359  -0.019494           -0.019495     198.665954  198.664629       6.669751e-06          True
+                     M2 0.25 714      BTC_VOL_24_lag1           -0.129249  -0.128461           -0.128460     198.665954  198.664629       6.669751e-06          True
+                     M2 0.25 714      ACCOUNT_LS_lag1           -0.160142  -0.160125           -0.160124     198.665954  198.664629       6.669751e-06          True
+                     M2 0.50 714 BTC_DOWNSIDE_24_lag1           -0.084053  -0.088072           -0.088072     241.328652  241.328093       2.316087e-06          True
+                     M2 0.50 714      BTC_VOL_24_lag1           -0.051550  -0.052974           -0.052974     241.328652  241.328093       2.316087e-06          True
+                     M2 0.50 714      ACCOUNT_LS_lag1           -0.105863  -0.101679           -0.101680     241.328652  241.328093       2.316087e-06          True
+currency_corrected_main 0.10 714 BTC_DOWNSIDE_24_lag1          -12.099856 -12.826064          -12.826045       0.102795    0.102794       1.336147e-05         False
+currency_corrected_main 0.50 714 BTC_DOWNSIDE_24_lag1           -0.799588  -0.778273           -0.778257       0.212755    0.212755       7.299893e-07         False
+  currency_corrected_M2 0.10 714      ACCOUNT_LS_lag1            0.032811   0.032811            0.032811     121.702176  121.702176       1.213829e-09          True

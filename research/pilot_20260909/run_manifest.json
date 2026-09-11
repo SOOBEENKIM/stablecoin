@@ -1,0 +1,13 @@
+{
+  "started_utc": "2026-09-09 07:33:40.890276+00:00",
+  "input_sha256": {
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/binance_1h_2025-06-01_2026-03-19.csv": "f32e54fadbedfb38a9514ecb4682bc2bc2e2eb418b314f672af7f783b61af3d0",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/data/raw data/upbit_1h_2025-06-01_2026-03-19.csv": "c0ea17c465872dafc4e641c5486fe4edd15b7abdc064ed587869882b78ad1efe",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/corrected_outputs/binance_btcusdt_data_vision_metrics.csv": "726610d41d74c0ae4ef612e2c4af58166dd302b8abe6fd47294a148f82acc138",
+    "/home/ssd-990/soobeenkim/stablecoin_workshop/pilot_20260909/PROTOCOL_KO.md": "e1992ffa370447b1e8cda981651998eb7098066f10cb79b7f30dd8628530db8b"
+  },
+  "numpy": "1.23.5",
+  "pandas": "2.0.3",
+  "scipy": "1.10.1",
+  "sklearn": "1.3.2"
+}
