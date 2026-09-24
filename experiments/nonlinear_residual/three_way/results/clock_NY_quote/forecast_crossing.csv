@@ -1,0 +1,17 @@
+method,info,algorithm,n,crossing_rate
+linear,without_positioning,linear_qr,577,0.0
+linear,without_positioning,quantile_lightgbm,577,0.0
+linear,with_positioning,linear_qr,577,0.0
+linear,with_positioning,quantile_lightgbm,577,0.0
+pca,without_positioning,linear_qr,577,0.0
+pca,without_positioning,quantile_lightgbm,577,0.0
+pca,with_positioning,linear_qr,577,0.0
+pca,with_positioning,quantile_lightgbm,577,0.0
+ml,without_positioning,linear_qr,577,0.0
+ml,without_positioning,quantile_lightgbm,577,0.0
+ml,with_positioning,linear_qr,577,0.0
+ml,with_positioning,quantile_lightgbm,577,0.0
+joint_linear,without_positioning,linear_qr,577,0.0
+joint_linear,without_positioning,quantile_lightgbm,577,0.0
+joint_linear,with_positioning,linear_qr,577,0.0
+joint_linear,with_positioning,quantile_lightgbm,577,0.0

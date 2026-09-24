@@ -1,0 +1,413 @@
+{
+  "stage": "three-way downstream associations, horizon checks and forecasting completed",
+  "publication_ready": false,
+  "timestamp_utc": "2026-09-24T10:27:09.338453+00:00",
+  "source_commit": "f494a3805e0bae8ac750b605ed18dc8a6f54e1ec",
+  "input_sha256": {
+    "research/data/raw data/binance_1h_2025-06-01_2026-03-19.csv": "f32e54fadbedfb38a9514ecb4682bc2bc2e2eb418b314f672af7f783b61af3d0",
+    "research/data/raw data/upbit_1h_2025-06-01_2026-03-19.csv": "c0ea17c465872dafc4e641c5486fe4edd15b7abdc064ed587869882b78ad1efe",
+    "research/data/raw data/USDKRW.csv": "781044d8ceaca50dd2b175681295e9c603cfdfb451058e5a360c1de13dcc6c59",
+    "research/data/raw data/DXY.csv": "31603a17ddc38908580d1472c2157dcc3b092eaeed074288b16545a23baa24c4",
+    "research/data/raw data/VIXY.csv": "80b8e7f03cf4212abfa615badd2887e68e11a7f5095128d13cea0e30cfc8cc12",
+    "research/corrected_outputs/binance_btcusdt_data_vision_metrics.csv": "726610d41d74c0ae4ef612e2c4af58166dd302b8abe6fd47294a148f82acc138",
+    "research/reanalysis_20260909/recalculate.py": "59234f1b9eec44276596c1af8e40056bc0faa2f021f8f09c02ade60e36de096b",
+    "experiments/nonlinear_residual/PROTOCOL_KO.md": "df107b2a9f245cfe12a88b0258488e01816ec6baa976abccb1ea3cdaf765435e",
+    "experiments/nonlinear_residual/run_pilot.py": "56b4cb0935e77f205e1180331217aaa8604d5f16ea7843d28b7d760f794e82e0",
+    "experiments/nonlinear_residual/three_way/forecast.py": "211e43845e7f480646e3e4e99d7d02c3446e590e49a70340297b676094d98ba6",
+    "experiments/nonlinear_residual/three_way/pipeline.py": "2307c7d1bc1bbc41df230a3a8384896e9c8d559e6381a99db587178bca9b3668",
+    "experiments/nonlinear_residual/three_way/check_guards.py": "9d25a6ffd7465f63ae8bec1b5b63da66c86f584266385811b98fed9b5e897f9c",
+    "experiments/nonlinear_residual/three_way/run_followup.py": "5b64812e7b87b0168ade56da9b7adea829908a8cb752238d70810a505cb5d0c8",
+    "experiments/nonlinear_residual/three_way/PROTOCOL_KO.md": "0074a55b0b651c1492d453bf9c86fb3dcf7c9f9fefc8a3ad56857f3889049301",
+    "experiments/nonlinear_residual/expanded/run_expanded.py": "36bc70a768a9101acdf4517fb645ccd1501ebf3c399d9e43c52f802abb74c204"
+  },
+  "output_sha256": {
+    "forecast_crossing.csv": "4f56aa2565796e39b6eefdb8b8118525deabf67f88d8bf8e65217d0d000daff4",
+    "coefficients.csv": "3102973f68502a7f1673abff8c9dbe39690d5cc62f247a8fcabdd361ee514906",
+    "subperiod_and_stress.csv": "f79886d8bd96bb74979103abe7ca58d30e95d77c405620abe2c06cb3a9ebefc0",
+    "coefficient_intervals.csv": "3867ba893352053451a525aed5484cbc7552abcb4637ef6c8f34b59ec0dfcbff",
+    "forecast_comparisons.csv": "bc2eb61e8ae22dbd0559ae5f2046fefc70c7acc85c950290635e5dfd9b5d56ae",
+    "paired_coefficient_contrasts.csv": "c11bfa26359355b2afaa53e2d91e0f82fddda62e28f862679f5a4f39cb10a182",
+    "sample_counts.csv": "3a807446e68e7fd50977f6b9a33c3c6fb912318aef46360aeab79f01eeee6553",
+    "forecast_scores.csv": "685b8c0ff3310d841c73324d0b584b71057273a3bb91cae5f55943e51394841f",
+    "clock_NY_macro_end1h_quote/forecast_crossing.csv": "7aa6ac243122497362c8693361d6d4be9a72a926458fc2f5b364e3fc2a997c9b",
+    "clock_NY_macro_end1h_quote/coefficients.csv": "c3380645311d8781e69e43dcd44df53445508a8b0377bf8f78c4516d9300a9d0",
+    "clock_NY_macro_end1h_quote/forecast_selection.json": "4e2ef3d26d824ea2de29093727ccebcd57d88ac54a50a8ba6f49a603f0d7a896",
+    "clock_NY_macro_end1h_quote/subperiod_and_stress.csv": "72acf8e782555339a8e9c1a5d6a5fc16ec4f8178ae5790f9763dd01b271f3525",
+    "clock_NY_macro_end1h_quote/residual_validation.csv": "b8db493ba743dc44f9331db5cf93f89438ef38325d71903229232f56e0ffd55a",
+    "clock_NY_macro_end1h_quote/residual_fits.json": "8e85102ebf57dfdc21f62bd54745176bd787222fa204c82b35327caef7e9bf8d",
+    "clock_NY_macro_end1h_quote/forecast_predictions.csv.gz": "d80e1c9469d9bcaea632aeb1b70eefe016e67910f424f8ea3dd3607c7ae08bba",
+    "clock_NY_macro_end1h_quote/forecast_comparisons.csv": "11deacbf3accd547fcb4cf889404aa5da31eb90cbd3afc26355f06171e5f3d25",
+    "clock_NY_macro_end1h_quote/bootstrap_draws_d7.csv.gz": "fd4011ff193eb468a338420cf37dbe2a552fe97a82fb612de02380031d9a5df3",
+    "clock_NY_macro_end1h_quote/bootstrap_failures_d7.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "clock_NY_macro_end1h_quote/residual_pairs.csv.gz": "724426b503e1b8a7ba6c7e46442077a6ffac83df95d84b270c493c623e7f1026",
+    "clock_NY_macro_end1h_quote/residual_selection.json": "ce7c13d86c44e57282fed68e992327f33c616bbff2a0cfc19b5e2344cb76e1fd",
+    "clock_NY_macro_end1h_quote/bootstrap_draws_d3.csv.gz": "5901fdc83a6798d3753c535364dacd4d05db3296dd9f426c70221dc411166492",
+    "clock_NY_macro_end1h_quote/bootstrap_failures_d3.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "clock_NY_macro_end1h_quote/sample_counts.csv": "583266856bedd55c6a221ff20bd770079a93ec8a715eea9987f83244e519d9cc",
+    "clock_NY_macro_end1h_quote/forecast_scores.csv": "5028637f96613dd6ce6145546f2fdfd66f32098dd600a91d2277adfe27ad457d",
+    "clock_NY_macro_end1h_quote/forecast_validation.csv": "6a24b261ef78b27972a9927e083f10fdd79dc0aa7e88bfc882f7d884debeed0b",
+    "clock_FXUTC_USNY_quote/forecast_crossing.csv": "b0b233243955e910ea9bde21a41c85a2b7b607b2f355f1f6555d76c38cf14a28",
+    "clock_FXUTC_USNY_quote/coefficients.csv": "5c076090c63d3f21ca88787d195d03fe4f9e078e91fa5c25fd9477f9c8e0697d",
+    "clock_FXUTC_USNY_quote/forecast_selection.json": "8108bd5250e5e30d8731c88156d863d83d1ae8d5ae3e64240691724e63a4c6ae",
+    "clock_FXUTC_USNY_quote/subperiod_and_stress.csv": "ef1fbed3bf5118c9e6e2051a259ac74d30878504a07e39bfef876125c7ee899a",
+    "clock_FXUTC_USNY_quote/residual_validation.csv": "586fb579f5ad1da1204821f1a4f9cc0a32f044f3fcc5e8ced6978cbcddf477b4",
+    "clock_FXUTC_USNY_quote/residual_fits.json": "d94b5f7b6723aace80dc58c6d3773faa2dab88caeb76d031deb116a91e6043c0",
+    "clock_FXUTC_USNY_quote/forecast_predictions.csv.gz": "ad4c73ac90c3a260c2406f8b5b1607da1acab02abcb0964c0a2f343d6757cbbc",
+    "clock_FXUTC_USNY_quote/forecast_comparisons.csv": "49fb2b140ae9e93246442abbfd6b4f145ac9023259b2f8ab11707273d18cd346",
+    "clock_FXUTC_USNY_quote/bootstrap_draws_d7.csv.gz": "3674c756c1f66a4d8ef141259b1a844d9fd539d8047ca521b17433e5e7ff3cce",
+    "clock_FXUTC_USNY_quote/bootstrap_failures_d7.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "clock_FXUTC_USNY_quote/residual_pairs.csv.gz": "68c4446aa04d3147fa1287c14f6bd52487db0666091040f2e0b9d5ea3051094e",
+    "clock_FXUTC_USNY_quote/residual_selection.json": "672e32fcfb46a39361b15c853e631bdeb7480d5601ca6c2ccbb38bdafed30918",
+    "clock_FXUTC_USNY_quote/bootstrap_draws_d3.csv.gz": "d0416080e9c3a3d6f8d55d2e494e76abf35196a172904387771595042835dff0",
+    "clock_FXUTC_USNY_quote/bootstrap_failures_d3.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "clock_FXUTC_USNY_quote/sample_counts.csv": "677c898359421cc27bc1ebef56b1754468f8e3d0592f965b185a6f4801157058",
+    "clock_FXUTC_USNY_quote/forecast_scores.csv": "6d44126b3b8861ed84006fc950a8e687a51f38a404d8c266b310aacd174c2f3b",
+    "clock_FXUTC_USNY_quote/forecast_validation.csv": "159397e3c6c687bfaa865baf0a5addb7fd0ff33e6f0242735625d882971edb42",
+    "clock_FXKST_USNY_quote/forecast_crossing.csv": "b0b233243955e910ea9bde21a41c85a2b7b607b2f355f1f6555d76c38cf14a28",
+    "clock_FXKST_USNY_quote/coefficients.csv": "b822bde8f4ea812891dbcfb3f187da8ddeafc8329e2b7353f936ddbf95d4d5ab",
+    "clock_FXKST_USNY_quote/forecast_selection.json": "5884fba27db7d808ef2802417a94e216a934fe76b5fab0eb70ba1cbfcafa94d3",
+    "clock_FXKST_USNY_quote/subperiod_and_stress.csv": "bead1455333b72a0ea654f1fa88861bfbcc04c4b5f83078fe76aeba584fac2ba",
+    "clock_FXKST_USNY_quote/residual_validation.csv": "bec9c652799b52472eaa01eb25e946fd65e3b9cd6555554aafa580ceff42b669",
+    "clock_FXKST_USNY_quote/residual_fits.json": "9ae4bc21a43802392dc4e95ec708eef9b8314d0c7d063d68a523361995ff738b",
+    "clock_FXKST_USNY_quote/forecast_predictions.csv.gz": "e31866c0a7ad779a5d8aa5032778342cc22a78823dd867d5d42fc7e0ad5270d8",
+    "clock_FXKST_USNY_quote/forecast_comparisons.csv": "80724c66f9f11f4a824b133d2337c80793e4dd0e301f68f293f017c504c26552",
+    "clock_FXKST_USNY_quote/bootstrap_draws_d7.csv.gz": "332f6fd82fe3b215919cf1135002fcfc7e0c16eaed64b46425ec025db60f4666",
+    "clock_FXKST_USNY_quote/bootstrap_failures_d7.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "clock_FXKST_USNY_quote/residual_pairs.csv.gz": "02851c6fe6399dff8a7755e03ac40d5b44e675ba901c276ddc3d6accab559c8d",
+    "clock_FXKST_USNY_quote/residual_selection.json": "a6afcafce30d48228feeed9eb5c5b4823d964d01aa4c2a3a86c51c60f6398b20",
+    "clock_FXKST_USNY_quote/bootstrap_draws_d3.csv.gz": "3b60d4ca538b1fbdcdb0ed2e69bfe4e6c9407143091454cd1e5d65a88f65e0aa",
+    "clock_FXKST_USNY_quote/bootstrap_failures_d3.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "clock_FXKST_USNY_quote/sample_counts.csv": "0485165f90321490602edb26aba15313ec6470eb4c172c4227ed97744ade0dc6",
+    "clock_FXKST_USNY_quote/forecast_scores.csv": "15536c4b6ac9c77eeb0e4eb01d11558f2d1da405b010c614854290df04985694",
+    "clock_FXKST_USNY_quote/forecast_validation.csv": "2855cd25acb6e78f4b5439ead8234695231d9e00d4f67287030e9dc41809dac1",
+    "clock_NY_quote/forecast_crossing.csv": "b0b233243955e910ea9bde21a41c85a2b7b607b2f355f1f6555d76c38cf14a28",
+    "clock_NY_quote/coefficients.csv": "51a4daf381ba4d056dad0fd2e0e6fb7d8ba27674bd0426d2765748eef58ae63c",
+    "clock_NY_quote/forecast_selection.json": "ab237758d3b4984dc888e887ce762c9d8798091b7967887589524ee071e1d325",
+    "clock_NY_quote/subperiod_and_stress.csv": "d538a205abddc7ca718ac17f4dd668d20a8cbc0f3116c5a07437cbd24c43aa2c",
+    "clock_NY_quote/residual_validation.csv": "eb45d13b3243e1a3a51672f0ac16b968f386debbc419044e5047e80ff2263a9b",
+    "clock_NY_quote/residual_fits.json": "bd41579a994889d9d97b93d444a85f81f8826565a0df1a45891fda2f70ba4bea",
+    "clock_NY_quote/forecast_predictions.csv.gz": "7af55136d533ef81af82c11f2bcb4fa5ff8358601c42b5d8fcf813efd82cd10b",
+    "clock_NY_quote/forecast_comparisons.csv": "38bef4cbfed949bd417bdd4dcccada05b7e26be34ff1ef8e0244f54af4d1ded8",
+    "clock_NY_quote/bootstrap_draws_d7.csv.gz": "d9a477452dd3b8a38c1710da35a52007c0bdd89d7cc06287505576521734a807",
+    "clock_NY_quote/bootstrap_failures_d7.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "clock_NY_quote/residual_pairs.csv.gz": "12f6cb03f076f34bce6abeedce77a7c7835f7c440e17d8c7c35cda57a10f192a",
+    "clock_NY_quote/residual_selection.json": "d7e3c85b55e81b93924e9cee7fc38d643d0c10f4b1297c166e0e77157fcfcccc",
+    "clock_NY_quote/bootstrap_draws_d3.csv.gz": "b16cb6d6ad0267119f38c7e50a194c395e3f6d52f8344b6cf975d38e0677350e",
+    "clock_NY_quote/bootstrap_failures_d3.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "clock_NY_quote/sample_counts.csv": "618209f532c55afaa89280901af4e1f101a8d080c2a233ded0a71c73513f439b",
+    "clock_NY_quote/forecast_scores.csv": "1d1ad0aa4259007f54b0be37d267c19bdb4b04b76d2addc98d00720730fe17e0",
+    "clock_NY_quote/forecast_validation.csv": "6071ee95cb3274a1fbc6059709b1784f38894dec121b98627d7a09d70a60f942",
+    "clock_UTC_quote/forecast_crossing.csv": "b0b233243955e910ea9bde21a41c85a2b7b607b2f355f1f6555d76c38cf14a28",
+    "clock_UTC_quote/coefficients.csv": "87547c75f31e879141c5f82d792a4cd63e3a67f1e0d6a5e6116a51edbc6ff029",
+    "clock_UTC_quote/forecast_selection.json": "8108bd5250e5e30d8731c88156d863d83d1ae8d5ae3e64240691724e63a4c6ae",
+    "clock_UTC_quote/subperiod_and_stress.csv": "a18e51cc52c36b9b939af92a7d68810d9c75dbb3533781871d0b7f5152822716",
+    "clock_UTC_quote/residual_validation.csv": "586fb579f5ad1da1204821f1a4f9cc0a32f044f3fcc5e8ced6978cbcddf477b4",
+    "clock_UTC_quote/residual_fits.json": "d94b5f7b6723aace80dc58c6d3773faa2dab88caeb76d031deb116a91e6043c0",
+    "clock_UTC_quote/forecast_predictions.csv.gz": "ad4c73ac90c3a260c2406f8b5b1607da1acab02abcb0964c0a2f343d6757cbbc",
+    "clock_UTC_quote/forecast_comparisons.csv": "49fb2b140ae9e93246442abbfd6b4f145ac9023259b2f8ab11707273d18cd346",
+    "clock_UTC_quote/bootstrap_draws_d7.csv.gz": "6cefb72a2c678229c52209202a5664784b62a2aa647042e3854615853e48fecc",
+    "clock_UTC_quote/bootstrap_failures_d7.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "clock_UTC_quote/residual_pairs.csv.gz": "0c8ff6c97686605cec0d72c1a4ef3c86d95330dcb4ad14d97fc3765bf1c40d4f",
+    "clock_UTC_quote/residual_selection.json": "672e32fcfb46a39361b15c853e631bdeb7480d5601ca6c2ccbb38bdafed30918",
+    "clock_UTC_quote/bootstrap_draws_d3.csv.gz": "2db73056afdff5640f094f3f1cf03a8c157dddf360173b428d628fe22f604fd1",
+    "clock_UTC_quote/bootstrap_failures_d3.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "clock_UTC_quote/sample_counts.csv": "e61ea9e5fedac571b0f330f0238294bdb9525e28d89a639fd9c1ec9771704f8a",
+    "clock_UTC_quote/forecast_scores.csv": "6d44126b3b8861ed84006fc950a8e687a51f38a404d8c266b310aacd174c2f3b",
+    "clock_UTC_quote/forecast_validation.csv": "159397e3c6c687bfaa865baf0a5addb7fd0ff33e6f0242735625d882971edb42"
+  },
+  "scenarios": [
+    {
+      "scenario": "clock_FXUTC_USNY_quote",
+      "timezone_confirmed": false,
+      "fx_zone_assumption": "UTC",
+      "us_zone_assumption": "America/New_York",
+      "macro_delay_hours": 0,
+      "source_ages": {
+        "USDKRW": {
+          "observations": 3462,
+          "max_age_minutes": 0.0
+        },
+        "DXY": {
+          "observations": 4588,
+          "max_age_minutes": 30.0
+        },
+        "VIXY": {
+          "observations": 2855,
+          "max_age_minutes": 45.0
+        },
+        "account_ls": {
+          "observations": 6938,
+          "max_age_minutes": 5.0,
+          "delay_minutes": 5
+        }
+      },
+      "usdc_usd_assumption": 1.0,
+      "g_definition": "absolute USDCUSDT deviation, bp; not direct USDT/USD peg",
+      "panel_reproduces_archived_nonresidual_columns": true
+    },
+    {
+      "scenario": "clock_UTC_quote",
+      "timezone_confirmed": false,
+      "fx_zone_assumption": "UTC",
+      "us_zone_assumption": "UTC",
+      "macro_delay_hours": 0,
+      "source_ages": {
+        "USDKRW": {
+          "observations": 3462,
+          "max_age_minutes": 0.0
+        },
+        "DXY": {
+          "observations": 4592,
+          "max_age_minutes": 30.0
+        },
+        "VIXY": {
+          "observations": 2859,
+          "max_age_minutes": 45.0
+        },
+        "account_ls": {
+          "observations": 6938,
+          "max_age_minutes": 5.0,
+          "delay_minutes": 5
+        }
+      },
+      "usdc_usd_assumption": 1.0,
+      "g_definition": "absolute USDCUSDT deviation, bp; not direct USDT/USD peg",
+      "panel_reproduces_archived_nonresidual_columns": true
+    },
+    {
+      "scenario": "clock_NY_quote",
+      "timezone_confirmed": false,
+      "fx_zone_assumption": "America/New_York",
+      "us_zone_assumption": "America/New_York",
+      "macro_delay_hours": 0,
+      "source_ages": {
+        "USDKRW": {
+          "observations": 3462,
+          "max_age_minutes": 0.0
+        },
+        "DXY": {
+          "observations": 4588,
+          "max_age_minutes": 30.0
+        },
+        "VIXY": {
+          "observations": 2855,
+          "max_age_minutes": 45.0
+        },
+        "account_ls": {
+          "observations": 6938,
+          "max_age_minutes": 5.0,
+          "delay_minutes": 5
+        }
+      },
+      "usdc_usd_assumption": 1.0,
+      "g_definition": "absolute USDCUSDT deviation, bp; not direct USDT/USD peg",
+      "panel_reproduces_archived_nonresidual_columns": true
+    },
+    {
+      "scenario": "clock_NY_macro_end1h_quote",
+      "timezone_confirmed": false,
+      "fx_zone_assumption": "America/New_York",
+      "us_zone_assumption": "America/New_York",
+      "macro_delay_hours": 1,
+      "source_ages": {
+        "USDKRW": {
+          "observations": 3462,
+          "max_age_minutes": 0.0
+        },
+        "DXY": {
+          "observations": 4587,
+          "max_age_minutes": 30.0
+        },
+        "VIXY": {
+          "observations": 2854,
+          "max_age_minutes": 45.0
+        },
+        "account_ls": {
+          "observations": 6938,
+          "max_age_minutes": 5.0,
+          "delay_minutes": 5
+        }
+      },
+      "usdc_usd_assumption": 1.0,
+      "g_definition": "absolute USDCUSDT deviation, bp; not direct USDT/USD peg",
+      "panel_reproduces_archived_nonresidual_columns": true
+    },
+    {
+      "scenario": "clock_FXKST_USNY_quote",
+      "timezone_confirmed": false,
+      "fx_zone_assumption": "Asia/Seoul",
+      "us_zone_assumption": "America/New_York",
+      "macro_delay_hours": 0,
+      "source_ages": {
+        "USDKRW": {
+          "observations": 3459,
+          "max_age_minutes": 0.0
+        },
+        "DXY": {
+          "observations": 4588,
+          "max_age_minutes": 30.0
+        },
+        "VIXY": {
+          "observations": 2855,
+          "max_age_minutes": 45.0
+        },
+        "account_ls": {
+          "observations": 6938,
+          "max_age_minutes": 5.0,
+          "delay_minutes": 5
+        }
+      },
+      "usdc_usd_assumption": 1.0,
+      "g_definition": "absolute USDCUSDT deviation, bp; not direct USDT/USD peg",
+      "panel_reproduces_archived_nonresidual_columns": true
+    }
+  ],
+  "primary_methods": [
+    "linear",
+    "pca",
+    "ml"
+  ],
+  "projection_control": "joint_linear",
+  "origin_months": [
+    "2025-08",
+    "2025-09",
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03"
+  ],
+  "horizons": [
+    1,
+    6,
+    12
+  ],
+  "quantiles": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "bootstrap": [
+    {
+      "scenario": "clock_NY_quote",
+      "block_days": 3,
+      "replicates": 199,
+      "min_success": 199,
+      "failures": 0,
+      "seconds": 391.7632209600415
+    },
+    {
+      "scenario": "clock_NY_quote",
+      "block_days": 7,
+      "replicates": 199,
+      "min_success": 199,
+      "failures": 0,
+      "seconds": 404.3368190960027
+    },
+    {
+      "scenario": "clock_UTC_quote",
+      "block_days": 3,
+      "replicates": 199,
+      "min_success": 199,
+      "failures": 0,
+      "seconds": 535.4748055199161
+    },
+    {
+      "scenario": "clock_FXUTC_USNY_quote",
+      "block_days": 3,
+      "replicates": 199,
+      "min_success": 199,
+      "failures": 0,
+      "seconds": 546.9644942489685
+    },
+    {
+      "scenario": "clock_UTC_quote",
+      "block_days": 7,
+      "replicates": 199,
+      "min_success": 199,
+      "failures": 0,
+      "seconds": 547.2997114009922
+    },
+    {
+      "scenario": "clock_FXUTC_USNY_quote",
+      "block_days": 7,
+      "replicates": 199,
+      "min_success": 199,
+      "failures": 0,
+      "seconds": 558.9834511439549
+    },
+    {
+      "scenario": "clock_NY_macro_end1h_quote",
+      "block_days": 3,
+      "replicates": 199,
+      "min_success": 199,
+      "failures": 0,
+      "seconds": 379.7471939920215
+    },
+    {
+      "scenario": "clock_NY_macro_end1h_quote",
+      "block_days": 7,
+      "replicates": 199,
+      "min_success": 199,
+      "failures": 0,
+      "seconds": 391.86558047297876
+    },
+    {
+      "scenario": "clock_FXKST_USNY_quote",
+      "block_days": 3,
+      "replicates": 199,
+      "min_success": 199,
+      "failures": 0,
+      "seconds": 580.1524053469766
+    },
+    {
+      "scenario": "clock_FXKST_USNY_quote",
+      "block_days": 7,
+      "replicates": 199,
+      "min_success": 199,
+      "failures": 0,
+      "seconds": 597.9377032109769
+    }
+  ],
+  "elapsed_seconds": 1103.1685273710173,
+  "archive_check": {
+    "verified_archive_files": 915,
+    "verified_context_files": 60,
+    "validated_lfs_pointers": [
+      "option1_factorial_20260910/evaluated_predictions.npz",
+      "option1_model_followup_20260910/evaluated_predictions.npz"
+    ],
+    "lfs_payloads_used": false,
+    "note": "LFS pointer metadata checked; absent payloads are not claimed verified"
+  },
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.23.5",
+    "pandas": "2.0.3",
+    "sklearn": "1.3.2",
+    "lightgbm": "4.5.0"
+  },
+  "checks": [
+    "raw premiums reproduce A1 common factor",
+    "PCA and nuisance regressions use past only",
+    "ML selection uses only earlier validation months",
+    "same-origin function defines present and future residual",
+    "exact elapsed-hour outcomes",
+    "identical samples across residual methods and nested regressions",
+    "matched-origin horizon comparisons",
+    "past target availability for forecasting",
+    "same definition-specific targets for prediction algorithms and positioning ablations",
+    "PCA and nuisance models refit in paired calendar bootstrap",
+    "original archive unchanged"
+  ],
+  "limitations": [
+    "exploratory extension after A1/A2; history already examined",
+    "FX timezone and USDC/USD assumptions unresolved",
+    "main residual comparisons mix factor definition and functional form; joint OLS supplied as control",
+    "bootstrap fixes selected ML hyperparameters; intervals are pointwise and exploratory",
+    "forecast loss bootstrap conditions on saved fits",
+    "event exclusions hold residual generation fixed",
+    "no causal or structural-channel identification"
+  ]
+}

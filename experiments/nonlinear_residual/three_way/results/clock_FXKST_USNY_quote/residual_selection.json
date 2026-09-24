@@ -1,0 +1,134 @@
+{
+  "2025-08": {
+    "candidate": {
+      "candidate_id": "c17",
+      "family": "linear_plus_rf",
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      }
+    },
+    "validation_months": [
+      "2025-07"
+    ],
+    "validation_mse": 50.45838918422766,
+    "validation_n": 391
+  },
+  "2025-09": {
+    "candidate": {
+      "candidate_id": "c17",
+      "family": "linear_plus_rf",
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      }
+    },
+    "validation_months": [
+      "2025-07",
+      "2025-08"
+    ],
+    "validation_mse": 54.54875339176505,
+    "validation_n": 748
+  },
+  "2025-10": {
+    "candidate": {
+      "candidate_id": "c17",
+      "family": "linear_plus_rf",
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      }
+    },
+    "validation_months": [
+      "2025-07",
+      "2025-08",
+      "2025-09"
+    ],
+    "validation_mse": 50.07052893887814,
+    "validation_n": 1122
+  },
+  "2025-11": {
+    "candidate": {
+      "candidate_id": "c08",
+      "family": "linear_plus_spline",
+      "params": {
+        "knots": 3,
+        "alpha": 1.0
+      }
+    },
+    "validation_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "validation_mse": 52.86867871618791,
+    "validation_n": 1109
+  },
+  "2025-12": {
+    "candidate": {
+      "candidate_id": "c08",
+      "family": "linear_plus_spline",
+      "params": {
+        "knots": 3,
+        "alpha": 1.0
+      }
+    },
+    "validation_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "validation_mse": 56.03783990966185,
+    "validation_n": 1085
+  },
+  "2026-01": {
+    "candidate": {
+      "candidate_id": "c17",
+      "family": "linear_plus_rf",
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      }
+    },
+    "validation_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "validation_mse": 123.26193471304548,
+    "validation_n": 1063
+  },
+  "2026-02": {
+    "candidate": {
+      "candidate_id": "c06",
+      "family": "quadratic_ridge",
+      "params": {
+        "alpha": 10.0
+      }
+    },
+    "validation_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "validation_mse": 128.165126793939,
+    "validation_n": 1031
+  },
+  "2026-03": {
+    "candidate": {
+      "candidate_id": "c17",
+      "family": "linear_plus_rf",
+      "params": {
+        "max_depth": 3,
+        "min_samples_leaf": 100
+      }
+    },
+    "validation_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "validation_mse": 139.42867465586815,
+    "validation_n": 1022
+  }
+}
