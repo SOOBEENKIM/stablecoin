@@ -1,0 +1,1967 @@
+[
+  {
+    "scenario": "clock_UTC_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_BTC",
+    "train_last": "2025-12-31 11:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.8397124997720354,
+      0.9854409622548645
+    ],
+    "second": [
+      -0.7075221881600263,
+      0.20080033631943794
+    ]
+  },
+  {
+    "scenario": "clock_UTC_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_ETH",
+    "train_last": "2025-12-31 11:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.43250836433511675,
+      0.9859990123477492
+    ],
+    "second": [
+      -0.9087129631730008,
+      0.25789985342722654
+    ]
+  },
+  {
+    "scenario": "clock_UTC_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_XRP",
+    "train_last": "2025-12-31 11:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.7671125685974939,
+      0.9853012506162487
+    ],
+    "second": [
+      -0.8633843055054277,
+      0.2450352254948797
+    ]
+  },
+  {
+    "scenario": "clock_UTC_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_SOL",
+    "train_last": "2025-12-31 11:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.9388862625962731,
+      0.9857919004933023
+    ],
+    "second": [
+      -0.6839175212343759,
+      0.19410114704071815
+    ]
+  },
+  {
+    "scenario": "clock_UTC_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_DOGE",
+    "train_last": "2025-12-31 11:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL"
+    ],
+    "first": [
+      0.9812837658898552,
+      0.9892997848498132
+    ],
+    "second": [
+      -0.6446982668276082,
+      0.18297041558539692
+    ]
+  },
+  {
+    "scenario": "clock_UTC_quote",
+    "month": "2026-01",
+    "model": "individual_five_ols",
+    "train_last": "2025-12-31 11:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.8728432776761701,
+      0.46033881935656523,
+      0.07980027509601528,
+      0.3846843700271315,
+      0.07057105612543213,
+      -0.005735812559184428
+    ],
+    "second": [
+      -0.6892323037900717,
+      0.1956095239404168
+    ]
+  },
+  {
+    "scenario": "clock_UTC_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_BTC",
+    "train_last": "2026-01-30 11:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.7140777685088914,
+      0.9852961204342272
+    ],
+    "second": [
+      -0.4589174525398032,
+      0.11670259542474208
+    ]
+  },
+  {
+    "scenario": "clock_UTC_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_ETH",
+    "train_last": "2026-01-30 11:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.3435813648403591,
+      0.9858474116445771
+    ],
+    "second": [
+      -0.6854765742290232,
+      0.17431652440468592
+    ]
+  },
+  {
+    "scenario": "clock_UTC_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_XRP",
+    "train_last": "2026-01-30 11:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.6276484387196538,
+      0.985164602708378
+    ],
+    "second": [
+      -0.5860610928910975,
+      0.14903519192686177
+    ]
+  },
+  {
+    "scenario": "clock_UTC_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_SOL",
+    "train_last": "2026-01-30 11:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.7717014777492118,
+      0.9856977858778064
+    ],
+    "second": [
+      -0.40895114947221073,
+      0.10399617683137674
+    ]
+  },
+  {
+    "scenario": "clock_UTC_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_DOGE",
+    "train_last": "2026-01-30 11:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL"
+    ],
+    "first": [
+      0.8328574317373701,
+      0.9892101679867795
+    ],
+    "second": [
+      -0.28089230517770314,
+      0.07143084419136905
+    ]
+  },
+  {
+    "scenario": "clock_UTC_quote",
+    "month": "2026-02",
+    "model": "individual_five_ols",
+    "train_last": "2026-01-30 11:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.7249286081183461,
+      0.456985496921902,
+      0.08572289441673048,
+      0.3726962580666494,
+      0.08063760688835078,
+      -0.006451475664960349
+    ],
+    "second": [
+      -0.33648323214785353,
+      0.08556760326116777
+    ]
+  },
+  {
+    "scenario": "clock_UTC_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_BTC",
+    "train_last": "2026-02-27 11:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.7782051304604641,
+      0.9848438241611132
+    ],
+    "second": [
+      -0.5359272795478692,
+      0.13059731468033986
+    ]
+  },
+  {
+    "scenario": "clock_UTC_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_ETH",
+    "train_last": "2026-02-27 11:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.44130280890527335,
+      0.9854158335974758
+    ],
+    "second": [
+      -0.7776639340639356,
+      0.18950485520754357
+    ]
+  },
+  {
+    "scenario": "clock_UTC_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_XRP",
+    "train_last": "2026-02-27 11:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.6952994809214054,
+      0.98469805733551
+    ],
+    "second": [
+      -0.6583091674337335,
+      0.16041991661408658
+    ]
+  },
+  {
+    "scenario": "clock_UTC_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_SOL",
+    "train_last": "2026-02-27 11:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.828506868510486,
+      0.9851680941551808
+    ],
+    "second": [
+      -0.5433888695194057,
+      0.13241559050004084
+    ]
+  },
+  {
+    "scenario": "clock_UTC_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_DOGE",
+    "train_last": "2026-02-27 11:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL"
+    ],
+    "first": [
+      0.8126913346354749,
+      0.9890562535992693
+    ],
+    "second": [
+      -0.40934541477901076,
+      0.09975124235502209
+    ]
+  },
+  {
+    "scenario": "clock_UTC_quote",
+    "month": "2026-03",
+    "model": "individual_five_ols",
+    "train_last": "2026-02-27 11:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.7176653237141288,
+      0.4575921674048,
+      0.08791940888602762,
+      0.36527609882982465,
+      0.08085952974445987,
+      -0.0022926632768016653
+    ],
+    "second": [
+      -0.5194709477218824,
+      0.1265871572802688
+    ]
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_BTC",
+    "train_last": "2025-12-31 16:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      1.036051461810592,
+      0.9848902672234692
+    ],
+    "second": [
+      -0.900050940212154,
+      0.2568558195288793
+    ]
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_ETH",
+    "train_last": "2025-12-31 16:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.6411091211876532,
+      0.9853476130774126
+    ],
+    "second": [
+      -1.1034228361818172,
+      0.3148939290120241
+    ]
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_XRP",
+    "train_last": "2025-12-31 16:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.9920324219294465,
+      0.9840113395221634
+    ],
+    "second": [
+      -1.1295215935410583,
+      0.32234197157348726
+    ]
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_SOL",
+    "train_last": "2025-12-31 16:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_DOGE"
+    ],
+    "first": [
+      1.1323498091254571,
+      0.9843645158192186
+    ],
+    "second": [
+      -0.9319639212103855,
+      0.26596312059561916
+    ]
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_DOGE",
+    "train_last": "2025-12-31 16:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL"
+    ],
+    "first": [
+      1.072458546393717,
+      0.988263556846968
+    ],
+    "second": [
+      -0.8403459053978014,
+      0.23981724430821647
+    ]
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "month": "2026-01",
+    "model": "individual_five_ols",
+    "train_last": "2025-12-31 16:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.95725818009374,
+      0.3948714222614914,
+      0.10881131880347189,
+      0.3789095699147805,
+      0.11621597102875642,
+      -0.010208376090662441
+    ],
+    "second": [
+      -0.854195551067255,
+      0.2437696451442848
+    ]
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_BTC",
+    "train_last": "2026-01-30 16:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.8333156000847127,
+      0.9846868943896135
+    ],
+    "second": [
+      -0.4142347970427292,
+      0.10543960219539335
+    ]
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_ETH",
+    "train_last": "2026-01-30 16:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.4664891041697191,
+      0.9851306347271874
+    ],
+    "second": [
+      -0.623321610480941,
+      0.15866069948277695
+    ]
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_XRP",
+    "train_last": "2026-01-30 16:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.7875875043594424,
+      0.98379257939552
+    ],
+    "second": [
+      -0.6008808530435165,
+      0.1529486140808137
+    ]
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_SOL",
+    "train_last": "2026-01-30 16:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.8711629520971895,
+      0.9842178681739387
+    ],
+    "second": [
+      -0.38442954627451226,
+      0.09785295373713658
+    ]
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_DOGE",
+    "train_last": "2026-01-30 16:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL"
+    ],
+    "first": [
+      0.8944274744059892,
+      0.988137403539857
+    ],
+    "second": [
+      -0.32273893557416333,
+      0.082150184443318
+    ]
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "month": "2026-02",
+    "model": "individual_five_ols",
+    "train_last": "2026-01-30 16:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.763952886040397,
+      0.3928560359651973,
+      0.11264447441619321,
+      0.36582192971503236,
+      0.12526949114837893,
+      -0.008132963266714865
+    ],
+    "second": [
+      -0.3349474380912718,
+      0.08525774483660359
+    ]
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_BTC",
+    "train_last": "2026-02-27 16:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.8975549058526127,
+      0.9841185639902864
+    ],
+    "second": [
+      -0.48970419523233727,
+      0.12039152535632605
+    ]
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_ETH",
+    "train_last": "2026-02-27 16:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.5655888819717031,
+      0.98458263565673
+    ],
+    "second": [
+      -0.7198793345305851,
+      0.17697902529814916
+    ]
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_XRP",
+    "train_last": "2026-02-27 16:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.853678785537076,
+      0.9831902537450439
+    ],
+    "second": [
+      -0.687030346208831,
+      0.16890325251742022
+    ]
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_SOL",
+    "train_last": "2026-02-27 16:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.9207774320583163,
+      0.98360003804696
+    ],
+    "second": [
+      -0.4972592031469768,
+      0.12224888932376443
+    ]
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_DOGE",
+    "train_last": "2026-02-27 16:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL"
+    ],
+    "first": [
+      0.8484894620104164,
+      0.9879798126034678
+    ],
+    "second": [
+      -0.4156320622747085,
+      0.10218123195882535
+    ]
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "month": "2026-03",
+    "model": "individual_five_ols",
+    "train_last": "2026-02-27 16:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.7228189497938712,
+      0.3914490388585166,
+      0.10901792292085982,
+      0.36699010067910276,
+      0.127419800359623,
+      -0.00657344229920237
+    ],
+    "second": [
+      -0.45556496459053203,
+      0.11199855243213655
+    ]
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_BTC",
+    "train_last": "2025-12-31 11:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.8397124997720354,
+      0.9854409622548645
+    ],
+    "second": [
+      -0.7075221881600263,
+      0.20080033631943794
+    ]
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_ETH",
+    "train_last": "2025-12-31 11:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.43250836433511675,
+      0.9859990123477492
+    ],
+    "second": [
+      -0.9087129631730008,
+      0.25789985342722654
+    ]
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_XRP",
+    "train_last": "2025-12-31 11:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.7671125685974939,
+      0.9853012506162487
+    ],
+    "second": [
+      -0.8633843055054277,
+      0.2450352254948797
+    ]
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_SOL",
+    "train_last": "2025-12-31 11:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.9388862625962731,
+      0.9857919004933023
+    ],
+    "second": [
+      -0.6839175212343759,
+      0.19410114704071815
+    ]
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_DOGE",
+    "train_last": "2025-12-31 11:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL"
+    ],
+    "first": [
+      0.9812837658898552,
+      0.9892997848498132
+    ],
+    "second": [
+      -0.6446982668276082,
+      0.18297041558539692
+    ]
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "month": "2026-01",
+    "model": "individual_five_ols",
+    "train_last": "2025-12-31 11:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.8728432776761701,
+      0.46033881935656523,
+      0.07980027509601528,
+      0.3846843700271315,
+      0.07057105612543213,
+      -0.005735812559184428
+    ],
+    "second": [
+      -0.6892323037900717,
+      0.1956095239404168
+    ]
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_BTC",
+    "train_last": "2026-01-30 11:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.7140777685088914,
+      0.9852961204342272
+    ],
+    "second": [
+      -0.4589174525398032,
+      0.11670259542474208
+    ]
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_ETH",
+    "train_last": "2026-01-30 11:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.3435813648403591,
+      0.9858474116445771
+    ],
+    "second": [
+      -0.6854765742290232,
+      0.17431652440468592
+    ]
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_XRP",
+    "train_last": "2026-01-30 11:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.6276484387196538,
+      0.985164602708378
+    ],
+    "second": [
+      -0.5860610928910975,
+      0.14903519192686177
+    ]
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_SOL",
+    "train_last": "2026-01-30 11:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.7717014777492118,
+      0.9856977858778064
+    ],
+    "second": [
+      -0.40895114947221073,
+      0.10399617683137674
+    ]
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_DOGE",
+    "train_last": "2026-01-30 11:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL"
+    ],
+    "first": [
+      0.8328574317373701,
+      0.9892101679867795
+    ],
+    "second": [
+      -0.28089230517770314,
+      0.07143084419136905
+    ]
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "month": "2026-02",
+    "model": "individual_five_ols",
+    "train_last": "2026-01-30 11:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.7249286081183461,
+      0.456985496921902,
+      0.08572289441673048,
+      0.3726962580666494,
+      0.08063760688835078,
+      -0.006451475664960349
+    ],
+    "second": [
+      -0.33648323214785353,
+      0.08556760326116777
+    ]
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_BTC",
+    "train_last": "2026-02-27 11:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.7782051304604641,
+      0.9848438241611132
+    ],
+    "second": [
+      -0.5359272795478692,
+      0.13059731468033986
+    ]
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_ETH",
+    "train_last": "2026-02-27 11:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.44130280890527335,
+      0.9854158335974758
+    ],
+    "second": [
+      -0.7776639340639356,
+      0.18950485520754357
+    ]
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_XRP",
+    "train_last": "2026-02-27 11:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.6952994809214054,
+      0.98469805733551
+    ],
+    "second": [
+      -0.6583091674337335,
+      0.16041991661408658
+    ]
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_SOL",
+    "train_last": "2026-02-27 11:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.828506868510486,
+      0.9851680941551808
+    ],
+    "second": [
+      -0.5433888695194057,
+      0.13241559050004084
+    ]
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_DOGE",
+    "train_last": "2026-02-27 11:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL"
+    ],
+    "first": [
+      0.8126913346354749,
+      0.9890562535992693
+    ],
+    "second": [
+      -0.40934541477901076,
+      0.09975124235502209
+    ]
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "month": "2026-03",
+    "model": "individual_five_ols",
+    "train_last": "2026-02-27 11:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.7176653237141288,
+      0.4575921674048,
+      0.08791940888602762,
+      0.36527609882982465,
+      0.08085952974445987,
+      -0.0022926632768016653
+    ],
+    "second": [
+      -0.5194709477218824,
+      0.1265871572802688
+    ]
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_BTC",
+    "train_last": "2025-12-31 02:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.49824956954793215,
+      0.9873850657026813
+    ],
+    "second": [
+      -1.082480898805447,
+      0.3098723473832989
+    ]
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_ETH",
+    "train_last": "2025-12-31 02:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.25495623463113765,
+      0.9876656468601934
+    ],
+    "second": [
+      -1.1663302438434648,
+      0.33387516664982186
+    ]
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_XRP",
+    "train_last": "2025-12-31 02:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.4271684787646698,
+      0.9874145424747683
+    ],
+    "second": [
+      -1.1580989104556052,
+      0.33151885477232873
+    ]
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_SOL",
+    "train_last": "2025-12-31 02:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.668276080983494,
+      0.9876923124654133
+    ],
+    "second": [
+      -1.0700828402637552,
+      0.3063232635079785
+    ]
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_DOGE",
+    "train_last": "2025-12-31 02:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL"
+    ],
+    "first": [
+      0.8450987426722048,
+      0.9906134791334018
+    ],
+    "second": [
+      -0.6816646513012751,
+      0.19513418283874337
+    ]
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "month": "2026-01",
+    "model": "individual_five_ols",
+    "train_last": "2025-12-31 02:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      1.064073202906671,
+      0.34287305185323846,
+      0.24091617657252495,
+      0.3418694157677362,
+      0.08946968285731835,
+      -0.02445517804873809
+    ],
+    "second": [
+      -0.6227312386166164,
+      0.17826382979317912
+    ]
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_BTC",
+    "train_last": "2026-01-30 02:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.2758559890703153,
+      0.9873091749420511
+    ],
+    "second": [
+      -0.49789481662287943,
+      0.12866143793905715
+    ]
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_ETH",
+    "train_last": "2026-01-30 02:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.05998717898591808,
+      0.9875756048982473
+    ],
+    "second": [
+      -0.6457896190058685,
+      0.16687906403804306
+    ]
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_XRP",
+    "train_last": "2026-01-30 02:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.2115355776011012,
+      0.9873231346600028
+    ],
+    "second": [
+      -0.5874321299338965,
+      0.15179885390562264
+    ]
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_SOL",
+    "train_last": "2026-01-30 02:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.41421396553159395,
+      0.9876439815235339
+    ],
+    "second": [
+      -0.4565187945356659,
+      0.11796942364164258
+    ]
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_DOGE",
+    "train_last": "2026-01-30 02:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL"
+    ],
+    "first": [
+      0.6807637143026707,
+      0.9903988275915483
+    ],
+    "second": [
+      -0.17113087461594087,
+      0.044222079983075306
+    ]
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "month": "2026-02",
+    "model": "individual_five_ols",
+    "train_last": "2026-01-30 02:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.8653850950027197,
+      0.34657047653078693,
+      0.23960647757559328,
+      0.3314535204692889,
+      0.09302284502803099,
+      -0.02021739444606177
+    ],
+    "second": [
+      -0.10498567235563258,
+      0.027129440028910996
+    ]
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_BTC",
+    "train_last": "2026-02-27 02:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.3543211738480458,
+      0.9866162591223457
+    ],
+    "second": [
+      -0.37240238350132243,
+      0.09284045760681447
+    ]
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_ETH",
+    "train_last": "2026-02-27 02:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.1640528623326314,
+      0.9868988890726225
+    ],
+    "second": [
+      -0.5755542428130882,
+      0.14348651256719183
+    ]
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_XRP",
+    "train_last": "2026-02-27 02:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.3046657456479294,
+      0.9865263677961242
+    ],
+    "second": [
+      -0.520961648562052,
+      0.12987649916029267
+    ]
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_SOL",
+    "train_last": "2026-02-27 02:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.4819187642355131,
+      0.9868216299006439
+    ],
+    "second": [
+      -0.4191535762395246,
+      0.1044955981745882
+    ]
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_DOGE",
+    "train_last": "2026-02-27 02:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL"
+    ],
+    "first": [
+      0.6670077623703371,
+      0.9899988293998399
+    ],
+    "second": [
+      -0.2093109100418183,
+      0.05218151529450323
+    ]
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "month": "2026-03",
+    "model": "individual_five_ols",
+    "train_last": "2026-02-27 02:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.826217078892732,
+      0.35320423519537475,
+      0.236523226476282,
+      0.3219452765995086,
+      0.09571776558789741,
+      -0.01741003431574384
+    ],
+    "second": [
+      -0.20029067636482942,
+      0.04993275787672192
+    ]
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_BTC",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      1.0445515715099098,
+      0.9848706310628618
+    ],
+    "second": [
+      -0.9192972445208331,
+      0.26179273960664706
+    ]
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_ETH",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.646523181822659,
+      0.9853304974870314
+    ],
+    "second": [
+      -1.1358869060368841,
+      0.3234720290820727
+    ]
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_XRP",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      1.0065543071697802,
+      0.9838839447671718
+    ],
+    "second": [
+      -1.164398197487664,
+      0.3315913279738057
+    ]
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_SOL",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_DOGE"
+    ],
+    "first": [
+      1.119551766371647,
+      0.9844500901220452
+    ],
+    "second": [
+      -0.9362199516785589,
+      0.2666119010854697
+    ]
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "month": "2026-01",
+    "model": "eq4_exclude_DOGE",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL"
+    ],
+    "first": [
+      1.0447739745463296,
+      0.9883629845866554
+    ],
+    "second": [
+      -0.8902799783160128,
+      0.2535293518276439
+    ]
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "month": "2026-01",
+    "model": "individual_five_ols",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.9212414612702032,
+      0.3930178318749793,
+      0.10778715824593724,
+      0.3927452222161838,
+      0.10771701220562019,
+      -0.01242615430483962
+    ],
+    "second": [
+      -0.885724700828953,
+      0.2522321233412939
+    ]
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_BTC",
+    "train_last": "2026-01-30 17:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.8540892331559369,
+      0.9846557075626291
+    ],
+    "second": [
+      -0.46052971671478354,
+      0.11714131593069112
+    ]
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_ETH",
+    "train_last": "2026-01-30 17:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.4806356720747015,
+      0.9850911997350623
+    ],
+    "second": [
+      -0.6643384383868101,
+      0.1689825348321125
+    ]
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_XRP",
+    "train_last": "2026-01-30 17:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.8091818143281221,
+      0.9836592098903331
+    ],
+    "second": [
+      -0.6570826268049257,
+      0.1671369312022133
+    ]
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_SOL",
+    "train_last": "2026-01-30 17:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.8691688583044779,
+      0.984287922404526
+    ],
+    "second": [
+      -0.41587039149890476,
+      0.1057816752072228
+    ]
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "month": "2026-02",
+    "model": "eq4_exclude_DOGE",
+    "train_last": "2026-01-30 17:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL"
+    ],
+    "first": [
+      0.872880400294016,
+      0.9882590701595464
+    ],
+    "second": [
+      -0.3965287987493239,
+      0.1008619066349906
+    ]
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "month": "2026-02",
+    "model": "individual_five_ols",
+    "train_last": "2026-01-30 17:00:00+00:00",
+    "cutoff": "2026-02-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.7384138365831666,
+      0.39161938616116293,
+      0.11565253593456398,
+      0.37580171249701466,
+      0.11547836682482135,
+      -0.009873646806579983
+    ],
+    "second": [
+      -0.383327690658987,
+      0.09750404477000288
+    ]
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_BTC",
+    "train_last": "2026-02-27 17:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.9284092416139569,
+      0.9841412762478332
+    ],
+    "second": [
+      -0.5135569616824655,
+      0.12653535040309508
+    ]
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_ETH",
+    "train_last": "2026-02-27 17:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.5891936933921937,
+      0.9845724395071711
+    ],
+    "second": [
+      -0.7334332469447693,
+      0.18071068999898465
+    ]
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_XRP",
+    "train_last": "2026-02-27 17:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.8881778450725046,
+      0.9830972795426349
+    ],
+    "second": [
+      -0.7243145645981877,
+      0.178463936956939
+    ]
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_SOL",
+    "train_last": "2026-02-27 17:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.9329132765056091,
+      0.9837318194596673
+    ],
+    "second": [
+      -0.5073565503388165,
+      0.12500763044103808
+    ]
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "month": "2026-03",
+    "model": "eq4_exclude_DOGE",
+    "train_last": "2026-02-27 17:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL"
+    ],
+    "first": [
+      0.8429218633542878,
+      0.9881262706632264
+    ],
+    "second": [
+      -0.45233051486930936,
+      0.1114497601385649
+    ]
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "month": "2026-03",
+    "model": "individual_five_ols",
+    "train_last": "2026-02-27 17:00:00+00:00",
+    "cutoff": "2026-03-01 00:00:00+00:00",
+    "columns": [
+      "kp_BTC",
+      "kp_ETH",
+      "kp_XRP",
+      "kp_SOL",
+      "kp_DOGE"
+    ],
+    "first": [
+      0.713913356064833,
+      0.3900559747456537,
+      0.11280133957237165,
+      0.3771318855812489,
+      0.11734924910894434,
+      -0.008790877745609382
+    ],
+    "second": [
+      -0.4619366115922318,
+      0.11381660725687537
+    ]
+  }
+]

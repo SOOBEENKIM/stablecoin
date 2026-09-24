@@ -1,0 +1,808 @@
+[
+  {
+    "month": "2026-01",
+    "candidate": {
+      "candidate_id": "f00",
+      "family": "sequential_ols",
+      "params": {}
+    },
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "train_first": "2025-06-02 01:00:00+00:00",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "train_n": 2555,
+    "test_n": 346,
+    "warnings": [],
+    "members": [],
+    "pca_variance_shares": [
+      0.9970324012586202,
+      0.002134861935057145,
+      0.0003969862526935025,
+      0.00024660146180584047,
+      0.00018914909182336657
+    ],
+    "train_rmse_bp": 9.164617141290227
+  },
+  {
+    "month": "2026-01",
+    "candidate": {
+      "candidate_id": "f01",
+      "family": "pca_1",
+      "params": {}
+    },
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "train_first": "2025-06-02 01:00:00+00:00",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "train_n": 2555,
+    "test_n": 346,
+    "warnings": [],
+    "members": [],
+    "pca_variance_shares": [
+      0.9970324012586202,
+      0.002134861935057145,
+      0.0003969862526935025,
+      0.00024660146180584047,
+      0.00018914909182336657
+    ],
+    "train_rmse_bp": 9.129269833633469,
+    "readout_alpha": 1.0
+  },
+  {
+    "month": "2026-01",
+    "candidate": {
+      "candidate_id": "f02",
+      "family": "pca_2",
+      "params": {}
+    },
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "train_first": "2025-06-02 01:00:00+00:00",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "train_n": 2555,
+    "test_n": 346,
+    "warnings": [],
+    "members": [],
+    "pca_variance_shares": [
+      0.9970324012586202,
+      0.002134861935057145,
+      0.0003969862526935025,
+      0.00024660146180584047,
+      0.00018914909182336657
+    ],
+    "train_rmse_bp": 7.698306127616704,
+    "readout_alpha": 1.0
+  },
+  {
+    "month": "2026-01",
+    "candidate": {
+      "candidate_id": "f03",
+      "family": "conditional_linear",
+      "params": {}
+    },
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "train_first": "2025-06-02 01:00:00+00:00",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "train_n": 2555,
+    "test_n": 346,
+    "warnings": [],
+    "members": [],
+    "pca_variance_shares": [
+      0.9970324012586202,
+      0.002134861935057145,
+      0.0003969862526935025,
+      0.00024660146180584047,
+      0.00018914909182336657
+    ],
+    "train_rmse_bp": 8.890880401703791
+  },
+  {
+    "month": "2026-01",
+    "candidate": {
+      "candidate_id": "f04",
+      "family": "ae_relu_1",
+      "params": {
+        "activation": "relu",
+        "rank": 1,
+        "alpha": 1.0
+      }
+    },
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "train_first": "2025-06-02 01:00:00+00:00",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "train_n": 2555,
+    "test_n": 346,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 1365,
+        "objective": 0.008282347998742253,
+        "reconstruction_mse": 0.0029511729011901084,
+        "latent_sd": [
+          1.7848933904493856
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260926,
+        "iterations": 641,
+        "objective": 0.008828365749381843,
+        "reconstruction_mse": 0.002978538777302839,
+        "latent_sd": [
+          1.711350912762939
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260927,
+        "iterations": 1250,
+        "objective": 0.008357805277553735,
+        "reconstruction_mse": 0.002947152254667565,
+        "latent_sd": [
+          1.9222678163198632
+        ],
+        "warnings": []
+      }
+    ],
+    "pca_variance_shares": [
+      0.9970324012586202,
+      0.002134861935057145,
+      0.0003969862526935025,
+      0.00024660146180584047,
+      0.00018914909182336657
+    ],
+    "train_rmse_bp": 16.16335989329811,
+    "readout_alpha": 1.0
+  },
+  {
+    "month": "2026-01",
+    "candidate": {
+      "candidate_id": "f05",
+      "family": "ae_relu_1",
+      "params": {
+        "activation": "relu",
+        "rank": 1,
+        "alpha": 100.0
+      }
+    },
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "train_first": "2025-06-02 01:00:00+00:00",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "train_n": 2555,
+    "test_n": 346,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 464,
+        "objective": 0.08554981213312864,
+        "reconstruction_mse": 0.003028916552862656,
+        "latent_sd": [
+          2.2226829164840938
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260926,
+        "iterations": 593,
+        "objective": 0.08554340620594886,
+        "reconstruction_mse": 0.0030287844282234373,
+        "latent_sd": [
+          2.225115927780835
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260927,
+        "iterations": 688,
+        "objective": 0.08554968983212884,
+        "reconstruction_mse": 0.0030299053323057626,
+        "latent_sd": [
+          2.217612314652685
+        ],
+        "warnings": []
+      }
+    ],
+    "pca_variance_shares": [
+      0.9970324012586202,
+      0.002134861935057145,
+      0.0003969862526935025,
+      0.00024660146180584047,
+      0.00018914909182336657
+    ],
+    "train_rmse_bp": 9.072401663130641,
+    "readout_alpha": 1.0
+  },
+  {
+    "month": "2026-01",
+    "candidate": {
+      "candidate_id": "f06",
+      "family": "ae_relu_2",
+      "params": {
+        "activation": "relu",
+        "rank": 2,
+        "alpha": 1.0
+      }
+    },
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "train_first": "2025-06-02 01:00:00+00:00",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "train_n": 2555,
+    "test_n": 346,
+    "warnings": [
+      "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+    ],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 1325,
+        "objective": 0.0038428023788655286,
+        "reconstruction_mse": 0.0008383917325214034,
+        "latent_sd": [
+          0.8076034917959847,
+          1.1622001241574111
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260926,
+        "iterations": 1500,
+        "objective": 0.003976003157260396,
+        "reconstruction_mse": 0.0008395006569508346,
+        "latent_sd": [
+          1.0399402680583683,
+          1.7999681175752535
+        ],
+        "warnings": [
+          "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ]
+      },
+      {
+        "seed": 20260927,
+        "iterations": 1469,
+        "objective": 0.008419026043516329,
+        "reconstruction_mse": 0.0029748965441013416,
+        "latent_sd": [
+          1.715273416825327,
+          0.06791207013880234
+        ],
+        "warnings": []
+      }
+    ],
+    "pca_variance_shares": [
+      0.9970324012586202,
+      0.002134861935057145,
+      0.0003969862526935025,
+      0.00024660146180584047,
+      0.00018914909182336657
+    ],
+    "train_rmse_bp": 10.776884524450029,
+    "readout_alpha": 1.0
+  },
+  {
+    "month": "2026-01",
+    "candidate": {
+      "candidate_id": "f07",
+      "family": "ae_relu_2",
+      "params": {
+        "activation": "relu",
+        "rank": 2,
+        "alpha": 100.0
+      }
+    },
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "train_first": "2025-06-02 01:00:00+00:00",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "train_n": 2555,
+    "test_n": 346,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 634,
+        "objective": 0.08555165839343261,
+        "reconstruction_mse": 0.003028680110283293,
+        "latent_sd": [
+          1.3596217312360024,
+          1.75722841487708
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260926,
+        "iterations": 702,
+        "objective": 0.0855403135713124,
+        "reconstruction_mse": 0.00302838032407761,
+        "latent_sd": [
+          1.719231011649672,
+          1.4085600338840423
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260927,
+        "iterations": 527,
+        "objective": 0.08554350339165101,
+        "reconstruction_mse": 0.0030287777665922956,
+        "latent_sd": [
+          2.1613758690949716,
+          0.5298146851543328
+        ],
+        "warnings": []
+      }
+    ],
+    "pca_variance_shares": [
+      0.9970324012586202,
+      0.002134861935057145,
+      0.0003969862526935025,
+      0.00024660146180584047,
+      0.00018914909182336657
+    ],
+    "train_rmse_bp": 9.115227076356927,
+    "readout_alpha": 1.0
+  },
+  {
+    "month": "2026-01",
+    "candidate": {
+      "candidate_id": "f08",
+      "family": "ae_tanh_1",
+      "params": {
+        "activation": "tanh",
+        "rank": 1,
+        "alpha": 1.0
+      }
+    },
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "train_first": "2025-06-02 01:00:00+00:00",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "train_n": 2555,
+    "test_n": 346,
+    "warnings": [
+      "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html",
+      "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html",
+      "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+    ],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 1500,
+        "objective": 0.012256072793253157,
+        "reconstruction_mse": 0.0031150332169182695,
+        "latent_sd": [
+          0.23600089812167424
+        ],
+        "warnings": [
+          "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ]
+      },
+      {
+        "seed": 20260926,
+        "iterations": 1500,
+        "objective": 0.012469109069746059,
+        "reconstruction_mse": 0.003146932791359326,
+        "latent_sd": [
+          0.22745305817782188
+        ],
+        "warnings": [
+          "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ]
+      },
+      {
+        "seed": 20260927,
+        "iterations": 1500,
+        "objective": 0.012551528015025733,
+        "reconstruction_mse": 0.003147932835132167,
+        "latent_sd": [
+          0.22560884271035325
+        ],
+        "warnings": [
+          "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ]
+      }
+    ],
+    "pca_variance_shares": [
+      0.9970324012586202,
+      0.002134861935057145,
+      0.0003969862526935025,
+      0.00024660146180584047,
+      0.00018914909182336657
+    ],
+    "train_rmse_bp": 11.694649266107353,
+    "readout_alpha": 1.0
+  },
+  {
+    "month": "2026-01",
+    "candidate": {
+      "candidate_id": "f09",
+      "family": "ae_tanh_1",
+      "params": {
+        "activation": "tanh",
+        "rank": 1,
+        "alpha": 100.0
+      }
+    },
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "train_first": "2025-06-02 01:00:00+00:00",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "train_n": 2555,
+    "test_n": 346,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 610,
+        "objective": 0.30604615667877794,
+        "reconstruction_mse": 0.020614488303626777,
+        "latent_sd": [
+          0.41229930048889935
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260926,
+        "iterations": 624,
+        "objective": 0.30065331541406576,
+        "reconstruction_mse": 0.019833582200499356,
+        "latent_sd": [
+          0.4129298348728937
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260927,
+        "iterations": 553,
+        "objective": 0.30065406395674094,
+        "reconstruction_mse": 0.01980580588719246,
+        "latent_sd": [
+          0.4128964980504558
+        ],
+        "warnings": []
+      }
+    ],
+    "pca_variance_shares": [
+      0.9970324012586202,
+      0.002134861935057145,
+      0.0003969862526935025,
+      0.00024660146180584047,
+      0.00018914909182336657
+    ],
+    "train_rmse_bp": 18.309465659878658,
+    "readout_alpha": 1.0
+  },
+  {
+    "month": "2026-01",
+    "candidate": {
+      "candidate_id": "f10",
+      "family": "ae_tanh_2",
+      "params": {
+        "activation": "tanh",
+        "rank": 2,
+        "alpha": 1.0
+      }
+    },
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "train_first": "2025-06-02 01:00:00+00:00",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "train_n": 2555,
+    "test_n": 346,
+    "warnings": [
+      "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html",
+      "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html",
+      "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+    ],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 1500,
+        "objective": 0.011422357131782267,
+        "reconstruction_mse": 0.0030714647992410374,
+        "latent_sd": [
+          0.2308284227217653,
+          0.21746477221624913
+        ],
+        "warnings": [
+          "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ]
+      },
+      {
+        "seed": 20260926,
+        "iterations": 1500,
+        "objective": 0.011506509093151608,
+        "reconstruction_mse": 0.003075364550575465,
+        "latent_sd": [
+          0.19210336577950368,
+          0.2478715055420548
+        ],
+        "warnings": [
+          "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ]
+      },
+      {
+        "seed": 20260927,
+        "iterations": 1500,
+        "objective": 0.011435906137547316,
+        "reconstruction_mse": 0.003075139152845402,
+        "latent_sd": [
+          0.21565492693641325,
+          0.22927796419226562
+        ],
+        "warnings": [
+          "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ]
+      }
+    ],
+    "pca_variance_shares": [
+      0.9970324012586202,
+      0.002134861935057145,
+      0.0003969862526935025,
+      0.00024660146180584047,
+      0.00018914909182336657
+    ],
+    "train_rmse_bp": 13.323602095862373,
+    "readout_alpha": 1.0
+  },
+  {
+    "month": "2026-01",
+    "candidate": {
+      "candidate_id": "f11",
+      "family": "ae_tanh_2",
+      "params": {
+        "activation": "tanh",
+        "rank": 2,
+        "alpha": 100.0
+      }
+    },
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "train_first": "2025-06-02 01:00:00+00:00",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "train_n": 2555,
+    "test_n": 346,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 955,
+        "objective": 0.25626807386616673,
+        "reconstruction_mse": 0.01674782896098172,
+        "latent_sd": [
+          0.3712810464087548,
+          0.41965857170712195
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260926,
+        "iterations": 730,
+        "objective": 0.25626813455636827,
+        "reconstruction_mse": 0.016740524138203754,
+        "latent_sd": [
+          0.37127757765180813,
+          0.41976996878452194
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260927,
+        "iterations": 641,
+        "objective": 0.25626820987774496,
+        "reconstruction_mse": 0.016743860924660844,
+        "latent_sd": [
+          0.37131755017551943,
+          0.41968253449418363
+        ],
+        "warnings": []
+      }
+    ],
+    "pca_variance_shares": [
+      0.9970324012586202,
+      0.002134861935057145,
+      0.0003969862526935025,
+      0.00024660146180584047,
+      0.00018914909182336657
+    ],
+    "train_rmse_bp": 14.469325809310392,
+    "readout_alpha": 1.0
+  },
+  {
+    "month": "2026-01",
+    "candidate": {
+      "candidate_id": "f12",
+      "family": "conditional_neural",
+      "params": {
+        "width": 4,
+        "penalty": 0.001
+      }
+    },
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "train_first": "2025-06-02 01:00:00+00:00",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "train_n": 2555,
+    "test_n": 346,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 304,
+        "objective": 0.001706139320885866,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 9.609147988681038e-07
+      },
+      {
+        "seed": 20260926,
+        "iterations": 234,
+        "objective": 0.0017039026172272734,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 6.716857025941901e-07
+      },
+      {
+        "seed": 20260927,
+        "iterations": 379,
+        "objective": 0.0017061347323245994,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 5.611411672885659e-07
+      }
+    ],
+    "pca_variance_shares": [
+      0.9970324012586202,
+      0.002134861935057145,
+      0.0003969862526935025,
+      0.00024660146180584047,
+      0.00018914909182336657
+    ],
+    "train_rmse_bp": 7.338874354308746
+  },
+  {
+    "month": "2026-01",
+    "candidate": {
+      "candidate_id": "f13",
+      "family": "conditional_neural",
+      "params": {
+        "width": 4,
+        "penalty": 0.1
+      }
+    },
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "train_first": "2025-06-02 01:00:00+00:00",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "train_n": 2555,
+    "test_n": 346,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 27,
+        "objective": 0.002438859829653053,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 5.909725052964544e-07
+      },
+      {
+        "seed": 20260926,
+        "iterations": 31,
+        "objective": 0.002438859829844853,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 5.128916237351947e-08
+      },
+      {
+        "seed": 20260927,
+        "iterations": 33,
+        "objective": 0.002438859830670455,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 1.622144811432963e-07
+      }
+    ],
+    "pca_variance_shares": [
+      0.9970324012586202,
+      0.002134861935057145,
+      0.0003969862526935025,
+      0.00024660146180584047,
+      0.00018914909182336657
+    ],
+    "train_rmse_bp": 8.89088036077244
+  },
+  {
+    "month": "2026-01",
+    "candidate": {
+      "candidate_id": "f14",
+      "family": "conditional_neural",
+      "params": {
+        "width": 8,
+        "penalty": 0.001
+      }
+    },
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "train_first": "2025-06-02 01:00:00+00:00",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "train_n": 2555,
+    "test_n": 346,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 588,
+        "objective": 0.0016669021049931486,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 4.5816693799828295e-07
+      },
+      {
+        "seed": 20260926,
+        "iterations": 299,
+        "objective": 0.0016765295112540653,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 8.711752250181405e-07
+      },
+      {
+        "seed": 20260927,
+        "iterations": 337,
+        "objective": 0.0016777341932602222,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 6.894323847162624e-07
+      }
+    ],
+    "pca_variance_shares": [
+      0.9970324012586202,
+      0.002134861935057145,
+      0.0003969862526935025,
+      0.00024660146180584047,
+      0.00018914909182336657
+    ],
+    "train_rmse_bp": 7.276298859850465
+  },
+  {
+    "month": "2026-01",
+    "candidate": {
+      "candidate_id": "f15",
+      "family": "conditional_neural",
+      "params": {
+        "width": 8,
+        "penalty": 0.1
+      }
+    },
+    "cutoff": "2026-01-01 00:00:00+00:00",
+    "train_first": "2025-06-02 01:00:00+00:00",
+    "train_last": "2025-12-31 17:00:00+00:00",
+    "train_n": 2555,
+    "test_n": 346,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 29,
+        "objective": 0.002438859887296301,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 8.819472430681027e-07
+      },
+      {
+        "seed": 20260926,
+        "iterations": 60,
+        "objective": 0.002438859839853967,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 7.309771409084817e-07
+      },
+      {
+        "seed": 20260927,
+        "iterations": 53,
+        "objective": 0.002438859830750117,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 9.835334967058245e-07
+      }
+    ],
+    "pca_variance_shares": [
+      0.9970324012586202,
+      0.002134861935057145,
+      0.0003969862526935025,
+      0.00024660146180584047,
+      0.00018914909182336657
+    ],
+    "train_rmse_bp": 8.890880753632283
+  }
+]

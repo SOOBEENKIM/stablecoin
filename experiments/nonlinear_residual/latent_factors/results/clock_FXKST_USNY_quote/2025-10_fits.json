@@ -1,0 +1,785 @@
+[
+  {
+    "month": "2025-10",
+    "candidate": {
+      "candidate_id": "f00",
+      "family": "sequential_ols",
+      "params": {}
+    },
+    "cutoff": "2025-10-01 00:00:00+00:00",
+    "train_first": "2025-06-01 19:00:00+00:00",
+    "train_last": "2025-09-30 23:00:00+00:00",
+    "train_n": 1479,
+    "test_n": 378,
+    "warnings": [],
+    "members": [],
+    "pca_variance_shares": [
+      0.9965205686363184,
+      0.0020246387776266307,
+      0.0005397534493029918,
+      0.0004744024366629809,
+      0.0004406367000889075
+    ],
+    "train_rmse_bp": 6.4704693358750935
+  },
+  {
+    "month": "2025-10",
+    "candidate": {
+      "candidate_id": "f01",
+      "family": "pca_1",
+      "params": {}
+    },
+    "cutoff": "2025-10-01 00:00:00+00:00",
+    "train_first": "2025-06-01 19:00:00+00:00",
+    "train_last": "2025-09-30 23:00:00+00:00",
+    "train_n": 1479,
+    "test_n": 378,
+    "warnings": [],
+    "members": [],
+    "pca_variance_shares": [
+      0.9965205686363184,
+      0.0020246387776266307,
+      0.0005397534493029918,
+      0.0004744024366629809,
+      0.0004406367000889075
+    ],
+    "train_rmse_bp": 6.45845623777373
+  },
+  {
+    "month": "2025-10",
+    "candidate": {
+      "candidate_id": "f02",
+      "family": "pca_2",
+      "params": {}
+    },
+    "cutoff": "2025-10-01 00:00:00+00:00",
+    "train_first": "2025-06-01 19:00:00+00:00",
+    "train_last": "2025-09-30 23:00:00+00:00",
+    "train_n": 1479,
+    "test_n": 378,
+    "warnings": [],
+    "members": [],
+    "pca_variance_shares": [
+      0.9965205686363184,
+      0.0020246387776266307,
+      0.0005397534493029918,
+      0.0004744024366629809,
+      0.0004406367000889075
+    ],
+    "train_rmse_bp": 5.857257418492403
+  },
+  {
+    "month": "2025-10",
+    "candidate": {
+      "candidate_id": "f03",
+      "family": "conditional_linear",
+      "params": {}
+    },
+    "cutoff": "2025-10-01 00:00:00+00:00",
+    "train_first": "2025-06-01 19:00:00+00:00",
+    "train_last": "2025-09-30 23:00:00+00:00",
+    "train_n": 1479,
+    "test_n": 378,
+    "warnings": [],
+    "members": [],
+    "pca_variance_shares": [
+      0.9965205686363184,
+      0.0020246387776266307,
+      0.0005397534493029918,
+      0.0004744024366629809,
+      0.0004406367000889075
+    ],
+    "train_rmse_bp": 6.444378945535984
+  },
+  {
+    "month": "2025-10",
+    "candidate": {
+      "candidate_id": "f04",
+      "family": "ae_relu_1",
+      "params": {
+        "activation": "relu",
+        "rank": 1,
+        "alpha": 1.0
+      }
+    },
+    "cutoff": "2025-10-01 00:00:00+00:00",
+    "train_first": "2025-06-01 19:00:00+00:00",
+    "train_last": "2025-09-30 23:00:00+00:00",
+    "train_n": 1479,
+    "test_n": 378,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 934,
+        "objective": 0.010029742005034774,
+        "reconstruction_mse": 0.00345963604614083,
+        "latent_sd": [
+          2.0406039351785705
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260926,
+        "iterations": 859,
+        "objective": 0.010066100464315435,
+        "reconstruction_mse": 0.00347156529810414,
+        "latent_sd": [
+          2.011012194950751
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260927,
+        "iterations": 879,
+        "objective": 0.01004266521797348,
+        "reconstruction_mse": 0.003459050311876215,
+        "latent_sd": [
+          2.1362801434108474
+        ],
+        "warnings": []
+      }
+    ],
+    "pca_variance_shares": [
+      0.9965205686363184,
+      0.0020246387776266307,
+      0.0005397534493029918,
+      0.0004744024366629809,
+      0.0004406367000889075
+    ],
+    "train_rmse_bp": 6.470788760701215
+  },
+  {
+    "month": "2025-10",
+    "candidate": {
+      "candidate_id": "f05",
+      "family": "ae_relu_1",
+      "params": {
+        "activation": "relu",
+        "rank": 1,
+        "alpha": 100.0
+      }
+    },
+    "cutoff": "2025-10-01 00:00:00+00:00",
+    "train_first": "2025-06-01 19:00:00+00:00",
+    "train_last": "2025-09-30 23:00:00+00:00",
+    "train_n": 1479,
+    "test_n": 378,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 253,
+        "objective": 0.14345711187210433,
+        "reconstruction_mse": 0.0036629730533190353,
+        "latent_sd": [
+          2.216828176462723
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260926,
+        "iterations": 309,
+        "objective": 0.14345749387101012,
+        "reconstruction_mse": 0.0036632976053713505,
+        "latent_sd": [
+          2.21733803648078
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260927,
+        "iterations": 358,
+        "objective": 0.1434570536431875,
+        "reconstruction_mse": 0.0036629119206708933,
+        "latent_sd": [
+          2.2162827684938526
+        ],
+        "warnings": []
+      }
+    ],
+    "pca_variance_shares": [
+      0.9965205686363184,
+      0.0020246387776266307,
+      0.0005397534493029918,
+      0.0004744024366629809,
+      0.0004406367000889075
+    ],
+    "train_rmse_bp": 6.458453671253331
+  },
+  {
+    "month": "2025-10",
+    "candidate": {
+      "candidate_id": "f06",
+      "family": "ae_relu_2",
+      "params": {
+        "activation": "relu",
+        "rank": 2,
+        "alpha": 1.0
+      }
+    },
+    "cutoff": "2025-10-01 00:00:00+00:00",
+    "train_first": "2025-06-01 19:00:00+00:00",
+    "train_last": "2025-09-30 23:00:00+00:00",
+    "train_n": 1479,
+    "test_n": 378,
+    "warnings": [
+      "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+    ],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 1244,
+        "objective": 0.0063663163537102385,
+        "reconstruction_mse": 0.0014669584532915811,
+        "latent_sd": [
+          0.6707639404688508,
+          1.7697303279170435
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260926,
+        "iterations": 1500,
+        "objective": 0.0062980351998317245,
+        "reconstruction_mse": 0.0014460917733180151,
+        "latent_sd": [
+          1.0412407060394888,
+          1.8690742116709063
+        ],
+        "warnings": [
+          "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ]
+      },
+      {
+        "seed": 20260927,
+        "iterations": 675,
+        "objective": 0.010181665803630394,
+        "reconstruction_mse": 0.0034804541193312927,
+        "latent_sd": [
+          1.7058052582118814,
+          0.5557723685623329
+        ],
+        "warnings": []
+      }
+    ],
+    "pca_variance_shares": [
+      0.9965205686363184,
+      0.0020246387776266307,
+      0.0005397534493029918,
+      0.0004744024366629809,
+      0.0004406367000889075
+    ],
+    "train_rmse_bp": 5.862111286567363
+  },
+  {
+    "month": "2025-10",
+    "candidate": {
+      "candidate_id": "f07",
+      "family": "ae_relu_2",
+      "params": {
+        "activation": "relu",
+        "rank": 2,
+        "alpha": 100.0
+      }
+    },
+    "cutoff": "2025-10-01 00:00:00+00:00",
+    "train_first": "2025-06-01 19:00:00+00:00",
+    "train_last": "2025-09-30 23:00:00+00:00",
+    "train_n": 1479,
+    "test_n": 378,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 316,
+        "objective": 0.1434586900144002,
+        "reconstruction_mse": 0.0036640723892024355,
+        "latent_sd": [
+          0.6835312798209157,
+          2.1073221238604023
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260926,
+        "iterations": 298,
+        "objective": 0.14345782469706295,
+        "reconstruction_mse": 0.003663372380984271,
+        "latent_sd": [
+          0.25161275178878956,
+          2.2022326087093305
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260927,
+        "iterations": 355,
+        "objective": 0.14345699304634824,
+        "reconstruction_mse": 0.003663341468861521,
+        "latent_sd": [
+          1.7757498037016857,
+          1.3266707714265544
+        ],
+        "warnings": []
+      }
+    ],
+    "pca_variance_shares": [
+      0.9965205686363184,
+      0.0020246387776266307,
+      0.0005397534493029918,
+      0.0004744024366629809,
+      0.0004406367000889075
+    ],
+    "train_rmse_bp": 6.030602211985732
+  },
+  {
+    "month": "2025-10",
+    "candidate": {
+      "candidate_id": "f08",
+      "family": "ae_tanh_1",
+      "params": {
+        "activation": "tanh",
+        "rank": 1,
+        "alpha": 1.0
+      }
+    },
+    "cutoff": "2025-10-01 00:00:00+00:00",
+    "train_first": "2025-06-01 19:00:00+00:00",
+    "train_last": "2025-09-30 23:00:00+00:00",
+    "train_n": 1479,
+    "test_n": 378,
+    "warnings": [
+      "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html",
+      "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+    ],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 1500,
+        "objective": 0.014450484234532133,
+        "reconstruction_mse": 0.003570644288852972,
+        "latent_sd": [
+          0.35231604108071723
+        ],
+        "warnings": [
+          "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ]
+      },
+      {
+        "seed": 20260926,
+        "iterations": 1440,
+        "objective": 0.01429445083049408,
+        "reconstruction_mse": 0.003591896543120527,
+        "latent_sd": [
+          0.3528719543604122
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260927,
+        "iterations": 1500,
+        "objective": 0.014307084986535185,
+        "reconstruction_mse": 0.0035792677401063518,
+        "latent_sd": [
+          0.35300798499111924
+        ],
+        "warnings": [
+          "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+        ]
+      }
+    ],
+    "pca_variance_shares": [
+      0.9965205686363184,
+      0.0020246387776266307,
+      0.0005397534493029918,
+      0.0004744024366629809,
+      0.0004406367000889075
+    ],
+    "train_rmse_bp": 7.967269387125381
+  },
+  {
+    "month": "2025-10",
+    "candidate": {
+      "candidate_id": "f09",
+      "family": "ae_tanh_1",
+      "params": {
+        "activation": "tanh",
+        "rank": 1,
+        "alpha": 100.0
+      }
+    },
+    "cutoff": "2025-10-01 00:00:00+00:00",
+    "train_first": "2025-06-01 19:00:00+00:00",
+    "train_last": "2025-09-30 23:00:00+00:00",
+    "train_n": 1479,
+    "test_n": 378,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 308,
+        "objective": 0.40586065162952384,
+        "reconstruction_mse": 0.025263189838815963,
+        "latent_sd": [
+          0.521725493909526
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260926,
+        "iterations": 256,
+        "objective": 0.4003328937212631,
+        "reconstruction_mse": 0.024439036870607164,
+        "latent_sd": [
+          0.5225849334341768
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260927,
+        "iterations": 260,
+        "objective": 0.40033309783463167,
+        "reconstruction_mse": 0.024437653765232513,
+        "latent_sd": [
+          0.5225962994949604
+        ],
+        "warnings": []
+      }
+    ],
+    "pca_variance_shares": [
+      0.9965205686363184,
+      0.0020246387776266307,
+      0.0005397534493029918,
+      0.0004744024366629809,
+      0.0004406367000889075
+    ],
+    "train_rmse_bp": 13.052416153842305
+  },
+  {
+    "month": "2025-10",
+    "candidate": {
+      "candidate_id": "f10",
+      "family": "ae_tanh_2",
+      "params": {
+        "activation": "tanh",
+        "rank": 2,
+        "alpha": 1.0
+      }
+    },
+    "cutoff": "2025-10-01 00:00:00+00:00",
+    "train_first": "2025-06-01 19:00:00+00:00",
+    "train_last": "2025-09-30 23:00:00+00:00",
+    "train_n": 1479,
+    "test_n": 378,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 1169,
+        "objective": 0.013370658209185522,
+        "reconstruction_mse": 0.003548443658809925,
+        "latent_sd": [
+          0.32827129233916896,
+          0.3478564697569947
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260926,
+        "iterations": 1496,
+        "objective": 0.01337406652814042,
+        "reconstruction_mse": 0.0035477443299340703,
+        "latent_sd": [
+          0.32637502444228916,
+          0.34113172352349436
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260927,
+        "iterations": 1149,
+        "objective": 0.013369894121806735,
+        "reconstruction_mse": 0.0035503937618126414,
+        "latent_sd": [
+          0.3309852988741116,
+          0.3462198994204313
+        ],
+        "warnings": []
+      }
+    ],
+    "pca_variance_shares": [
+      0.9965205686363184,
+      0.0020246387776266307,
+      0.0005397534493029918,
+      0.0004744024366629809,
+      0.0004406367000889075
+    ],
+    "train_rmse_bp": 8.499988536557378
+  },
+  {
+    "month": "2025-10",
+    "candidate": {
+      "candidate_id": "f11",
+      "family": "ae_tanh_2",
+      "params": {
+        "activation": "tanh",
+        "rank": 2,
+        "alpha": 100.0
+      }
+    },
+    "cutoff": "2025-10-01 00:00:00+00:00",
+    "train_first": "2025-06-01 19:00:00+00:00",
+    "train_last": "2025-09-30 23:00:00+00:00",
+    "train_n": 1479,
+    "test_n": 378,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 295,
+        "objective": 0.3431860547752314,
+        "reconstruction_mse": 0.019685634588960246,
+        "latent_sd": [
+          0.4929110954738769,
+          0.5016471321102359
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260926,
+        "iterations": 381,
+        "objective": 0.34318593172793666,
+        "reconstruction_mse": 0.019677940836940574,
+        "latent_sd": [
+          0.4928467299228642,
+          0.5016424135465045
+        ],
+        "warnings": []
+      },
+      {
+        "seed": 20260927,
+        "iterations": 256,
+        "objective": 0.3493495893042279,
+        "reconstruction_mse": 0.02051942419880247,
+        "latent_sd": [
+          0.49219026137794547,
+          0.5011186434183301
+        ],
+        "warnings": []
+      }
+    ],
+    "pca_variance_shares": [
+      0.9965205686363184,
+      0.0020246387776266307,
+      0.0005397534493029918,
+      0.0004744024366629809,
+      0.0004406367000889075
+    ],
+    "train_rmse_bp": 10.760370362485162
+  },
+  {
+    "month": "2025-10",
+    "candidate": {
+      "candidate_id": "f12",
+      "family": "conditional_neural",
+      "params": {
+        "width": 4,
+        "penalty": 0.001
+      }
+    },
+    "cutoff": "2025-10-01 00:00:00+00:00",
+    "train_first": "2025-06-01 19:00:00+00:00",
+    "train_last": "2025-09-30 23:00:00+00:00",
+    "train_n": 1479,
+    "test_n": 378,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 141,
+        "objective": 0.0029658128182327393,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 8.292456581295281e-07
+      },
+      {
+        "seed": 20260926,
+        "iterations": 306,
+        "objective": 0.0029658121388352094,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 4.604559237040423e-07
+      },
+      {
+        "seed": 20260927,
+        "iterations": 209,
+        "objective": 0.0029658126281000745,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 7.841061726628649e-07
+      }
+    ],
+    "pca_variance_shares": [
+      0.9965205686363184,
+      0.0020246387776266307,
+      0.0005397534493029918,
+      0.0004744024366629809,
+      0.0004406367000889075
+    ],
+    "train_rmse_bp": 6.358260182138199
+  },
+  {
+    "month": "2025-10",
+    "candidate": {
+      "candidate_id": "f13",
+      "family": "conditional_neural",
+      "params": {
+        "width": 4,
+        "penalty": 0.1
+      }
+    },
+    "cutoff": "2025-10-01 00:00:00+00:00",
+    "train_first": "2025-06-01 19:00:00+00:00",
+    "train_last": "2025-09-30 23:00:00+00:00",
+    "train_n": 1479,
+    "test_n": 378,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 9,
+        "objective": 0.0030257038559386106,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 4.1179936033661717e-07
+      },
+      {
+        "seed": 20260926,
+        "iterations": 23,
+        "objective": 0.0030257038438828354,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 1.1936226344395038e-07
+      },
+      {
+        "seed": 20260927,
+        "iterations": 22,
+        "objective": 0.003025703845441745,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 2.480473353975391e-07
+      }
+    ],
+    "pca_variance_shares": [
+      0.9965205686363184,
+      0.0020246387776266307,
+      0.0005397534493029918,
+      0.0004744024366629809,
+      0.0004406367000889075
+    ],
+    "train_rmse_bp": 6.444378958022624
+  },
+  {
+    "month": "2025-10",
+    "candidate": {
+      "candidate_id": "f14",
+      "family": "conditional_neural",
+      "params": {
+        "width": 8,
+        "penalty": 0.001
+      }
+    },
+    "cutoff": "2025-10-01 00:00:00+00:00",
+    "train_first": "2025-06-01 19:00:00+00:00",
+    "train_last": "2025-09-30 23:00:00+00:00",
+    "train_n": 1479,
+    "test_n": 378,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 190,
+        "objective": 0.002955685222043417,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 3.817038502940511e-07
+      },
+      {
+        "seed": 20260926,
+        "iterations": 328,
+        "objective": 0.002956734480736125,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 2.7692872492272684e-07
+      },
+      {
+        "seed": 20260927,
+        "iterations": 299,
+        "objective": 0.0029556835835437634,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 9.74382170233161e-07
+      }
+    ],
+    "pca_variance_shares": [
+      0.9965205686363184,
+      0.0020246387776266307,
+      0.0005397534493029918,
+      0.0004744024366629809,
+      0.0004406367000889075
+    ],
+    "train_rmse_bp": 6.356165407180773
+  },
+  {
+    "month": "2025-10",
+    "candidate": {
+      "candidate_id": "f15",
+      "family": "conditional_neural",
+      "params": {
+        "width": 8,
+        "penalty": 0.1
+      }
+    },
+    "cutoff": "2025-10-01 00:00:00+00:00",
+    "train_first": "2025-06-01 19:00:00+00:00",
+    "train_last": "2025-09-30 23:00:00+00:00",
+    "train_n": 1479,
+    "test_n": 378,
+    "warnings": [],
+    "members": [
+      {
+        "seed": 20260925,
+        "iterations": 27,
+        "objective": 0.003025703843835222,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 4.311375310223336e-07
+      },
+      {
+        "seed": 20260926,
+        "iterations": 22,
+        "objective": 0.00302570384490671,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 4.2855031847439435e-07
+      },
+      {
+        "seed": 20260927,
+        "iterations": 21,
+        "objective": 0.003025703853683749,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "max_gradient": 7.627023436268883e-07
+      }
+    ],
+    "pca_variance_shares": [
+      0.9965205686363184,
+      0.0020246387776266307,
+      0.0005397534493029918,
+      0.0004744024366629809,
+      0.0004406367000889075
+    ],
+    "train_rmse_bp": 6.444379038127525
+  }
+]

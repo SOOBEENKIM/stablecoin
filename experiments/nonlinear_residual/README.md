@@ -2,6 +2,8 @@
 
 기존 국내 원고의 회귀 잔차를 비선형 모형으로 재검토하는 별도 연구다.
 
+**최신 A4:** [공통 요인 자체를 오토인코더로 추출한 결과](latent_factors/RESULTS_KO.md)를 추가했다. AE와 조건부 요인 민감도 신경망을 실행하고, 거의 같은 잠재요인에서 생기는 회귀 불안정을 동일 Ridge 대조로 점검했다. AE는 기존 EQ5 회귀보다 개선되지만 2요인 PCA보다 우수하지 않았다. [안정화 수치표](latent_factors/STABILIZED_TABLES_KO.md)와 DOGE 제외를 포함한 모든 코인별 사후 진단을 함께 보존한다.
+
 2026-09-24: **세 잔차의 동일 후속 실험을 완료했다.** [세 방식 후속 결과](three_way/RESULTS_KO.md)에 하방 관계, 1·6·12시간 비교, 포지셔닝의 추가 예측 가치와 재적합 불확실성 구간을 정리했다. 선형·PCA 결과는 거의 같지만, 기존의 지속·증폭 주장이나 ML의 일관된 우위를 뒷받침하는 결과는 확보되지 않았다.
 
 같은 날 [A3 추가 모델 비교](literature_models/RESULTS_KO.md)도 완료했다. 문헌에 근거해 XGBoost·소규모 MLP·스플라인을 추가하고, **원고 순서를 유지하며 첫 회귀만 비선형으로 바꾸는 실험**과 공동 조정을 분리했다. 28개 비선형 설정을 추가했으며 모든 후보와 후속 점추정을 보존했다.
@@ -17,6 +19,9 @@
 - [A3: 문헌 기반 모델 확대·원고의 순차 분해 유지](literature_models/PROTOCOL_KO.md)
 - [A3의 문헌 근거와 적용 범위](literature_models/REFERENCES_KO.md)
 - [A3 추가 모델 비교 결과](literature_models/RESULTS_KO.md)
+- [A4: 비선형 잠재요인·조건부 민감도 규칙 및 문헌 적용](latent_factors/PROTOCOL_KO.md)
+- [A4: 요인 회귀의 수치 안정성 후속](latent_factors/STABILITY_KO.md)
+- [A4 최종 해석과 결과](latent_factors/RESULTS_KO.md)
 
 기존 `research/option1_*`와 원자료를 보존한다. 새 결과는 이 폴더의 `results/`에 기록한다.
 
@@ -51,4 +56,18 @@ OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MPLCONFIGDIR=/tmp/stablecoin-residual-m
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 MPLCONFIGDIR=/tmp/stablecoin-residual-mpl python3 experiments/nonlinear_residual/literature_models/run_comparison.py
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MPLCONFIGDIR=/tmp/stablecoin-residual-mpl python3 experiments/nonlinear_residual/literature_models/verify_outputs.py
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MPLCONFIGDIR=/tmp/stablecoin-residual-mpl python3 experiments/nonlinear_residual/literature_models/make_report.py
+```
+
+A4 의존성은 `latent_factors/requirements.txt`에 고정했다. 새 작업 사본에서 출력 폴더를 별도로 보관한 뒤 아래 순서로 재현한다. 기존 출력 폴더가 있으면 학습 실행을 중단한다. `verify_outputs.py`는 초기의 엄격한 절대 오차 검사를 보존한 파일이고, 실제 가중치 재생 검증 명령은 `verify_replay.py`다.
+
+```bash
+export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 MPLCONFIGDIR=/tmp/stablecoin-residual-mpl
+python3 experiments/nonlinear_residual/latent_factors/check_guards.py
+python3 experiments/nonlinear_residual/latent_factors/run_comparison.py
+python3 experiments/nonlinear_residual/latent_factors/verify_replay.py
+python3 experiments/nonlinear_residual/latent_factors/stabilize_readout.py
+python3 experiments/nonlinear_residual/latent_factors/verify_stability.py
+python3 experiments/nonlinear_residual/latent_factors/factor_diagnostics.py
+python3 experiments/nonlinear_residual/latent_factors/make_report.py
+python3 experiments/nonlinear_residual/latent_factors/make_report.py --stabilized
 ```
