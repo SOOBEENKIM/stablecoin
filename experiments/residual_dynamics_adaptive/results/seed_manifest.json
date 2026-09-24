@@ -1,0 +1,14 @@
+{
+  "seeds": [
+    20260925,
+    20260926,
+    20260927,
+    20260928
+  ],
+  "additional_fits": 45,
+  "selected_hyperparameters_frozen": true,
+  "seed_selection": false,
+  "protocol_sha256": "c1e00dfbc21144b41b6154019b300308757e31317f09e3dfe193aa7a1fc86c58",
+  "source_sha256": "2f8417aeb6c38dcce2730069f5cc31fb9fb1770a02ca21331445f687810a8068",
+  "choices_sha256": "fd4740baac1c034fe07f9cf0efa4aa8ee3215f2afa60dfbc4ac61dd8844d5754"
+}

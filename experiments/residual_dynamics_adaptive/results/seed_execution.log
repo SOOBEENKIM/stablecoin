@@ -1,0 +1,16 @@
+DONE seed 20260926
+DONE seed 20260927
+DONE seed 20260928
+    seed calibration        comparison  improvement_pct
+20260925  calibrated vs_linear_history         9.629016
+20260925  calibrated       vs_qrf_base         1.320004
+20260925  calibrated       vs_qrf_full         2.294614
+20260926  calibrated vs_linear_history         8.677713
+20260926  calibrated       vs_qrf_base         0.612908
+20260926  calibrated       vs_qrf_full         0.783446
+20260927  calibrated vs_linear_history         8.943062
+20260927  calibrated       vs_qrf_base         0.147763
+20260927  calibrated       vs_qrf_full         0.650092
+20260928  calibrated vs_linear_history         9.168970
+20260928  calibrated       vs_qrf_base         1.115076
+20260928  calibrated       vs_qrf_full         1.323887

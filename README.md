@@ -2,7 +2,11 @@
 
 현재 브랜치는 `research/icaif2026-manuscript-development`입니다. 국내 원고 재현본을 보존하고, 수정된 가격·시간 계산에 기반한 **잔차의 미래 하방 예측**으로 연구를 확장했습니다.
 
-**2026-09-25 ML 첫 실험:** 선형·상호작용·스플라인·분위수 부스팅을 EQ/CAP/PCA 잔차와 같은 미래 평가 구간에서 비교했습니다. 주 분석에서 부스팅의 예측손실은 선형보다 12.37% 컸고, 포지셔닝 추가 효과는 확인되지 않았습니다. 현재 새 기여를 입증했다고 주장하지 않습니다.
+**2026-09-25 후속 실험:** 학습 창·수준/변화량 표현·과거 오차 보정을 비교하고 Quantile Regression Forest(QRF)를 추가했습니다. 확장 표본의 주 EQ 분석에서 같은 조건의 선형 대비 QRF의 예측손실이 **9.63% 감소**, 네 평가 월 모두 개선됐습니다. 난수 네 개에서는 8.68~9.63% 개선됐습니다. 포지셔닝 수준과 변화량의 추가 효과는 주 실행 1.32%, 난수별 0.15~1.32%로 작았고, 보정 여부와 잔차 정의에 민감했습니다. 같은 과거 기간을 재사용한 탐색적 후속으로, 원래 경제적 메커니즘의 입증이나 독립 외부 검증으로 주장하지 않습니다.
+
+[후속 결과와 해석](experiments/residual_dynamics_adaptive/RESULTS_KO.md) · [후속 설계](experiments/residual_dynamics_adaptive/PROTOCOL_KO.md) · [실행 안내](experiments/residual_dynamics_adaptive/README.md)
+
+**2026-09-25 ML 첫 실험:** 선형·상호작용·스플라인·분위수 부스팅을 EQ/CAP/PCA 잔차와 같은 미래 평가 구간에서 비교했습니다. 주 분석에서 부스팅의 예측손실은 선형보다 12.37% 컸고, 포지셔닝 추가 효과는 확인되지 않았습니다. 이 첫 실험은 당시 제안한 기여를 뒷받침하지 못했습니다.
 
 [ML 실험 결과와 한계](experiments/residual_dynamics_ml/RESULTS_KO.md) · [사전에 정한 설계](experiments/residual_dynamics_ml/PROTOCOL_KO.md) · [실행 안내](experiments/residual_dynamics_ml/README.md)
 
@@ -45,6 +49,7 @@ python3 experiments/manuscript_reproduction/run_reproduction.py
 - `research/reference/original_v4/`: 수정하지 않은 기존 코드와 전처리 데이터.
 - `experiments/manuscript_reproduction/`: 이번에 추가한 재현 실행기와 새 실행 결과.
 - `experiments/residual_dynamics_ml/`: 가격·시간 수정, 학습 구간별 회귀 잔차, 미래 분위수 예측 및 포지셔닝 증분 비교. 과거 ML 분해나 `main` 호가 변형 연구와 다른 실험.
+- `experiments/residual_dynamics_adaptive/`: 첫 결과 이후 학습 표현·QRF·시간순 보정·정보 가용성·포지셔닝 변화량을 점검한 후속. 최초 실험은 보존.
 - `research/`, `docs/`, `context/`의 나머지 파일: `main`에서 물려받은 이전 연구 기록. 이번 원고 재현 결과와 구분합니다.
 
 `main`의 호가·AI 연구는 별도 방향의 과거 기록입니다. 해당 안내는 [기존 연구 흐름](docs/STUDY_GUIDE_KO.md)에 남아 있습니다. 삭제한 ML 분해 실험의 이전 상태는 Git 커밋 `b051620e86bfac07efc90d6b7a257c0ba9d86d1d`에서 확인할 수 있습니다.

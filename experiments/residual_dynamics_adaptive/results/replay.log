@@ -1,0 +1,9 @@
+{
+  "replay_month": "2026-02",
+  "model_definition_sample_replays": 18,
+  "max_calibration_replay_error_bp": 1.4210854715202004e-14,
+  "calibration_streams_checked": 54,
+  "conditional_forest_quantiles_verified": true,
+  "future_outcome_perturbation_passed": true,
+  "script_sha256": "dcbf5bba874c447e76d9efcc9666fe4d65886d504a6c2ced3d1223da77a13121"
+}

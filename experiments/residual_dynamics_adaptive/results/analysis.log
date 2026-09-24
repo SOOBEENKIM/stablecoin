@@ -1,0 +1,24 @@
+   model          comparison  improvement_pct  improvement_lo  improvement_hi  winning_months  p_holm_exploratory
+boosting algorithm_vs_linear         1.641016       -1.728305        4.933533               2              0.3315
+     qrf algorithm_vs_linear         9.629016        6.789121       12.515340               4              0.0030
+boosting    position_changes        -0.828062       -1.854322        0.240951               0              0.2500
+boosting        position_all        -2.079358       -3.813699       -0.678038               1              0.0340
+     qrf    position_changes         2.294614        1.095639        3.497273               4              0.0030
+     qrf        position_all         1.320004        0.314077        2.426604               3              0.0375
+{
+  "input_and_original_source_hashes_match": true,
+  "protocol_unchanged": true,
+  "training_only_first_stages": true,
+  "purged_labels": true,
+  "no_future_calibration_labels": true,
+  "unchanged_residual_targets_checked": true,
+  "exact_1h_targets": true,
+  "common_origin_paths_checked": true,
+  "price_identity_max_error_bp": 1.4285461702456814e-11,
+  "warmup_and_evaluation_forecasts": 52785,
+  "evaluation_forecasts": 41985,
+  "model_fits": 3510,
+  "warning_count": 0,
+  "analysis_source_sha256": "1eec0e933140337cf39b6cd94ab53a4758841328b9cff971f8c9b72054a0d3c9",
+  "inference": "exploratory fixed-prediction calendar blocks; not refit adaptive paths"
+}
