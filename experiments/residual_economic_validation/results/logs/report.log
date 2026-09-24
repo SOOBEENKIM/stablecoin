@@ -1,0 +1,5 @@
+           mode definition           comparison calibration  block_days    n  difference_bp  improvement_pct  improvement_lo  improvement_hi  p_centered_boot  winning_months  p_holm_exploratory
+available_macro         EQ     qrf_vs_threshold  calibrated           5 1088      -0.084268         4.838789        1.086788       10.164703           0.0420               4              0.1680
+available_macro         EQ contribution_account  calibrated           5 1088      -0.015778         0.943105       -0.128954        2.061556           0.0930               3              0.2355
+available_macro         EQ contribution_funding  calibrated           5 1088       0.005369        -0.325024       -0.669401        0.055810           0.0785               1              0.2355
+available_macro         EQ      contribution_oi  calibrated           5 1088       0.003705        -0.224076       -0.594144        0.122265           0.2275               2              0.2355

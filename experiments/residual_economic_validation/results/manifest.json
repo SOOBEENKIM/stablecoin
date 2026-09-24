@@ -1,0 +1,34 @@
+{
+  "parent_commit": "333c206f1164265907e121c8f3b88b060d616ecc",
+  "protocol_sha256": "06fa08a8e9a2a35049be28e0c39e876b23542fb4576e5bc3d6f8b2e15878cb50",
+  "source_sha256": {
+    "economic.py": "26492c54a7fba6b5ae275362fd1d0d42e410c553cb6f95c727d07168608ffa5a",
+    "run_models.py": "b7a66a5a339874dab17786dbd96a31e9d54feda40cd1f136b6beb5c4ab71cf6b"
+  },
+  "inherited_source_sha256": {
+    "experiments/residual_dynamics_adaptive/adaptive.py": "c97876b775aacbd0194216ae20aa2e910a2fb35952099a253c035690cbff1dde",
+    "experiments/residual_dynamics_ml/data.py": "2d7b4f3812da9d85500dff79deabe51e20ce2dceab14f1b2d437e02dcfc6c9a1",
+    "experiments/residual_dynamics_ml/models.py": "1d2b27869535bad38c71ce6b8c6b4ec08cbd9a437d8f36e8cfce56126951bd70"
+  },
+  "input_sha256": {
+    "research/data/raw data/binance_1h_2025-06-01_2026-03-19.csv": "f32e54fadbedfb38a9514ecb4682bc2bc2e2eb418b314f672af7f783b61af3d0",
+    "research/data/raw data/upbit_1h_2025-06-01_2026-03-19.csv": "c0ea17c465872dafc4e641c5486fe4edd15b7abdc064ed587869882b78ad1efe",
+    "research/data/raw data/USDKRW.csv": "781044d8ceaca50dd2b175681295e9c603cfdfb451058e5a360c1de13dcc6c59",
+    "research/data/raw data/DXY.csv": "31603a17ddc38908580d1472c2157dcc3b092eaeed074288b16545a23baa24c4",
+    "research/data/raw data/VIXY.csv": "80b8e7f03cf4212abfa615badd2887e68e11a7f5095128d13cea0e30cfc8cc12",
+    "research/corrected_outputs/binance_btcusdt_data_vision_metrics.csv": "726610d41d74c0ae4ef612e2c4af58166dd302b8abe6fd47294a148f82acc138",
+    "research/corrected_outputs/binance_btcusdt_funding_rate.csv": "423bd4e8ba1213df39e12350918f87a691a0aa91a477ae747c85f2a3f03dbbb6"
+  },
+  "previous_forecast_sha256": {
+    "experiments/residual_dynamics_adaptive/results/predictions.csv.gz": "ea4605abdb0e5b633a731cd147a61c4da990c6357db038738d331c44e00f8ddc",
+    "experiments/residual_dynamics_adaptive/results/seed_predictions.csv.gz": "28906eddcc9c52305a718b51e733ea1ae488b4aa4b2fde34cf57bc4060228d15",
+    "experiments/residual_dynamics_adaptive/results/selected_candidates.csv": "fd4740baac1c034fe07f9cf0efa4aa8ee3215f2afa60dfbc4ac61dd8844d5754"
+  },
+  "workers": 8,
+  "completed": true,
+  "fit_count": 1885,
+  "prediction_rows": 52183,
+  "evaluation_rows": 41503,
+  "warnings": 0,
+  "elapsed_seconds": 155.2
+}

@@ -1,0 +1,5 @@
+{
+  "source_sha256": "0bcecbed2222d6ede9d47f4c6ea00c5fa85aab83d073e1d28b87295b52f52bcc",
+  "score_averaging": "per-origin mean of seed losses; no sample multiplication",
+  "primary_comparisons": 4
+}

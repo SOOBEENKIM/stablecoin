@@ -1,0 +1,19 @@
+definition      cohort exposure  pairs  days  max_match_smd  max_all_base_smd   status
+       CAP common_path  account      6     9       0.327802          0.930156  limited
+       CAP common_path  funding     25    26       0.138681          0.305425  limited
+       CAP common_path       oi     22    29       0.071347          0.839807 adequate
+       CAP    one_hour  account     27    31       0.286764          0.416262  limited
+       CAP    one_hour  funding    133    50       0.059708          0.178988 adequate
+       CAP    one_hour       oi     77    44       0.107366          0.492235  limited
+        EQ common_path  account      5     8       0.294976          1.466080  limited
+        EQ common_path  funding     14    19       0.196947          1.092291  limited
+        EQ common_path       oi     17    24       0.139275          0.566116  limited
+        EQ    one_hour  account     29    30       0.296417          0.418297  limited
+        EQ    one_hour  funding    116    50       0.051051          0.176759 adequate
+        EQ    one_hour       oi     78    45       0.065391          0.498110 adequate
+       PCA common_path  account      5     8       0.294976          1.466080  limited
+       PCA common_path  funding     14    19       0.197532          1.092291  limited
+       PCA common_path       oi     17    24       0.139275          0.566116  limited
+       PCA    one_hour  account     29    30       0.296417          0.418297  limited
+       PCA    one_hour  funding    117    50       0.051179          0.174694 adequate
+       PCA    one_hour       oi     80    47       0.059094          0.523256 adequate

@@ -1,0 +1,291 @@
+{
+  "selected": {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2026-01",
+    "model": "qrf",
+    "info": "without_account",
+    "window": "all",
+    "form": "change",
+    "params": "{\"max_depth\": null, \"max_features\": 0.7, \"min_samples_leaf\": 20}",
+    "validation_loss_bp": 1.6583491215277284,
+    "train_n": 1862,
+    "validation_n": 313
+  },
+  "candidates": [
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-01",
+      "model": "qrf",
+      "info": "without_account",
+      "window": "all",
+      "form": "level",
+      "params": "{\"max_depth\": 5, \"max_features\": 1.0, \"min_samples_leaf\": 20}",
+      "validation_loss_bp": 2.1253832940886994,
+      "train_n": 1862,
+      "validation_n": 313
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-01",
+      "model": "qrf",
+      "info": "without_account",
+      "window": "all",
+      "form": "level",
+      "params": "{\"max_depth\": null, \"max_features\": 0.7, \"min_samples_leaf\": 20}",
+      "validation_loss_bp": 2.1920686338941398,
+      "train_n": 1862,
+      "validation_n": 313
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-01",
+      "model": "qrf",
+      "info": "without_account",
+      "window": "all",
+      "form": "level",
+      "params": "{\"max_depth\": null, \"max_features\": 1.0, \"min_samples_leaf\": 40}",
+      "validation_loss_bp": 2.314483152235338,
+      "train_n": 1862,
+      "validation_n": 313
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-01",
+      "model": "qrf",
+      "info": "without_account",
+      "window": "all",
+      "form": "change",
+      "params": "{\"max_depth\": 5, \"max_features\": 1.0, \"min_samples_leaf\": 20}",
+      "validation_loss_bp": 1.6785162753711276,
+      "train_n": 1862,
+      "validation_n": 313
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-01",
+      "model": "qrf",
+      "info": "without_account",
+      "window": "all",
+      "form": "change",
+      "params": "{\"max_depth\": null, \"max_features\": 0.7, \"min_samples_leaf\": 20}",
+      "validation_loss_bp": 1.6583491215277284,
+      "train_n": 1862,
+      "validation_n": 313
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-01",
+      "model": "qrf",
+      "info": "without_account",
+      "window": "all",
+      "form": "change",
+      "params": "{\"max_depth\": null, \"max_features\": 1.0, \"min_samples_leaf\": 40}",
+      "validation_loss_bp": 1.6950587440300617,
+      "train_n": 1862,
+      "validation_n": 313
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-01",
+      "model": "qrf",
+      "info": "without_account",
+      "window": "90",
+      "form": "level",
+      "params": "{\"max_depth\": 5, \"max_features\": 1.0, \"min_samples_leaf\": 20}",
+      "validation_loss_bp": 2.0131590437285065,
+      "train_n": 940,
+      "validation_n": 313
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-01",
+      "model": "qrf",
+      "info": "without_account",
+      "window": "90",
+      "form": "level",
+      "params": "{\"max_depth\": null, \"max_features\": 0.7, \"min_samples_leaf\": 20}",
+      "validation_loss_bp": 2.104570641724299,
+      "train_n": 940,
+      "validation_n": 313
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-01",
+      "model": "qrf",
+      "info": "without_account",
+      "window": "90",
+      "form": "level",
+      "params": "{\"max_depth\": null, \"max_features\": 1.0, \"min_samples_leaf\": 40}",
+      "validation_loss_bp": 2.3074755085120024,
+      "train_n": 940,
+      "validation_n": 313
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-01",
+      "model": "qrf",
+      "info": "without_account",
+      "window": "90",
+      "form": "change",
+      "params": "{\"max_depth\": 5, \"max_features\": 1.0, \"min_samples_leaf\": 20}",
+      "validation_loss_bp": 1.7330662862799364,
+      "train_n": 940,
+      "validation_n": 313
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-01",
+      "model": "qrf",
+      "info": "without_account",
+      "window": "90",
+      "form": "change",
+      "params": "{\"max_depth\": null, \"max_features\": 0.7, \"min_samples_leaf\": 20}",
+      "validation_loss_bp": 1.6781292424553342,
+      "train_n": 940,
+      "validation_n": 313
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-01",
+      "model": "qrf",
+      "info": "without_account",
+      "window": "90",
+      "form": "change",
+      "params": "{\"max_depth\": null, \"max_features\": 1.0, \"min_samples_leaf\": 40}",
+      "validation_loss_bp": 1.7999618090124632,
+      "train_n": 940,
+      "validation_n": 313
+    }
+  ],
+  "fits": [
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-01",
+      "model": "qrf",
+      "info": "without_account",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "window": "all",
+      "form": "change",
+      "params": {
+        "max_depth": null,
+        "max_features": 0.7,
+        "min_samples_leaf": 20
+      },
+      "features": [
+        "e_now",
+        "e_change1",
+        "downside24",
+        "btc_vol24",
+        "btc_ret1",
+        "dxy_ret1",
+        "fx_ret1",
+        "vix_ret1",
+        "local_volume_surprise",
+        "vix_known_log",
+        "vix_known_age_hours",
+        "dxy_known_age_hours",
+        "hour_sin",
+        "hour_cos",
+        "weekend",
+        "funding_bp",
+        "oi_ret1",
+        "oi_surprise",
+        "funding_change8",
+        "oi_change24"
+      ],
+      "train_n": 2175,
+      "test_n": 294
+    }
+  ],
+  "audit": {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2026-01",
+    "model": "qrf",
+    "info": "without_account",
+    "inner": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2025-11-28T17:00:00+00:00",
+      "fit_n": 2190,
+      "intercept": 0.011958954672544011,
+      "beta_market": 0.008677160651039245,
+      "beta_g": 0.1716217757148854,
+      "pca_explained": 0.9982865453737303,
+      "pca_mean": [
+        0.012112034836957053,
+        0.011945055589687455,
+        0.012033421070730108,
+        0.01205796398414241,
+        0.01214408029027844
+      ],
+      "pca_std": [
+        0.019649660874765135,
+        0.019677542793300126,
+        0.01956308644715619,
+        0.019540968272554256,
+        0.019833313709456474
+      ],
+      "pca_loading": [
+        0.44733174298855916,
+        0.44736613724363083,
+        0.44739613434638514,
+        0.4473944920884154,
+        0.44657890499148145
+      ]
+    },
+    "outer": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2025-12-31T17:00:00+00:00",
+      "fit_n": 2555,
+      "intercept": 0.011872016738858071,
+      "beta_market": 0.008066786848701386,
+      "beta_g": 0.2851111255922799,
+      "pca_explained": 0.9970324012586201,
+      "pca_mean": [
+        0.012055634460823738,
+        0.011916548320746283,
+        0.011991849357225838,
+        0.012065518175837817,
+        0.012226037684565929
+      ],
+      "pca_std": [
+        0.0182672080707146,
+        0.018291410784010767,
+        0.01818682121637736,
+        0.0182133476424664,
+        0.01855178389327233
+      ],
+      "pca_loading": [
+        0.4474742276657663,
+        0.44751139644905225,
+        0.4475493651537663,
+        0.4475189783969203,
+        0.44601199013948317
+      ]
+    },
+    "cutoff": "2026-01-01T00:00:00+00:00",
+    "validation_start": "2025-12-01T00:00:00+00:00",
+    "inner_max_label": "2025-11-28T17:00:00+00:00",
+    "outer_max_label": "2025-12-31T17:00:00+00:00",
+    "first_test_origin": "2026-01-02T03:00:00+00:00"
+  },
+  "warnings": [],
+  "fit_count": 13
+}

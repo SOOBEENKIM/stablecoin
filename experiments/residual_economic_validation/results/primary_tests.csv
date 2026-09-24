@@ -1,0 +1,5 @@
+mode,definition,comparison,calibration,block_days,n,difference_bp,improvement_pct,improvement_lo,improvement_hi,p_centered_boot,winning_months,p_holm_exploratory
+available_macro,EQ,qrf_vs_threshold,calibrated,5,1088,-0.08426754694529508,4.838789305394897,1.0867875789602455,10.164703481750774,0.042,4,0.168
+available_macro,EQ,contribution_account,calibrated,5,1088,-0.01577826091907519,0.9431054271101802,-0.1289538155997039,2.0615562683586157,0.093,3,0.2355
+available_macro,EQ,contribution_funding,calibrated,5,1088,0.00536896054718963,-0.3250243422878052,-0.6694008285184194,0.05580965487917762,0.0785,1,0.2355
+available_macro,EQ,contribution_oi,calibrated,5,1088,0.0037051525149817558,-0.22407559097055163,-0.5941441081256305,0.1222650975111824,0.2275,2,0.2355

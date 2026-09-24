@@ -1,0 +1,15 @@
+{
+  "input_original_code_and_forecast_hashes_match": true,
+  "protocol_unchanged": true,
+  "actual_clock_targets": true,
+  "purged_training_labels": true,
+  "future_outcome_perturbation_passed": true,
+  "calibration_streams": 41,
+  "max_calibration_replay_error_bp": 1.4210854715202004e-14,
+  "refitted_forecast_streams": 41,
+  "max_model_replay_error_bp": 3.552713678800501e-15,
+  "matching_replays": 6,
+  "outcome_blind_matching_verified": true,
+  "same_origin_paths_verified": true,
+  "source_sha256": "de12990e4b2c182a9e32449bfc90996eec611c2eaed3043695e9e335e8b809dc"
+}

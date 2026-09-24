@@ -1,0 +1,292 @@
+{
+  "selected": {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2026-03",
+    "model": "qrf",
+    "info": "without_funding",
+    "window": "90",
+    "form": "change",
+    "params": "{\"max_depth\": null, \"max_features\": 0.7, \"min_samples_leaf\": 20}",
+    "validation_loss_bp": 1.8598014192156938,
+    "train_n": 887,
+    "validation_n": 280
+  },
+  "candidates": [
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-03",
+      "model": "qrf",
+      "info": "without_funding",
+      "window": "all",
+      "form": "level",
+      "params": "{\"max_depth\": 5, \"max_features\": 1.0, \"min_samples_leaf\": 20}",
+      "validation_loss_bp": 2.1795020844395863,
+      "train_n": 2469,
+      "validation_n": 280
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-03",
+      "model": "qrf",
+      "info": "without_funding",
+      "window": "all",
+      "form": "level",
+      "params": "{\"max_depth\": null, \"max_features\": 0.7, \"min_samples_leaf\": 20}",
+      "validation_loss_bp": 2.331330963242016,
+      "train_n": 2469,
+      "validation_n": 280
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-03",
+      "model": "qrf",
+      "info": "without_funding",
+      "window": "all",
+      "form": "level",
+      "params": "{\"max_depth\": null, \"max_features\": 1.0, \"min_samples_leaf\": 40}",
+      "validation_loss_bp": 2.3638362998282054,
+      "train_n": 2469,
+      "validation_n": 280
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-03",
+      "model": "qrf",
+      "info": "without_funding",
+      "window": "all",
+      "form": "change",
+      "params": "{\"max_depth\": 5, \"max_features\": 1.0, \"min_samples_leaf\": 20}",
+      "validation_loss_bp": 2.106641756594102,
+      "train_n": 2469,
+      "validation_n": 280
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-03",
+      "model": "qrf",
+      "info": "without_funding",
+      "window": "all",
+      "form": "change",
+      "params": "{\"max_depth\": null, \"max_features\": 0.7, \"min_samples_leaf\": 20}",
+      "validation_loss_bp": 2.0983646707077974,
+      "train_n": 2469,
+      "validation_n": 280
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-03",
+      "model": "qrf",
+      "info": "without_funding",
+      "window": "all",
+      "form": "change",
+      "params": "{\"max_depth\": null, \"max_features\": 1.0, \"min_samples_leaf\": 40}",
+      "validation_loss_bp": 2.1006666049366447,
+      "train_n": 2469,
+      "validation_n": 280
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-03",
+      "model": "qrf",
+      "info": "without_funding",
+      "window": "90",
+      "form": "level",
+      "params": "{\"max_depth\": 5, \"max_features\": 1.0, \"min_samples_leaf\": 20}",
+      "validation_loss_bp": 2.048642459903284,
+      "train_n": 887,
+      "validation_n": 280
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-03",
+      "model": "qrf",
+      "info": "without_funding",
+      "window": "90",
+      "form": "level",
+      "params": "{\"max_depth\": null, \"max_features\": 0.7, \"min_samples_leaf\": 20}",
+      "validation_loss_bp": 2.2658470285592487,
+      "train_n": 887,
+      "validation_n": 280
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-03",
+      "model": "qrf",
+      "info": "without_funding",
+      "window": "90",
+      "form": "level",
+      "params": "{\"max_depth\": null, \"max_features\": 1.0, \"min_samples_leaf\": 40}",
+      "validation_loss_bp": 2.199425955388993,
+      "train_n": 887,
+      "validation_n": 280
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-03",
+      "model": "qrf",
+      "info": "without_funding",
+      "window": "90",
+      "form": "change",
+      "params": "{\"max_depth\": 5, \"max_features\": 1.0, \"min_samples_leaf\": 20}",
+      "validation_loss_bp": 1.889270059794989,
+      "train_n": 887,
+      "validation_n": 280
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-03",
+      "model": "qrf",
+      "info": "without_funding",
+      "window": "90",
+      "form": "change",
+      "params": "{\"max_depth\": null, \"max_features\": 0.7, \"min_samples_leaf\": 20}",
+      "validation_loss_bp": 1.8598014192156938,
+      "train_n": 887,
+      "validation_n": 280
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-03",
+      "model": "qrf",
+      "info": "without_funding",
+      "window": "90",
+      "form": "change",
+      "params": "{\"max_depth\": null, \"max_features\": 1.0, \"min_samples_leaf\": 40}",
+      "validation_loss_bp": 1.8961394085345478,
+      "train_n": 887,
+      "validation_n": 280
+    }
+  ],
+  "fits": [
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-03",
+      "model": "qrf",
+      "info": "without_funding",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "window": "90",
+      "form": "change",
+      "params": {
+        "max_depth": null,
+        "max_features": 0.7,
+        "min_samples_leaf": 20
+      },
+      "features": [
+        "e_now",
+        "e_change1",
+        "downside24",
+        "btc_vol24",
+        "btc_ret1",
+        "dxy_ret1",
+        "fx_ret1",
+        "vix_ret1",
+        "local_volume_surprise",
+        "vix_known_log",
+        "vix_known_age_hours",
+        "dxy_known_age_hours",
+        "hour_sin",
+        "hour_cos",
+        "weekend",
+        "account_log",
+        "oi_ret1",
+        "oi_surprise",
+        "account_change1",
+        "account_change24",
+        "oi_change24"
+      ],
+      "train_n": 887,
+      "test_n": 201
+    }
+  ],
+  "audit": {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2026-03",
+    "model": "qrf",
+    "info": "without_funding",
+    "inner": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2026-01-30T17:00:00+00:00",
+      "fit_n": 2901,
+      "intercept": 0.011385052303262564,
+      "beta_market": 0.0076637306157389656,
+      "beta_g": 0.1300288642083629,
+      "pca_explained": 0.9965955627124162,
+      "pca_mean": [
+        0.011535546487908457,
+        0.011404288970718155,
+        0.011470572705638553,
+        0.011524445123234986,
+        0.011711279383942407
+      ],
+      "pca_std": [
+        0.017353013941688047,
+        0.01737462059381017,
+        0.017276455079014326,
+        0.017306187881824257,
+        0.017642255431257102
+      ],
+      "pca_loading": [
+        0.44754325439156706,
+        0.4475760644675236,
+        0.4476090616960209,
+        0.4475850365767107,
+        0.4457515730590299
+      ]
+    },
+    "outer": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2026-02-27T17:00:00+00:00",
+      "fit_n": 3225,
+      "intercept": 0.011948599547933375,
+      "beta_market": 0.0073549769640179116,
+      "beta_g": 0.14223419557699382,
+      "pca_explained": 0.995740809387669,
+      "pca_mean": [
+        0.01211597495375578,
+        0.011999367489382897,
+        0.012048184294397054,
+        0.012097651827702643,
+        0.012276648608621448
+      ],
+      "pca_std": [
+        0.01665236308124328,
+        0.01667306826050368,
+        0.016576950357787775,
+        0.016605054586478728,
+        0.016976175225320675
+      ],
+      "pca_loading": [
+        0.4476849105139827,
+        0.44770885997780585,
+        0.4477351012275282,
+        0.4477170538349552,
+        0.4452164826571275
+      ]
+    },
+    "cutoff": "2026-03-01T00:00:00+00:00",
+    "validation_start": "2026-02-01T00:00:00+00:00",
+    "inner_max_label": "2026-01-30T17:00:00+00:00",
+    "outer_max_label": "2026-02-27T17:00:00+00:00",
+    "first_test_origin": "2026-03-02T03:00:00+00:00"
+  },
+  "warnings": [],
+  "fit_count": 13
+}

@@ -1,0 +1,9 @@
+{
+  "source_sha256": "1907fd2642df4916f0232b7f35115c26ecc033529e6e0edd61b4a2c248b5b54f",
+  "matching_source_sha256": "764e027d65b80c900608b7a873624eae6df4e548ab6c3ff79eaec48d39e914d8",
+  "protocol_sha256": "06fa08a8e9a2a35049be28e0c39e876b23542fb4576e5bc3d6f8b2e15878cb50",
+  "price_identity_max_error_bp": 1.6763479493420164e-11,
+  "same_origin_paths_verified": true,
+  "matched_rows": 2122,
+  "pairs": 811
+}

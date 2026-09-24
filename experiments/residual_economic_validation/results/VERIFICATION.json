@@ -1,0 +1,427 @@
+{
+  "input_original_code_and_forecast_hashes_match": true,
+  "protocol_unchanged": true,
+  "actual_clock_targets": true,
+  "purged_training_labels": true,
+  "future_outcome_perturbation_passed": true,
+  "calibration_streams": 41,
+  "max_calibration_replay_error_bp": 1.4210854715202004e-14,
+  "refitted_forecast_streams": 41,
+  "max_model_replay_error_bp": 3.552713678800501e-15,
+  "matching_replays": 6,
+  "outcome_blind_matching_verified": true,
+  "same_origin_paths_verified": true,
+  "fit_replays": [
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_account",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_account",
+      "strategy": "retuned",
+      "seed": 20260926,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_account",
+      "strategy": "retuned",
+      "seed": 20260927,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_account",
+      "strategy": "retuned",
+      "seed": 20260928,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_account",
+      "strategy": "fixed_history",
+      "seed": 20260925,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_account",
+      "strategy": "fixed_history",
+      "seed": 20260926,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_account",
+      "strategy": "fixed_history",
+      "seed": 20260927,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_account",
+      "strategy": "fixed_history",
+      "seed": 20260928,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_funding",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_funding",
+      "strategy": "retuned",
+      "seed": 20260926,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_funding",
+      "strategy": "retuned",
+      "seed": 20260927,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_funding",
+      "strategy": "retuned",
+      "seed": 20260928,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_funding",
+      "strategy": "fixed_history",
+      "seed": 20260925,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_funding",
+      "strategy": "fixed_history",
+      "seed": 20260926,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_funding",
+      "strategy": "fixed_history",
+      "seed": 20260927,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_funding",
+      "strategy": "fixed_history",
+      "seed": 20260928,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_oi",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_oi",
+      "strategy": "retuned",
+      "seed": 20260926,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_oi",
+      "strategy": "retuned",
+      "seed": 20260927,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_oi",
+      "strategy": "retuned",
+      "seed": 20260928,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_oi",
+      "strategy": "fixed_history",
+      "seed": 20260925,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_oi",
+      "strategy": "fixed_history",
+      "seed": 20260926,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_oi",
+      "strategy": "fixed_history",
+      "seed": 20260927,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_oi",
+      "strategy": "fixed_history",
+      "seed": 20260928,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "threshold",
+      "info": "base",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "model": "threshold",
+      "info": "history",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "CAP",
+      "model": "qrf",
+      "info": "without_account",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "CAP",
+      "model": "qrf",
+      "info": "without_funding",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "CAP",
+      "model": "qrf",
+      "info": "without_oi",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "CAP",
+      "model": "threshold",
+      "info": "base",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "CAP",
+      "model": "threshold",
+      "info": "history",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "model": "qrf",
+      "info": "without_account",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "model": "qrf",
+      "info": "without_funding",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "model": "qrf",
+      "info": "without_oi",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "model": "threshold",
+      "info": "base",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "model": "threshold",
+      "info": "history",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 280,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "strict",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_account",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 120,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "strict",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_funding",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 120,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "strict",
+      "definition": "EQ",
+      "model": "qrf",
+      "info": "without_oi",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 120,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "strict",
+      "definition": "EQ",
+      "model": "threshold",
+      "info": "base",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 120,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "strict",
+      "definition": "EQ",
+      "model": "threshold",
+      "info": "history",
+      "strategy": "retuned",
+      "seed": 20260925,
+      "n": 120,
+      "max_error_bp": 3.552713678800501e-15
+    }
+  ],
+  "source_sha256": "de12990e4b2c182a9e32449bfc90996eec611c2eaed3043695e9e335e8b809dc"
+}
