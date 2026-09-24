@@ -1,0 +1,7 @@
+case,file,sum,count
+kp_B150_point60_boot30,robustness_kp_main_quantile.csv,58,60
+kp_B150_point60_boot30,robustness_kp_mediation.csv,58,63
+kp_B150_point60_boot35,robustness_kp_main_quantile.csv,60,60
+kp_B150_point60_boot35,robustness_kp_mediation.csv,63,63
+kp_B300_point60_boot35,robustness_kp_main_quantile.csv,53,60
+kp_B300_point60_boot35,robustness_kp_mediation.csv,56,63

@@ -1,0 +1,4 @@
+# Recreated unchanged data; modified diagnostic source and CSV/logs are kept.
+runs/*/corrected_outputs/
+# Figures are not needed for these numerical diagnostics.
+runs/*/paper_outputs/*.png

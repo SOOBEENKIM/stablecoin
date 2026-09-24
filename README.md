@@ -20,6 +20,8 @@
 
 원고 전체를 완벽히 재현한 상태는 아닙니다. 일부 p값·CAP 계수와 원고 그림의 신뢰구간·오차막대는 보존된 코드로 동일하게 생성되지 않습니다. [표별 비교와 남은 차이](experiments/manuscript_reproduction/RESULTS_KO.md)를 확인할 수 있습니다. 원자료 전처리를 처음부터 재실행한 결과로 주장하지 않습니다.
 
+**2026-09-25 원인 추적:** 기본값과 다른 12개 숫자 중 10개는 회귀 반복 횟수와 표별 부트스트랩 횟수 차이로 재현 확인했습니다. 표 5는 회귀 반복 60회·B=150, 표 6은 B=200에서 원고와 일치합니다. 나머지 2개의 작성 경위는 미확인입니다. [원인별 증거와 통제 실험](experiments/manuscript_reproduction/difference_audit/RESULTS_KO.md)을 보존했습니다.
+
 ## 실행
 
 저장소 루트에서 [기록된 Python 환경](experiments/manuscript_reproduction/requirements.txt)을 사용합니다.

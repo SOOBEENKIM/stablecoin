@@ -1,0 +1,50 @@
+[
+  {
+    "source": "/home/ssd-990/soobeenkim/stablecoin/paper_outputs/table7_decisive_robustness.csv",
+    "sha256": "520a16228ecb857d939da8cc665ad339f287d28ed18dd6838862043ea2b8824d",
+    "copied_to": "evidence/stablecoin_table7_decisive_robustness.csv",
+    "M2_q10": {
+      "q": 0.1,
+      "model": "M2_+ACCOUNT_LS",
+      "downside": 0.121,
+      "p_downside": 0.18,
+      "btc_vol": -0.275,
+      "p_btc_vol": 0.027,
+      "account_ls": -0.157,
+      "p_account_ls": 0.013,
+      "n": 714
+    }
+  },
+  {
+    "source": "/home/ssd-990/soobeenkim/stablecoin_v3/paper_outputs/table7_decisive_robustness.csv",
+    "sha256": "d5337af51d7e8ad3c32013b0bd12af50749fe5a479e0018452236339eaba7ede",
+    "copied_to": "evidence/stablecoin_v3_table7_decisive_robustness.csv",
+    "M2_q10": {
+      "q": 0.1,
+      "model": "M2_+ACCOUNT_LS",
+      "n": 714,
+      "downside": 0.121,
+      "p_downside": 0.18,
+      "btc_vol": -0.275,
+      "p_btc_vol": 0.027,
+      "account_ls": -0.157,
+      "p_account_ls": 0.013
+    }
+  },
+  {
+    "source": "/home/ssd-990/soobeenkim/stablecoin_v4/paper_outputs/table7_decisive_robustness.csv",
+    "sha256": "642e3851506bced00beaaaee00766da589fdd007d353987fdafc199068ff511a",
+    "copied_to": "evidence/stablecoin_v4_table7_decisive_robustness.csv",
+    "M2_q10": {
+      "q": 0.1,
+      "model": "M2_+ACCOUNT_LS",
+      "n": 714,
+      "downside": 0.121,
+      "p_downside": 0.25,
+      "btc_vol": -0.275,
+      "p_btc_vol": 0.0,
+      "account_ls": -0.157,
+      "p_account_ls": 0.0
+    }
+  }
+]

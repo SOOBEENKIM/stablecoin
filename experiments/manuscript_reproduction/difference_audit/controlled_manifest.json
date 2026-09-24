@@ -1,0 +1,165 @@
+{
+  "purpose": "Forensic reconstruction, not statistical model selection",
+  "python": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+  "packages": {
+    "numpy": "1.23.5",
+    "pandas": "2.0.3",
+    "scipy": "1.10.1"
+  },
+  "original_sources_unchanged": true,
+  "cases": [
+    {
+      "case": "kp_B150_point60_boot30",
+      "B_BOOT": 150,
+      "point_iterations": 60,
+      "bootstrap_iterations": 30,
+      "seed": 42,
+      "isolated_table7": false,
+      "exit_code": 0,
+      "seconds": 8.111,
+      "original_script_sha256": "cc6063e49b0f0e70eda554b6acd1c2703c135cd2ebdf828cca3a0ff651306aac",
+      "input_sha256": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15",
+      "executed_script_sha256": "39968b8bb4cac1fa22845a716f5f9f7d6f90290f90ef69e356a655af29e4ff1a",
+      "edits": [
+        [
+          "def qr(X, y, tau, it=70, eps=1e-7):",
+          "def qr(X, y, tau, it=60, eps=1e-7):"
+        ],
+        [
+          "bb = qr(Xf[rr], yv[rr], tau, it=35)",
+          "bb = qr(Xf[rr], yv[rr], tau, it=30)"
+        ]
+      ]
+    },
+    {
+      "case": "kp_B150_point60_boot35",
+      "B_BOOT": 150,
+      "point_iterations": 60,
+      "bootstrap_iterations": 35,
+      "seed": 42,
+      "isolated_table7": false,
+      "exit_code": 0,
+      "seconds": 9.072,
+      "original_script_sha256": "cc6063e49b0f0e70eda554b6acd1c2703c135cd2ebdf828cca3a0ff651306aac",
+      "input_sha256": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15",
+      "executed_script_sha256": "e558e6adbe6ddc3f41b9c9f9d9cd4ad07b0d2b2ddbe36fb2a117616bdfb3c236",
+      "edits": [
+        [
+          "def qr(X, y, tau, it=70, eps=1e-7):",
+          "def qr(X, y, tau, it=60, eps=1e-7):"
+        ],
+        [
+          "bb = qr(Xf[rr], yv[rr], tau, it=35)",
+          "bb = qr(Xf[rr], yv[rr], tau, it=35)"
+        ]
+      ]
+    },
+    {
+      "case": "kp_B300_point60_boot35",
+      "B_BOOT": 300,
+      "point_iterations": 60,
+      "bootstrap_iterations": 35,
+      "seed": 42,
+      "isolated_table7": false,
+      "exit_code": 0,
+      "seconds": 17.724,
+      "original_script_sha256": "cc6063e49b0f0e70eda554b6acd1c2703c135cd2ebdf828cca3a0ff651306aac",
+      "input_sha256": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15",
+      "executed_script_sha256": "e558e6adbe6ddc3f41b9c9f9d9cd4ad07b0d2b2ddbe36fb2a117616bdfb3c236",
+      "edits": [
+        [
+          "def qr(X, y, tau, it=70, eps=1e-7):",
+          "def qr(X, y, tau, it=60, eps=1e-7):"
+        ],
+        [
+          "bb = qr(Xf[rr], yv[rr], tau, it=35)",
+          "bb = qr(Xf[rr], yv[rr], tau, it=35)"
+        ]
+      ]
+    },
+    {
+      "case": "main_B300_point80_boot30",
+      "B_BOOT": 300,
+      "point_iterations": 80,
+      "bootstrap_iterations": 30,
+      "seed": 42,
+      "isolated_table7": false,
+      "exit_code": 0,
+      "seconds": 33.002,
+      "original_script_sha256": "c777ef8d08a32e39a85f3a4aa8ce5da19cc5bd1534e7f837faca3e7bb8bfba8d",
+      "input_sha256": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15",
+      "executed_script_sha256": "98d2628e579c1669b4f4de2337105a93a7eff1d298b8db58f5aaef406f64ca13",
+      "edits": [
+        [
+          "b = quantile_fit(Xf[rr], yv[rr], tau, n_iter=40)",
+          "b = quantile_fit(Xf[rr], yv[rr], tau, n_iter=30)"
+        ]
+      ]
+    },
+    {
+      "case": "main_B300_point80_boot35",
+      "B_BOOT": 300,
+      "point_iterations": 80,
+      "bootstrap_iterations": 35,
+      "seed": 42,
+      "isolated_table7": false,
+      "exit_code": 0,
+      "seconds": 36.923,
+      "original_script_sha256": "c777ef8d08a32e39a85f3a4aa8ce5da19cc5bd1534e7f837faca3e7bb8bfba8d",
+      "input_sha256": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15",
+      "executed_script_sha256": "dfaf0f22e549a1528de13e9228dc1067d9818faf2c6f93d4841240be4b0d374a",
+      "edits": [
+        [
+          "b = quantile_fit(Xf[rr], yv[rr], tau, n_iter=40)",
+          "b = quantile_fit(Xf[rr], yv[rr], tau, n_iter=35)"
+        ]
+      ]
+    },
+    {
+      "case": "main_B300_table7_only",
+      "B_BOOT": 300,
+      "point_iterations": 80,
+      "bootstrap_iterations": 40,
+      "seed": 42,
+      "isolated_table7": true,
+      "exit_code": 0,
+      "seconds": 6.54,
+      "original_script_sha256": "c777ef8d08a32e39a85f3a4aa8ce5da19cc5bd1534e7f837faca3e7bb8bfba8d",
+      "input_sha256": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15",
+      "executed_script_sha256": "defe8c91a942709c364e4d30d06932ef0cd7ccb986072a66c38759f0b16e3251",
+      "edits": [
+        [
+          "b = quantile_fit(Xf[rr], yv[rr], tau, n_iter=40)",
+          "b = quantile_fit(Xf[rr], yv[rr], tau, n_iter=40)"
+        ],
+        [
+          "if __name__ == \"__main__\":\n    main()",
+          "if __name__ == \"__main__\":\n    df, meta = load_and_build()\n    table7_decisive(df)"
+        ]
+      ]
+    }
+  ],
+  "output_sha256": {
+    "runs/kp_B150_point60_boot30/paper_outputs/robustness_kp_main_quantile.csv": "fbaa8e7974529c4420524a803262b51f4f0ad9b3f47ef93b929a8f02bb1f6f72",
+    "runs/kp_B150_point60_boot30/paper_outputs/robustness_kp_mediation.csv": "6771b3f5a31d6cde565023d1bd792df893817e6eeaccad061af1c94d361d210d",
+    "runs/kp_B150_point60_boot35/paper_outputs/robustness_kp_main_quantile.csv": "65619fad4336cba8a667c00362b2b120f08e2a92504647dee5e2d3a8dbb084b6",
+    "runs/kp_B150_point60_boot35/paper_outputs/robustness_kp_mediation.csv": "d64d37390df38451556622a11407dfe77a249e4abb3fc1247cd8718af216c04b",
+    "runs/kp_B300_point60_boot35/paper_outputs/robustness_kp_main_quantile.csv": "365b23152a8dbdb76504fbdd7f6830bf1ee7ea9d04a9b5c2815e1b7d7549b0cf",
+    "runs/kp_B300_point60_boot35/paper_outputs/robustness_kp_mediation.csv": "83f7adcf091aa9231a88cf367703b492631b4d5f04a4113a8985650d168c1bc5",
+    "runs/main_B300_point80_boot30/paper_outputs/table1_residual_descriptive.csv": "e8e8e0231cf7d4fe86f1dadbad3fbe5303c3105375ce9bd85681469197dd3caa",
+    "runs/main_B300_point80_boot30/paper_outputs/table2_stationarity.csv": "ae2b81f3bc99d765beee262676c21b33fac33e3b4a396eddacda0d4c20787053",
+    "runs/main_B300_point80_boot30/paper_outputs/table3_main_quantile_tail.csv": "8d139674a9420e0ad83d2a2042e785abe97f828e5dc2587356da770ce72cf493",
+    "runs/main_B300_point80_boot30/paper_outputs/table4_quantile_local_projection.csv": "ef1c1af6cb0f0e286ba2fc0aad9a749ea6a173b5d688839f39bff38e0c7c7fbe",
+    "runs/main_B300_point80_boot30/paper_outputs/table5_stress_regime.csv": "e2d860b2c41dd13998e3ebe692070366fbdcedee09834d56526e8139c0563179",
+    "runs/main_B300_point80_boot30/paper_outputs/table6_demand_channel_mediation.csv": "ce1a589f31c32f3c4e1b53170cb50b9cd7d217cda0dc8aa1d5a09a32b08941d3",
+    "runs/main_B300_point80_boot30/paper_outputs/table7_decisive_robustness.csv": "9faa40d6164b3147beb145bb9ad011ee0280a7453f1d5899f0f7d45cf7828606",
+    "runs/main_B300_point80_boot35/paper_outputs/table1_residual_descriptive.csv": "e8e8e0231cf7d4fe86f1dadbad3fbe5303c3105375ce9bd85681469197dd3caa",
+    "runs/main_B300_point80_boot35/paper_outputs/table2_stationarity.csv": "ae2b81f3bc99d765beee262676c21b33fac33e3b4a396eddacda0d4c20787053",
+    "runs/main_B300_point80_boot35/paper_outputs/table3_main_quantile_tail.csv": "a5778f39ac0472558f85bbf3aae6949b8c690ff1751d1d5b6a8b2198ad21029d",
+    "runs/main_B300_point80_boot35/paper_outputs/table4_quantile_local_projection.csv": "8d37e0a465bfcd5b43d780d06498990baa99dd87e93b25046d7e46a28baa7514",
+    "runs/main_B300_point80_boot35/paper_outputs/table5_stress_regime.csv": "da63154844530cf82e8851e265aee65262243690e0a7c588b49724b08f4e8867",
+    "runs/main_B300_point80_boot35/paper_outputs/table6_demand_channel_mediation.csv": "e0beb841a0cc82495ed6a4bf5cffdf19ad38361dd793a372f6b7df0a83143b90",
+    "runs/main_B300_point80_boot35/paper_outputs/table7_decisive_robustness.csv": "8b7d07c4af7d07c7e1c6ba0866eaf7e7bc704a2adbe7a3d18e4dd112a0a85d6a",
+    "runs/main_B300_table7_only/paper_outputs/table7_decisive_robustness.csv": "95b9bb2357b8e2ac1ea48e6b6cffe791032ddbc77bcbe6f389fee774fc6d97d5"
+  }
+}

@@ -1,0 +1,13 @@
+table,label,stat,printed,source,recomputed,matches_printed_precision,file,column,cause,evidence_status,reconstruction_source,reconstructed
+1,BTC_DOWNSIDE_24,skew,4.90,default_B300,4.894514736426965,False,baseline_dataset_with_residual_final.csv,BTC_DOWNSIDE_24,Printed skew differs from both pandas and scipy; historical calculation/edit unavailable,historical_origin_unresolved,,
+4,M2_+ACCOUNT_LS:btc_vol,p,0.05,default_B300,0.027,False,table7_decisive_robustness.csv,p_btc_vol,"Full-run p=0.027; isolated-table p=0.047 rounds to 0.05, but other p-values then disagree; historical invocation unavailable",historical_origin_unresolved,,
+5,EQ_q0.5,p,0.00,default_B300,0.013,False,robustness_kp_main_quantile.csv,p,Bootstrap count 300 vs 150 (fit call sequence fixed),controlled_reproduction_confirmed,kp_B150_point60_boot35,0.0
+5,CAP_q0.1,beta,-8.82,default_B300,-8.922,False,robustness_kp_main_quantile.csv,beta_downside,Point fit iterations 70 vs 60,controlled_reproduction_confirmed,kp_B150_point60_boot35,-8.815
+5,CAP_q0.1,p,0.11,default_B300,0.12,False,robustness_kp_main_quantile.csv,p,Bootstrap count 300 vs 150 (fit call sequence fixed),controlled_reproduction_confirmed,kp_B150_point60_boot35,0.107
+5,CAP_M2,p,0.00,default_B300,0.007,False,robustness_kp_mediation.csv,ch_p,Bootstrap count 300 vs 150 (fit call sequence fixed),controlled_reproduction_confirmed,kp_B150_point60_boot35,0.0
+6,FULL,leverage_p,0.01,default_B300,0.0,False,exp2_subsample_stability.csv,M2_leverage_p,Bootstrap count 300 vs 200; original code unchanged,controlled_reproduction_confirmed,archive_supplement_B200,0.01
+6,DROP_TOP5_DAYS,p,0.05,default_B300,0.027,False,exp2_subsample_stability.csv,q10_p,Bootstrap count 300 vs 200; original code unchanged,controlled_reproduction_confirmed,archive_supplement_B200,0.05
+6,FIRST_HALF,p,1.00,default_B300,0.987,False,exp2_subsample_stability.csv,q10_p,Bootstrap count 300 vs 200; original code unchanged,controlled_reproduction_confirmed,archive_supplement_B200,1.0
+6,FIRST_HALF,leverage_p,0.45,default_B300,0.513,False,exp2_subsample_stability.csv,M2_leverage_p,Bootstrap count 300 vs 200; original code unchanged,controlled_reproduction_confirmed,archive_supplement_B200,0.45
+6,SECOND_HALF,p,0.32,default_B300,0.273,False,exp2_subsample_stability.csv,q10_p,Bootstrap count 300 vs 200; original code unchanged,controlled_reproduction_confirmed,archive_supplement_B200,0.32
+6,SECOND_HALF,leverage_p,0.49,default_B300,0.513,False,exp2_subsample_stability.csv,M2_leverage_p,Bootstrap count 300 vs 200; original code unchanged,controlled_reproduction_confirmed,archive_supplement_B200,0.49

@@ -1,0 +1,13 @@
+{
+  "controlled_runs": 6,
+  "main_baseline_unchanged": true,
+  "default_mismatching_cells": 12,
+  "controlled_explanations": 10,
+  "historical_origin_unresolved": 2,
+  "reconstructed_table5_cells": 15,
+  "reconstructed_table5_matches": 15,
+  "reconstructed_kp_archived_cells": 123,
+  "reconstructed_kp_archived_matches": 123,
+  "original_table6_B200_matches": 20,
+  "original_table6_cells": 20
+}

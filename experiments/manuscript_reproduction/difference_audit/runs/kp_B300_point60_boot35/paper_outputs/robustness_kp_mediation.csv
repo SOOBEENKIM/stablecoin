@@ -1,0 +1,10 @@
+definition,channel,base_dn,dn_beta,dn_p,ch_p,result
+EQ,ACCOUNT_LS,-0.115,-0.064,0.28,0.013,YES
+EQ,TOPTRADER_ACCOUNT_LS,-0.115,-0.009,0.327,0.0,YES
+EQ,ACCOUNT_LS (decisive M2),-,-0.158,-,0.0,survives
+CAP,ACCOUNT_LS,-0.157,-0.027,0.58,0.0,YES
+CAP,TOPTRADER_ACCOUNT_LS,-0.157,-0.018,0.98,0.0,YES
+CAP,ACCOUNT_LS (decisive M2),-,-0.214,-,0.007,survives
+PCA,ACCOUNT_LS,-0.118,-0.08,0.233,0.0,artifact
+PCA,TOPTRADER_ACCOUNT_LS,-0.118,-0.014,0.413,0.0,YES
+PCA,ACCOUNT_LS (decisive M2),-,-0.152,-,0.0,survives
