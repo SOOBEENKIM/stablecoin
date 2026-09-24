@@ -1,0 +1,20 @@
+{
+  "exploratory_post_result": true,
+  "protocol_sha256": "94c160427f7ab2d93bf0dddee8b870bb78a12763da94031aa1a24681d9fd0901",
+  "source_sha256": "dffe20e4d23556ecf173fe7f86102cef8b66274ac06cf4b16df2f5268d56276a",
+  "initial_predictions_sha256": "2f5b3a35bd4796150dd4cbce77ede9ecbf13a5454e50e4a8f065ea85b397b866",
+  "candidates": {
+    "weak_penalty": [
+      0,
+      0.001,
+      0.01
+    ],
+    "scaled_basis": [
+      0,
+      0.001,
+      0.005,
+      0.01,
+      0.05
+    ]
+  }
+}

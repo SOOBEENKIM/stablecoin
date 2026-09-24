@@ -1,0 +1,16 @@
+{
+  "prediction_rows": 49164,
+  "distinct_model_evaluations": 152,
+  "successful_fold_designs": 64,
+  "failures": [],
+  "price_identity_max_error_bp": 1.6765255850259564e-11,
+  "exact_clock_horizons": true,
+  "train_only_first_stages": true,
+  "purged_labels": true,
+  "identical_within_definition_targets": true,
+  "duplicate_predictions": false,
+  "finite_predictions": true,
+  "bootstrap_repetitions": 1999,
+  "bootstrap_scope": "fixed forecasts, calendar days stratified by evaluation month",
+  "analysis_source_sha256": "2e46a57fa6882ec0c6924d4881c13a4db75e409c227c6461acc6300d54b5d2b2"
+}

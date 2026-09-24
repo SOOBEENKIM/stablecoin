@@ -1,0 +1,4 @@
+scenario,definition,projection,h,q,model,info,reference_model,reference_info,contrast,block_days,n,difference_bp,difference_lo,difference_hi,improvement_pct,improvement_lo,improvement_hi,p_centered_boot,winning_months,months,p_holm
+NY_delay1,EQ,sequential,1,0.1,boosting,full,linear,full,algorithm_vs_linear,5,467,0.2493399460260929,0.13443896702779365,0.3671505241495438,-12.373627881263904,-18.355100553668592,-7.043475571017313,0.0005,1,4,0.0015
+NY_delay1,EQ,sequential,1,0.1,boosting,full,interaction,full,algorithm_vs_interaction,5,467,-0.5131829183514287,-1.453300192207848,0.06877908050149216,18.47567076129657,-3.55058659320048,33.64446751969178,0.219,3,4,0.438
+NY_delay1,EQ,sequential,1,0.1,boosting,full,boosting,base,position_bundle,5,467,0.0006525599810642643,-0.028308292292701043,0.031728413840509374,-0.028826133728032666,-1.4361936092408238,1.3085551032756115,0.9695,1,4,0.9695

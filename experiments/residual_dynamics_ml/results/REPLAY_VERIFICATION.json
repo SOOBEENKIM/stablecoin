@@ -1,0 +1,102 @@
+{
+  "original_sources_unchanged": true,
+  "original_protocol_unchanged": true,
+  "input_hashes_verified": true,
+  "failed_fits": 0,
+  "solver_warnings": 0,
+  "replay_month": "2026-02",
+  "replay_model_definition_pairs": 18,
+  "replay": [
+    {
+      "definition": "EQ",
+      "model": "linear",
+      "max_abs_error_bp": 1.7763568394002505e-15
+    },
+    {
+      "definition": "EQ",
+      "model": "interaction",
+      "max_abs_error_bp": 7.105427357601002e-15
+    },
+    {
+      "definition": "EQ",
+      "model": "spline",
+      "max_abs_error_bp": 1.7763568394002505e-15
+    },
+    {
+      "definition": "EQ",
+      "model": "boosting",
+      "max_abs_error_bp": 3.552713678800501e-15
+    },
+    {
+      "definition": "EQ",
+      "model": "weak_penalty",
+      "max_abs_error_bp": 3.552713678800501e-15
+    },
+    {
+      "definition": "EQ",
+      "model": "scaled_basis",
+      "max_abs_error_bp": 3.552713678800501e-15
+    },
+    {
+      "definition": "CAP",
+      "model": "linear",
+      "max_abs_error_bp": 1.7763568394002505e-15
+    },
+    {
+      "definition": "CAP",
+      "model": "interaction",
+      "max_abs_error_bp": 1.7763568394002505e-15
+    },
+    {
+      "definition": "CAP",
+      "model": "spline",
+      "max_abs_error_bp": 0.0
+    },
+    {
+      "definition": "CAP",
+      "model": "boosting",
+      "max_abs_error_bp": 1.7763568394002505e-15
+    },
+    {
+      "definition": "CAP",
+      "model": "weak_penalty",
+      "max_abs_error_bp": 1.7763568394002505e-15
+    },
+    {
+      "definition": "CAP",
+      "model": "scaled_basis",
+      "max_abs_error_bp": 1.7763568394002505e-15
+    },
+    {
+      "definition": "PCA",
+      "model": "linear",
+      "max_abs_error_bp": 3.552713678800501e-15
+    },
+    {
+      "definition": "PCA",
+      "model": "interaction",
+      "max_abs_error_bp": 7.105427357601002e-15
+    },
+    {
+      "definition": "PCA",
+      "model": "spline",
+      "max_abs_error_bp": 1.7763568394002505e-15
+    },
+    {
+      "definition": "PCA",
+      "model": "boosting",
+      "max_abs_error_bp": 1.7763568394002505e-15
+    },
+    {
+      "definition": "PCA",
+      "model": "weak_penalty",
+      "max_abs_error_bp": 3.552713678800501e-15
+    },
+    {
+      "definition": "PCA",
+      "model": "scaled_basis",
+      "max_abs_error_bp": 1.7763568394002505e-15
+    }
+  ],
+  "script_sha256": "25a636c8d4fd79997eaf8a6fb19150ddbf94c8c3be0d5735e095904965e5d60e"
+}

@@ -1,6 +1,12 @@
-# 한국 USDT 잔차 연구 — 국내 원고 재현
+# 한국 USDT 잔차 연구 — 원고 재현과 ML 동학 확장
 
-**국내 원고의 기존 분석을 먼저 재현하고, 이후 별도 브랜치에서 수정·확장하는 기준선입니다.**
+현재 브랜치는 `research/icaif2026-manuscript-development`입니다. 국내 원고 재현본을 보존하고, 수정된 가격·시간 계산에 기반한 **잔차의 미래 하방 예측**으로 연구를 확장했습니다.
+
+**2026-09-25 ML 첫 실험:** 선형·상호작용·스플라인·분위수 부스팅을 EQ/CAP/PCA 잔차와 같은 미래 평가 구간에서 비교했습니다. 주 분석에서 부스팅의 예측손실은 선형보다 12.37% 컸고, 포지셔닝 추가 효과는 확인되지 않았습니다. 현재 새 기여를 입증했다고 주장하지 않습니다.
+
+[ML 실험 결과와 한계](experiments/residual_dynamics_ml/RESULTS_KO.md) · [사전에 정한 설계](experiments/residual_dynamics_ml/PROTOCOL_KO.md) · [실행 안내](experiments/residual_dynamics_ml/README.md)
+
+## 보존된 국내 원고 재현 기준선
 
 현재 연구 브랜치에 추가했던 ML 분해 실험(`experiments/nonlinear_residual/`)은 삭제했습니다. 원본 데이터·원고·코드는 보존하고, 새로 실행한 결과와 원고의 일치·불일치를 함께 정리했습니다.
 
@@ -35,9 +41,10 @@ python3 experiments/manuscript_reproduction/run_reproduction.py
 ## 브랜치와 자료 구분
 
 - `research/icaif2026-nonlinear-residual`: ML 추가분을 제거하고 이번 원고 재현 결과를 기록하는 기존 연구 브랜치.
-- 다음 개발 브랜치에서는 원고·코드 불일치, 가격 환산·시간 간격·추론부터 점검한 뒤 ML의 역할을 다시 정합니다.
+- `research/icaif2026-manuscript-development`: 원고 수치 불일치의 원인 추적과, 회귀 잔차 이후의 ML 동학 실험을 기록한 현재 개발 브랜치.
 - `research/reference/original_v4/`: 수정하지 않은 기존 코드와 전처리 데이터.
 - `experiments/manuscript_reproduction/`: 이번에 추가한 재현 실행기와 새 실행 결과.
+- `experiments/residual_dynamics_ml/`: 가격·시간 수정, 학습 구간별 회귀 잔차, 미래 분위수 예측 및 포지셔닝 증분 비교. 과거 ML 분해나 `main` 호가 변형 연구와 다른 실험.
 - `research/`, `docs/`, `context/`의 나머지 파일: `main`에서 물려받은 이전 연구 기록. 이번 원고 재현 결과와 구분합니다.
 
 `main`의 호가·AI 연구는 별도 방향의 과거 기록입니다. 해당 안내는 [기존 연구 흐름](docs/STUDY_GUIDE_KO.md)에 남아 있습니다. 삭제한 ML 분해 실험의 이전 상태는 Git 커밋 `b051620e86bfac07efc90d6b7a257c0ba9d86d1d`에서 확인할 수 있습니다.

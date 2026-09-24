@@ -1,0 +1,31 @@
+DONE EQ 2025-12
+DONE EQ 2026-01
+DONE EQ 2026-02
+DONE EQ 2026-03
+DONE CAP 2025-12
+DONE CAP 2026-01
+DONE CAP 2026-02
+DONE CAP 2026-03
+DONE PCA 2025-12
+DONE PCA 2026-01
+DONE PCA 2026-02
+DONE PCA 2026-03
+definition      variant info         reference  improvement_pct  improvement_lo  improvement_hi  exploratory
+       CAP scaled_basis base            linear        -1.703414       -5.661149        2.279023         True
+       CAP scaled_basis full            linear        -4.108787       -7.636493       -0.379349         True
+       CAP scaled_basis full same_variant_base        -2.647173       -7.333936        1.102833         True
+       CAP weak_penalty base            linear        -8.917399      -13.070646       -4.938481         True
+       CAP weak_penalty full            linear        -8.302309      -12.304524       -4.144694         True
+       CAP weak_penalty full same_variant_base         0.290718       -2.030650        2.470940         True
+        EQ scaled_basis base            linear        -1.686741      -11.500073        7.689373         True
+        EQ scaled_basis full            linear       -15.319762      -38.785115        2.200898         True
+        EQ scaled_basis full same_variant_base       -14.347079      -29.116817       -1.949639         True
+        EQ weak_penalty base            linear        -2.942715      -14.892894        8.470670         True
+        EQ weak_penalty full            linear        -2.011419      -13.996922        9.123616         True
+        EQ weak_penalty full same_variant_base         0.083126       -1.831597        2.224474         True
+       PCA scaled_basis base            linear        -0.427918       -9.740865        8.271988         True
+       PCA scaled_basis full            linear       -10.414726      -28.991952        4.318660         True
+       PCA scaled_basis full same_variant_base       -10.959404      -22.116508       -1.209772         True
+       PCA weak_penalty base            linear        -3.180758      -15.061276        8.210041         True
+       PCA weak_penalty full            linear        -1.449075      -12.876071        9.239207         True
+       PCA weak_penalty full same_variant_base         0.770467       -1.182048        3.018123         True
