@@ -232,7 +232,7 @@ def main():
     inputs = [RAW / name for name in ["binance_1h_2025-06-01_2026-03-19.csv",
         "upbit_1h_2025-06-01_2026-03-19.csv", "USDKRW.csv", "DXY.csv", "VIXY.csv"]]
     inputs += [ARCHIVE / "corrected_outputs/binance_btcusdt_data_vision_metrics.csv",
-               ARCHIVE / "reanalysis_20260909/recalculate.py", HERE / "PROTOCOL_KO.md", Path(__file__)]
+               ARCHIVE / "reanalysis_20260909/recalculate.py", HERE / "PROTOCOL_KO.md", Path(__file__).resolve()]
     manifest = dict(stage="A conditional fit only; stage B not run", publication_ready=False,
         timestamp_utc=pd.Timestamp.now(tz="UTC").isoformat(),
         source_commit=subprocess.check_output(["git", "rev-parse", "HEAD"], cwd=ROOT, text=True).strip(),
