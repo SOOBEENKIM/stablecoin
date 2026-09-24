@@ -1,0 +1,1731 @@
+[
+  {
+    "month": "2025-08",
+    "method": "sequential_ols",
+    "chosen_family": "sequential_ols",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-07-31 17:00:00+00:00",
+    "validation_n": 391,
+    "candidate_id": "a00",
+    "weight": 1.0,
+    "validation_mse": 142.75291659909777
+  },
+  {
+    "month": "2025-08",
+    "method": "joint_ols",
+    "chosen_family": "joint_ols",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-07-31 17:00:00+00:00",
+    "validation_n": 391,
+    "candidate_id": "a01",
+    "weight": 1.0,
+    "validation_mse": 156.88083207237736
+  },
+  {
+    "month": "2025-08",
+    "method": "pca",
+    "chosen_family": "pca",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-07-31 17:00:00+00:00",
+    "validation_n": 391,
+    "candidate_id": "a02",
+    "weight": 1.0,
+    "validation_mse": 142.31884194602796
+  },
+  {
+    "month": "2025-08",
+    "method": "seq_xgb",
+    "chosen_family": "seq_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-07-31 17:00:00+00:00",
+    "validation_n": 391,
+    "candidate_id": "a03",
+    "weight": 1.0,
+    "validation_mse": 146.5397144513418
+  },
+  {
+    "month": "2025-08",
+    "method": "seq_mlp",
+    "chosen_family": "seq_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-07-31 17:00:00+00:00",
+    "validation_n": 391,
+    "candidate_id": "a10",
+    "weight": 1.0,
+    "validation_mse": 142.75291659564598
+  },
+  {
+    "month": "2025-08",
+    "method": "seq_spline",
+    "chosen_family": "seq_spline",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-07-31 17:00:00+00:00",
+    "validation_n": 391,
+    "candidate_id": "a16",
+    "weight": 1.0,
+    "validation_mse": 148.96327298319406
+  },
+  {
+    "month": "2025-08",
+    "method": "joint_xgb",
+    "chosen_family": "joint_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-07-31 17:00:00+00:00",
+    "validation_n": 391,
+    "candidate_id": "a17",
+    "weight": 1.0,
+    "validation_mse": 161.89911335252043
+  },
+  {
+    "month": "2025-08",
+    "method": "joint_mlp",
+    "chosen_family": "joint_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-07-31 17:00:00+00:00",
+    "validation_n": 391,
+    "candidate_id": "a26",
+    "weight": 1.0,
+    "validation_mse": 156.8807941795312
+  },
+  {
+    "month": "2025-08",
+    "method": "joint_tensor",
+    "chosen_family": "joint_tensor",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-07-31 17:00:00+00:00",
+    "validation_n": 391,
+    "candidate_id": "a28",
+    "weight": 1.0,
+    "validation_mse": 343.05387657738225
+  },
+  {
+    "month": "2025-08",
+    "method": "seq_selected",
+    "chosen_family": "seq_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-07-31 17:00:00+00:00",
+    "validation_n": 391,
+    "candidate_id": "a10",
+    "weight": 1.0,
+    "validation_mse": 142.75291659564598
+  },
+  {
+    "month": "2025-08",
+    "method": "seq_shrunk",
+    "chosen_family": "seq_spline",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-07-31 17:00:00+00:00",
+    "validation_n": 391,
+    "candidate_id": "a16",
+    "weight": 0.25,
+    "validation_mse": 141.21022249883424
+  },
+  {
+    "month": "2025-08",
+    "method": "joint_selected",
+    "chosen_family": "joint_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-07-31 17:00:00+00:00",
+    "validation_n": 391,
+    "candidate_id": "a26",
+    "weight": 1.0,
+    "validation_mse": 156.8807941795312
+  },
+  {
+    "month": "2025-08",
+    "method": "joint_shrunk",
+    "chosen_family": "joint_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-07-31 17:00:00+00:00",
+    "validation_n": 391,
+    "candidate_id": "a26",
+    "weight": 1.0,
+    "validation_mse": 156.8807941795312
+  },
+  {
+    "month": "2025-09",
+    "method": "sequential_ols",
+    "chosen_family": "sequential_ols",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-08-29 17:00:00+00:00",
+    "validation_n": 748,
+    "candidate_id": "a00",
+    "weight": 1.0,
+    "validation_mse": 103.09123372784218
+  },
+  {
+    "month": "2025-09",
+    "method": "joint_ols",
+    "chosen_family": "joint_ols",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-08-29 17:00:00+00:00",
+    "validation_n": 748,
+    "candidate_id": "a01",
+    "weight": 1.0,
+    "validation_mse": 110.83137724144524
+  },
+  {
+    "month": "2025-09",
+    "method": "pca",
+    "chosen_family": "pca",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-08-29 17:00:00+00:00",
+    "validation_n": 748,
+    "candidate_id": "a02",
+    "weight": 1.0,
+    "validation_mse": 102.8305043531957
+  },
+  {
+    "month": "2025-09",
+    "method": "seq_xgb",
+    "chosen_family": "seq_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-08-29 17:00:00+00:00",
+    "validation_n": 748,
+    "candidate_id": "a03",
+    "weight": 1.0,
+    "validation_mse": 104.2314559477111
+  },
+  {
+    "month": "2025-09",
+    "method": "seq_mlp",
+    "chosen_family": "seq_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-08-29 17:00:00+00:00",
+    "validation_n": 748,
+    "candidate_id": "a10",
+    "weight": 1.0,
+    "validation_mse": 103.09123372578881
+  },
+  {
+    "month": "2025-09",
+    "method": "seq_spline",
+    "chosen_family": "seq_spline",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-08-29 17:00:00+00:00",
+    "validation_n": 748,
+    "candidate_id": "a16",
+    "weight": 1.0,
+    "validation_mse": 104.35353350321236
+  },
+  {
+    "month": "2025-09",
+    "method": "joint_xgb",
+    "chosen_family": "joint_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-08-29 17:00:00+00:00",
+    "validation_n": 748,
+    "candidate_id": "a17",
+    "weight": 1.0,
+    "validation_mse": 113.21969261486625
+  },
+  {
+    "month": "2025-09",
+    "method": "joint_mlp",
+    "chosen_family": "joint_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-08-29 17:00:00+00:00",
+    "validation_n": 748,
+    "candidate_id": "a24",
+    "weight": 1.0,
+    "validation_mse": 110.83130750051006
+  },
+  {
+    "month": "2025-09",
+    "method": "joint_tensor",
+    "chosen_family": "joint_tensor",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-08-29 17:00:00+00:00",
+    "validation_n": 748,
+    "candidate_id": "a28",
+    "weight": 1.0,
+    "validation_mse": 205.88578588925543
+  },
+  {
+    "month": "2025-09",
+    "method": "seq_selected",
+    "chosen_family": "seq_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-08-29 17:00:00+00:00",
+    "validation_n": 748,
+    "candidate_id": "a10",
+    "weight": 1.0,
+    "validation_mse": 103.09123372578881
+  },
+  {
+    "month": "2025-09",
+    "method": "seq_shrunk",
+    "chosen_family": "seq_spline",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-08-29 17:00:00+00:00",
+    "validation_n": 748,
+    "candidate_id": "a16",
+    "weight": 0.5,
+    "validation_mse": 101.3449063510008
+  },
+  {
+    "month": "2025-09",
+    "method": "joint_selected",
+    "chosen_family": "joint_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-08-29 17:00:00+00:00",
+    "validation_n": 748,
+    "candidate_id": "a24",
+    "weight": 1.0,
+    "validation_mse": 110.83130750051006
+  },
+  {
+    "month": "2025-09",
+    "method": "joint_shrunk",
+    "chosen_family": "joint_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-08-29 17:00:00+00:00",
+    "validation_n": 748,
+    "candidate_id": "a24",
+    "weight": 1.0,
+    "validation_mse": 110.83130750051006
+  },
+  {
+    "month": "2025-10",
+    "method": "sequential_ols",
+    "chosen_family": "sequential_ols",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08",
+      "2025-09"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-09-30 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a00",
+    "weight": 1.0,
+    "validation_mse": 83.20408080164009
+  },
+  {
+    "month": "2025-10",
+    "method": "joint_ols",
+    "chosen_family": "joint_ols",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08",
+      "2025-09"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-09-30 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a01",
+    "weight": 1.0,
+    "validation_mse": 88.41459481082785
+  },
+  {
+    "month": "2025-10",
+    "method": "pca",
+    "chosen_family": "pca",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08",
+      "2025-09"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-09-30 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a02",
+    "weight": 1.0,
+    "validation_mse": 82.96103093128407
+  },
+  {
+    "month": "2025-10",
+    "method": "seq_xgb",
+    "chosen_family": "seq_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08",
+      "2025-09"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-09-30 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a03",
+    "weight": 1.0,
+    "validation_mse": 83.81151613163524
+  },
+  {
+    "month": "2025-10",
+    "method": "seq_mlp",
+    "chosen_family": "seq_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08",
+      "2025-09"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-09-30 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a10",
+    "weight": 1.0,
+    "validation_mse": 83.20408080105295
+  },
+  {
+    "month": "2025-10",
+    "method": "seq_spline",
+    "chosen_family": "seq_spline",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08",
+      "2025-09"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-09-30 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a16",
+    "weight": 1.0,
+    "validation_mse": 84.17503359280562
+  },
+  {
+    "month": "2025-10",
+    "method": "joint_xgb",
+    "chosen_family": "joint_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08",
+      "2025-09"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-09-30 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a17",
+    "weight": 1.0,
+    "validation_mse": 89.82486916391287
+  },
+  {
+    "month": "2025-10",
+    "method": "joint_mlp",
+    "chosen_family": "joint_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08",
+      "2025-09"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-09-30 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a26",
+    "weight": 1.0,
+    "validation_mse": 88.41463045774799
+  },
+  {
+    "month": "2025-10",
+    "method": "joint_tensor",
+    "chosen_family": "joint_tensor",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08",
+      "2025-09"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-09-30 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a28",
+    "weight": 1.0,
+    "validation_mse": 151.5893909081173
+  },
+  {
+    "month": "2025-10",
+    "method": "seq_selected",
+    "chosen_family": "seq_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08",
+      "2025-09"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-09-30 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a10",
+    "weight": 1.0,
+    "validation_mse": 83.20408080105295
+  },
+  {
+    "month": "2025-10",
+    "method": "seq_shrunk",
+    "chosen_family": "seq_spline",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08",
+      "2025-09"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-09-30 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a16",
+    "weight": 0.5,
+    "validation_mse": 82.06799349162476
+  },
+  {
+    "month": "2025-10",
+    "method": "joint_selected",
+    "chosen_family": "joint_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-07",
+      "2025-08",
+      "2025-09"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-09-30 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a26",
+    "weight": 1.0,
+    "validation_mse": 88.41463045774799
+  },
+  {
+    "month": "2025-10",
+    "method": "joint_shrunk",
+    "chosen_family": "joint_xgb",
+    "effective_linear": true,
+    "validation_months": [
+      "2025-07",
+      "2025-08",
+      "2025-09"
+    ],
+    "validation_first": "2025-07-01 01:00:00+00:00",
+    "validation_last": "2025-09-30 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a17",
+    "weight": 0.0,
+    "validation_mse": 88.41459481082785
+  },
+  {
+    "month": "2025-11",
+    "method": "sequential_ols",
+    "chosen_family": "sequential_ols",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "validation_first": "2025-08-01 01:00:00+00:00",
+    "validation_last": "2025-10-31 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a00",
+    "weight": 1.0,
+    "validation_mse": 66.36289622230355
+  },
+  {
+    "month": "2025-11",
+    "method": "joint_ols",
+    "chosen_family": "joint_ols",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "validation_first": "2025-08-01 01:00:00+00:00",
+    "validation_last": "2025-10-31 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a01",
+    "weight": 1.0,
+    "validation_mse": 68.3470436301654
+  },
+  {
+    "month": "2025-11",
+    "method": "pca",
+    "chosen_family": "pca",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "validation_first": "2025-08-01 01:00:00+00:00",
+    "validation_last": "2025-10-31 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a02",
+    "weight": 1.0,
+    "validation_mse": 66.10827456762631
+  },
+  {
+    "month": "2025-11",
+    "method": "seq_xgb",
+    "chosen_family": "seq_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "validation_first": "2025-08-01 01:00:00+00:00",
+    "validation_last": "2025-10-31 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a08",
+    "weight": 1.0,
+    "validation_mse": 58.795900162091854
+  },
+  {
+    "month": "2025-11",
+    "method": "seq_mlp",
+    "chosen_family": "seq_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "validation_first": "2025-08-01 01:00:00+00:00",
+    "validation_last": "2025-10-31 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a11",
+    "weight": 1.0,
+    "validation_mse": 50.23569030820972
+  },
+  {
+    "month": "2025-11",
+    "method": "seq_spline",
+    "chosen_family": "seq_spline",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "validation_first": "2025-08-01 01:00:00+00:00",
+    "validation_last": "2025-10-31 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a15",
+    "weight": 1.0,
+    "validation_mse": 47.062403019824416
+  },
+  {
+    "month": "2025-11",
+    "method": "joint_xgb",
+    "chosen_family": "joint_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "validation_first": "2025-08-01 01:00:00+00:00",
+    "validation_last": "2025-10-31 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a22",
+    "weight": 1.0,
+    "validation_mse": 63.12467528768726
+  },
+  {
+    "month": "2025-11",
+    "method": "joint_mlp",
+    "chosen_family": "joint_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "validation_first": "2025-08-01 01:00:00+00:00",
+    "validation_last": "2025-10-31 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a26",
+    "weight": 1.0,
+    "validation_mse": 68.34694306910362
+  },
+  {
+    "month": "2025-11",
+    "method": "joint_tensor",
+    "chosen_family": "joint_tensor",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "validation_first": "2025-08-01 01:00:00+00:00",
+    "validation_last": "2025-10-31 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a27",
+    "weight": 1.0,
+    "validation_mse": 56.41630638215544
+  },
+  {
+    "month": "2025-11",
+    "method": "seq_selected",
+    "chosen_family": "seq_spline",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "validation_first": "2025-08-01 01:00:00+00:00",
+    "validation_last": "2025-10-31 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a15",
+    "weight": 1.0,
+    "validation_mse": 47.062403019824416
+  },
+  {
+    "month": "2025-11",
+    "method": "seq_shrunk",
+    "chosen_family": "seq_spline",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "validation_first": "2025-08-01 01:00:00+00:00",
+    "validation_last": "2025-10-31 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a15",
+    "weight": 1.0,
+    "validation_mse": 47.062403019824416
+  },
+  {
+    "month": "2025-11",
+    "method": "joint_selected",
+    "chosen_family": "joint_tensor",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "validation_first": "2025-08-01 01:00:00+00:00",
+    "validation_last": "2025-10-31 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a27",
+    "weight": 1.0,
+    "validation_mse": 56.41630638215544
+  },
+  {
+    "month": "2025-11",
+    "method": "joint_shrunk",
+    "chosen_family": "joint_tensor",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "validation_first": "2025-08-01 01:00:00+00:00",
+    "validation_last": "2025-10-31 17:00:00+00:00",
+    "validation_n": 1122,
+    "candidate_id": "a27",
+    "weight": 1.0,
+    "validation_mse": 56.41630638215544
+  },
+  {
+    "month": "2025-12",
+    "method": "sequential_ols",
+    "chosen_family": "sequential_ols",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "validation_first": "2025-09-01 01:00:00+00:00",
+    "validation_last": "2025-11-28 17:00:00+00:00",
+    "validation_n": 1085,
+    "candidate_id": "a00",
+    "weight": 1.0,
+    "validation_mse": 77.03649712612153
+  },
+  {
+    "month": "2025-12",
+    "method": "joint_ols",
+    "chosen_family": "joint_ols",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "validation_first": "2025-09-01 01:00:00+00:00",
+    "validation_last": "2025-11-28 17:00:00+00:00",
+    "validation_n": 1085,
+    "candidate_id": "a01",
+    "weight": 1.0,
+    "validation_mse": 78.83856009287037
+  },
+  {
+    "month": "2025-12",
+    "method": "pca",
+    "chosen_family": "pca",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "validation_first": "2025-09-01 01:00:00+00:00",
+    "validation_last": "2025-11-28 17:00:00+00:00",
+    "validation_n": 1085,
+    "candidate_id": "a02",
+    "weight": 1.0,
+    "validation_mse": 76.66714285908627
+  },
+  {
+    "month": "2025-12",
+    "method": "seq_xgb",
+    "chosen_family": "seq_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "validation_first": "2025-09-01 01:00:00+00:00",
+    "validation_last": "2025-11-28 17:00:00+00:00",
+    "validation_n": 1085,
+    "candidate_id": "a08",
+    "weight": 1.0,
+    "validation_mse": 69.65352594264131
+  },
+  {
+    "month": "2025-12",
+    "method": "seq_mlp",
+    "chosen_family": "seq_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "validation_first": "2025-09-01 01:00:00+00:00",
+    "validation_last": "2025-11-28 17:00:00+00:00",
+    "validation_n": 1085,
+    "candidate_id": "a11",
+    "weight": 1.0,
+    "validation_mse": 61.69887575747777
+  },
+  {
+    "month": "2025-12",
+    "method": "seq_spline",
+    "chosen_family": "seq_spline",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "validation_first": "2025-09-01 01:00:00+00:00",
+    "validation_last": "2025-11-28 17:00:00+00:00",
+    "validation_n": 1085,
+    "candidate_id": "a15",
+    "weight": 1.0,
+    "validation_mse": 58.31670578910575
+  },
+  {
+    "month": "2025-12",
+    "method": "joint_xgb",
+    "chosen_family": "joint_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "validation_first": "2025-09-01 01:00:00+00:00",
+    "validation_last": "2025-11-28 17:00:00+00:00",
+    "validation_n": 1085,
+    "candidate_id": "a22",
+    "weight": 1.0,
+    "validation_mse": 73.75368757921959
+  },
+  {
+    "month": "2025-12",
+    "method": "joint_mlp",
+    "chosen_family": "joint_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "validation_first": "2025-09-01 01:00:00+00:00",
+    "validation_last": "2025-11-28 17:00:00+00:00",
+    "validation_n": 1085,
+    "candidate_id": "a26",
+    "weight": 1.0,
+    "validation_mse": 78.83840019118256
+  },
+  {
+    "month": "2025-12",
+    "method": "joint_tensor",
+    "chosen_family": "joint_tensor",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "validation_first": "2025-09-01 01:00:00+00:00",
+    "validation_last": "2025-11-28 17:00:00+00:00",
+    "validation_n": 1085,
+    "candidate_id": "a27",
+    "weight": 1.0,
+    "validation_mse": 69.18927216852772
+  },
+  {
+    "month": "2025-12",
+    "method": "seq_selected",
+    "chosen_family": "seq_spline",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "validation_first": "2025-09-01 01:00:00+00:00",
+    "validation_last": "2025-11-28 17:00:00+00:00",
+    "validation_n": 1085,
+    "candidate_id": "a15",
+    "weight": 1.0,
+    "validation_mse": 58.31670578910575
+  },
+  {
+    "month": "2025-12",
+    "method": "seq_shrunk",
+    "chosen_family": "seq_spline",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "validation_first": "2025-09-01 01:00:00+00:00",
+    "validation_last": "2025-11-28 17:00:00+00:00",
+    "validation_n": 1085,
+    "candidate_id": "a15",
+    "weight": 1.0,
+    "validation_mse": 58.31670578910575
+  },
+  {
+    "month": "2025-12",
+    "method": "joint_selected",
+    "chosen_family": "joint_tensor",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "validation_first": "2025-09-01 01:00:00+00:00",
+    "validation_last": "2025-11-28 17:00:00+00:00",
+    "validation_n": 1085,
+    "candidate_id": "a27",
+    "weight": 1.0,
+    "validation_mse": 69.18927216852772
+  },
+  {
+    "month": "2025-12",
+    "method": "joint_shrunk",
+    "chosen_family": "joint_tensor",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "validation_first": "2025-09-01 01:00:00+00:00",
+    "validation_last": "2025-11-28 17:00:00+00:00",
+    "validation_n": 1085,
+    "candidate_id": "a29",
+    "weight": 0.5,
+    "validation_mse": 68.11922108107993
+  },
+  {
+    "month": "2026-01",
+    "method": "sequential_ols",
+    "chosen_family": "sequential_ols",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "validation_first": "2025-10-01 01:00:00+00:00",
+    "validation_last": "2025-12-31 17:00:00+00:00",
+    "validation_n": 1076,
+    "candidate_id": "a00",
+    "weight": 1.0,
+    "validation_mse": 123.52972643602018
+  },
+  {
+    "month": "2026-01",
+    "method": "joint_ols",
+    "chosen_family": "joint_ols",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "validation_first": "2025-10-01 01:00:00+00:00",
+    "validation_last": "2025-12-31 17:00:00+00:00",
+    "validation_n": 1076,
+    "candidate_id": "a01",
+    "weight": 1.0,
+    "validation_mse": 125.20225122571938
+  },
+  {
+    "month": "2026-01",
+    "method": "pca",
+    "chosen_family": "pca",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "validation_first": "2025-10-01 01:00:00+00:00",
+    "validation_last": "2025-12-31 17:00:00+00:00",
+    "validation_n": 1076,
+    "candidate_id": "a02",
+    "weight": 1.0,
+    "validation_mse": 122.74713733747457
+  },
+  {
+    "month": "2026-01",
+    "method": "seq_xgb",
+    "chosen_family": "seq_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "validation_first": "2025-10-01 01:00:00+00:00",
+    "validation_last": "2025-12-31 17:00:00+00:00",
+    "validation_n": 1076,
+    "candidate_id": "a08",
+    "weight": 1.0,
+    "validation_mse": 112.8365130966472
+  },
+  {
+    "month": "2026-01",
+    "method": "seq_mlp",
+    "chosen_family": "seq_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "validation_first": "2025-10-01 01:00:00+00:00",
+    "validation_last": "2025-12-31 17:00:00+00:00",
+    "validation_n": 1076,
+    "candidate_id": "a11",
+    "weight": 1.0,
+    "validation_mse": 105.27994239897818
+  },
+  {
+    "month": "2026-01",
+    "method": "seq_spline",
+    "chosen_family": "seq_spline",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "validation_first": "2025-10-01 01:00:00+00:00",
+    "validation_last": "2025-12-31 17:00:00+00:00",
+    "validation_n": 1076,
+    "candidate_id": "a15",
+    "weight": 1.0,
+    "validation_mse": 102.52363894761858
+  },
+  {
+    "month": "2026-01",
+    "method": "joint_xgb",
+    "chosen_family": "joint_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "validation_first": "2025-10-01 01:00:00+00:00",
+    "validation_last": "2025-12-31 17:00:00+00:00",
+    "validation_n": 1076,
+    "candidate_id": "a22",
+    "weight": 1.0,
+    "validation_mse": 115.92787763770524
+  },
+  {
+    "month": "2026-01",
+    "method": "joint_mlp",
+    "chosen_family": "joint_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "validation_first": "2025-10-01 01:00:00+00:00",
+    "validation_last": "2025-12-31 17:00:00+00:00",
+    "validation_n": 1076,
+    "candidate_id": "a24",
+    "weight": 1.0,
+    "validation_mse": 125.20208921878681
+  },
+  {
+    "month": "2026-01",
+    "method": "joint_tensor",
+    "chosen_family": "joint_tensor",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "validation_first": "2025-10-01 01:00:00+00:00",
+    "validation_last": "2025-12-31 17:00:00+00:00",
+    "validation_n": 1076,
+    "candidate_id": "a29",
+    "weight": 1.0,
+    "validation_mse": 113.0048482908841
+  },
+  {
+    "month": "2026-01",
+    "method": "seq_selected",
+    "chosen_family": "seq_spline",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "validation_first": "2025-10-01 01:00:00+00:00",
+    "validation_last": "2025-12-31 17:00:00+00:00",
+    "validation_n": 1076,
+    "candidate_id": "a15",
+    "weight": 1.0,
+    "validation_mse": 102.52363894761858
+  },
+  {
+    "month": "2026-01",
+    "method": "seq_shrunk",
+    "chosen_family": "seq_spline",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "validation_first": "2025-10-01 01:00:00+00:00",
+    "validation_last": "2025-12-31 17:00:00+00:00",
+    "validation_n": 1076,
+    "candidate_id": "a15",
+    "weight": 1.0,
+    "validation_mse": 102.52363894761858
+  },
+  {
+    "month": "2026-01",
+    "method": "joint_selected",
+    "chosen_family": "joint_tensor",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "validation_first": "2025-10-01 01:00:00+00:00",
+    "validation_last": "2025-12-31 17:00:00+00:00",
+    "validation_n": 1076,
+    "candidate_id": "a29",
+    "weight": 1.0,
+    "validation_mse": 113.0048482908841
+  },
+  {
+    "month": "2026-01",
+    "method": "joint_shrunk",
+    "chosen_family": "joint_tensor",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "validation_first": "2025-10-01 01:00:00+00:00",
+    "validation_last": "2025-12-31 17:00:00+00:00",
+    "validation_n": 1076,
+    "candidate_id": "a29",
+    "weight": 0.5,
+    "validation_mse": 112.4620572331247
+  },
+  {
+    "month": "2026-02",
+    "method": "sequential_ols",
+    "chosen_family": "sequential_ols",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "validation_first": "2025-11-03 02:00:00+00:00",
+    "validation_last": "2026-01-30 17:00:00+00:00",
+    "validation_n": 1031,
+    "candidate_id": "a00",
+    "weight": 1.0,
+    "validation_mse": 116.68306184670959
+  },
+  {
+    "month": "2026-02",
+    "method": "joint_ols",
+    "chosen_family": "joint_ols",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "validation_first": "2025-11-03 02:00:00+00:00",
+    "validation_last": "2026-01-30 17:00:00+00:00",
+    "validation_n": 1031,
+    "candidate_id": "a01",
+    "weight": 1.0,
+    "validation_mse": 116.60439956358054
+  },
+  {
+    "month": "2026-02",
+    "method": "pca",
+    "chosen_family": "pca",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "validation_first": "2025-11-03 02:00:00+00:00",
+    "validation_last": "2026-01-30 17:00:00+00:00",
+    "validation_n": 1031,
+    "candidate_id": "a02",
+    "weight": 1.0,
+    "validation_mse": 115.74154105131102
+  },
+  {
+    "month": "2026-02",
+    "method": "seq_xgb",
+    "chosen_family": "seq_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "validation_first": "2025-11-03 02:00:00+00:00",
+    "validation_last": "2026-01-30 17:00:00+00:00",
+    "validation_n": 1031,
+    "candidate_id": "a07",
+    "weight": 1.0,
+    "validation_mse": 112.0072580819428
+  },
+  {
+    "month": "2026-02",
+    "method": "seq_mlp",
+    "chosen_family": "seq_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "validation_first": "2025-11-03 02:00:00+00:00",
+    "validation_last": "2026-01-30 17:00:00+00:00",
+    "validation_n": 1031,
+    "candidate_id": "a11",
+    "weight": 1.0,
+    "validation_mse": 112.7247360529447
+  },
+  {
+    "month": "2026-02",
+    "method": "seq_spline",
+    "chosen_family": "seq_spline",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "validation_first": "2025-11-03 02:00:00+00:00",
+    "validation_last": "2026-01-30 17:00:00+00:00",
+    "validation_n": 1031,
+    "candidate_id": "a15",
+    "weight": 1.0,
+    "validation_mse": 112.63169283964771
+  },
+  {
+    "month": "2026-02",
+    "method": "joint_xgb",
+    "chosen_family": "joint_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "validation_first": "2025-11-03 02:00:00+00:00",
+    "validation_last": "2026-01-30 17:00:00+00:00",
+    "validation_n": 1031,
+    "candidate_id": "a20",
+    "weight": 1.0,
+    "validation_mse": 110.86615516287313
+  },
+  {
+    "month": "2026-02",
+    "method": "joint_mlp",
+    "chosen_family": "joint_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "validation_first": "2025-11-03 02:00:00+00:00",
+    "validation_last": "2026-01-30 17:00:00+00:00",
+    "validation_n": 1031,
+    "candidate_id": "a23",
+    "weight": 1.0,
+    "validation_mse": 112.9200796619421
+  },
+  {
+    "month": "2026-02",
+    "method": "joint_tensor",
+    "chosen_family": "joint_tensor",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "validation_first": "2025-11-03 02:00:00+00:00",
+    "validation_last": "2026-01-30 17:00:00+00:00",
+    "validation_n": 1031,
+    "candidate_id": "a29",
+    "weight": 1.0,
+    "validation_mse": 112.62976823627446
+  },
+  {
+    "month": "2026-02",
+    "method": "seq_selected",
+    "chosen_family": "seq_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "validation_first": "2025-11-03 02:00:00+00:00",
+    "validation_last": "2026-01-30 17:00:00+00:00",
+    "validation_n": 1031,
+    "candidate_id": "a07",
+    "weight": 1.0,
+    "validation_mse": 112.0072580819428
+  },
+  {
+    "month": "2026-02",
+    "method": "seq_shrunk",
+    "chosen_family": "seq_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "validation_first": "2025-11-03 02:00:00+00:00",
+    "validation_last": "2026-01-30 17:00:00+00:00",
+    "validation_n": 1031,
+    "candidate_id": "a07",
+    "weight": 1.0,
+    "validation_mse": 112.0072580819428
+  },
+  {
+    "month": "2026-02",
+    "method": "joint_selected",
+    "chosen_family": "joint_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "validation_first": "2025-11-03 02:00:00+00:00",
+    "validation_last": "2026-01-30 17:00:00+00:00",
+    "validation_n": 1031,
+    "candidate_id": "a20",
+    "weight": 1.0,
+    "validation_mse": 110.86615516287313
+  },
+  {
+    "month": "2026-02",
+    "method": "joint_shrunk",
+    "chosen_family": "joint_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "validation_first": "2025-11-03 02:00:00+00:00",
+    "validation_last": "2026-01-30 17:00:00+00:00",
+    "validation_n": 1031,
+    "candidate_id": "a20",
+    "weight": 1.0,
+    "validation_mse": 110.86615516287313
+  },
+  {
+    "month": "2026-03",
+    "method": "sequential_ols",
+    "chosen_family": "sequential_ols",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "validation_first": "2025-12-01 02:00:00+00:00",
+    "validation_last": "2026-02-27 17:00:00+00:00",
+    "validation_n": 1035,
+    "candidate_id": "a00",
+    "weight": 1.0,
+    "validation_mse": 120.58509121982685
+  },
+  {
+    "month": "2026-03",
+    "method": "joint_ols",
+    "chosen_family": "joint_ols",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "validation_first": "2025-12-01 02:00:00+00:00",
+    "validation_last": "2026-02-27 17:00:00+00:00",
+    "validation_n": 1035,
+    "candidate_id": "a01",
+    "weight": 1.0,
+    "validation_mse": 120.49392202885497
+  },
+  {
+    "month": "2026-03",
+    "method": "pca",
+    "chosen_family": "pca",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "validation_first": "2025-12-01 02:00:00+00:00",
+    "validation_last": "2026-02-27 17:00:00+00:00",
+    "validation_n": 1035,
+    "candidate_id": "a02",
+    "weight": 1.0,
+    "validation_mse": 119.10200593517057
+  },
+  {
+    "month": "2026-03",
+    "method": "seq_xgb",
+    "chosen_family": "seq_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "validation_first": "2025-12-01 02:00:00+00:00",
+    "validation_last": "2026-02-27 17:00:00+00:00",
+    "validation_n": 1035,
+    "candidate_id": "a07",
+    "weight": 1.0,
+    "validation_mse": 116.65182850116359
+  },
+  {
+    "month": "2026-03",
+    "method": "seq_mlp",
+    "chosen_family": "seq_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "validation_first": "2025-12-01 02:00:00+00:00",
+    "validation_last": "2026-02-27 17:00:00+00:00",
+    "validation_n": 1035,
+    "candidate_id": "a11",
+    "weight": 1.0,
+    "validation_mse": 116.93602519021033
+  },
+  {
+    "month": "2026-03",
+    "method": "seq_spline",
+    "chosen_family": "seq_spline",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "validation_first": "2025-12-01 02:00:00+00:00",
+    "validation_last": "2026-02-27 17:00:00+00:00",
+    "validation_n": 1035,
+    "candidate_id": "a15",
+    "weight": 1.0,
+    "validation_mse": 116.85996955169045
+  },
+  {
+    "month": "2026-03",
+    "method": "joint_xgb",
+    "chosen_family": "joint_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "validation_first": "2025-12-01 02:00:00+00:00",
+    "validation_last": "2026-02-27 17:00:00+00:00",
+    "validation_n": 1035,
+    "candidate_id": "a20",
+    "weight": 1.0,
+    "validation_mse": 115.80042410554458
+  },
+  {
+    "month": "2026-03",
+    "method": "joint_mlp",
+    "chosen_family": "joint_mlp",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "validation_first": "2025-12-01 02:00:00+00:00",
+    "validation_last": "2026-02-27 17:00:00+00:00",
+    "validation_n": 1035,
+    "candidate_id": "a24",
+    "weight": 1.0,
+    "validation_mse": 120.4939398809604
+  },
+  {
+    "month": "2026-03",
+    "method": "joint_tensor",
+    "chosen_family": "joint_tensor",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "validation_first": "2025-12-01 02:00:00+00:00",
+    "validation_last": "2026-02-27 17:00:00+00:00",
+    "validation_n": 1035,
+    "candidate_id": "a30",
+    "weight": 1.0,
+    "validation_mse": 118.37240690732072
+  },
+  {
+    "month": "2026-03",
+    "method": "seq_selected",
+    "chosen_family": "seq_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "validation_first": "2025-12-01 02:00:00+00:00",
+    "validation_last": "2026-02-27 17:00:00+00:00",
+    "validation_n": 1035,
+    "candidate_id": "a07",
+    "weight": 1.0,
+    "validation_mse": 116.65182850116359
+  },
+  {
+    "month": "2026-03",
+    "method": "seq_shrunk",
+    "chosen_family": "seq_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "validation_first": "2025-12-01 02:00:00+00:00",
+    "validation_last": "2026-02-27 17:00:00+00:00",
+    "validation_n": 1035,
+    "candidate_id": "a07",
+    "weight": 1.0,
+    "validation_mse": 116.65182850116359
+  },
+  {
+    "month": "2026-03",
+    "method": "joint_selected",
+    "chosen_family": "joint_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "validation_first": "2025-12-01 02:00:00+00:00",
+    "validation_last": "2026-02-27 17:00:00+00:00",
+    "validation_n": 1035,
+    "candidate_id": "a20",
+    "weight": 1.0,
+    "validation_mse": 115.80042410554458
+  },
+  {
+    "month": "2026-03",
+    "method": "joint_shrunk",
+    "chosen_family": "joint_xgb",
+    "effective_linear": false,
+    "validation_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "validation_first": "2025-12-01 02:00:00+00:00",
+    "validation_last": "2026-02-27 17:00:00+00:00",
+    "validation_n": 1035,
+    "candidate_id": "a20",
+    "weight": 1.0,
+    "validation_mse": 115.80042410554458
+  }
+]

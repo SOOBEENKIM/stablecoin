@@ -1,0 +1,380 @@
+{
+  "stage": "A3 literature-guided conditional fit plus common downstream point estimates",
+  "publication_ready": false,
+  "timestamp_utc": "2026-09-24T10:51:55.812005+00:00",
+  "source_commit": "acb38b84ec9898f1b1bc380e7b158d015cfc05b3",
+  "candidates": [
+    {
+      "candidate_id": "a00",
+      "family": "sequential_ols",
+      "params": {}
+    },
+    {
+      "candidate_id": "a01",
+      "family": "joint_ols",
+      "params": {}
+    },
+    {
+      "candidate_id": "a02",
+      "family": "pca",
+      "params": {}
+    },
+    {
+      "candidate_id": "a03",
+      "family": "seq_xgb",
+      "params": {
+        "max_depth": 1,
+        "n_estimators": 100
+      }
+    },
+    {
+      "candidate_id": "a04",
+      "family": "seq_xgb",
+      "params": {
+        "max_depth": 1,
+        "n_estimators": 300
+      }
+    },
+    {
+      "candidate_id": "a05",
+      "family": "seq_xgb",
+      "params": {
+        "max_depth": 2,
+        "n_estimators": 100
+      }
+    },
+    {
+      "candidate_id": "a06",
+      "family": "seq_xgb",
+      "params": {
+        "max_depth": 2,
+        "n_estimators": 300
+      }
+    },
+    {
+      "candidate_id": "a07",
+      "family": "seq_xgb",
+      "params": {
+        "max_depth": 3,
+        "n_estimators": 100
+      }
+    },
+    {
+      "candidate_id": "a08",
+      "family": "seq_xgb",
+      "params": {
+        "max_depth": 3,
+        "n_estimators": 300
+      }
+    },
+    {
+      "candidate_id": "a09",
+      "family": "seq_mlp",
+      "params": {
+        "width": 8,
+        "alpha": 1.0
+      }
+    },
+    {
+      "candidate_id": "a10",
+      "family": "seq_mlp",
+      "params": {
+        "width": 8,
+        "alpha": 100.0
+      }
+    },
+    {
+      "candidate_id": "a11",
+      "family": "seq_mlp",
+      "params": {
+        "width": 16,
+        "alpha": 1.0
+      }
+    },
+    {
+      "candidate_id": "a12",
+      "family": "seq_mlp",
+      "params": {
+        "width": 16,
+        "alpha": 100.0
+      }
+    },
+    {
+      "candidate_id": "a13",
+      "family": "seq_spline",
+      "params": {
+        "knots": 3,
+        "alpha": 1.0
+      }
+    },
+    {
+      "candidate_id": "a14",
+      "family": "seq_spline",
+      "params": {
+        "knots": 3,
+        "alpha": 100.0
+      }
+    },
+    {
+      "candidate_id": "a15",
+      "family": "seq_spline",
+      "params": {
+        "knots": 5,
+        "alpha": 1.0
+      }
+    },
+    {
+      "candidate_id": "a16",
+      "family": "seq_spline",
+      "params": {
+        "knots": 5,
+        "alpha": 100.0
+      }
+    },
+    {
+      "candidate_id": "a17",
+      "family": "joint_xgb",
+      "params": {
+        "max_depth": 1,
+        "n_estimators": 100
+      }
+    },
+    {
+      "candidate_id": "a18",
+      "family": "joint_xgb",
+      "params": {
+        "max_depth": 1,
+        "n_estimators": 300
+      }
+    },
+    {
+      "candidate_id": "a19",
+      "family": "joint_xgb",
+      "params": {
+        "max_depth": 2,
+        "n_estimators": 100
+      }
+    },
+    {
+      "candidate_id": "a20",
+      "family": "joint_xgb",
+      "params": {
+        "max_depth": 2,
+        "n_estimators": 300
+      }
+    },
+    {
+      "candidate_id": "a21",
+      "family": "joint_xgb",
+      "params": {
+        "max_depth": 3,
+        "n_estimators": 100
+      }
+    },
+    {
+      "candidate_id": "a22",
+      "family": "joint_xgb",
+      "params": {
+        "max_depth": 3,
+        "n_estimators": 300
+      }
+    },
+    {
+      "candidate_id": "a23",
+      "family": "joint_mlp",
+      "params": {
+        "width": 8,
+        "alpha": 1.0
+      }
+    },
+    {
+      "candidate_id": "a24",
+      "family": "joint_mlp",
+      "params": {
+        "width": 8,
+        "alpha": 100.0
+      }
+    },
+    {
+      "candidate_id": "a25",
+      "family": "joint_mlp",
+      "params": {
+        "width": 16,
+        "alpha": 1.0
+      }
+    },
+    {
+      "candidate_id": "a26",
+      "family": "joint_mlp",
+      "params": {
+        "width": 16,
+        "alpha": 100.0
+      }
+    },
+    {
+      "candidate_id": "a27",
+      "family": "joint_tensor",
+      "params": {
+        "knots": 3,
+        "alpha": 1.0
+      }
+    },
+    {
+      "candidate_id": "a28",
+      "family": "joint_tensor",
+      "params": {
+        "knots": 3,
+        "alpha": 100.0
+      }
+    },
+    {
+      "candidate_id": "a29",
+      "family": "joint_tensor",
+      "params": {
+        "knots": 5,
+        "alpha": 1.0
+      }
+    },
+    {
+      "candidate_id": "a30",
+      "family": "joint_tensor",
+      "params": {
+        "knots": 5,
+        "alpha": 100.0
+      }
+    }
+  ],
+  "methods": [
+    "sequential_ols",
+    "joint_ols",
+    "pca",
+    "seq_xgb",
+    "seq_mlp",
+    "seq_spline",
+    "joint_xgb",
+    "joint_mlp",
+    "joint_tensor",
+    "seq_selected",
+    "seq_shrunk",
+    "joint_selected",
+    "joint_shrunk"
+  ],
+  "fit_count": 1395,
+  "scenarios": [
+    "clock_UTC_quote",
+    "clock_NY_quote",
+    "clock_FXUTC_USNY_quote",
+    "clock_FXKST_USNY_quote",
+    "clock_NY_macro_end1h_quote"
+  ],
+  "input_sha256": {
+    "research/data/raw data/binance_1h_2025-06-01_2026-03-19.csv": "f32e54fadbedfb38a9514ecb4682bc2bc2e2eb418b314f672af7f783b61af3d0",
+    "research/data/raw data/upbit_1h_2025-06-01_2026-03-19.csv": "c0ea17c465872dafc4e641c5486fe4edd15b7abdc064ed587869882b78ad1efe",
+    "research/data/raw data/USDKRW.csv": "781044d8ceaca50dd2b175681295e9c603cfdfb451058e5a360c1de13dcc6c59",
+    "research/data/raw data/DXY.csv": "31603a17ddc38908580d1472c2157dcc3b092eaeed074288b16545a23baa24c4",
+    "research/data/raw data/VIXY.csv": "80b8e7f03cf4212abfa615badd2887e68e11a7f5095128d13cea0e30cfc8cc12",
+    "research/corrected_outputs/binance_btcusdt_data_vision_metrics.csv": "726610d41d74c0ae4ef612e2c4af58166dd302b8abe6fd47294a148f82acc138",
+    "research/reanalysis_20260909/recalculate.py": "59234f1b9eec44276596c1af8e40056bc0faa2f021f8f09c02ade60e36de096b",
+    "experiments/nonlinear_residual/PROTOCOL_KO.md": "df107b2a9f245cfe12a88b0258488e01816ec6baa976abccb1ea3cdaf765435e",
+    "experiments/nonlinear_residual/run_pilot.py": "56b4cb0935e77f205e1180331217aaa8604d5f16ea7843d28b7d760f794e82e0",
+    "experiments/nonlinear_residual/three_way/forecast.py": "211e43845e7f480646e3e4e99d7d02c3446e590e49a70340297b676094d98ba6",
+    "experiments/nonlinear_residual/three_way/pipeline.py": "2307c7d1bc1bbc41df230a3a8384896e9c8d559e6381a99db587178bca9b3668",
+    "experiments/nonlinear_residual/three_way/check_guards.py": "9d25a6ffd7465f63ae8bec1b5b63da66c86f584266385811b98fed9b5e897f9c",
+    "experiments/nonlinear_residual/three_way/run_followup.py": "5b64812e7b87b0168ade56da9b7adea829908a8cb752238d70810a505cb5d0c8",
+    "experiments/nonlinear_residual/three_way/PROTOCOL_KO.md": "0074a55b0b651c1492d453bf9c86fb3dcf7c9f9fefc8a3ad56857f3889049301",
+    "experiments/nonlinear_residual/expanded/run_expanded.py": "36bc70a768a9101acdf4517fb645ccd1501ebf3c399d9e43c52f802abb74c204",
+    "experiments/nonlinear_residual/literature_models/PROTOCOL_KO.md": "200e36c725e45737a79de6f902d3a890c8bcb2403cab1e084e5a4be3a2589d09",
+    "experiments/nonlinear_residual/literature_models/REFERENCES_KO.md": "833f1a6242c3740de441a36149d3dca01181c098249f3cc22954b60a5d468b01",
+    "experiments/nonlinear_residual/literature_models/models.py": "178ff01fd9ddfe8ce8908cee21cd33311c42376da4040a4d7a06d67726b2538d",
+    "experiments/nonlinear_residual/literature_models/check_guards.py": "6a9ef1489534e4196e9aa9889ba291d07dcbea94bd43dc7ea46b4f9b6afbf59c",
+    "experiments/nonlinear_residual/literature_models/run_comparison.py": "42c9f5ebad6e9cd587befce545cb2b7598c00acd59eede42e6462a23d0181138"
+  },
+  "output_sha256": {
+    "coefficients.csv": "ebe90f5e89f69e686faaff836101c96c2be6bc9482836727e587849a0b8477a6",
+    "residual_bins.csv": "d44519909d362e3bd94b08907198e9913501a90f6b269bbe69e66228ebaafc80",
+    "subperiod_and_stress.csv": "ee38b2dd3dbeab33e05ca9805de5df7907f031fe6350a9270fa9fdb363869cae",
+    "scores.csv": "55c0f44417f849fa51babb09da9351aea5f3f664a75946b5e822793595241b37",
+    "paired_block_intervals.csv": "49b866aeee8ec9edc06d9c48a1843cb8c689c54cb065b0c3c5ab6018a9d9f530",
+    "sample_counts.csv": "3d90bb939dfa2a81766346539ba91b130fc6c59b44f8d8661a043d42b4870a08",
+    "clock_NY_macro_end1h_quote/coefficients.csv": "ed6ae0254e2d265f95eb366ecd16cf7faf5cc5c847a972d8c33ead617659902e",
+    "clock_NY_macro_end1h_quote/all_candidate_predictions.csv.gz": "2685e6b70616685a858d49cc9e1ed9c3fc17aded3c2f682bd216e93b9ae40425",
+    "clock_NY_macro_end1h_quote/residual_bins.csv": "63ee96020454297e34903279947bddcaac9e3067f1947454826c1baa7d64ec15",
+    "clock_NY_macro_end1h_quote/subperiod_and_stress.csv": "95f41137a267fc4389bdc243ca07e9fabc175852c18e08d671cf4c48a5c68ad7",
+    "clock_NY_macro_end1h_quote/selection.json": "e70fa963fa356dad8d8e9618ef75cc4cc948892afb45ec9cc27516df086f9d33",
+    "clock_NY_macro_end1h_quote/residual_pairs.csv.gz": "0633d3000b70857eea4fd37de2bb5c0a0944fc81e65617f35c06057f3d3c5b30",
+    "clock_NY_macro_end1h_quote/predictions.csv.gz": "7fcceb165b09b01ec0b869c678b1fb2cd1b068c2012ff9f6ba3c301a9a4891ca",
+    "clock_NY_macro_end1h_quote/fits.json": "0c13123afec2fb231bd1fdbdc49c62e93f52094aff937b3c8164599cfacb5eb4",
+    "clock_NY_macro_end1h_quote/sample_counts.csv": "94c69e9d694c4cec2bcadbd7ef96b7ace4281681f7c4f775b8ce7d7232242742",
+    "clock_NY_macro_end1h_quote/validation_scores.csv": "062573676f08448a3616854f23cdad7d6898f0ddaec0f6d13d77be41bfa09ae7",
+    "clock_NY_macro_end1h_quote/clock.json": "8877042bc06ba5fb8912c2c6e01ae742e8463c4bdf1400332282157566ff6cb4",
+    "clock_FXUTC_USNY_quote/coefficients.csv": "328f8fd1a78027bbd3cc3a3439d388160e780d2739cf692a3b4ef94ca91430bf",
+    "clock_FXUTC_USNY_quote/all_candidate_predictions.csv.gz": "cf614627de79950731a95be46bb949196f4b7aad40a12bdb4ddd49081219729a",
+    "clock_FXUTC_USNY_quote/residual_bins.csv": "82203a8b85d50afa4befe58f7db0f596ae94195a18919a3df7c50700ae869e84",
+    "clock_FXUTC_USNY_quote/subperiod_and_stress.csv": "cf01bd8e0c512dbb05177ff258247689722fb6919fac9d83c9b5c10ad42f8620",
+    "clock_FXUTC_USNY_quote/selection.json": "c8fde3fc2d18998933d1883170d91ce22bff053ef8e05dc18315bd911c8939e6",
+    "clock_FXUTC_USNY_quote/residual_pairs.csv.gz": "20f2ed6f16b7f2a041833cbae9190a8e0f13a87044c9733abe877343b8c1138f",
+    "clock_FXUTC_USNY_quote/predictions.csv.gz": "d816766596d04fd76312c15e34195c7bb66605f9105855c02d202ad7adc90bfd",
+    "clock_FXUTC_USNY_quote/fits.json": "71bed564cc6f225f6c114c02f5ad258652e9c523cac23661012c5c32b62d3380",
+    "clock_FXUTC_USNY_quote/sample_counts.csv": "1f0678e6fcfdce67002f1c926042c2686365be2db488cf83fe5020418b2f861e",
+    "clock_FXUTC_USNY_quote/validation_scores.csv": "614d0beaebb8e7b42c43b203e1d11cd92cf18eb25705894c74aab628f411c6c0",
+    "clock_FXUTC_USNY_quote/clock.json": "d7adbda338ded1b3c96217630d3dfaa0a790b8f0116dc401bfc0a3e442601bfb",
+    "clock_FXKST_USNY_quote/coefficients.csv": "b2d70a8bc4b7907bb0338bf9143d2750ff79239f01937192b8818cc2cc02ff63",
+    "clock_FXKST_USNY_quote/all_candidate_predictions.csv.gz": "9b2076f7eb5f7e3ab6f968c244c42881a6713863e263c0ad301105b7bfa5834a",
+    "clock_FXKST_USNY_quote/residual_bins.csv": "6a1b192a212d344501ab4c0e5ed0ce21956003b827d5abc30b5146bf33f87a52",
+    "clock_FXKST_USNY_quote/subperiod_and_stress.csv": "7f35bda46ff5861a71d7baf377ef8e8cd203e66ba22030cadb4d9c0c52923b36",
+    "clock_FXKST_USNY_quote/selection.json": "1c37d22cf55281e604378dd2fa1fc20dfd50667eccfd7543bb736eaa37c1a09a",
+    "clock_FXKST_USNY_quote/residual_pairs.csv.gz": "4f21289b3a208158b148caff7233bf58be68b8e67666c694c0d6db7988227bc6",
+    "clock_FXKST_USNY_quote/predictions.csv.gz": "555fc43b42f987a55a854e31a2466e4200ccc935403d6041f9449b41efd9fd98",
+    "clock_FXKST_USNY_quote/fits.json": "48eedf6c1dea2fe34d89249125754583e75ce063c41078b34217bc32f5270105",
+    "clock_FXKST_USNY_quote/sample_counts.csv": "1ed85ecadaae9ca23ac245412c45b7e55ddcacb948e958504453683ea3511341",
+    "clock_FXKST_USNY_quote/validation_scores.csv": "a7049f4d4047c81ba1be35d2835e5b30cae71369eec57b00455b355e148f30c0",
+    "clock_FXKST_USNY_quote/clock.json": "2670b49e6aca5df1428b45a16f195aadf5c0e600866e2b445cb49cf7260a1fdd",
+    "clock_NY_quote/coefficients.csv": "9419f324e61846d5804f85145261aa17267ba026514c9ac0589b94505ed796e7",
+    "clock_NY_quote/all_candidate_predictions.csv.gz": "857814fb0116bd53fa37c4feceb51851397cb874e536e96e83ff1d5b8a2c4748",
+    "clock_NY_quote/residual_bins.csv": "9dec88dbfe6bdc071fa25dcfddf886a92749c9f0cb7a7c2e484e3631a8e4ab23",
+    "clock_NY_quote/subperiod_and_stress.csv": "70ca23a73224e6ee9214946a0b0fbc226e68682627b07f1551622215b1aeb236",
+    "clock_NY_quote/selection.json": "b00c6b68fb5107e49e768fa860828fbcb318117e081b3887a6686bf31fa3a9f8",
+    "clock_NY_quote/residual_pairs.csv.gz": "e852b1bedc97c171b05033dee4401c8b1c5f67becc66e118cf313da9eeca1add",
+    "clock_NY_quote/predictions.csv.gz": "4718658cedb6357c82399cb99886eba4ae97ed5bfc196d134c5c7b5c54d5f767",
+    "clock_NY_quote/fits.json": "c53f5659990ad4070a4ed2149a2a68e2c4cc039a66b0ba976e8cf426aa0e16a9",
+    "clock_NY_quote/sample_counts.csv": "0af730c34ab2e4532b9086544e06e41336933161e6794667fc01a6e5e3160458",
+    "clock_NY_quote/validation_scores.csv": "2b6433c4144ac5e3f7d743ea5f44466717abeb2eb071494a600dfba78b1954e9",
+    "clock_NY_quote/clock.json": "15abced47276b0d15c45dafd1f84f04e65f6338617158e04c7169addbf1e60ac",
+    "clock_UTC_quote/coefficients.csv": "63ce006efa02f18e2c78e7ff926bf3dce167ada615e4fe5b6381ba789c3ae96f",
+    "clock_UTC_quote/all_candidate_predictions.csv.gz": "cf614627de79950731a95be46bb949196f4b7aad40a12bdb4ddd49081219729a",
+    "clock_UTC_quote/residual_bins.csv": "82203a8b85d50afa4befe58f7db0f596ae94195a18919a3df7c50700ae869e84",
+    "clock_UTC_quote/subperiod_and_stress.csv": "dc45aaade5386719eee1aac03312b66b740cc00ae76e7fdbb9e7da2749200b70",
+    "clock_UTC_quote/selection.json": "c8fde3fc2d18998933d1883170d91ce22bff053ef8e05dc18315bd911c8939e6",
+    "clock_UTC_quote/residual_pairs.csv.gz": "5a29adaf61f33b907cc980153e72f6451f3e5fd6929a500331d1ceb0b56bfc50",
+    "clock_UTC_quote/predictions.csv.gz": "6dca4da93ee47d161ebfb051b43fff8966b95979ed8f5afc586bf8935b2a35e6",
+    "clock_UTC_quote/fits.json": "71bed564cc6f225f6c114c02f5ad258652e9c523cac23661012c5c32b62d3380",
+    "clock_UTC_quote/sample_counts.csv": "8f263426dd3aa52ff22779eedec8e7c491e763ead74ecd6b051257b58777aaa5",
+    "clock_UTC_quote/validation_scores.csv": "614d0beaebb8e7b42c43b203e1d11cd92cf18eb25705894c74aab628f411c6c0",
+    "clock_UTC_quote/clock.json": "982f49e4119bf23e362b08bebaf3a672eee3c9a7e3bec0f0ad79de1ea0417cbd"
+  },
+  "archive_check": {
+    "verified_archive_files": 915,
+    "verified_context_files": 60,
+    "validated_lfs_pointers": [
+      "option1_factorial_20260910/evaluated_predictions.npz",
+      "option1_model_followup_20260910/evaluated_predictions.npz"
+    ],
+    "lfs_payloads_used": false,
+    "note": "LFS pointer metadata checked; absent payloads are not claimed verified"
+  },
+  "elapsed_seconds": 315.0648591979407,
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.23.5",
+    "pandas": "2.0.3",
+    "sklearn": "1.3.2",
+    "xgboost": "2.1.4"
+  },
+  "limitations": [
+    "historical sample previously explored; exploratory model extension",
+    "same-time conditional fit, not future-price forecasting or causal decomposition",
+    "FX/macro time zones unresolved; USDC/USD=1 assumption",
+    "loss intervals condition on fitted predictions and do not adjust for adaptive research/multiple comparisons",
+    "downstream A3 coefficients are point-estimate sensitivity, no new nuisance-refit coefficient intervals"
+  ]
+}
