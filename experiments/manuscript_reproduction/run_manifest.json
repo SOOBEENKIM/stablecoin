@@ -1,0 +1,139 @@
+{
+  "started_utc": "2026-09-24T14:43:48.631679+00:00",
+  "finished_utc": "2026-09-24T14:44:30.566049+00:00",
+  "python": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.29",
+  "packages": {
+    "numpy": "1.23.5",
+    "pandas": "2.0.3",
+    "scipy": "1.10.1",
+    "statsmodels": "0.14.1",
+    "matplotlib": "3.7.5"
+  },
+  "source_sha256": {
+    "research/reference/original_v4/stablecoin_paper_pipeline.py": "c777ef8d08a32e39a85f3a4aa8ce5da19cc5bd1534e7f837faca3e7bb8bfba8d",
+    "research/reference/original_v4/kp_robustness.py": "cc6063e49b0f0e70eda554b6acd1c2703c135cd2ebdf828cca3a0ff651306aac",
+    "research/reference/original_v4/experiment1_persistence_mediation.py": "e0ce4723d44d5ee4b15af7dba681c69fac1d27e8d97e674d49b3ac65603e2488",
+    "research/reference/original_v4/experiment2_subsample_stability.py": "f38f10d50244fe4b994fd6aed10f9b424abca2a28057c829754007885647da6d",
+    "research/reference/original_v4/economic_magnitude.py": "0d59e4cdcaaf9f4870c89ccb19272e8bd44ea64439bb3114f82ead68368327e1",
+    "research/reference/original_v4/corrected_outputs/baseline_dataset_with_residual_final.csv": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15"
+  },
+  "original_sources_unchanged": true,
+  "scope": "Preserved processed 715-row input; upstream raw-data ETL is not rerun.",
+  "runs": [
+    {
+      "profile": "archive_main_B40",
+      "script": "stablecoin_paper_pipeline.py",
+      "B_BOOT": 40,
+      "seed": 42,
+      "exit_code": 0,
+      "seconds": 7.421,
+      "log": "runs/archive_main_B40/stablecoin_paper_pipeline.log"
+    },
+    {
+      "profile": "archive_supplement_B200",
+      "script": "experiment1_persistence_mediation.py",
+      "B_BOOT": 200,
+      "seed": 42,
+      "exit_code": 0,
+      "seconds": 5.879,
+      "log": "runs/archive_supplement_B200/experiment1_persistence_mediation.log"
+    },
+    {
+      "profile": "archive_supplement_B200",
+      "script": "experiment2_subsample_stability.py",
+      "B_BOOT": 200,
+      "seed": 42,
+      "exit_code": 0,
+      "seconds": 5.01,
+      "log": "runs/archive_supplement_B200/experiment2_subsample_stability.log"
+    },
+    {
+      "profile": "archive_supplement_B200",
+      "script": "kp_robustness.py",
+      "B_BOOT": 200,
+      "seed": 42,
+      "exit_code": 0,
+      "seconds": 11.964,
+      "log": "runs/archive_supplement_B200/kp_robustness.log"
+    },
+    {
+      "profile": "default_B300",
+      "script": "economic_magnitude.py",
+      "B_BOOT": 300,
+      "seed": 42,
+      "exit_code": 0,
+      "seconds": 0.261,
+      "log": "runs/default_B300/economic_magnitude.log"
+    },
+    {
+      "profile": "default_B300",
+      "script": "experiment1_persistence_mediation.py",
+      "B_BOOT": 300,
+      "seed": 42,
+      "exit_code": 0,
+      "seconds": 8.494,
+      "log": "runs/default_B300/experiment1_persistence_mediation.log"
+    },
+    {
+      "profile": "default_B300",
+      "script": "experiment2_subsample_stability.py",
+      "B_BOOT": 300,
+      "seed": 42,
+      "exit_code": 0,
+      "seconds": 7.364,
+      "log": "runs/default_B300/experiment2_subsample_stability.log"
+    },
+    {
+      "profile": "default_B300",
+      "script": "kp_robustness.py",
+      "B_BOOT": 300,
+      "seed": 42,
+      "exit_code": 0,
+      "seconds": 17.714,
+      "log": "runs/default_B300/kp_robustness.log"
+    },
+    {
+      "profile": "default_B300",
+      "script": "stablecoin_paper_pipeline.py",
+      "B_BOOT": 300,
+      "seed": 42,
+      "exit_code": 0,
+      "seconds": 41.923,
+      "log": "runs/default_B300/stablecoin_paper_pipeline.log"
+    }
+  ],
+  "outputs_sha256": {
+    "runs/archive_main_B40/paper_outputs/fig1_timeseries.png": "c674a0732d220d184ad8f121f517c88577b2ed7772d0f7ca653ff5ac5a3250b8",
+    "runs/archive_main_B40/paper_outputs/fig3_localprojection.png": "cedbf64925e239bca6b60d732877d0b94aad2cd1a45165b5e27437e49455fdd3",
+    "runs/archive_main_B40/paper_outputs/fig4_mediation.png": "14f938af2b6859b5aab3e37033d04bad147a96f8946a31651213a01e5d7127de",
+    "runs/archive_main_B40/paper_outputs/fig5_decisive.png": "db7030f486f88aba959c1c3bff5ca26cbfd01bb36ff9ce996c4f2f75c7aa43c6",
+    "runs/archive_main_B40/paper_outputs/table1_residual_descriptive.csv": "e8e8e0231cf7d4fe86f1dadbad3fbe5303c3105375ce9bd85681469197dd3caa",
+    "runs/archive_main_B40/paper_outputs/table2_stationarity.csv": "ae2b81f3bc99d765beee262676c21b33fac33e3b4a396eddacda0d4c20787053",
+    "runs/archive_main_B40/paper_outputs/table3_main_quantile_tail.csv": "fbb1fa45381e0975a8dace710273c9a5ae294bfad63c86a0d419b903a1cca7a1",
+    "runs/archive_main_B40/paper_outputs/table4_quantile_local_projection.csv": "fe27c6040cee43bac01f42430d536679e34d911c1354f11a7477e0d24e64ee49",
+    "runs/archive_main_B40/paper_outputs/table5_stress_regime.csv": "73fcf454f6cf7f7bf466df6bdf81dc80a4ea384191a771c9243db97ec7556a5e",
+    "runs/archive_main_B40/paper_outputs/table6_demand_channel_mediation.csv": "2b518c123a9ffb396fbc48a4c64c05734937bdd7a0446a4121e4f18f6bb6328c",
+    "runs/archive_main_B40/paper_outputs/table7_decisive_robustness.csv": "642e3851506bced00beaaaee00766da589fdd007d353987fdafc199068ff511a",
+    "runs/archive_supplement_B200/paper_outputs/exp1_persistence_mediation.csv": "15164ff8676dc2bc803d93af95a1d191240185b7bcf35e0dbf7fb8d1b35316a7",
+    "runs/archive_supplement_B200/paper_outputs/exp2_subsample_stability.csv": "832a336255f3300a4ceb05788ee9db85b5c58c9468798a70e766f526ee092f7f",
+    "runs/archive_supplement_B200/paper_outputs/robustness_kp_main_quantile.csv": "1aa7a0af91e4e77ee5f16d7d7384086136a59e307ddf8e26866e13dfc680cf77",
+    "runs/archive_supplement_B200/paper_outputs/robustness_kp_mediation.csv": "0b803d0f878b01f21147f9756b6bd71b961b38c078410c2b2403ff8d20d8f908",
+    "runs/default_B300/paper_outputs/economic_magnitude.csv": "ecd2e01b65212b30869d659df59c2a93d41e02dbc19dddb58d78feea9f274f80",
+    "runs/default_B300/paper_outputs/exp1_persistence_mediation.csv": "857ffae206a73587e7ba0c1921906e8a94ac5e9ce748daa6a0a48c935d4c27fc",
+    "runs/default_B300/paper_outputs/exp2_subsample_stability.csv": "fb988aa9adf0ce4555bea684296188e35d5c54d25b2d9c3cbd874982ae41f361",
+    "runs/default_B300/paper_outputs/fig1_timeseries.png": "c674a0732d220d184ad8f121f517c88577b2ed7772d0f7ca653ff5ac5a3250b8",
+    "runs/default_B300/paper_outputs/fig3_localprojection.png": "cedbf64925e239bca6b60d732877d0b94aad2cd1a45165b5e27437e49455fdd3",
+    "runs/default_B300/paper_outputs/fig4_mediation.png": "7e2fba03ec1147b09b825373ceaffb1659c5afd93ed77bb723b7c9b27b287727",
+    "runs/default_B300/paper_outputs/fig5_decisive.png": "db7030f486f88aba959c1c3bff5ca26cbfd01bb36ff9ce996c4f2f75c7aa43c6",
+    "runs/default_B300/paper_outputs/robustness_kp_main_quantile.csv": "b8a333c6172a43dca9ce385ab9a9801132b20b9cc4354c29e5b7636f1c8e170b",
+    "runs/default_B300/paper_outputs/robustness_kp_mediation.csv": "ecdeb75627f3e1b31c4b1f64307e930a5bcd1552999e58564a89846a9be1fcb2",
+    "runs/default_B300/paper_outputs/table1_residual_descriptive.csv": "e8e8e0231cf7d4fe86f1dadbad3fbe5303c3105375ce9bd85681469197dd3caa",
+    "runs/default_B300/paper_outputs/table2_stationarity.csv": "ae2b81f3bc99d765beee262676c21b33fac33e3b4a396eddacda0d4c20787053",
+    "runs/default_B300/paper_outputs/table3_main_quantile_tail.csv": "a5778f39ac0472558f85bbf3aae6949b8c690ff1751d1d5b6a8b2198ad21029d",
+    "runs/default_B300/paper_outputs/table4_quantile_local_projection.csv": "4035fdf2fdbe92cd629625a7ef35296c6e4fb01f7b6b5179b809f56ce11ab9e7",
+    "runs/default_B300/paper_outputs/table5_stress_regime.csv": "914f715caf33a3ee2c0a3ff7cc970f2fc2e4997481bc4c30e511c1c090fcbe55",
+    "runs/default_B300/paper_outputs/table6_demand_channel_mediation.csv": "22d4b024bcaa9f95e91160ed2c0a9a37371cc815ec591a9be822ae6e6db72082",
+    "runs/default_B300/paper_outputs/table7_decisive_robustness.csv": "d5337af51d7e8ad3c32013b0bd12af50749fe5a479e0018452236339eaba7ede"
+  }
+}

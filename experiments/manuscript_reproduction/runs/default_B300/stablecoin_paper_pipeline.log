@@ -1,0 +1,40 @@
+================================================================
+ Korean USDT Residual — pipeline (tables + figures)
+================================================================
+[load] n=715  step1_r2=0.9971
+[check] rebuilt vs saved RESIDUAL_FINAL max|dev|=1.13e-16
+[Table1] Welch t=-4.24
+stablecoin_paper_pipeline.py:132: InterpolationWarning: The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+
+  adf = adfuller(y); kp = kpss(y, regression="c", nlags="auto")
+[Table3]
+   q  beta_downside  p_boot   n
+0.10         -6.779   0.000 714
+0.25        -11.453   0.000 714
+0.50         -9.277   0.013 714
+0.75         -5.531   0.067 714
+0.90         -4.249   0.053 714
+[Table6 q=0.10 mediators]
+                        channel  dn_beta  dn_p  ch_p mediates
+             USDT_VOL_RATIO_LOG   -0.201 0.000 0.020       no
+  USDT_RELATIVE_VOLUME_PRESSURE   -0.181 0.000 0.013       no
+           VOL_RATIO_DISPERSION   -0.127 0.000 0.000       no
+                        OI_lag1   -0.179 0.000 0.033       no
+                    OI_RET_lag1   -0.115 0.000 0.987       no
+              OI_VALUE_RET_lag1   -0.142 0.000 0.600       no
+     TOPTRADER_POSITION_LS_lag1   -0.125 0.000 0.280       no
+TAKER_LONG_SHORT_VOL_RATIO_lag1   -0.119 0.000 0.207       no
+        COIN_VOL_RATIO_LOG_MEAN   -0.124 0.007 0.620       no
+                   FUNDING_lag1   -0.132 0.100 0.000 artifact
+                ACCOUNT_LS_lag1   -0.063 0.227 0.007      YES
+                  OI_VALUE_lag1   -0.140 0.280 0.000 artifact
+      TOPTRADER_ACCOUNT_LS_lag1   -0.012 0.347 0.000      YES
+[Table7 q=0.10]
+           model  downside  p_downside  btc_vol  account_ls  p_account_ls
+M0_base+downside    -0.115       0.000      NaN         NaN           NaN
+M1_+global_state     0.056       0.327   -0.269         NaN           NaN
+  M2_+ACCOUNT_LS     0.121       0.180   -0.275      -0.157         0.013
+[fig] 4 paper figures saved to /home/ssd-990/soobeenkim/stablecoin_icaif2026_residual/experiments/manuscript_reproduction/runs/default_B300/paper_outputs
+
+[done] tables + figures -> /home/ssd-990/soobeenkim/stablecoin_icaif2026_residual/experiments/manuscript_reproduction/runs/default_B300/paper_outputs

@@ -1,0 +1,25 @@
+CAP weights: {'BTC': 0.755, 'ETH': 0.148, 'XRP': 0.052, 'SOL': 0.035, 'DOGE': 0.01}
+PCA PC1 explained: 0.996
+
+=== main quantile beta_downside ===
+definition    CAP      EQ     PCA
+q                                
+0.10       -8.922  -6.779  -6.892
+0.25       -6.870 -11.445 -10.972
+0.50       -4.213  -9.277  -9.369
+0.75       -4.744  -5.531  -4.943
+0.90       -6.378  -4.249  -4.290
+
+=== mediation / survival (q=0.10) ===
+definition                  channel base_dn  dn_beta   dn_p  ch_p   result
+        EQ               ACCOUNT_LS  -0.115   -0.066   0.28 0.013      YES
+        EQ     TOPTRADER_ACCOUNT_LS  -0.115   -0.009  0.327 0.000      YES
+        EQ ACCOUNT_LS (decisive M2)       -   -0.158      - 0.000 survives
+       CAP               ACCOUNT_LS  -0.159   -0.027   0.58 0.000      YES
+       CAP     TOPTRADER_ACCOUNT_LS  -0.159   -0.018   0.98 0.000      YES
+       CAP ACCOUNT_LS (decisive M2)       -   -0.213      - 0.007 survives
+       PCA               ACCOUNT_LS  -0.118   -0.081  0.233 0.000 artifact
+       PCA     TOPTRADER_ACCOUNT_LS  -0.118   -0.016  0.413 0.000      YES
+       PCA ACCOUNT_LS (decisive M2)       -   -0.150      - 0.000 survives
+
+[done] saved to /home/ssd-990/soobeenkim/stablecoin_icaif2026_residual/experiments/manuscript_reproduction/runs/default_B300/paper_outputs

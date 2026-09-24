@@ -1,0 +1,4 @@
+.runtime/
+# Byte-identical disposable copies are rebuilt from research/reference/original_v4.
+runs/*/*.py
+runs/*/corrected_outputs/

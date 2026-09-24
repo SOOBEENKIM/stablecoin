@@ -1,0 +1,17 @@
+table,source,sum,count
+1,default_B300,119,120
+2,archive_main_B40,8,8
+2,default_B300,8,8
+2,historical_saved_NOT_RERUN,8,8
+3,archive_main_B40,8,10
+3,default_B300,10,10
+3,historical_saved_NOT_RERUN,8,10
+4,archive_main_B40,7,12
+4,default_B300,11,12
+4,historical_saved_NOT_RERUN,7,12
+5,archive_supplement_B200,12,15
+5,default_B300,11,15
+5,historical_saved_NOT_RERUN,15,15
+6,archive_supplement_B200,20,20
+6,default_B300,14,20
+6,historical_saved_NOT_RERUN,20,20

@@ -1,2 +1,0 @@
--r ../../../environments/requirements-analysis.txt
-xgboost==2.1.4

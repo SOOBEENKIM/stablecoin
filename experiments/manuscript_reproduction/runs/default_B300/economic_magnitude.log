@@ -1,0 +1,17 @@
+                  지표        값
+      USDT 평균가격(KRW) 1434.600
+      호가단위 tick(KRW)    0.500
+       호가단위 tick(bp)    3.490
+         잔차 표준편차(bp)    9.430
+   잔차 std / tick (배)    2.700
+     하락국면 잔차 확대폭(bp)    5.720
+    하락국면 잔차 확대폭(KRW)    0.821
+ 하락국면 확대폭 / tick (배)    1.640
+   하락국면 q10 잔차깊이(bp)  -15.810
+   정상국면 q10 잔차깊이(bp)  -11.260
+      USDT 김프 평균(bp)  103.500
+    USDT 김프 표준편차(bp)  176.660
+잔차/김프 분산비(%) (=1-R²)    0.280
+      잔차/김프 표준편차비(%)    5.340
+
+[saved] /home/ssd-990/soobeenkim/stablecoin_icaif2026_residual/experiments/manuscript_reproduction/runs/default_B300/paper_outputs/economic_magnitude.csv

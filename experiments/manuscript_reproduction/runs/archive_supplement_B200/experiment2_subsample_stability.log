@@ -1,0 +1,9 @@
+top-5 stress days: ['2026-02-06', '2025-11-21', '2026-02-04', '2025-12-01', '2026-02-23']
+        sample   n  q10_dn  q10_p  q25_dn  q25_p  M2_leverage_beta  M2_leverage_p M2_leverage
+          FULL 714   -6.78   0.00  -11.44   0.00            -0.158           0.01    survives
+    FIRST_HALF 356   -2.01   1.00    2.44   0.81            -0.068           0.45          no
+   SECOND_HALF 358   -3.48   0.32   -3.68   0.10             0.087           0.49          no
+ DROP_TOP1_DAY 711   -6.79   0.00  -12.85   0.01            -0.151           0.01    survives
+DROP_TOP5_DAYS 699   -7.98   0.05   -8.56   0.04            -0.228           0.00    survives
+
+[done] saved to /home/ssd-990/soobeenkim/stablecoin_icaif2026_residual/experiments/manuscript_reproduction/runs/archive_supplement_B200/paper_outputs/exp2_subsample_stability.csv
