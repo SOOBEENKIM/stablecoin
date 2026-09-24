@@ -1,0 +1,1355 @@
+{
+  "checked_utc": "2026-09-24T14:50:12.552768+00:00",
+  "workspace": "/home/ssd-990/soobeenkim",
+  "archive": "research/reference/original_v4",
+  "key_files": [
+    {
+      "folder": "stablecoin",
+      "file": "stablecoin_paper_pipeline.py",
+      "workstation_sha256": "1366fce74e534666333a41fa7a38d8015d9de95cc2eba7913d025022bcbe907e",
+      "archive_sha256": "c777ef8d08a32e39a85f3a4aa8ce5da19cc5bd1534e7f837faca3e7bb8bfba8d",
+      "same_bytes": false,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin",
+      "file": "kp_robustness.py",
+      "workstation_sha256": null,
+      "archive_sha256": "cc6063e49b0f0e70eda554b6acd1c2703c135cd2ebdf828cca3a0ff651306aac",
+      "same_bytes": false,
+      "exists": false
+    },
+    {
+      "folder": "stablecoin",
+      "file": "experiment1_persistence_mediation.py",
+      "workstation_sha256": null,
+      "archive_sha256": "e0ce4723d44d5ee4b15af7dba681c69fac1d27e8d97e674d49b3ac65603e2488",
+      "same_bytes": false,
+      "exists": false
+    },
+    {
+      "folder": "stablecoin",
+      "file": "experiment2_subsample_stability.py",
+      "workstation_sha256": null,
+      "archive_sha256": "f38f10d50244fe4b994fd6aed10f9b424abca2a28057c829754007885647da6d",
+      "same_bytes": false,
+      "exists": false
+    },
+    {
+      "folder": "stablecoin",
+      "file": "economic_magnitude.py",
+      "workstation_sha256": null,
+      "archive_sha256": "0d59e4cdcaaf9f4870c89ccb19272e8bd44ea64439bb3114f82ead68368327e1",
+      "same_bytes": false,
+      "exists": false
+    },
+    {
+      "folder": "stablecoin",
+      "file": "corrected_outputs/baseline_dataset_with_residual_final.csv",
+      "workstation_sha256": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15",
+      "archive_sha256": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin",
+      "file": "FinxLab_stablecoin_20260409_datapreprocessing - 복사본.ipynb",
+      "workstation_sha256": "3755dd989dc3df5f34a5c4a72d28459ac0c47becce58bf3d7061aa6cc00967ee",
+      "archive_sha256": "3755dd989dc3df5f34a5c4a72d28459ac0c47becce58bf3d7061aa6cc00967ee",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_v3",
+      "file": "stablecoin_paper_pipeline.py",
+      "workstation_sha256": "c777ef8d08a32e39a85f3a4aa8ce5da19cc5bd1534e7f837faca3e7bb8bfba8d",
+      "archive_sha256": "c777ef8d08a32e39a85f3a4aa8ce5da19cc5bd1534e7f837faca3e7bb8bfba8d",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_v3",
+      "file": "kp_robustness.py",
+      "workstation_sha256": "cc6063e49b0f0e70eda554b6acd1c2703c135cd2ebdf828cca3a0ff651306aac",
+      "archive_sha256": "cc6063e49b0f0e70eda554b6acd1c2703c135cd2ebdf828cca3a0ff651306aac",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_v3",
+      "file": "experiment1_persistence_mediation.py",
+      "workstation_sha256": "e0ce4723d44d5ee4b15af7dba681c69fac1d27e8d97e674d49b3ac65603e2488",
+      "archive_sha256": "e0ce4723d44d5ee4b15af7dba681c69fac1d27e8d97e674d49b3ac65603e2488",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_v3",
+      "file": "experiment2_subsample_stability.py",
+      "workstation_sha256": "f38f10d50244fe4b994fd6aed10f9b424abca2a28057c829754007885647da6d",
+      "archive_sha256": "f38f10d50244fe4b994fd6aed10f9b424abca2a28057c829754007885647da6d",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_v3",
+      "file": "economic_magnitude.py",
+      "workstation_sha256": null,
+      "archive_sha256": "0d59e4cdcaaf9f4870c89ccb19272e8bd44ea64439bb3114f82ead68368327e1",
+      "same_bytes": false,
+      "exists": false
+    },
+    {
+      "folder": "stablecoin_v3",
+      "file": "corrected_outputs/baseline_dataset_with_residual_final.csv",
+      "workstation_sha256": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15",
+      "archive_sha256": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_v3",
+      "file": "FinxLab_stablecoin_20260409_datapreprocessing - 복사본.ipynb",
+      "workstation_sha256": "3755dd989dc3df5f34a5c4a72d28459ac0c47becce58bf3d7061aa6cc00967ee",
+      "archive_sha256": "3755dd989dc3df5f34a5c4a72d28459ac0c47becce58bf3d7061aa6cc00967ee",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_v4",
+      "file": "stablecoin_paper_pipeline.py",
+      "workstation_sha256": "c777ef8d08a32e39a85f3a4aa8ce5da19cc5bd1534e7f837faca3e7bb8bfba8d",
+      "archive_sha256": "c777ef8d08a32e39a85f3a4aa8ce5da19cc5bd1534e7f837faca3e7bb8bfba8d",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_v4",
+      "file": "kp_robustness.py",
+      "workstation_sha256": "cc6063e49b0f0e70eda554b6acd1c2703c135cd2ebdf828cca3a0ff651306aac",
+      "archive_sha256": "cc6063e49b0f0e70eda554b6acd1c2703c135cd2ebdf828cca3a0ff651306aac",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_v4",
+      "file": "experiment1_persistence_mediation.py",
+      "workstation_sha256": "e0ce4723d44d5ee4b15af7dba681c69fac1d27e8d97e674d49b3ac65603e2488",
+      "archive_sha256": "e0ce4723d44d5ee4b15af7dba681c69fac1d27e8d97e674d49b3ac65603e2488",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_v4",
+      "file": "experiment2_subsample_stability.py",
+      "workstation_sha256": "f38f10d50244fe4b994fd6aed10f9b424abca2a28057c829754007885647da6d",
+      "archive_sha256": "f38f10d50244fe4b994fd6aed10f9b424abca2a28057c829754007885647da6d",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_v4",
+      "file": "economic_magnitude.py",
+      "workstation_sha256": "0d59e4cdcaaf9f4870c89ccb19272e8bd44ea64439bb3114f82ead68368327e1",
+      "archive_sha256": "0d59e4cdcaaf9f4870c89ccb19272e8bd44ea64439bb3114f82ead68368327e1",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_v4",
+      "file": "corrected_outputs/baseline_dataset_with_residual_final.csv",
+      "workstation_sha256": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15",
+      "archive_sha256": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_v4",
+      "file": "FinxLab_stablecoin_20260409_datapreprocessing - 복사본.ipynb",
+      "workstation_sha256": "3755dd989dc3df5f34a5c4a72d28459ac0c47becce58bf3d7061aa6cc00967ee",
+      "archive_sha256": "3755dd989dc3df5f34a5c4a72d28459ac0c47becce58bf3d7061aa6cc00967ee",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_workshop",
+      "file": "stablecoin_paper_pipeline.py",
+      "workstation_sha256": "c777ef8d08a32e39a85f3a4aa8ce5da19cc5bd1534e7f837faca3e7bb8bfba8d",
+      "archive_sha256": "c777ef8d08a32e39a85f3a4aa8ce5da19cc5bd1534e7f837faca3e7bb8bfba8d",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_workshop",
+      "file": "kp_robustness.py",
+      "workstation_sha256": "cc6063e49b0f0e70eda554b6acd1c2703c135cd2ebdf828cca3a0ff651306aac",
+      "archive_sha256": "cc6063e49b0f0e70eda554b6acd1c2703c135cd2ebdf828cca3a0ff651306aac",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_workshop",
+      "file": "experiment1_persistence_mediation.py",
+      "workstation_sha256": "e0ce4723d44d5ee4b15af7dba681c69fac1d27e8d97e674d49b3ac65603e2488",
+      "archive_sha256": "e0ce4723d44d5ee4b15af7dba681c69fac1d27e8d97e674d49b3ac65603e2488",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_workshop",
+      "file": "experiment2_subsample_stability.py",
+      "workstation_sha256": "f38f10d50244fe4b994fd6aed10f9b424abca2a28057c829754007885647da6d",
+      "archive_sha256": "f38f10d50244fe4b994fd6aed10f9b424abca2a28057c829754007885647da6d",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_workshop",
+      "file": "economic_magnitude.py",
+      "workstation_sha256": "0d59e4cdcaaf9f4870c89ccb19272e8bd44ea64439bb3114f82ead68368327e1",
+      "archive_sha256": "0d59e4cdcaaf9f4870c89ccb19272e8bd44ea64439bb3114f82ead68368327e1",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_workshop",
+      "file": "corrected_outputs/baseline_dataset_with_residual_final.csv",
+      "workstation_sha256": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15",
+      "archive_sha256": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15",
+      "same_bytes": true,
+      "exists": true
+    },
+    {
+      "folder": "stablecoin_workshop",
+      "file": "FinxLab_stablecoin_20260409_datapreprocessing - 복사본.ipynb",
+      "workstation_sha256": "3755dd989dc3df5f34a5c4a72d28459ac0c47becce58bf3d7061aa6cc00967ee",
+      "archive_sha256": "3755dd989dc3df5f34a5c4a72d28459ac0c47becce58bf3d7061aa6cc00967ee",
+      "same_bytes": true,
+      "exists": true
+    }
+  ],
+  "v4_full_path_comparison": [
+    {
+      "file": ".dockerignore",
+      "status": "same_bytes",
+      "workstation_sha256": "d4a0f0b83c79590ecd133fc4097a0ebf5ba87429a1aebdaa5083d676a00b0829",
+      "archive_sha256": "d4a0f0b83c79590ecd133fc4097a0ebf5ba87429a1aebdaa5083d676a00b0829"
+    },
+    {
+      "file": ".env.example",
+      "status": "same_bytes",
+      "workstation_sha256": "e146b0800cdd7e3bde530cd8155febc13efa0649ae17c6cd748241b423b1a6e6",
+      "archive_sha256": "e146b0800cdd7e3bde530cd8155febc13efa0649ae17c6cd748241b423b1a6e6"
+    },
+    {
+      "file": ".gitignore",
+      "status": "same_bytes",
+      "workstation_sha256": "5f40a24c9cc239aba47cce502e659e0f42d203ef9cbd6bd36398a4daa9e72134",
+      "archive_sha256": "5f40a24c9cc239aba47cce502e659e0f42d203ef9cbd6bd36398a4daa9e72134"
+    },
+    {
+      "file": "Dockerfile",
+      "status": "same_bytes",
+      "workstation_sha256": "ff384ea709eff121fcfba40189864ac1950bbee229c6b1cf9304524cdfca4bda",
+      "archive_sha256": "ff384ea709eff121fcfba40189864ac1950bbee229c6b1cf9304524cdfca4bda"
+    },
+    {
+      "file": "FinxLab_stablecoin_20260409_datapreprocessing - 복사본.ipynb",
+      "status": "same_bytes",
+      "workstation_sha256": "3755dd989dc3df5f34a5c4a72d28459ac0c47becce58bf3d7061aa6cc00967ee",
+      "archive_sha256": "3755dd989dc3df5f34a5c4a72d28459ac0c47becce58bf3d7061aa6cc00967ee"
+    },
+    {
+      "file": "build_image.sh",
+      "status": "same_bytes",
+      "workstation_sha256": "60ef32ade7c058ac83b8b0cf1bee30be48618b51dec863ae60bbb86eb2b3cc88",
+      "archive_sha256": "60ef32ade7c058ac83b8b0cf1bee30be48618b51dec863ae60bbb86eb2b3cc88"
+    },
+    {
+      "file": "corrected_outputs/baseline_dataset_with_residual_final.csv",
+      "status": "same_bytes",
+      "workstation_sha256": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15",
+      "archive_sha256": "a29272d40d57757df4b8e0846ce2006bc77050c5039a8e84a777e392fcc49c15"
+    },
+    {
+      "file": "corrected_outputs/binance_btcusdt_data_vision_metrics.csv",
+      "status": "same_bytes",
+      "workstation_sha256": "726610d41d74c0ae4ef612e2c4af58166dd302b8abe6fd47294a148f82acc138",
+      "archive_sha256": "726610d41d74c0ae4ef612e2c4af58166dd302b8abe6fd47294a148f82acc138"
+    },
+    {
+      "file": "corrected_outputs/binance_btcusdt_funding_rate.csv",
+      "status": "same_bytes",
+      "workstation_sha256": "423bd4e8ba1213df39e12350918f87a691a0aa91a477ae747c85f2a3f03dbbb6",
+      "archive_sha256": "423bd4e8ba1213df39e12350918f87a691a0aa91a477ae747c85f2a3f03dbbb6"
+    },
+    {
+      "file": "corrected_outputs/binance_btcusdt_open_interest_hist.csv",
+      "status": "same_bytes",
+      "workstation_sha256": "7d737bb63cb9376afc18b07f0828a50cba352a6001c42660a25c46063c504118",
+      "archive_sha256": "7d737bb63cb9376afc18b07f0828a50cba352a6001c42660a25c46063c504118"
+    },
+    {
+      "file": "create_container.sh",
+      "status": "same_bytes",
+      "workstation_sha256": "d3f802425e55c172b7b6126b9562deec0a1c00eea4dfb66eccc0ed4b7fdf5f1f",
+      "archive_sha256": "d3f802425e55c172b7b6126b9562deec0a1c00eea4dfb66eccc0ed4b7fdf5f1f"
+    },
+    {
+      "file": "data/.gitkeep",
+      "status": "same_bytes",
+      "workstation_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "archive_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "data/raw data/22binance_BTCUSDT_candles_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22binance_DOGEUSDT_candles_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22binance_ETHUSDT_candles_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22binance_SOLUSDT_candles_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22binance_XRPUSDT_candles_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22bithumb_KRW-USDT_candles_unit60.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22bithumb_KRW_BTC_candles_unit60_aligned_to_USDT.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22bithumb_KRW_DOGE_candles_unit60_aligned_to_USDT.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22bithumb_KRW_ETH_candles_unit60_aligned_to_USDT.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22bithumb_KRW_SOL_candles_unit60_aligned_to_USDT.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22bithumb_KRW_XRP_candles_unit60_aligned_to_USDT.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22dataset_hourly_REALONLY_with_externals.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22dataset_hourly_REALONLY_with_externals_REAL1H.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22dataset_hourly_REALONLY_with_externals_REAL1H_DXY_GOLD.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22features_hourly_only.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22lasso_dataset_XY_ready.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22lasso_dataset_used.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22lasso_dataset_used_REAL1H.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22lasso_selected_features.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22lasso_selected_features_REAL1H.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22panel_hourly_clean.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22panel_hourly_clean_with_FX_REAL1H_ONLY.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22panel_hourly_clean_with_PCA_NEW.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22panel_hourly_kp_resid_fixed.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22panel_hourly_kp_resid_with_FX.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22panel_hourly_kp_resid_with_FX_REAL1H_ONLY.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/22panel_hourly_rawmerged.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/BTCUSD_1h_logret_obs.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/BTCUSD_1h_raw.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/CELL10_LASSO_predictions.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/CELL10_LASSO_selected_features.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/CELL11_LASSO_regime_diagnostics.txt",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/CELL11_LASSO_regime_predictions.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/CELL11_LASSO_regime_selected_features.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/CELL12_LASSO_POST_MARTIAL.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/CELL12_LASSO_PRE_MARTIAL.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/CELL13_PRE_POST_COEF_COMPARISON.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/CELL14_POST_std_lasso_postols.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/CELL14_PRE_std_lasso_postols.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/DOGEUSD_1h_logret_obs.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/DOGEUSD_1h_raw.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/DXY.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/DXY_clean.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/DXY_clean_1.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/ETHUSD_1h_logret_obs.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/ETHUSD_1h_raw.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/FINAL_ANALYSIS_DATASET_V1.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/FINAL_ANALYSIS_DATASET_V2.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/FINAL_DATA_FOR_REGRESSION_Y.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/FINAL_DATA_WITH_RESIDUALS.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/FINAL_KP_INDEXED_DATA.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/FINAL_LASSO_RESULTS.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/FINAL_RESEARCH_DATA_2024_2025.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/FINAL_RESEARCH_DATA_WITH_KP_INDICES.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/GLD_1h_logret_mask.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/GLD_1h_raw.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/GRANGER_TEST_RESULT.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/GRANGER_TEST_RESULT_1.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/GUSD-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/HOURLY_FULL_FACTORS.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/LASSO_RESULT_COEFFICIENTS.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/LASSO_SELECTION_RESULTS.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/MASTER_DATASET_FOR_ANALYSIS.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/MASTER_DATASET_WITH_KOSPI.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/MASTER_DATASET_WITH_KOSPI_NASDAQ.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/MASTER_crypto_exchange_1h_data.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/MASTER_crypto_exchange_1h_data_FINAL.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/SOLUSD_1h_logret_obs.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/SOLUSD_1h_raw.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/SPY US.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/SPY US_clean.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/SPY_1h_logret_mask.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/SPY_1h_raw.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/SPY_clean_1.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/USDKRW.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/USDKRW_1h_logret_mask.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/USDKRW_1h_raw.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/USDKRW_clean.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/USDTUSD_1h_logret_obs.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/USDTUSD_1h_raw.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/UUP_1h_logret_mask.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/UUP_1h_raw.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/VIXY.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/VIXY_1h_logret_mask.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/VIXY_1h_raw.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/VIXY_clean.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/VIXY_clean_1.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/XAUUSD.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/XAUUSD_clean.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/XAUUSD_clean_1.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/XRPUSD_1h_logret_obs.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/XRPUSD_1h_raw.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/alusd-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/base_grid_1h_canonical.parquet",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/baseline_dataset_clean.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/baseline_dataset_with_micro.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/baseline_dataset_with_residual_final.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/binance_1h_2025-06-01_2026-03-19.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/binance_1h_bundle.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/binance_BTCUSDT_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/binance_BTCUSDT_candles_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/binance_DOGEUSDT_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/binance_DOGEUSDT_candles_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/binance_ETHUSDT_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/binance_ETHUSDT_candles_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/binance_SOLUSDT_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/binance_SOLUSDT_candles_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/binance_XRPUSDT_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/binance_XRPUSDT_candles_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/binance_top5_unit60_usd.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/bithumb_KRW-USDT_candles_unit60.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/bithumb_KRW_BTC_candles_unit60_aligned_to_USDT.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/bithumb_KRW_DOGE_candles_unit60_aligned_to_USDT.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/bithumb_KRW_ETH_candles_unit60_aligned_to_USDT.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/bithumb_KRW_SOL_candles_unit60_aligned_to_USDT.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/bithumb_KRW_XRP_candles_unit60_aligned_to_USDT.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/bithumb_candidate10_rank_trade_value_sum.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/bithumb_usdt_plus_top5_unit60_wide.xlsx",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/break_dates.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/breakpoints_all.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/busd-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_ALUSD.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_BUSD.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_CUSD.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_DAI.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_DOLA.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_FEI.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_FRAX.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_HUSD.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_LUSD.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_MIMATIC.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_MUSD.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_OUSD.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_SUSD.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_USDP.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_USDX.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_VAI.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_tusd.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_usdc.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/clean_usdt.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/co_instability_matrix.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/corrected_quantile_local_projection.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/corrected_quantile_tail_results.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/corrected_regime_tail_compare.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/crypto_internal_1h_merged.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/crypto_kp_panel_baseline.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/crypto_premium_baseline.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/cusd-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/dai-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/descriptive_full.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/descriptive_table1_like.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/dola-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/dtw_distance_matrix.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/exchange_rate_usd_krw_unit60_exact_match.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/exog_1h_etf_bundle.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/exog_macro_plus_crypto_internal_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/exog_macro_plus_crypto_internal_extended_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/exog_macro_plus_crypto_internal_extended_clean_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/exog_macro_plus_crypto_internal_extended_with_binance_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/exog_plus_upbit_krw_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/exog_plus_upbit_krw_1h_with_levels.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/exogenous_1h_logret_mask_merged.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/exogenous_1h_logret_mask_merged_vixyclip.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/exogenous_baseline_overlap.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/exogenous_full_aligned.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/exogenous_robust_ffill.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/fei-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/final_dataset_baseline.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/final_dataset_baseline_with_micro.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/final_dataset_baseline_with_returns.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/frax-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/fx_USDKRW_aligned.parquet",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/husd-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/lusd-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/mimatic-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/musd-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/ousd-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/panel_full_checked.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/panel_hourly_merged_prices.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/panel_model_exog_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/panel_model_exog_1h.parquet",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/panel_model_exog_strict_L1.parquet",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/panel_model_ready.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/panel_model_ready.parquet",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/panel_resid_checked.parquet",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/panel_stablecoins.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/panel_upbit_binance_fx_kp_full_1h.parquet",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/panel_upbit_binance_fx_kp_residual_1h.parquet",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/perf_monthly_lstm.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/predicted_ranking.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/regression_dataset_baseline.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/regression_dataset_baseline_with_micro.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/regression_dataset_kp.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/regression_dataset_residual.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/rolling_path_mdd.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/stablecoin_mechanisms.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/susd-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/tusd-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/upbit_1h_2025-06-01_2026-03-19.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/upbit_KRW-USDT_1h.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/usdc-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/usdp-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/usdt-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/usdx-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/vai-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "data/raw data/zusd-usd-max.csv",
+      "status": "not_at_this_archive_path"
+    },
+    {
+      "file": "economic_magnitude.py",
+      "status": "same_bytes",
+      "workstation_sha256": "0d59e4cdcaaf9f4870c89ccb19272e8bd44ea64439bb3114f82ead68368327e1",
+      "archive_sha256": "0d59e4cdcaaf9f4870c89ccb19272e8bd44ea64439bb3114f82ead68368327e1"
+    },
+    {
+      "file": "enter_container.sh",
+      "status": "same_bytes",
+      "workstation_sha256": "b8ebe61ca30dfd20098b82dfeb035548240ea8166d4f4cf99098d46b51141c2f",
+      "archive_sha256": "b8ebe61ca30dfd20098b82dfeb035548240ea8166d4f4cf99098d46b51141c2f"
+    },
+    {
+      "file": "experiment1_persistence_mediation.py",
+      "status": "same_bytes",
+      "workstation_sha256": "e0ce4723d44d5ee4b15af7dba681c69fac1d27e8d97e674d49b3ac65603e2488",
+      "archive_sha256": "e0ce4723d44d5ee4b15af7dba681c69fac1d27e8d97e674d49b3ac65603e2488"
+    },
+    {
+      "file": "experiment2_subsample_stability.py",
+      "status": "same_bytes",
+      "workstation_sha256": "f38f10d50244fe4b994fd6aed10f9b424abca2a28057c829754007885647da6d",
+      "archive_sha256": "f38f10d50244fe4b994fd6aed10f9b424abca2a28057c829754007885647da6d"
+    },
+    {
+      "file": "fix_permissions.sh",
+      "status": "same_bytes",
+      "workstation_sha256": "dee9c87bc61fab2024fe69071fc4fd96283d1685d6719ba3191a2294a8db7837",
+      "archive_sha256": "dee9c87bc61fab2024fe69071fc4fd96283d1685d6719ba3191a2294a8db7837"
+    },
+    {
+      "file": "kp_robustness.py",
+      "status": "same_bytes",
+      "workstation_sha256": "cc6063e49b0f0e70eda554b6acd1c2703c135cd2ebdf828cca3a0ff651306aac",
+      "archive_sha256": "cc6063e49b0f0e70eda554b6acd1c2703c135cd2ebdf828cca3a0ff651306aac"
+    },
+    {
+      "file": "manuscript_경영과학_김수빈.docx",
+      "status": "same_bytes",
+      "workstation_sha256": "681e2b0c71de7009a95933801b68476e7e20bb235e34e618568e497692289a91",
+      "archive_sha256": "681e2b0c71de7009a95933801b68476e7e20bb235e34e618568e497692289a91"
+    },
+    {
+      "file": "manuscript_경영과학_김수빈_v2.docx",
+      "status": "same_bytes",
+      "workstation_sha256": "29f3a881cae6e8b896af3c3a215110a3c346fe54a3389eb9844b4aa188ba61bc",
+      "archive_sha256": "29f3a881cae6e8b896af3c3a215110a3c346fe54a3389eb9844b4aa188ba61bc"
+    },
+    {
+      "file": "manuscript_경영과학_김수빈_v3.docx",
+      "status": "same_bytes",
+      "workstation_sha256": "4a5cf8a9f9df33b00c6b7321fdf1e8957393b23dedeb706e39981007501d64a3",
+      "archive_sha256": "4a5cf8a9f9df33b00c6b7321fdf1e8957393b23dedeb706e39981007501d64a3"
+    },
+    {
+      "file": "manuscript_경영과학_김수빈_v4.docx",
+      "status": "same_bytes",
+      "workstation_sha256": "cd0dec866e3b80b6503418e5f13ad717850343551c0f16b4ce83ded072d2bb9a",
+      "archive_sha256": "cd0dec866e3b80b6503418e5f13ad717850343551c0f16b4ce83ded072d2bb9a"
+    },
+    {
+      "file": "outputs/.gitkeep",
+      "status": "same_bytes",
+      "workstation_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "archive_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "paper_outputs/economic_magnitude.csv",
+      "status": "same_bytes",
+      "workstation_sha256": "ecd2e01b65212b30869d659df59c2a93d41e02dbc19dddb58d78feea9f274f80",
+      "archive_sha256": "ecd2e01b65212b30869d659df59c2a93d41e02dbc19dddb58d78feea9f274f80"
+    },
+    {
+      "file": "paper_outputs/exp1_persistence_mediation.csv",
+      "status": "same_bytes",
+      "workstation_sha256": "15164ff8676dc2bc803d93af95a1d191240185b7bcf35e0dbf7fb8d1b35316a7",
+      "archive_sha256": "15164ff8676dc2bc803d93af95a1d191240185b7bcf35e0dbf7fb8d1b35316a7"
+    },
+    {
+      "file": "paper_outputs/exp2_subsample_stability.csv",
+      "status": "same_bytes",
+      "workstation_sha256": "832a336255f3300a4ceb05788ee9db85b5c58c9468798a70e766f526ee092f7f",
+      "archive_sha256": "832a336255f3300a4ceb05788ee9db85b5c58c9468798a70e766f526ee092f7f"
+    },
+    {
+      "file": "paper_outputs/fig1_timeseries.png",
+      "status": "same_bytes",
+      "workstation_sha256": "3df93708b3d1fcb251d598a171c6b151486a5fd68878705006522d25520eb6e6",
+      "archive_sha256": "3df93708b3d1fcb251d598a171c6b151486a5fd68878705006522d25520eb6e6"
+    },
+    {
+      "file": "paper_outputs/fig3_localprojection.png",
+      "status": "same_bytes",
+      "workstation_sha256": "9644c75e057fd173cfce9b1d3f4b148a4d1a2ba4b2b07605810d45c04d9f413f",
+      "archive_sha256": "9644c75e057fd173cfce9b1d3f4b148a4d1a2ba4b2b07605810d45c04d9f413f"
+    },
+    {
+      "file": "paper_outputs/fig4_mediation.png",
+      "status": "same_bytes",
+      "workstation_sha256": "0f9b109ac0a6b4e5bbc8feaa09dc4b5aefab6a30e4a68146b6deb2040785b39e",
+      "archive_sha256": "0f9b109ac0a6b4e5bbc8feaa09dc4b5aefab6a30e4a68146b6deb2040785b39e"
+    },
+    {
+      "file": "paper_outputs/fig5_decisive.png",
+      "status": "same_bytes",
+      "workstation_sha256": "e9f960dcdf378e39d7788c99edf7293ca83a5a9ae48b1b39ecb5921338e06805",
+      "archive_sha256": "e9f960dcdf378e39d7788c99edf7293ca83a5a9ae48b1b39ecb5921338e06805"
+    },
+    {
+      "file": "paper_outputs/robustness_kp_main_quantile.csv",
+      "status": "same_bytes",
+      "workstation_sha256": "65619fad4336cba8a667c00362b2b120f08e2a92504647dee5e2d3a8dbb084b6",
+      "archive_sha256": "65619fad4336cba8a667c00362b2b120f08e2a92504647dee5e2d3a8dbb084b6"
+    },
+    {
+      "file": "paper_outputs/robustness_kp_mediation.csv",
+      "status": "same_bytes",
+      "workstation_sha256": "a14ebebb1f7345162120334d149ddc74521e3272b36c5b2552eb2ca92a02d9ee",
+      "archive_sha256": "a14ebebb1f7345162120334d149ddc74521e3272b36c5b2552eb2ca92a02d9ee"
+    },
+    {
+      "file": "paper_outputs/table1_residual_descriptive.csv",
+      "status": "same_bytes",
+      "workstation_sha256": "e8e8e0231cf7d4fe86f1dadbad3fbe5303c3105375ce9bd85681469197dd3caa",
+      "archive_sha256": "e8e8e0231cf7d4fe86f1dadbad3fbe5303c3105375ce9bd85681469197dd3caa"
+    },
+    {
+      "file": "paper_outputs/table2_stationarity.csv",
+      "status": "same_bytes",
+      "workstation_sha256": "784a29ebf2c139e0350f2fc02d0803f97d1535b1d9031b651da267b6edd0566b",
+      "archive_sha256": "784a29ebf2c139e0350f2fc02d0803f97d1535b1d9031b651da267b6edd0566b"
+    },
+    {
+      "file": "paper_outputs/table3_main_quantile_tail.csv",
+      "status": "same_bytes",
+      "workstation_sha256": "fbb1fa45381e0975a8dace710273c9a5ae294bfad63c86a0d419b903a1cca7a1",
+      "archive_sha256": "fbb1fa45381e0975a8dace710273c9a5ae294bfad63c86a0d419b903a1cca7a1"
+    },
+    {
+      "file": "paper_outputs/table4_quantile_local_projection.csv",
+      "status": "same_bytes",
+      "workstation_sha256": "fe27c6040cee43bac01f42430d536679e34d911c1354f11a7477e0d24e64ee49",
+      "archive_sha256": "fe27c6040cee43bac01f42430d536679e34d911c1354f11a7477e0d24e64ee49"
+    },
+    {
+      "file": "paper_outputs/table5_stress_regime.csv",
+      "status": "same_bytes",
+      "workstation_sha256": "73fcf454f6cf7f7bf466df6bdf81dc80a4ea384191a771c9243db97ec7556a5e",
+      "archive_sha256": "73fcf454f6cf7f7bf466df6bdf81dc80a4ea384191a771c9243db97ec7556a5e"
+    },
+    {
+      "file": "paper_outputs/table6_demand_channel_mediation.csv",
+      "status": "same_bytes",
+      "workstation_sha256": "2b518c123a9ffb396fbc48a4c64c05734937bdd7a0446a4121e4f18f6bb6328c",
+      "archive_sha256": "2b518c123a9ffb396fbc48a4c64c05734937bdd7a0446a4121e4f18f6bb6328c"
+    },
+    {
+      "file": "paper_outputs/table7_decisive_robustness.csv",
+      "status": "same_bytes",
+      "workstation_sha256": "642e3851506bced00beaaaee00766da589fdd007d353987fdafc199068ff511a",
+      "archive_sha256": "642e3851506bced00beaaaee00766da589fdd007d353987fdafc199068ff511a"
+    },
+    {
+      "file": "src/requirements.txt",
+      "status": "same_bytes",
+      "workstation_sha256": "7d75ab3c06888b1fb206835c27eca7b509be214685a2017df6a17d499d82fc40",
+      "archive_sha256": "7d75ab3c06888b1fb206835c27eca7b509be214685a2017df6a17d499d82fc40"
+    },
+    {
+      "file": "stablecoin_paper_pipeline.py",
+      "status": "same_bytes",
+      "workstation_sha256": "c777ef8d08a32e39a85f3a4aa8ce5da19cc5bd1534e7f837faca3e7bb8bfba8d",
+      "archive_sha256": "c777ef8d08a32e39a85f3a4aa8ce5da19cc5bd1534e7f837faca3e7bb8bfba8d"
+    },
+    {
+      "file": "연구정리_한국USDT잔차_레버리지채널.md",
+      "status": "same_bytes",
+      "workstation_sha256": "3f5c7f0944024c1b4b000b956b64f4b93fc3c435f62e0b6b5b138e5c63b615cb",
+      "archive_sha256": "3f5c7f0944024c1b4b000b956b64f4b93fc3c435f62e0b6b5b138e5c63b615cb"
+    }
+  ],
+  "workstation_documents": {
+    "stablecoin_v3/manuscript_KORMS.docx": {
+      "sha256": "395fd3a57746601ca24bfb5dc59f71b64e06b36295e2e68395d12b29e347d456",
+      "tables": 0,
+      "created": "2026-03-19T07:31:00Z",
+      "modified": "2026-03-19T11:56:00Z"
+    },
+    "stablecoin_v3/manuscript_경영과학_김수빈.docx": {
+      "sha256": "681e2b0c71de7009a95933801b68476e7e20bb235e34e618568e497692289a91",
+      "tables": 2,
+      "created": "2026-03-19T07:31:00Z",
+      "modified": "2026-06-21T12:59:00Z"
+    },
+    "stablecoin_v4/manuscript_경영과학_김수빈.docx": {
+      "sha256": "681e2b0c71de7009a95933801b68476e7e20bb235e34e618568e497692289a91",
+      "tables": 2,
+      "created": "2026-03-19T07:31:00Z",
+      "modified": "2026-06-21T12:59:00Z"
+    },
+    "stablecoin_v4/manuscript_경영과학_김수빈_v2.docx": {
+      "sha256": "29f3a881cae6e8b896af3c3a215110a3c346fe54a3389eb9844b4aa188ba61bc",
+      "tables": 4,
+      "created": "2026-06-21T13:41:00Z",
+      "modified": "2026-06-21T13:41:00Z"
+    },
+    "stablecoin_v4/manuscript_경영과학_김수빈_v3.docx": {
+      "sha256": "4a5cf8a9f9df33b00c6b7321fdf1e8957393b23dedeb706e39981007501d64a3",
+      "tables": 4,
+      "created": "2026-06-21T13:41:00Z",
+      "modified": "2026-06-21T13:41:00Z"
+    },
+    "stablecoin_v4/manuscript_경영과학_김수빈_v4.docx": {
+      "sha256": "cd0dec866e3b80b6503418e5f13ad717850343551c0f16b4ce83ded072d2bb9a",
+      "tables": 5,
+      "created": "2026-06-22T04:23:00Z",
+      "modified": "2026-06-22T04:55:00Z"
+    }
+  },
+  "final_manuscript": {
+    "sha256": "80608deb8aadeecfb88b60fb2cb4bca430a1ee0584999bc251bf8581793fe486",
+    "tables": 6,
+    "created": "2026-06-22T15:13:00Z",
+    "modified": "2026-06-26T14:32:00Z"
+  },
+  "final_pdf_sha256": "1c6a521269d3186ba90bc396edcd761b34f579c1e2fd5cd9f5c1fd5e19fb7ca8",
+  "conclusion": "All five executed scripts, processed input, and preprocessing notebook match stablecoin_v4 byte for byte. The attached final manuscript is later than the v4 folder manuscripts."
+}

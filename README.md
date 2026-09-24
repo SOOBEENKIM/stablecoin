@@ -6,6 +6,8 @@
 
 [재현 결과](experiments/manuscript_reproduction/RESULTS_KO.md) · [실행 안내](experiments/manuscript_reproduction/README.md) · [원고 PDF](research/reference/submitted/경영과학학술지_김수빈_V2_stablecoin.pdf)
 
+[워크스테이션 폴더 직접 대조](experiments/manuscript_reproduction/WORKSTATION_SOURCE_CHECK_KO.md) 결과, 실행한 원본 코드·전처리 데이터는 실제 `stablecoin_v4`와 바이트 단위로 같다. 첨부 최종 원고는 v4 폴더의 초안보다 나중에 편집된 문서다.
+
 ## 재현 범위와 결과
 
 보존된 715개 관측치의 전처리 데이터에서 다음 원본 분석을 재실행했습니다.
