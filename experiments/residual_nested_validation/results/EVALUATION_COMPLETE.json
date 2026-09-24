@@ -1,0 +1,56 @@
+{
+  "lock_commit": "519682a230400f463ac88b7de90d81b1a6469b11",
+  "lock_sha256": "7520f075bdb279d3534f6b0a53abdf9e069c6a2dafb45a4977cb5f0685dbe0de",
+  "completed_utc": "2026-09-24T17:51:23.819287+00:00",
+  "primary_tests": [
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "comparison": "selected_vs_linear",
+      "calibration": "calibrated",
+      "n": 1088,
+      "block_days": 5,
+      "difference_bp": -0.2015632381084518,
+      "improvement_pct": 10.647854090670283,
+      "improvement_lo": 7.139189453667776,
+      "improvement_hi": 14.00070476950944,
+      "p_centered_boot": 0.0005,
+      "winning_months": 3,
+      "p_holm": 0.0015,
+      "supported_conditional": true
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "comparison": "selected_vs_threshold",
+      "calibration": "calibrated",
+      "n": 1088,
+      "block_days": 5,
+      "difference_bp": -0.05689405680261166,
+      "improvement_pct": 3.254204052167553,
+      "improvement_lo": -1.0381749547867958,
+      "improvement_hi": 8.780545423878618,
+      "p_centered_boot": 0.2015,
+      "winning_months": 3,
+      "p_holm": 0.403,
+      "supported_conditional": false
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "comparison": "position_increment",
+      "calibration": "calibrated",
+      "n": 1088,
+      "block_days": 5,
+      "difference_bp": -0.008546735988928645,
+      "improvement_pct": 0.5027558332246329,
+      "improvement_lo": -0.5046632807236565,
+      "improvement_hi": 1.4430809674106733,
+      "p_centered_boot": 0.306,
+      "winning_months": 3,
+      "p_holm": 0.403,
+      "supported_conditional": false
+    }
+  ],
+  "independent_confirmation": false
+}

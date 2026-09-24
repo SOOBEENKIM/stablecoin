@@ -1,0 +1,16 @@
+{
+  "lock_commit": "519682a230400f463ac88b7de90d81b1a6469b11",
+  "lock_sha256": "7520f075bdb279d3534f6b0a53abdf9e069c6a2dafb45a4977cb5f0685dbe0de",
+  "sealed_utc": "2026-09-24T17:49:46.065075+00:00",
+  "prediction_sha256": "1c268ee5d5179d922d0687a3d5ca06ac1cd8b71ea315bc83f3b1499f4a78822e",
+  "inner_scores_sha256": "772cc7e494a1bedbeaea26f4387976f33147230bc37f5ef034a1a6bf7fa95d78",
+  "selections_sha256": "e0b6fecc965104ad090c83810f7244ae8d9fa45007f4890766d758932b1e71fd",
+  "inner_candidates": 4704,
+  "invalid_candidates": 0,
+  "outer_fits": 232,
+  "warnings": 0,
+  "elapsed_seconds": 165.43,
+  "same_origins_and_targets_as_previous": true,
+  "outer_scores_not_used_by_selection": true,
+  "independent_confirmation": false
+}

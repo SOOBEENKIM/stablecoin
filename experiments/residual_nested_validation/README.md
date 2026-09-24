@@ -26,11 +26,13 @@ export MPLCONFIGDIR=/tmp/stablecoin-nested-mpl
 python3 -m unittest discover -s experiments/residual_nested_validation -p 'test_*.py'
 python3 experiments/residual_nested_validation/guard.py verify
 python3 experiments/residual_nested_validation/run.py --workers 12
-python3 experiments/residual_nested_validation/verify_results.py
+python3 experiments/residual_nested_validation/verify_locked.py
 python3 experiments/residual_nested_validation/evaluate.py
 ```
 
 `guard.py create`는 관리자가 최초 잠금 전에만 실행한다. 이 저장소에는 실행한 잠금을 보존하므로 재생성하지 않는다. `run.py`는 외부 점수를 출력하지 않고 모든 내부 선택과 외부 예측을 끝낸다. `evaluate.py --reproduce`는 이미 봉인·개봉한 동일 예측의 점수만 재현한다. 전체 재학습의 재현은 기존 산출물을 유지한 별도 복제본에서 동일 잠금으로 수행하고 독립 실험으로 세지 않는다.
+
+검증 진입점에서 기존 `run.py`와의 이름 충돌을 발견해, 평가 점수 개봉 전에 경로를 복원하는 보조 호출을 추가했다. 잠근 소스와 모델은 바꾸지 않았다. [변경 이력](EXECUTION_NOTES_KO.md)과 보조 호출의 별도 해시를 보존한다.
 
 ## 결과 파일
 

@@ -1,0 +1,79 @@
+{
+  "lock_commit": "519682a230400f463ac88b7de90d81b1a6469b11",
+  "lock_sha256": "7520f075bdb279d3534f6b0a53abdf9e069c6a2dafb45a4977cb5f0685dbe0de",
+  "verified_utc": "2026-09-24T17:51:15.586623+00:00",
+  "all_choices_replayed": 280,
+  "calibration_streams": 56,
+  "max_calibration_error_bp": 1.4210854715202004e-14,
+  "model_replays": [
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "fold": "2026-01",
+      "info": "base",
+      "rows": 4704,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "fold": "2026-01",
+      "info": "history",
+      "rows": 4704,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "CAP",
+      "fold": "2026-01",
+      "info": "base",
+      "rows": 1176,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "CAP",
+      "fold": "2026-01",
+      "info": "history",
+      "rows": 1176,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-01",
+      "info": "base",
+      "rows": 1176,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "available_macro",
+      "definition": "PCA",
+      "fold": "2026-01",
+      "info": "history",
+      "rows": 1176,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "strict",
+      "definition": "EQ",
+      "fold": "2026-01",
+      "info": "base",
+      "rows": 504,
+      "max_error_bp": 3.552713678800501e-15
+    },
+    {
+      "mode": "strict",
+      "definition": "EQ",
+      "fold": "2026-01",
+      "info": "history",
+      "rows": 504,
+      "max_error_bp": 3.552713678800501e-15
+    }
+  ],
+  "actual_clock_labels": true,
+  "past_only_inner_selection": true,
+  "future_label_perturbation_passed": true,
+  "same_origins_and_targets_as_previous": true,
+  "independent_confirmation": false
+}

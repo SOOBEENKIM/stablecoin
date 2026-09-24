@@ -2,6 +2,10 @@
 
 현재 브랜치는 `research/icaif2026-manuscript-development`입니다. 국내 원고 재현본을 보존하고, 수정된 가격·시간 계산에 기반한 **잔차의 미래 하방 예측**으로 연구를 확장했습니다.
 
+**2026-09-25 잠금·중첩 시간순 검증:** 추가 수집 없이 기존 자료로 모델 선택 절차를 다시 관리했습니다. 실행 전 설계·소스·입력을 커밋 `519682a`로 고정하고, 과거 세 달에서 선형을 포함한 84개 후보를 선택한 뒤 이어지는 월을 평가했습니다. 주 EQ에서 선택 절차의 선형 대비 손실 개선은 **10.65%[7.14, 14.00]**, 세 주 비교의 Holm p=0.0015였습니다. 문턱 대비 우위와 포지셔닝 증분은 주 기준을 통과하지 못했습니다. **이번 실행의 외부 성적에 의한 모델 선택은 차단했지만, 이미 사용한 기간이므로 독립된 새 데이터 검증은 아닙니다.**
+
+[중첩 검증 결과](experiments/residual_nested_validation/RESULTS_KO.md) · [실행 전 고정 설계](experiments/residual_nested_validation/PROTOCOL_KO.md) · [실행·변경 기록](experiments/residual_nested_validation/README.md)
+
 **2026-09-25 경제적 해석 검증:** 변수군 제거 재학습, 문턱형 분위수 기준선, 유사한 출발 상태의 실제 1·6·12시간 가격 경로를 비교했습니다. 주 EQ에서 네 난수 평균 QRF 손실은 선형보다 **9.10% 낮았지만**, 롱숏 정보의 추가 개선은 **0.94%[−0.13, 2.06]**로 불확실했습니다. 펀딩·OI의 추가 개선은 확인되지 않았습니다. 문턱 기준선 대비 평균 개선은 4.84%였으나 다중 비교와 엄격한 표본까지 고려한 우위는 확증되지 않았습니다. 실제 조정 경로도 포지셔닝 메커니즘을 뒷받침하지 못했습니다. **현재 결론은 이 표본의 하방 예측 개선이며, 레버리지의 경제적 원인까지 입증한 것은 아닙니다.**
 
 [연구 결론](experiments/residual_economic_validation/CONCLUSION_KO.md) · [전체 결과](experiments/residual_economic_validation/RESULTS_KO.md) · [설계](experiments/residual_economic_validation/PROTOCOL_KO.md) · [실행·검증](experiments/residual_economic_validation/README.md)
@@ -55,6 +59,7 @@ python3 experiments/manuscript_reproduction/run_reproduction.py
 - `experiments/residual_dynamics_ml/`: 가격·시간 수정, 학습 구간별 회귀 잔차, 미래 분위수 예측 및 포지셔닝 증분 비교. 과거 ML 분해나 `main` 호가 변형 연구와 다른 실험.
 - `experiments/residual_dynamics_adaptive/`: 첫 결과 이후 학습 표현·QRF·시간순 보정·정보 가용성·포지셔닝 변화량을 점검한 후속. 최초 실험은 보존.
 - `experiments/residual_economic_validation/`: 변수군 제거, 문턱형 기준선, 출발 조건 매칭과 실제 가격 경로로 예측 개선의 경제적 해석을 검증한 후속.
+- `experiments/residual_nested_validation/`: 기존 자료만으로 모델 계열·설정 선택을 과거 세 내부 월에 한정하고, 실행 전 잠금과 평가 개봉 기록을 남긴 중첩 시간순 검증.
 - `research/`, `docs/`, `context/`의 나머지 파일: `main`에서 물려받은 이전 연구 기록. 이번 원고 재현 결과와 구분합니다.
 
 `main`의 호가·AI 연구는 별도 방향의 과거 기록입니다. 해당 안내는 [기존 연구 흐름](docs/STUDY_GUIDE_KO.md)에 남아 있습니다. 삭제한 ML 분해 실험의 이전 상태는 Git 커밋 `b051620e86bfac07efc90d6b7a257c0ba9d86d1d`에서 확인할 수 있습니다.
