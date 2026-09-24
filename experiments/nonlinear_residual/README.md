@@ -2,7 +2,9 @@
 
 기존 국내 원고의 회귀 잔차를 비선형 모형으로 재검토하는 별도 연구다.
 
-**최신 A4:** [공통 요인 자체를 오토인코더로 추출한 결과](latent_factors/RESULTS_KO.md)를 추가했다. AE와 조건부 요인 민감도 신경망을 실행하고, 거의 같은 잠재요인에서 생기는 회귀 불안정을 동일 Ridge 대조로 점검했다. AE는 기존 EQ5 회귀보다 개선되지만 2요인 PCA보다 우수하지 않았다. [안정화 수치표](latent_factors/STABILIZED_TABLES_KO.md)와 DOGE 제외를 포함한 모든 코인별 사후 진단을 함께 보존한다.
+**최신 A5:** [잔차 RMS와 분리의 정확성을 구분한 종합 평가](evaluation_audit/RESULTS_KO.md). 잔여 기준 자산 정보, 같은 실제 6시간 뒤 프리미엄 변화의 예측, 잔차별 위험 예측, PCA/AE부터 다시 학습한 후속 계수 구간을 비교한다. [선행연구의 실제 평가와 적용 한계](evaluation_audit/LITERATURE_KO.md), [수치표](evaluation_audit/TABLES_KO.md).
+
+**A4:** [공통 요인 자체를 오토인코더로 추출한 결과](latent_factors/RESULTS_KO.md). AE와 조건부 요인 민감도 신경망을 실행하고, 거의 같은 잠재요인에서 생기는 회귀 불안정을 동일 Ridge 대조로 점검했다. Jan–Mar 동시점 USDT 설명오차는 AE가 기존 EQ5 회귀보다 작고 PCA2보다 컸다. 이를 참된 공통/고유 성분의 분리 정확도나 전체 기간의 안정성 순위로 해석하지 않는다. [안정화 수치표](latent_factors/STABILIZED_TABLES_KO.md)와 모든 코인별 사후 진단을 보존한다.
 
 2026-09-24: **세 잔차의 동일 후속 실험을 완료했다.** [세 방식 후속 결과](three_way/RESULTS_KO.md)에 하방 관계, 1·6·12시간 비교, 포지셔닝의 추가 예측 가치와 재적합 불확실성 구간을 정리했다. 선형·PCA 결과는 거의 같지만, 기존의 지속·증폭 주장이나 ML의 일관된 우위를 뒷받침하는 결과는 확보되지 않았다.
 
@@ -70,4 +72,16 @@ python3 experiments/nonlinear_residual/latent_factors/verify_stability.py
 python3 experiments/nonlinear_residual/latent_factors/factor_diagnostics.py
 python3 experiments/nonlinear_residual/latent_factors/make_report.py
 python3 experiments/nonlinear_residual/latent_factors/make_report.py --stabilized
+```
+
+A5의 저장 결과 검증은 `python3 experiments/nonlinear_residual/evaluation_audit/verify.py`로 실행한다. 새 작업 사본에서 A5의 `results/`, `inference/`를 별도로 보관한 뒤 다음 순서로 재현한다. 기존 결과를 지우는 명령은 제공하지 않는다. 의존성은 A4와 같다.
+
+```bash
+export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 MPLCONFIGDIR=/tmp/stablecoin-residual-mpl
+python3 experiments/nonlinear_residual/evaluation_audit/run_metrics.py
+python3 experiments/nonlinear_residual/evaluation_audit/baseline_audit.py
+python3 experiments/nonlinear_residual/evaluation_audit/run_inference.py --workers 16
+python3 experiments/nonlinear_residual/evaluation_audit/verify.py
+python3 experiments/nonlinear_residual/evaluation_audit/make_report.py
+python3 experiments/nonlinear_residual/evaluation_audit/plot_comparison.py
 ```

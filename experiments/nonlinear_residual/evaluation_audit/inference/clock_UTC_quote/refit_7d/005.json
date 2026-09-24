@@ -1,0 +1,134 @@
+{
+  "scenario": "clock_UTC_quote",
+  "replicate": 5,
+  "elapsed_seconds": 10.945545110967942,
+  "fits": [
+    {
+      "month": "2026-01",
+      "candidate_id": "f05",
+      "train_n": 2525,
+      "train_last": "2025-12-19 11:00:00+00:00",
+      "warnings": [],
+      "members": [
+        {
+          "seed": 20260925,
+          "iterations": 341,
+          "objective": 0.08392772216497543,
+          "reconstruction_mse": 0.002014108716567936,
+          "latent_sd": [
+            2.2253742010473743
+          ],
+          "warnings": []
+        },
+        {
+          "seed": 20260926,
+          "iterations": 567,
+          "objective": 0.08392912236137191,
+          "reconstruction_mse": 0.002014644017351538,
+          "latent_sd": [
+            2.2234087293919695
+          ],
+          "warnings": []
+        },
+        {
+          "seed": 20260927,
+          "iterations": 571,
+          "objective": 0.08392820339550175,
+          "reconstruction_mse": 0.002014168177307295,
+          "latent_sd": [
+            2.2236371960836356
+          ],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "month": "2026-02",
+      "candidate_id": "f06",
+      "train_n": 2894,
+      "train_last": "2026-01-30 11:00:00+00:00",
+      "warnings": [],
+      "members": [
+        {
+          "seed": 20260925,
+          "iterations": 1232,
+          "objective": 0.0028251868267895677,
+          "reconstruction_mse": 0.0005363951519715922,
+          "latent_sd": [
+            1.137933985927734,
+            1.0899980835978695
+          ],
+          "warnings": []
+        },
+        {
+          "seed": 20260926,
+          "iterations": 999,
+          "objective": 0.0031624822900191193,
+          "reconstruction_mse": 0.000538259049239235,
+          "latent_sd": [
+            1.1285066391979401,
+            1.6435440461493716
+          ],
+          "warnings": []
+        },
+        {
+          "seed": 20260927,
+          "iterations": 641,
+          "objective": 0.006780304112235465,
+          "reconstruction_mse": 0.002389963663941243,
+          "latent_sd": [
+            1.741254435521104,
+            0.0
+          ],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "month": "2026-03",
+      "candidate_id": "f06",
+      "train_n": 3220,
+      "train_last": "2026-02-27 11:00:00+00:00",
+      "warnings": [
+        "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+      ],
+      "members": [
+        {
+          "seed": 20260925,
+          "iterations": 1490,
+          "objective": 0.0027863398228803703,
+          "reconstruction_mse": 0.0005814890463336933,
+          "latent_sd": [
+            1.0895919405984607,
+            1.0855067123600386
+          ],
+          "warnings": []
+        },
+        {
+          "seed": 20260926,
+          "iterations": 1500,
+          "objective": 0.0029325524155259146,
+          "reconstruction_mse": 0.0005782835517652543,
+          "latent_sd": [
+            0.9937565383915338,
+            1.5502444930259858
+          ],
+          "warnings": [
+            "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+          ]
+        },
+        {
+          "seed": 20260927,
+          "iterations": 953,
+          "objective": 0.008426673809833795,
+          "reconstruction_mse": 0.0030971555076255665,
+          "latent_sd": [
+            1.949773255169686,
+            0.5765273788035332
+          ],
+          "warnings": []
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 > **새 연구 브랜치 — 2026-09-24:** 기존 국내 원고의 회귀 잔차를 유지하면서 공통 요인의 비선형 관계와 포지셔닝의 추가 정보를 다시 검토합니다. [새 연구 안내](experiments/nonlinear_residual/README.md) · [실험 규칙](experiments/nonlinear_residual/PROTOCOL_KO.md). 아래는 이전 호가·AI 연구의 보존 기록입니다.
 
-> **새 연구 최신 결과:** [A4 — 오토인코더 공통 요인 분해 및 동일 PCA 대조](experiments/nonlinear_residual/latent_factors/RESULTS_KO.md). 원 실행과 수치 안정성 후속, 코드·가중치·잔차·검산을 함께 보존합니다.
+> **새 연구 최신 결과:** [A5 — 잔차 RMSE의 의미와 공통 요인·후속 위험 분석의 종합 비교](experiments/nonlinear_residual/evaluation_audit/RESULTS_KO.md). [문헌의 실제 평가 방식](experiments/nonlinear_residual/evaluation_audit/LITERATURE_KO.md), 동일 미래 목표 예측, 분해 모형을 다시 학습하는 불확실성 검증을 포함합니다. [A4의 비선형 요인 실험](experiments/nonlinear_residual/latent_factors/RESULTS_KO.md)도 보존합니다.
 
 **워크숍 1안의 원자료 → 전처리 → 측정·평가 → AI 학습 → 검증 결과를 모은 연구 저장소입니다.** 최초 분석과 수정 과정, 개선되지 않은 실험, 최신 TCN·GRU 통제 실험을 함께 보존합니다. 연구 기록 기준일은 **2026-09-11**입니다.
 

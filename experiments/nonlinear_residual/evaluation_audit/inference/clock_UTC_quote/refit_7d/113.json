@@ -1,0 +1,137 @@
+{
+  "scenario": "clock_UTC_quote",
+  "replicate": 113,
+  "elapsed_seconds": 12.697357466095127,
+  "fits": [
+    {
+      "month": "2026-01",
+      "candidate_id": "f05",
+      "train_n": 2511,
+      "train_last": "2025-12-31 11:00:00+00:00",
+      "warnings": [],
+      "members": [
+        {
+          "seed": 20260925,
+          "iterations": 506,
+          "objective": 0.08914843874800389,
+          "reconstruction_mse": 0.003926958469784782,
+          "latent_sd": [
+            2.2220500609067133
+          ],
+          "warnings": []
+        },
+        {
+          "seed": 20260926,
+          "iterations": 558,
+          "objective": 0.08919227098825729,
+          "reconstruction_mse": 0.003938414468246693,
+          "latent_sd": [
+            2.2321317062331643
+          ],
+          "warnings": []
+        },
+        {
+          "seed": 20260927,
+          "iterations": 743,
+          "objective": 0.08915144143924693,
+          "reconstruction_mse": 0.0039284974197910825,
+          "latent_sd": [
+            2.2227378675049865
+          ],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "month": "2026-02",
+      "candidate_id": "f06",
+      "train_n": 2848,
+      "train_last": "2026-01-30 11:00:00+00:00",
+      "warnings": [],
+      "members": [
+        {
+          "seed": 20260925,
+          "iterations": 1490,
+          "objective": 0.003925778965940524,
+          "reconstruction_mse": 0.0008429976909200677,
+          "latent_sd": [
+            0.6512271183706823,
+            1.1631055675198427
+          ],
+          "warnings": []
+        },
+        {
+          "seed": 20260926,
+          "iterations": 1182,
+          "objective": 0.004655146565608596,
+          "reconstruction_mse": 0.001123141283115644,
+          "latent_sd": [
+            1.1861728321828073,
+            1.6440516895916824
+          ],
+          "warnings": []
+        },
+        {
+          "seed": 20260927,
+          "iterations": 894,
+          "objective": 0.012111662618780043,
+          "reconstruction_mse": 0.004375294238484108,
+          "latent_sd": [
+            1.7941792866836102,
+            0.4686161052389143
+          ],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "month": "2026-03",
+      "candidate_id": "f06",
+      "train_n": 3168,
+      "train_last": "2026-02-17 23:00:00+00:00",
+      "warnings": [
+        "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html",
+        "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+      ],
+      "members": [
+        {
+          "seed": 20260925,
+          "iterations": 1061,
+          "objective": 0.004270932161035785,
+          "reconstruction_mse": 0.0009380914332900225,
+          "latent_sd": [
+            0.5219385782645332,
+            0.9749076888098194
+          ],
+          "warnings": []
+        },
+        {
+          "seed": 20260926,
+          "iterations": 1500,
+          "objective": 0.00457693576592375,
+          "reconstruction_mse": 0.0012231597103724175,
+          "latent_sd": [
+            1.2535086935622628,
+            1.6301961672878957
+          ],
+          "warnings": [
+            "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+          ]
+        },
+        {
+          "seed": 20260927,
+          "iterations": 1500,
+          "objective": 0.01421424839577449,
+          "reconstruction_mse": 0.005334894875250635,
+          "latent_sd": [
+            1.670539174222969,
+            0.2605843115101974
+          ],
+          "warnings": [
+            "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+          ]
+        }
+      ]
+    }
+  ]
+}

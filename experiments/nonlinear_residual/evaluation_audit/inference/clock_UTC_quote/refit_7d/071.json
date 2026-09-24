@@ -1,0 +1,141 @@
+{
+  "scenario": "clock_UTC_quote",
+  "replicate": 71,
+  "elapsed_seconds": 10.848720862995833,
+  "fits": [
+    {
+      "month": "2026-01",
+      "candidate_id": "f05",
+      "train_n": 2581,
+      "train_last": "2025-12-28 23:00:00+00:00",
+      "warnings": [],
+      "members": [
+        {
+          "seed": 20260925,
+          "iterations": 389,
+          "objective": 0.08359071942493468,
+          "reconstruction_mse": 0.0025597359968018048,
+          "latent_sd": [
+            2.224699631497127
+          ],
+          "warnings": []
+        },
+        {
+          "seed": 20260926,
+          "iterations": 562,
+          "objective": 0.08359221174966339,
+          "reconstruction_mse": 0.002560613583895433,
+          "latent_sd": [
+            2.218036153342933
+          ],
+          "warnings": []
+        },
+        {
+          "seed": 20260927,
+          "iterations": 544,
+          "objective": 0.08359267493197177,
+          "reconstruction_mse": 0.002560307915332412,
+          "latent_sd": [
+            2.22089099539643
+          ],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "month": "2026-02",
+      "candidate_id": "f06",
+      "train_n": 2953,
+      "train_last": "2026-01-30 11:00:00+00:00",
+      "warnings": [
+        "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html",
+        "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+      ],
+      "members": [
+        {
+          "seed": 20260925,
+          "iterations": 1500,
+          "objective": 0.003528758991369468,
+          "reconstruction_mse": 0.0007930635979510039,
+          "latent_sd": [
+            0.7186720556391907,
+            1.2199459037353304
+          ],
+          "warnings": [
+            "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+          ]
+        },
+        {
+          "seed": 20260926,
+          "iterations": 1500,
+          "objective": 0.0036543648551554957,
+          "reconstruction_mse": 0.0008222313448486419,
+          "latent_sd": [
+            1.1481092302811737,
+            1.6484245850093457
+          ],
+          "warnings": [
+            "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+          ]
+        },
+        {
+          "seed": 20260927,
+          "iterations": 761,
+          "objective": 0.008524230238674022,
+          "reconstruction_mse": 0.002958092642320318,
+          "latent_sd": [
+            1.5910349451617587,
+            0.0607803314635114
+          ],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "month": "2026-03",
+      "candidate_id": "f06",
+      "train_n": 3279,
+      "train_last": "2026-02-27 11:00:00+00:00",
+      "warnings": [
+        "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+      ],
+      "members": [
+        {
+          "seed": 20260925,
+          "iterations": 1500,
+          "objective": 0.0036026523782941846,
+          "reconstruction_mse": 0.0008608246129723695,
+          "latent_sd": [
+            0.6244388748056386,
+            1.1370575096183202
+          ],
+          "warnings": [
+            "lbfgs failed to converge (status=1):\nSTOP: TOTAL NO. of ITERATIONS REACHED LIMIT.\n\nIncrease the number of iterations (max_iter) or scale the data as shown in:\n    https://scikit-learn.org/stable/modules/preprocessing.html"
+          ]
+        },
+        {
+          "seed": 20260926,
+          "iterations": 954,
+          "objective": 0.0038471455255917044,
+          "reconstruction_mse": 0.000872599165096746,
+          "latent_sd": [
+            1.2533775678732377,
+            1.7431455340083841
+          ],
+          "warnings": []
+        },
+        {
+          "seed": 20260927,
+          "iterations": 541,
+          "objective": 0.010810837233275316,
+          "reconstruction_mse": 0.0038577943260904115,
+          "latent_sd": [
+            1.1243670392357235,
+            0.0725062050496116
+          ],
+          "warnings": []
+        }
+      ]
+    }
+  ]
+}

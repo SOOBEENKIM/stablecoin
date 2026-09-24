@@ -1,0 +1,24 @@
+{
+  "equal_target_groups": 2884,
+  "chronological_fits": 1320,
+  "forecast_replays": 60,
+  "quantile_replays": 20,
+  "original_model_replays": 4,
+  "max_forecast_delta": 7.105427357601002e-15,
+  "max_model_delta": 1.4210854715202004e-14,
+  "bootstrap_refit_draws": 796,
+  "ae_month_refits": 2388,
+  "ae_seed_refits": 7164,
+  "ae_month_refits_with_warning": 1555,
+  "ae_seed_refits_with_warning": 2773,
+  "archive_check": {
+    "verified_archive_files": 915,
+    "verified_context_files": 60,
+    "validated_lfs_pointers": [
+      "option1_factorial_20260910/evaluated_predictions.npz",
+      "option1_model_followup_20260910/evaluated_predictions.npz"
+    ],
+    "lfs_payloads_used": false,
+    "note": "LFS pointer metadata checked; absent payloads are not claimed verified"
+  }
+}
