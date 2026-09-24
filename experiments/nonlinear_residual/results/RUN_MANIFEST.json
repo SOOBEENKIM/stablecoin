@@ -1,0 +1,80 @@
+{
+  "stage": "A conditional fit only; stage B not run",
+  "publication_ready": false,
+  "timestamp_utc": "2026-09-24T09:10:20.580731+00:00",
+  "source_commit": "fa8b6618a7fd64d3bfec041fa08f56f3b5dd352d",
+  "protocol_sha256": "df107b2a9f245cfe12a88b0258488e01816ec6baa976abccb1ea3cdaf765435e",
+  "input_sha256": {
+    "research/data/raw data/binance_1h_2025-06-01_2026-03-19.csv": "f32e54fadbedfb38a9514ecb4682bc2bc2e2eb418b314f672af7f783b61af3d0",
+    "research/data/raw data/upbit_1h_2025-06-01_2026-03-19.csv": "c0ea17c465872dafc4e641c5486fe4edd15b7abdc064ed587869882b78ad1efe",
+    "research/data/raw data/USDKRW.csv": "781044d8ceaca50dd2b175681295e9c603cfdfb451058e5a360c1de13dcc6c59",
+    "research/data/raw data/DXY.csv": "31603a17ddc38908580d1472c2157dcc3b092eaeed074288b16545a23baa24c4",
+    "research/data/raw data/VIXY.csv": "80b8e7f03cf4212abfa615badd2887e68e11a7f5095128d13cea0e30cfc8cc12",
+    "research/corrected_outputs/binance_btcusdt_data_vision_metrics.csv": "726610d41d74c0ae4ef612e2c4af58166dd302b8abe6fd47294a148f82acc138",
+    "research/reanalysis_20260909/recalculate.py": "59234f1b9eec44276596c1af8e40056bc0faa2f021f8f09c02ade60e36de096b",
+    "experiments/nonlinear_residual/PROTOCOL_KO.md": "df107b2a9f245cfe12a88b0258488e01816ec6baa976abccb1ea3cdaf765435e",
+    "experiments/nonlinear_residual/run_pilot.py": "56b4cb0935e77f205e1180331217aaa8604d5f16ea7843d28b7d760f794e82e0"
+  },
+  "model_parameters": {
+    "objective": "regression",
+    "n_estimators": 100,
+    "learning_rate": 0.03,
+    "max_depth": 3,
+    "num_leaves": 7,
+    "min_child_samples": 100,
+    "reg_lambda": 1.0,
+    "random_state": 20260924,
+    "n_jobs": 1,
+    "verbosity": -1,
+    "deterministic": true,
+    "force_col_wise": true
+  },
+  "months": [
+    "2026-01",
+    "2026-02",
+    "2026-03"
+  ],
+  "scenarios": [
+    "clock_UTC_quote",
+    "clock_NY_quote",
+    "clock_FXUTC_USNY_quote",
+    "clock_FXKST_USNY_quote",
+    "clock_NY_macro_end1h_quote"
+  ],
+  "software": {
+    "python": "3.8.10",
+    "numpy": "1.23.5",
+    "pandas": "2.0.3",
+    "scipy": "1.10.1",
+    "sklearn": "1.3.2",
+    "lightgbm": "4.5.0"
+  },
+  "archive_check": {
+    "verified_archive_files": 915,
+    "verified_context_files": 60,
+    "validated_lfs_pointers": [
+      "option1_factorial_20260910/evaluated_predictions.npz",
+      "option1_model_followup_20260910/evaluated_predictions.npz"
+    ],
+    "lfs_payloads_used": false,
+    "note": "LFS pointer metadata checked; absent payloads are not claimed verified"
+  },
+  "checks": [
+    "raw quote formula and rebuilt panel match archived corrected columns",
+    "completed candles, backward macro joins, delayed positioning availability",
+    "whole-sample archived residual never used",
+    "each fit ends before evaluation month; no evaluation outcomes used in fitting",
+    "joint OLS training normal equations checked",
+    "all models evaluated on identical observations within each clock scenario",
+    "residual autocorrelation uses exact one-hour pairs, not adjacent surviving rows",
+    "original archive and context bytes preserved"
+  ],
+  "limitations": [
+    "FX and macro timezone assumptions unconfirmed",
+    "USDC/USD=1 assumption; global control is a relative pair proxy",
+    "contemporaneous common factors are observed at evaluation time",
+    "conditional-fit scores are not future forecasting scores",
+    "historical period previously explored; not independent confirmation",
+    "no channel significance or model superiority test in stage A"
+  ]
+}

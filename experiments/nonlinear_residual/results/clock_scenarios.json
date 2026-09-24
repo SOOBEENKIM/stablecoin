@@ -1,0 +1,147 @@
+[
+  {
+    "scenario": "clock_UTC_quote",
+    "timezone_confirmed": false,
+    "fx_zone_assumption": "UTC",
+    "us_zone_assumption": "UTC",
+    "macro_delay_hours": 0,
+    "source_ages": {
+      "USDKRW": {
+        "observations": 3462,
+        "max_age_minutes": 0.0
+      },
+      "DXY": {
+        "observations": 4592,
+        "max_age_minutes": 30.0
+      },
+      "VIXY": {
+        "observations": 2859,
+        "max_age_minutes": 45.0
+      },
+      "account_ls": {
+        "observations": 6938,
+        "max_age_minutes": 5.0,
+        "delay_minutes": 5
+      }
+    },
+    "usdc_usd_assumption": 1.0,
+    "g_definition": "absolute USDCUSDT deviation, bp; not direct USDT/USD peg",
+    "panel_reproduces_archived_nonresidual_columns": true
+  },
+  {
+    "scenario": "clock_NY_quote",
+    "timezone_confirmed": false,
+    "fx_zone_assumption": "America/New_York",
+    "us_zone_assumption": "America/New_York",
+    "macro_delay_hours": 0,
+    "source_ages": {
+      "USDKRW": {
+        "observations": 3462,
+        "max_age_minutes": 0.0
+      },
+      "DXY": {
+        "observations": 4588,
+        "max_age_minutes": 30.0
+      },
+      "VIXY": {
+        "observations": 2855,
+        "max_age_minutes": 45.0
+      },
+      "account_ls": {
+        "observations": 6938,
+        "max_age_minutes": 5.0,
+        "delay_minutes": 5
+      }
+    },
+    "usdc_usd_assumption": 1.0,
+    "g_definition": "absolute USDCUSDT deviation, bp; not direct USDT/USD peg",
+    "panel_reproduces_archived_nonresidual_columns": true
+  },
+  {
+    "scenario": "clock_FXUTC_USNY_quote",
+    "timezone_confirmed": false,
+    "fx_zone_assumption": "UTC",
+    "us_zone_assumption": "America/New_York",
+    "macro_delay_hours": 0,
+    "source_ages": {
+      "USDKRW": {
+        "observations": 3462,
+        "max_age_minutes": 0.0
+      },
+      "DXY": {
+        "observations": 4588,
+        "max_age_minutes": 30.0
+      },
+      "VIXY": {
+        "observations": 2855,
+        "max_age_minutes": 45.0
+      },
+      "account_ls": {
+        "observations": 6938,
+        "max_age_minutes": 5.0,
+        "delay_minutes": 5
+      }
+    },
+    "usdc_usd_assumption": 1.0,
+    "g_definition": "absolute USDCUSDT deviation, bp; not direct USDT/USD peg",
+    "panel_reproduces_archived_nonresidual_columns": true
+  },
+  {
+    "scenario": "clock_FXKST_USNY_quote",
+    "timezone_confirmed": false,
+    "fx_zone_assumption": "Asia/Seoul",
+    "us_zone_assumption": "America/New_York",
+    "macro_delay_hours": 0,
+    "source_ages": {
+      "USDKRW": {
+        "observations": 3459,
+        "max_age_minutes": 0.0
+      },
+      "DXY": {
+        "observations": 4588,
+        "max_age_minutes": 30.0
+      },
+      "VIXY": {
+        "observations": 2855,
+        "max_age_minutes": 45.0
+      },
+      "account_ls": {
+        "observations": 6938,
+        "max_age_minutes": 5.0,
+        "delay_minutes": 5
+      }
+    },
+    "usdc_usd_assumption": 1.0,
+    "g_definition": "absolute USDCUSDT deviation, bp; not direct USDT/USD peg",
+    "panel_reproduces_archived_nonresidual_columns": true
+  },
+  {
+    "scenario": "clock_NY_macro_end1h_quote",
+    "timezone_confirmed": false,
+    "fx_zone_assumption": "America/New_York",
+    "us_zone_assumption": "America/New_York",
+    "macro_delay_hours": 1,
+    "source_ages": {
+      "USDKRW": {
+        "observations": 3462,
+        "max_age_minutes": 0.0
+      },
+      "DXY": {
+        "observations": 4587,
+        "max_age_minutes": 30.0
+      },
+      "VIXY": {
+        "observations": 2854,
+        "max_age_minutes": 45.0
+      },
+      "account_ls": {
+        "observations": 6938,
+        "max_age_minutes": 5.0,
+        "delay_minutes": 5
+      }
+    },
+    "usdc_usd_assumption": 1.0,
+    "g_definition": "absolute USDCUSDT deviation, bp; not direct USDT/USD peg",
+    "panel_reproduces_archived_nonresidual_columns": true
+  }
+]
