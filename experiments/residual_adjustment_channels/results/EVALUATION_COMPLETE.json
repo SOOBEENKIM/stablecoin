@@ -1,0 +1,18 @@
+{
+  "lock_sha256": "62bd83b80017c7517f2a4530e4969783a8571db1bc7af3b865511082f7e2ac6e",
+  "lock_commit": "9288dfe89f8606249b17e33691c4c41d1d5bba6c",
+  "completed_utc": "2026-09-25T16:55:04.784834+00:00",
+  "independent_orthogonal_error": 7.105427357601002e-15,
+  "independent_confirmation": false,
+  "causal_identification": false,
+  "file_sha256": {
+    "experiments/residual_adjustment_channels/results/sample_audit.csv": "31f5e55612181f4fb79fc7d37cf1eba89385c9727326f975523ed91a294c167d",
+    "experiments/residual_adjustment_channels/results/group_channels.csv": "1b3155be6a798bb4ad07b18722890ef1be571cee5c1dcd41b55b3a26606e2fb7",
+    "experiments/residual_adjustment_channels/results/primary_tests.csv": "0382ca23e6d523c97cc7ae2024b0175821992a54daeb7cc9faadf49d6f545e42",
+    "experiments/residual_adjustment_channels/results/residual_vs_price.csv": "74548437a398a87217dc964682fd8b5590685b88bd53e954b8f4c7aadc0d45f2",
+    "experiments/residual_adjustment_channels/results/nuisance_quality.csv": "892a3f2041faae0c41a6a98ff00ed1a3943e9c2a832ee396df6f205f3f8cba3e",
+    "experiments/residual_adjustment_channels/results/orthogonal_contrasts.csv": "df54116cc80fedea1f1e8aecfd611d8bfdcd721b6bfd74f9d3b84ca945d246b6",
+    "experiments/residual_adjustment_channels/results/absolute_gap_and_prices.csv": "41615c4193f736f154e89db877cded3abc0d1b69a35e3f91bdd3051a9b6013ac",
+    "experiments/residual_adjustment_channels/results/SCORES_OPENED.json": "44cd18ac8b997cbdb34b6a359e8d9014c88cb61ed06a42af9eb33b313f7a6c85"
+  }
+}

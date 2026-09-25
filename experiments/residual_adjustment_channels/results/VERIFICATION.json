@@ -1,0 +1,11 @@
+{
+  "lock_sha256": "62bd83b80017c7517f2a4530e4969783a8571db1bc7af3b865511082f7e2ac6e",
+  "lock_commit": "9288dfe89f8606249b17e33691c4c41d1d5bba6c",
+  "verified_utc": "2026-09-25T16:54:40.037370+00:00",
+  "price_rows_checked": 3588,
+  "price_component_max_error": 0.0,
+  "residual_identity_max_error": 5.210498699170785e-12,
+  "refit_checks": 9,
+  "refit_max_error": 0.0,
+  "predictions_sha256": "3b9f6561d460e47d68f5b954053170af4e8633322379b4670d1a9f54f2079ca4"
+}

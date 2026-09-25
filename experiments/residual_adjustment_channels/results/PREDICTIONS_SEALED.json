@@ -1,0 +1,11 @@
+{
+  "lock_sha256": "62bd83b80017c7517f2a4530e4969783a8571db1bc7af3b865511082f7e2ac6e",
+  "lock_commit": "9288dfe89f8606249b17e33691c4c41d1d5bba6c",
+  "sealed_utc": "2026-09-25T16:54:01.907681+00:00",
+  "fits": 180,
+  "file_sha256": {
+    "experiments/residual_adjustment_channels/results/fit_metadata.json": "5372fe1676803a95d2ccdbd43f79fcc2a1f4157e0edf1f808e80e7a3e3354ad3",
+    "experiments/residual_adjustment_channels/results/predictions.csv.gz": "3b9f6561d460e47d68f5b954053170af4e8633322379b4670d1a9f54f2079ca4",
+    "experiments/residual_adjustment_channels/results/RUN_STARTED.json": "59b40446fdd7b5de08565e72ad500d58111a7e72ef653bfa15e265b415c4f8b3"
+  }
+}
