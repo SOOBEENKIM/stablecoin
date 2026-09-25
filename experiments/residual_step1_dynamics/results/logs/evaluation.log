@@ -1,0 +1,5 @@
+           mode definition    reference calibration    n  block_days  difference_bp  improvement_pct  improvement_lo  improvement_hi  p_centered_boot  winning_months  p_holm  supported_conditional
+available_macro         EQ  persistence  calibrated 1088           5      -0.399345        19.100340       14.841485       23.390083           0.0005               4  0.0020                   True
+available_macro         EQ  ar_quantile  calibrated 1088           5      -0.216632        11.353504        7.520037       14.896308           0.0005               3  0.0020                   True
+available_macro         EQ dynamics_vol  calibrated 1088           5      -0.143242         7.807488        4.492682       11.095911           0.0010               4  0.0020                   True
+available_macro         EQ    threshold  calibrated 1088           5      -0.056894         3.254204       -1.038175        8.780545           0.2015               3  0.2015                  False

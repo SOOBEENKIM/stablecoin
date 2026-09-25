@@ -1,0 +1,72 @@
+{
+  "lock_commit": "06525c3473b7e37b7b9953a2d260d7ccf67d7415",
+  "lock_sha256": "a425854f4b8b96079e4e9816fd967f96b8e4a5438fae3b88afae9080477cb5c4",
+  "completed_utc": "2026-09-25T13:20:37.362376+00:00",
+  "primary_tests": [
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "reference": "persistence",
+      "calibration": "calibrated",
+      "n": 1088,
+      "block_days": 5,
+      "difference_bp": -0.3993453532062246,
+      "improvement_pct": 19.100340396976602,
+      "improvement_lo": 14.841485394952441,
+      "improvement_hi": 23.39008318245022,
+      "p_centered_boot": 0.0005,
+      "winning_months": 4,
+      "p_holm": 0.002,
+      "supported_conditional": true
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "reference": "ar_quantile",
+      "calibration": "calibrated",
+      "n": 1088,
+      "block_days": 5,
+      "difference_bp": -0.2166319721424072,
+      "improvement_pct": 11.353503702915713,
+      "improvement_lo": 7.520036633276842,
+      "improvement_hi": 14.896308273282576,
+      "p_centered_boot": 0.0005,
+      "winning_months": 3,
+      "p_holm": 0.002,
+      "supported_conditional": true
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "reference": "dynamics_vol",
+      "calibration": "calibrated",
+      "n": 1088,
+      "block_days": 5,
+      "difference_bp": -0.14324183715705743,
+      "improvement_pct": 7.807487719216322,
+      "improvement_lo": 4.492681998179759,
+      "improvement_hi": 11.095911210056405,
+      "p_centered_boot": 0.001,
+      "winning_months": 4,
+      "p_holm": 0.002,
+      "supported_conditional": true
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "reference": "threshold",
+      "calibration": "calibrated",
+      "n": 1088,
+      "block_days": 5,
+      "difference_bp": -0.05689405680261167,
+      "improvement_pct": 3.254204052167553,
+      "improvement_lo": -1.0381749547867956,
+      "improvement_hi": 8.78054542387862,
+      "p_centered_boot": 0.2015,
+      "winning_months": 3,
+      "p_holm": 0.2015,
+      "supported_conditional": false
+    }
+  ],
+  "independent_confirmation": false
+}

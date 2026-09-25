@@ -2,6 +2,10 @@
 
 현재 브랜치는 `research/icaif2026-manuscript-development`입니다. 국내 원고 재현본을 보존하고, 수정된 가격·시간 계산에 기반한 **잔차의 미래 하방 예측**으로 연구를 확장했습니다.
 
+**2026-09-25 후속 1단계 — 단순 동학 비교:** 기존 ML 예측을 유지하고 지속성·잔차 수준 조정·조정과 시장 변동성을 반영한 비교모형을 추가했습니다. 주 EQ에서 ML의 보정 후 하방 예측손실은 각각 **19.10%, 11.35%, 7.81% 낮았고**, 세 비교가 고정한 판정 기준을 통과했습니다. 문턱형 대비 우위는 여전히 불확실했으며 조정·변동성 대비 개선도 CAP/strict 조건과 미보정 결과에서는 통계적으로 뚜렷하지 않았습니다. **주 분석의 개선은 단순 지속성만으로 설명되지 않지만, 모든 정의·표본에서의 우위나 경제적 원인까지 확인한 것은 아닙니다.** 기존 선형 대비 10.65% 결과는 그대로이며, 새 개선율과 더하지 않습니다. 2단계 변수군 분석, 3단계 경보, 4단계 가격 경로는 이번 후속에서 실행하지 않았습니다.
+
+[1단계 결과](experiments/residual_step1_dynamics/RESULTS_KO.md) · [실행 전 설계](experiments/residual_step1_dynamics/PROTOCOL_KO.md) · [코드·검증 안내](experiments/residual_step1_dynamics/README.md)
+
 **2026-09-25 잠금·중첩 시간순 검증:** 추가 수집 없이 기존 자료로 모델 선택 절차를 다시 관리했습니다. 실행 전 설계·소스·입력을 커밋 `519682a`로 고정하고, 과거 세 달에서 선형을 포함한 84개 후보를 선택한 뒤 이어지는 월을 평가했습니다. 주 EQ에서 선택 절차의 선형 대비 손실 개선은 **10.65%[7.14, 14.00]**, 세 주 비교의 Holm p=0.0015였습니다. 문턱 대비 우위와 포지셔닝 증분은 주 기준을 통과하지 못했습니다. **이번 실행의 외부 성적에 의한 모델 선택은 차단했지만, 이미 사용한 기간이므로 독립된 새 데이터 검증은 아닙니다.**
 
 [중첩 검증 결과](experiments/residual_nested_validation/RESULTS_KO.md) · [실행 전 고정 설계](experiments/residual_nested_validation/PROTOCOL_KO.md) · [실행·변경 기록](experiments/residual_nested_validation/README.md)
@@ -60,6 +64,7 @@ python3 experiments/manuscript_reproduction/run_reproduction.py
 - `experiments/residual_dynamics_adaptive/`: 첫 결과 이후 학습 표현·QRF·시간순 보정·정보 가용성·포지셔닝 변화량을 점검한 후속. 최초 실험은 보존.
 - `experiments/residual_economic_validation/`: 변수군 제거, 문턱형 기준선, 출발 조건 매칭과 실제 가격 경로로 예측 개선의 경제적 해석을 검증한 후속.
 - `experiments/residual_nested_validation/`: 기존 자료만으로 모델 계열·설정 선택을 과거 세 내부 월에 한정하고, 실행 전 잠금과 평가 개봉 기록을 남긴 중첩 시간순 검증.
+- `experiments/residual_step1_dynamics/`: 기존 ML 예측을 보존하고 단순 지속성·잔차 수준 조정·시장 변동성 모형을 추가한 1단계 비교. 이후 2~4단계는 별도 승인 후 진행.
 - `research/`, `docs/`, `context/`의 나머지 파일: `main`에서 물려받은 이전 연구 기록. 이번 원고 재현 결과와 구분합니다.
 
 `main`의 호가·AI 연구는 별도 방향의 과거 기록입니다. 해당 안내는 [기존 연구 흐름](docs/STUDY_GUIDE_KO.md)에 남아 있습니다. 삭제한 ML 분해 실험의 이전 상태는 Git 커밋 `b051620e86bfac07efc90d6b7a257c0ba9d86d1d`에서 확인할 수 있습니다.

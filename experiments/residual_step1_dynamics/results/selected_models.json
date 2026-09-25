@@ -1,0 +1,2672 @@
+[
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "fold": "2025-11",
+    "candidate": 1,
+    "strategy": "persistence",
+    "window": "90",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 1.504579337061329,
+    "inner_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "train_n": 975,
+    "test_n": 280,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-10-31T17:00:00+00:00",
+    "first_origin": "2025-11-03T03:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2025-10-31T17:00:00+00:00",
+      "fit_n": 1870,
+      "intercept": 0.00011704039592364478,
+      "beta_market": 0.9877109392179103,
+      "beta_g": 0.011612922536093659
+    },
+    "coefficients": {
+      "intercept": -10.351491604867727,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "fold": "2025-11",
+    "candidate": 6,
+    "strategy": "ar_quantile",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.01,
+    "inner_score": 1.2840224188545633,
+    "inner_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "train_n": 1582,
+    "test_n": 280,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-10-31T17:00:00+00:00",
+    "first_origin": "2025-11-03T03:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2025-10-31T17:00:00+00:00",
+      "fit_n": 1870,
+      "intercept": 0.00011704039592364478,
+      "beta_market": 0.9877109392179103,
+      "beta_g": 0.011612922536093659
+    },
+    "coefficients": {
+      "e_now": 0.17036813711923116,
+      "intercept": -7.7218201741757655
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "fold": "2025-11",
+    "candidate": 18,
+    "strategy": "dynamics_vol",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.01,
+    "inner_score": 1.2862131945871587,
+    "inner_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "train_n": 1582,
+    "test_n": 280,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2025-10-31T17:00:00+00:00",
+    "first_origin": "2025-11-03T03:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2025-10-31T17:00:00+00:00",
+      "fit_n": 1870,
+      "intercept": 0.00011704039592364478,
+      "beta_market": 0.9877109392179103,
+      "beta_g": 0.011612922536093659
+    },
+    "coefficients": {
+      "e_now": 0.16961530199000274,
+      "e_change1": -0.012716786232098763,
+      "btc_vol24": 0.0,
+      "downside24": -0.0004237634963290668,
+      "intercept": -7.498767244915391
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "fold": "2025-12",
+    "candidate": 1,
+    "strategy": "persistence",
+    "window": "90",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 1.5661472666282479,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "train_n": 940,
+    "test_n": 313,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-11-28T17:00:00+00:00",
+    "first_origin": "2025-12-01T03:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2025-11-28T17:00:00+00:00",
+      "fit_n": 2190,
+      "intercept": 5.386022949116815e-05,
+      "beta_market": 0.9872700133260507,
+      "beta_g": 0.17187105148424378
+    },
+    "coefficients": {
+      "intercept": -10.855000158658978,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "fold": "2025-12",
+    "candidate": 7,
+    "strategy": "ar_quantile",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.40955926732217,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "train_n": 1862,
+    "test_n": 313,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-11-28T17:00:00+00:00",
+    "first_origin": "2025-12-01T03:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2025-11-28T17:00:00+00:00",
+      "fit_n": 2190,
+      "intercept": 5.386022949116815e-05,
+      "beta_market": 0.9872700133260507,
+      "beta_g": 0.17187105148424378
+    },
+    "coefficients": {
+      "e_now": 0.6089716815031213,
+      "intercept": -8.695269305942354
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "fold": "2025-12",
+    "candidate": 19,
+    "strategy": "dynamics_vol",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.40955926732217,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "train_n": 1862,
+    "test_n": 313,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2025-11-28T17:00:00+00:00",
+    "first_origin": "2025-12-01T03:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2025-11-28T17:00:00+00:00",
+      "fit_n": 2190,
+      "intercept": 5.386022949116815e-05,
+      "beta_market": 0.9872700133260507,
+      "beta_g": 0.17187105148424378
+    },
+    "coefficients": {
+      "e_now": 0.6099349601782922,
+      "e_change1": -0.0028352042014030913,
+      "btc_vol24": 0.0,
+      "downside24": 0.0,
+      "intercept": -8.691368432947954
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "fold": "2026-01",
+    "candidate": 1,
+    "strategy": "persistence",
+    "window": "90",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 1.764961683902363,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "train_n": 908,
+    "test_n": 294,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-12-31T17:00:00+00:00",
+    "first_origin": "2026-01-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2025-12-31T17:00:00+00:00",
+      "fit_n": 2555,
+      "intercept": -5.339619319955343e-06,
+      "beta_market": 0.9855630172723772,
+      "beta_g": 0.2857391537493487
+    },
+    "coefficients": {
+      "intercept": -12.139756113592062,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "fold": "2026-01",
+    "candidate": 13,
+    "strategy": "ar_quantile",
+    "window": "90",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.6823155005286454,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "train_n": 908,
+    "test_n": 294,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-12-31T17:00:00+00:00",
+    "first_origin": "2026-01-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2025-12-31T17:00:00+00:00",
+      "fit_n": 2555,
+      "intercept": -5.339619319955343e-06,
+      "beta_market": 0.9855630172723772,
+      "beta_g": 0.2857391537493487
+    },
+    "coefficients": {
+      "e_now": 0.8685875275234272,
+      "intercept": -11.32376114558225
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "fold": "2026-01",
+    "candidate": 25,
+    "strategy": "dynamics_vol",
+    "window": "90",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.6434404482093337,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "train_n": 908,
+    "test_n": 294,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2025-12-31T17:00:00+00:00",
+    "first_origin": "2026-01-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2025-12-31T17:00:00+00:00",
+      "fit_n": 2555,
+      "intercept": -5.339619319955343e-06,
+      "beta_market": 0.9855630172723772,
+      "beta_g": 0.2857391537493487
+    },
+    "coefficients": {
+      "e_now": 0.9841079759788164,
+      "e_change1": -0.19144815647833455,
+      "btc_vol24": 0.0,
+      "downside24": 0.0,
+      "intercept": -10.938910011479532
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "fold": "2026-02",
+    "candidate": 1,
+    "strategy": "persistence",
+    "window": "90",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 1.9023740483728127,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "train_n": 887,
+    "test_n": 280,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2026-01-30T17:00:00+00:00",
+    "first_origin": "2026-02-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2026-01-30T17:00:00+00:00",
+      "fit_n": 2901,
+      "intercept": 2.3902215686488475e-05,
+      "beta_market": 0.9854016422286651,
+      "beta_g": 0.13061727263142386
+    },
+    "coefficients": {
+      "intercept": -13.15240515189682,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "fold": "2026-02",
+    "candidate": 13,
+    "strategy": "ar_quantile",
+    "window": "90",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.815811849574267,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "train_n": 887,
+    "test_n": 280,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2026-01-30T17:00:00+00:00",
+    "first_origin": "2026-02-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2026-01-30T17:00:00+00:00",
+      "fit_n": 2901,
+      "intercept": 2.3902215686488475e-05,
+      "beta_market": 0.9854016422286651,
+      "beta_g": 0.13061727263142386
+    },
+    "coefficients": {
+      "e_now": 0.8240739535730061,
+      "intercept": -12.27255840953123
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "fold": "2026-02",
+    "candidate": 24,
+    "strategy": "dynamics_vol",
+    "window": "90",
+    "form": "change",
+    "alpha": 0.01,
+    "inner_score": 1.7375447996551754,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "train_n": 887,
+    "test_n": 280,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2026-01-30T17:00:00+00:00",
+    "first_origin": "2026-02-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2026-01-30T17:00:00+00:00",
+      "fit_n": 2901,
+      "intercept": 2.3902215686488475e-05,
+      "beta_market": 0.9854016422286651,
+      "beta_g": 0.13061727263142386
+    },
+    "coefficients": {
+      "e_now": 0.7552226628736898,
+      "e_change1": -0.3770594517309745,
+      "btc_vol24": 0.0,
+      "downside24": -0.00038112050483456313,
+      "intercept": -10.306937477450138
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "fold": "2026-03",
+    "candidate": 1,
+    "strategy": "persistence",
+    "window": "90",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 2.1359775273114585,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "train_n": 887,
+    "test_n": 201,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2026-02-27T17:00:00+00:00",
+    "first_origin": "2026-03-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2026-02-27T17:00:00+00:00",
+      "fit_n": 3225,
+      "intercept": 2.235160069309172e-05,
+      "beta_market": 0.98499906032781,
+      "beta_g": 0.14299152761310915
+    },
+    "coefficients": {
+      "intercept": -14.945704892643123,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "fold": "2026-03",
+    "candidate": 8,
+    "strategy": "ar_quantile",
+    "window": "90",
+    "form": "level",
+    "alpha": 0.0,
+    "inner_score": 1.9901101242409989,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "train_n": 887,
+    "test_n": 201,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2026-02-27T17:00:00+00:00",
+    "first_origin": "2026-03-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2026-02-27T17:00:00+00:00",
+      "fit_n": 3225,
+      "intercept": 2.235160069309172e-05,
+      "beta_market": 0.98499906032781,
+      "beta_g": 0.14299152761310915
+    },
+    "coefficients": {
+      "e_now": 0.522238539770547,
+      "intercept": -13.08374553362616
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "fold": "2026-03",
+    "candidate": 20,
+    "strategy": "dynamics_vol",
+    "window": "90",
+    "form": "level",
+    "alpha": 0.0,
+    "inner_score": 1.7728541655544434,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "train_n": 887,
+    "test_n": 201,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2026-02-27T17:00:00+00:00",
+    "first_origin": "2026-03-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2026-02-27T17:00:00+00:00",
+      "fit_n": 3225,
+      "intercept": 2.235160069309172e-05,
+      "beta_market": 0.98499906032781,
+      "beta_g": 0.14299152761310915
+    },
+    "coefficients": {
+      "e_now": 0.6024621348078787,
+      "e_change1": -0.37809181730966135,
+      "btc_vol24": -0.00685325923260682,
+      "downside24": -0.0009803506411513935,
+      "intercept": -10.071533297339236
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "fold": "2025-11",
+    "candidate": 1,
+    "strategy": "persistence",
+    "window": "90",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 1.2931862205908642,
+    "inner_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "train_n": 975,
+    "test_n": 280,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-10-31T17:00:00+00:00",
+    "first_origin": "2025-11-03T03:00:00+00:00",
+    "residualizer": {
+      "definition": "CAP",
+      "projection": "sequential",
+      "fit_end": "2025-10-31T17:00:00+00:00",
+      "fit_n": 1870,
+      "intercept": 8.752126162833544e-05,
+      "beta_market": 0.9880488311659565,
+      "beta_g": 0.08856672776108317
+    },
+    "coefficients": {
+      "intercept": -8.763726878493811,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "fold": "2025-11",
+    "candidate": 6,
+    "strategy": "ar_quantile",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.01,
+    "inner_score": 1.1145813106736826,
+    "inner_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "train_n": 1582,
+    "test_n": 280,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-10-31T17:00:00+00:00",
+    "first_origin": "2025-11-03T03:00:00+00:00",
+    "residualizer": {
+      "definition": "CAP",
+      "projection": "sequential",
+      "fit_end": "2025-10-31T17:00:00+00:00",
+      "fit_n": 1870,
+      "intercept": 8.752126162833544e-05,
+      "beta_market": 0.9880488311659565,
+      "beta_g": 0.08856672776108317
+    },
+    "coefficients": {
+      "e_now": 0.24655414655999974,
+      "intercept": -7.134901212016056
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "fold": "2025-11",
+    "candidate": 19,
+    "strategy": "dynamics_vol",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.1152285177871175,
+    "inner_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "train_n": 1582,
+    "test_n": 280,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2025-10-31T17:00:00+00:00",
+    "first_origin": "2025-11-03T03:00:00+00:00",
+    "residualizer": {
+      "definition": "CAP",
+      "projection": "sequential",
+      "fit_end": "2025-10-31T17:00:00+00:00",
+      "fit_n": 1870,
+      "intercept": 8.752126162833544e-05,
+      "beta_market": 0.9880488311659565,
+      "beta_g": 0.08856672776108317
+    },
+    "coefficients": {
+      "e_now": 0.5279540248751079,
+      "e_change1": 0.0,
+      "btc_vol24": 0.0,
+      "downside24": 0.0,
+      "intercept": -7.559313470799645
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "fold": "2025-12",
+    "candidate": 1,
+    "strategy": "persistence",
+    "window": "90",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 1.3277662712762597,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "train_n": 940,
+    "test_n": 313,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-11-28T17:00:00+00:00",
+    "first_origin": "2025-12-01T03:00:00+00:00",
+    "residualizer": {
+      "definition": "CAP",
+      "projection": "sequential",
+      "fit_end": "2025-11-28T17:00:00+00:00",
+      "fit_n": 2190,
+      "intercept": -3.074270157820334e-05,
+      "beta_market": 0.9869759847038997,
+      "beta_g": 0.35886494301473537
+    },
+    "coefficients": {
+      "intercept": -8.615622215287278,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "fold": "2025-12",
+    "candidate": 7,
+    "strategy": "ar_quantile",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.3386263140836838,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "train_n": 1862,
+    "test_n": 313,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-11-28T17:00:00+00:00",
+    "first_origin": "2025-12-01T03:00:00+00:00",
+    "residualizer": {
+      "definition": "CAP",
+      "projection": "sequential",
+      "fit_end": "2025-11-28T17:00:00+00:00",
+      "fit_n": 2190,
+      "intercept": -3.074270157820334e-05,
+      "beta_market": 0.9869759847038997,
+      "beta_g": 0.35886494301473537
+    },
+    "coefficients": {
+      "e_now": 0.7759223222269345,
+      "intercept": -8.100086365501932
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "fold": "2025-12",
+    "candidate": 19,
+    "strategy": "dynamics_vol",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.3383359254596459,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "train_n": 1862,
+    "test_n": 313,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2025-11-28T17:00:00+00:00",
+    "first_origin": "2025-12-01T03:00:00+00:00",
+    "residualizer": {
+      "definition": "CAP",
+      "projection": "sequential",
+      "fit_end": "2025-11-28T17:00:00+00:00",
+      "fit_n": 2190,
+      "intercept": -3.074270157820334e-05,
+      "beta_market": 0.9869759847038997,
+      "beta_g": 0.35886494301473537
+    },
+    "coefficients": {
+      "e_now": 0.7979605156970361,
+      "e_change1": -0.03959098603271322,
+      "btc_vol24": 0.0,
+      "downside24": 0.0,
+      "intercept": -8.077858866299367
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "fold": "2026-01",
+    "candidate": 0,
+    "strategy": "persistence",
+    "window": "all",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 1.3894319215351143,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "train_n": 2175,
+    "test_n": 294,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-12-31T17:00:00+00:00",
+    "first_origin": "2026-01-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "CAP",
+      "projection": "sequential",
+      "fit_end": "2025-12-31T17:00:00+00:00",
+      "fit_n": 2555,
+      "intercept": -1.86626602486141e-05,
+      "beta_market": 0.9866018074642116,
+      "beta_g": 0.3392390603188439
+    },
+    "coefficients": {
+      "intercept": -8.989143263979138,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "fold": "2026-01",
+    "candidate": 7,
+    "strategy": "ar_quantile",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.4194346013860764,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "train_n": 2175,
+    "test_n": 294,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-12-31T17:00:00+00:00",
+    "first_origin": "2026-01-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "CAP",
+      "projection": "sequential",
+      "fit_end": "2025-12-31T17:00:00+00:00",
+      "fit_n": 2555,
+      "intercept": -1.86626602486141e-05,
+      "beta_market": 0.9866018074642116,
+      "beta_g": 0.3392390603188439
+    },
+    "coefficients": {
+      "e_now": 0.7613295193721181,
+      "intercept": -8.160703910529605
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "fold": "2026-01",
+    "candidate": 19,
+    "strategy": "dynamics_vol",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.4146233881852686,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "train_n": 2175,
+    "test_n": 294,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2025-12-31T17:00:00+00:00",
+    "first_origin": "2026-01-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "CAP",
+      "projection": "sequential",
+      "fit_end": "2025-12-31T17:00:00+00:00",
+      "fit_n": 2555,
+      "intercept": -1.86626602486141e-05,
+      "beta_market": 0.9866018074642116,
+      "beta_g": 0.3392390603188439
+    },
+    "coefficients": {
+      "e_now": 0.793749746277447,
+      "e_change1": -0.05193390642370238,
+      "btc_vol24": 0.0,
+      "downside24": 0.0,
+      "intercept": -8.158213232662058
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "fold": "2026-02",
+    "candidate": 0,
+    "strategy": "persistence",
+    "window": "all",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 1.4195360567467479,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "train_n": 2469,
+    "test_n": 280,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2026-01-30T17:00:00+00:00",
+    "first_origin": "2026-02-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "CAP",
+      "projection": "sequential",
+      "fit_end": "2026-01-30T17:00:00+00:00",
+      "fit_n": 2901,
+      "intercept": 1.8033944435381905e-05,
+      "beta_market": 0.9865124106487084,
+      "beta_g": 0.1530560162083881
+    },
+    "coefficients": {
+      "intercept": -9.112372429512282,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "fold": "2026-02",
+    "candidate": 7,
+    "strategy": "ar_quantile",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.4757087039816201,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "train_n": 2469,
+    "test_n": 280,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2026-01-30T17:00:00+00:00",
+    "first_origin": "2026-02-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "CAP",
+      "projection": "sequential",
+      "fit_end": "2026-01-30T17:00:00+00:00",
+      "fit_n": 2901,
+      "intercept": 1.8033944435381905e-05,
+      "beta_market": 0.9865124106487084,
+      "beta_g": 0.1530560162083881
+    },
+    "coefficients": {
+      "e_now": 0.761509124513318,
+      "intercept": -8.389126339890835
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "fold": "2026-02",
+    "candidate": 19,
+    "strategy": "dynamics_vol",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.4665015141094775,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "train_n": 2469,
+    "test_n": 280,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2026-01-30T17:00:00+00:00",
+    "first_origin": "2026-02-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "CAP",
+      "projection": "sequential",
+      "fit_end": "2026-01-30T17:00:00+00:00",
+      "fit_n": 2901,
+      "intercept": 1.8033944435381905e-05,
+      "beta_market": 0.9865124106487084,
+      "beta_g": 0.1530560162083881
+    },
+    "coefficients": {
+      "e_now": 0.7740236520158474,
+      "e_change1": -0.03990994318677965,
+      "btc_vol24": 0.0,
+      "downside24": 0.0,
+      "intercept": -8.284678576990368
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "fold": "2026-03",
+    "candidate": 1,
+    "strategy": "persistence",
+    "window": "90",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 1.4217003653880143,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "train_n": 887,
+    "test_n": 201,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2026-02-27T17:00:00+00:00",
+    "first_origin": "2026-03-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "CAP",
+      "projection": "sequential",
+      "fit_end": "2026-02-27T17:00:00+00:00",
+      "fit_n": 3225,
+      "intercept": 5.567494095357018e-06,
+      "beta_market": 0.9862875568100142,
+      "beta_g": 0.1753722551057146
+    },
+    "coefficients": {
+      "intercept": -10.33200455860591,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "fold": "2026-03",
+    "candidate": 10,
+    "strategy": "ar_quantile",
+    "window": "90",
+    "form": "level",
+    "alpha": 0.05,
+    "inner_score": 1.1948863157615455,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "train_n": 887,
+    "test_n": 201,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2026-02-27T17:00:00+00:00",
+    "first_origin": "2026-03-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "CAP",
+      "projection": "sequential",
+      "fit_end": "2026-02-27T17:00:00+00:00",
+      "fit_n": 3225,
+      "intercept": 5.567494095357018e-06,
+      "beta_market": 0.9862875568100142,
+      "beta_g": 0.1753722551057146
+    },
+    "coefficients": {
+      "e_now": 0.0,
+      "intercept": -9.387933117615374
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "fold": "2026-03",
+    "candidate": 14,
+    "strategy": "dynamics_vol",
+    "window": "all",
+    "form": "level",
+    "alpha": 0.0,
+    "inner_score": 1.1691768358118029,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "train_n": 2749,
+    "test_n": 201,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2026-02-27T17:00:00+00:00",
+    "first_origin": "2026-03-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "CAP",
+      "projection": "sequential",
+      "fit_end": "2026-02-27T17:00:00+00:00",
+      "fit_n": 3225,
+      "intercept": 5.567494095357018e-06,
+      "beta_market": 0.9862875568100142,
+      "beta_g": 0.1753722551057146
+    },
+    "coefficients": {
+      "e_now": 0.5726318412030009,
+      "e_change1": -0.219893332072395,
+      "btc_vol24": -0.015696619671692356,
+      "downside24": -0.00037305012791103933,
+      "intercept": -6.404380005828515
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2025-11",
+    "candidate": 1,
+    "strategy": "persistence",
+    "window": "90",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 1.5003706465329718,
+    "inner_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "train_n": 975,
+    "test_n": 280,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-10-31T17:00:00+00:00",
+    "first_origin": "2025-11-03T03:00:00+00:00",
+    "residualizer": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2025-10-31T17:00:00+00:00",
+      "fit_n": 1870,
+      "intercept": 0.010073710129981006,
+      "beta_market": 0.008961141516685318,
+      "beta_g": 0.010915024444692563,
+      "pca_explained": 0.9986396982041509,
+      "pca_mean": [
+        0.010101676628080454,
+        0.00996038879842393,
+        0.01005254120344308,
+        0.010097061669298529,
+        0.010189795127315077
+      ],
+      "pca_std": [
+        0.020272818091881726,
+        0.02032000713915511,
+        0.020188681284098134,
+        0.020177832249652614,
+        0.020475852265067162
+      ],
+      "pca_loading": [
+        0.4473229233157628,
+        0.44731373636941907,
+        0.4473465958804283,
+        0.4473481835594838,
+        0.44673621898352134
+      ]
+    },
+    "coefficients": {
+      "intercept": -10.309099448919328,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2025-11",
+    "candidate": 6,
+    "strategy": "ar_quantile",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.01,
+    "inner_score": 1.281202954351514,
+    "inner_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "train_n": 1582,
+    "test_n": 280,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-10-31T17:00:00+00:00",
+    "first_origin": "2025-11-03T03:00:00+00:00",
+    "residualizer": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2025-10-31T17:00:00+00:00",
+      "fit_n": 1870,
+      "intercept": 0.010073710129981006,
+      "beta_market": 0.008961141516685318,
+      "beta_g": 0.010915024444692563,
+      "pca_explained": 0.9986396982041509,
+      "pca_mean": [
+        0.010101676628080454,
+        0.00996038879842393,
+        0.01005254120344308,
+        0.010097061669298529,
+        0.010189795127315077
+      ],
+      "pca_std": [
+        0.020272818091881726,
+        0.02032000713915511,
+        0.020188681284098134,
+        0.020177832249652614,
+        0.020475852265067162
+      ],
+      "pca_loading": [
+        0.4473229233157628,
+        0.44731373636941907,
+        0.4473465958804283,
+        0.4473481835594838,
+        0.44673621898352134
+      ]
+    },
+    "coefficients": {
+      "e_now": 0.16596078247670454,
+      "intercept": -7.635088776004106
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2025-11",
+    "candidate": 18,
+    "strategy": "dynamics_vol",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.01,
+    "inner_score": 1.284482710387085,
+    "inner_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "train_n": 1582,
+    "test_n": 280,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2025-10-31T17:00:00+00:00",
+    "first_origin": "2025-11-03T03:00:00+00:00",
+    "residualizer": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2025-10-31T17:00:00+00:00",
+      "fit_n": 1870,
+      "intercept": 0.010073710129981006,
+      "beta_market": 0.008961141516685318,
+      "beta_g": 0.010915024444692563,
+      "pca_explained": 0.9986396982041509,
+      "pca_mean": [
+        0.010101676628080454,
+        0.00996038879842393,
+        0.01005254120344308,
+        0.010097061669298529,
+        0.010189795127315077
+      ],
+      "pca_std": [
+        0.020272818091881726,
+        0.02032000713915511,
+        0.020188681284098134,
+        0.020177832249652614,
+        0.020475852265067162
+      ],
+      "pca_loading": [
+        0.4473229233157628,
+        0.44731373636941907,
+        0.4473465958804283,
+        0.4473481835594838,
+        0.44673621898352134
+      ]
+    },
+    "coefficients": {
+      "e_now": 0.16821513658894804,
+      "e_change1": -0.012734829164128388,
+      "btc_vol24": 0.0,
+      "downside24": -0.00041000628978329055,
+      "intercept": -7.497770860266018
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2025-12",
+    "candidate": 1,
+    "strategy": "persistence",
+    "window": "90",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 1.5594735683981613,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "train_n": 940,
+    "test_n": 313,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-11-28T17:00:00+00:00",
+    "first_origin": "2025-12-01T03:00:00+00:00",
+    "residualizer": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2025-11-28T17:00:00+00:00",
+      "fit_n": 2190,
+      "intercept": 0.011958954672544011,
+      "beta_market": 0.008677160651039245,
+      "beta_g": 0.1716217757148854,
+      "pca_explained": 0.9982865453737303,
+      "pca_mean": [
+        0.012112034836957053,
+        0.011945055589687455,
+        0.012033421070730108,
+        0.01205796398414241,
+        0.01214408029027844
+      ],
+      "pca_std": [
+        0.019649660874765135,
+        0.019677542793300126,
+        0.01956308644715619,
+        0.019540968272554256,
+        0.019833313709456474
+      ],
+      "pca_loading": [
+        0.44733174298855916,
+        0.44736613724363083,
+        0.44739613434638514,
+        0.4473944920884154,
+        0.44657890499148145
+      ]
+    },
+    "coefficients": {
+      "intercept": -10.819402838510548,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2025-12",
+    "candidate": 7,
+    "strategy": "ar_quantile",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.4054527614120051,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "train_n": 1862,
+    "test_n": 313,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-11-28T17:00:00+00:00",
+    "first_origin": "2025-12-01T03:00:00+00:00",
+    "residualizer": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2025-11-28T17:00:00+00:00",
+      "fit_n": 2190,
+      "intercept": 0.011958954672544011,
+      "beta_market": 0.008677160651039245,
+      "beta_g": 0.1716217757148854,
+      "pca_explained": 0.9982865453737303,
+      "pca_mean": [
+        0.012112034836957053,
+        0.011945055589687455,
+        0.012033421070730108,
+        0.01205796398414241,
+        0.01214408029027844
+      ],
+      "pca_std": [
+        0.019649660874765135,
+        0.019677542793300126,
+        0.01956308644715619,
+        0.019540968272554256,
+        0.019833313709456474
+      ],
+      "pca_loading": [
+        0.44733174298855916,
+        0.44736613724363083,
+        0.44739613434638514,
+        0.4473944920884154,
+        0.44657890499148145
+      ]
+    },
+    "coefficients": {
+      "e_now": 0.6103233847288755,
+      "intercept": -8.656848617118236
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2025-12",
+    "candidate": 19,
+    "strategy": "dynamics_vol",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.4054527614120051,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "train_n": 1862,
+    "test_n": 313,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2025-11-28T17:00:00+00:00",
+    "first_origin": "2025-12-01T03:00:00+00:00",
+    "residualizer": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2025-11-28T17:00:00+00:00",
+      "fit_n": 2190,
+      "intercept": 0.011958954672544011,
+      "beta_market": 0.008677160651039245,
+      "beta_g": 0.1716217757148854,
+      "pca_explained": 0.9982865453737303,
+      "pca_mean": [
+        0.012112034836957053,
+        0.011945055589687455,
+        0.012033421070730108,
+        0.01205796398414241,
+        0.01214408029027844
+      ],
+      "pca_std": [
+        0.019649660874765135,
+        0.019677542793300126,
+        0.01956308644715619,
+        0.019540968272554256,
+        0.019833313709456474
+      ],
+      "pca_loading": [
+        0.44733174298855916,
+        0.44736613724363083,
+        0.44739613434638514,
+        0.4473944920884154,
+        0.44657890499148145
+      ]
+    },
+    "coefficients": {
+      "e_now": 0.6123589024904106,
+      "e_change1": -0.0026499308417813473,
+      "btc_vol24": 0.0,
+      "downside24": 0.0,
+      "intercept": -8.649929170385064
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2026-01",
+    "candidate": 1,
+    "strategy": "persistence",
+    "window": "90",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 1.7563330789076552,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "train_n": 908,
+    "test_n": 294,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-12-31T17:00:00+00:00",
+    "first_origin": "2026-01-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2025-12-31T17:00:00+00:00",
+      "fit_n": 2555,
+      "intercept": 0.011872016738858071,
+      "beta_market": 0.008066786848701386,
+      "beta_g": 0.2851111255922799,
+      "pca_explained": 0.9970324012586201,
+      "pca_mean": [
+        0.012055634460823738,
+        0.011916548320746283,
+        0.011991849357225838,
+        0.012065518175837817,
+        0.012226037684565929
+      ],
+      "pca_std": [
+        0.0182672080707146,
+        0.018291410784010767,
+        0.01818682121637736,
+        0.0182133476424664,
+        0.01855178389327233
+      ],
+      "pca_loading": [
+        0.4474742276657663,
+        0.44751139644905225,
+        0.4475493651537663,
+        0.4475189783969203,
+        0.44601199013948317
+      ]
+    },
+    "coefficients": {
+      "intercept": -12.051237119574022,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2026-01",
+    "candidate": 13,
+    "strategy": "ar_quantile",
+    "window": "90",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.675004841517159,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "train_n": 908,
+    "test_n": 294,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-12-31T17:00:00+00:00",
+    "first_origin": "2026-01-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2025-12-31T17:00:00+00:00",
+      "fit_n": 2555,
+      "intercept": 0.011872016738858071,
+      "beta_market": 0.008066786848701386,
+      "beta_g": 0.2851111255922799,
+      "pca_explained": 0.9970324012586201,
+      "pca_mean": [
+        0.012055634460823738,
+        0.011916548320746283,
+        0.011991849357225838,
+        0.012065518175837817,
+        0.012226037684565929
+      ],
+      "pca_std": [
+        0.0182672080707146,
+        0.018291410784010767,
+        0.01818682121637736,
+        0.0182133476424664,
+        0.01855178389327233
+      ],
+      "pca_loading": [
+        0.4474742276657663,
+        0.44751139644905225,
+        0.4475493651537663,
+        0.4475189783969203,
+        0.44601199013948317
+      ]
+    },
+    "coefficients": {
+      "e_now": 0.8726667473291243,
+      "intercept": -11.267127527745123
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2026-01",
+    "candidate": 25,
+    "strategy": "dynamics_vol",
+    "window": "90",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.6379934932244344,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "train_n": 908,
+    "test_n": 294,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2025-12-31T17:00:00+00:00",
+    "first_origin": "2026-01-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2025-12-31T17:00:00+00:00",
+      "fit_n": 2555,
+      "intercept": 0.011872016738858071,
+      "beta_market": 0.008066786848701386,
+      "beta_g": 0.2851111255922799,
+      "pca_explained": 0.9970324012586201,
+      "pca_mean": [
+        0.012055634460823738,
+        0.011916548320746283,
+        0.011991849357225838,
+        0.012065518175837817,
+        0.012226037684565929
+      ],
+      "pca_std": [
+        0.0182672080707146,
+        0.018291410784010767,
+        0.01818682121637736,
+        0.0182133476424664,
+        0.01855178389327233
+      ],
+      "pca_loading": [
+        0.4474742276657663,
+        0.44751139644905225,
+        0.4475493651537663,
+        0.4475189783969203,
+        0.44601199013948317
+      ]
+    },
+    "coefficients": {
+      "e_now": 0.9695651032971726,
+      "e_change1": -0.18283615785320617,
+      "btc_vol24": 0.0,
+      "downside24": 0.0,
+      "intercept": -10.812586212779328
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2026-02",
+    "candidate": 1,
+    "strategy": "persistence",
+    "window": "90",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 1.8911339591914411,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "train_n": 887,
+    "test_n": 280,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2026-01-30T17:00:00+00:00",
+    "first_origin": "2026-02-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2026-01-30T17:00:00+00:00",
+      "fit_n": 2901,
+      "intercept": 0.011385052303262564,
+      "beta_market": 0.0076637306157389656,
+      "beta_g": 0.1300288642083629,
+      "pca_explained": 0.9965955627124162,
+      "pca_mean": [
+        0.011535546487908457,
+        0.011404288970718155,
+        0.011470572705638553,
+        0.011524445123234986,
+        0.011711279383942407
+      ],
+      "pca_std": [
+        0.017353013941688047,
+        0.01737462059381017,
+        0.017276455079014326,
+        0.017306187881824257,
+        0.017642255431257102
+      ],
+      "pca_loading": [
+        0.44754325439156706,
+        0.4475760644675236,
+        0.4476090616960209,
+        0.4475850365767107,
+        0.4457515730590299
+      ]
+    },
+    "coefficients": {
+      "intercept": -12.98933062719228,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2026-02",
+    "candidate": 13,
+    "strategy": "ar_quantile",
+    "window": "90",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.805837913955291,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "train_n": 887,
+    "test_n": 280,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2026-01-30T17:00:00+00:00",
+    "first_origin": "2026-02-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2026-01-30T17:00:00+00:00",
+      "fit_n": 2901,
+      "intercept": 0.011385052303262564,
+      "beta_market": 0.0076637306157389656,
+      "beta_g": 0.1300288642083629,
+      "pca_explained": 0.9965955627124162,
+      "pca_mean": [
+        0.011535546487908457,
+        0.011404288970718155,
+        0.011470572705638553,
+        0.011524445123234986,
+        0.011711279383942407
+      ],
+      "pca_std": [
+        0.017353013941688047,
+        0.01737462059381017,
+        0.017276455079014326,
+        0.017306187881824257,
+        0.017642255431257102
+      ],
+      "pca_loading": [
+        0.44754325439156706,
+        0.4475760644675236,
+        0.4476090616960209,
+        0.4475850365767107,
+        0.4457515730590299
+      ]
+    },
+    "coefficients": {
+      "e_now": 0.8265059981249705,
+      "intercept": -12.157593203480367
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2026-02",
+    "candidate": 24,
+    "strategy": "dynamics_vol",
+    "window": "90",
+    "form": "change",
+    "alpha": 0.01,
+    "inner_score": 1.7290304392463822,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "train_n": 887,
+    "test_n": 280,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2026-01-30T17:00:00+00:00",
+    "first_origin": "2026-02-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2026-01-30T17:00:00+00:00",
+      "fit_n": 2901,
+      "intercept": 0.011385052303262564,
+      "beta_market": 0.0076637306157389656,
+      "beta_g": 0.1300288642083629,
+      "pca_explained": 0.9965955627124162,
+      "pca_mean": [
+        0.011535546487908457,
+        0.011404288970718155,
+        0.011470572705638553,
+        0.011524445123234986,
+        0.011711279383942407
+      ],
+      "pca_std": [
+        0.017353013941688047,
+        0.01737462059381017,
+        0.017276455079014326,
+        0.017306187881824257,
+        0.017642255431257102
+      ],
+      "pca_loading": [
+        0.44754325439156706,
+        0.4475760644675236,
+        0.4476090616960209,
+        0.4475850365767107,
+        0.4457515730590299
+      ]
+    },
+    "coefficients": {
+      "e_now": 0.740115512207328,
+      "e_change1": -0.342611474054525,
+      "btc_vol24": 0.0,
+      "downside24": -0.0005602468173441046,
+      "intercept": -9.90420324480178
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2026-03",
+    "candidate": 1,
+    "strategy": "persistence",
+    "window": "90",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 2.1182708699051718,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "train_n": 887,
+    "test_n": 201,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2026-02-27T17:00:00+00:00",
+    "first_origin": "2026-03-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2026-02-27T17:00:00+00:00",
+      "fit_n": 3225,
+      "intercept": 0.011948599547933375,
+      "beta_market": 0.0073549769640179116,
+      "beta_g": 0.14223419557699382,
+      "pca_explained": 0.995740809387669,
+      "pca_mean": [
+        0.01211597495375578,
+        0.011999367489382897,
+        0.012048184294397054,
+        0.012097651827702643,
+        0.012276648608621448
+      ],
+      "pca_std": [
+        0.01665236308124328,
+        0.01667306826050368,
+        0.016576950357787775,
+        0.016605054586478728,
+        0.016976175225320675
+      ],
+      "pca_loading": [
+        0.4476849105139827,
+        0.44770885997780585,
+        0.4477351012275282,
+        0.4477170538349552,
+        0.4452164826571275
+      ]
+    },
+    "coefficients": {
+      "intercept": -14.799554505082387,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2026-03",
+    "candidate": 8,
+    "strategy": "ar_quantile",
+    "window": "90",
+    "form": "level",
+    "alpha": 0.0,
+    "inner_score": 1.978268048533294,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "train_n": 887,
+    "test_n": 201,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2026-02-27T17:00:00+00:00",
+    "first_origin": "2026-03-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2026-02-27T17:00:00+00:00",
+      "fit_n": 3225,
+      "intercept": 0.011948599547933375,
+      "beta_market": 0.0073549769640179116,
+      "beta_g": 0.14223419557699382,
+      "pca_explained": 0.995740809387669,
+      "pca_mean": [
+        0.01211597495375578,
+        0.011999367489382897,
+        0.012048184294397054,
+        0.012097651827702643,
+        0.012276648608621448
+      ],
+      "pca_std": [
+        0.01665236308124328,
+        0.01667306826050368,
+        0.016576950357787775,
+        0.016605054586478728,
+        0.016976175225320675
+      ],
+      "pca_loading": [
+        0.4476849105139827,
+        0.44770885997780585,
+        0.4477351012275282,
+        0.4477170538349552,
+        0.4452164826571275
+      ]
+    },
+    "coefficients": {
+      "e_now": 0.5244750076701796,
+      "intercept": -12.96736463418697
+    },
+    "warnings": []
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "fold": "2026-03",
+    "candidate": 23,
+    "strategy": "dynamics_vol",
+    "window": "90",
+    "form": "change",
+    "alpha": 0.0,
+    "inner_score": 1.761545880093209,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "train_n": 887,
+    "test_n": 201,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2026-02-27T17:00:00+00:00",
+    "first_origin": "2026-03-02T03:00:00+00:00",
+    "residualizer": {
+      "definition": "PCA",
+      "projection": "sequential",
+      "fit_end": "2026-02-27T17:00:00+00:00",
+      "fit_n": 3225,
+      "intercept": 0.011948599547933375,
+      "beta_market": 0.0073549769640179116,
+      "beta_g": 0.14223419557699382,
+      "pca_explained": 0.995740809387669,
+      "pca_mean": [
+        0.01211597495375578,
+        0.011999367489382897,
+        0.012048184294397054,
+        0.012097651827702643,
+        0.012276648608621448
+      ],
+      "pca_std": [
+        0.01665236308124328,
+        0.01667306826050368,
+        0.016576950357787775,
+        0.016605054586478728,
+        0.016976175225320675
+      ],
+      "pca_loading": [
+        0.4476849105139827,
+        0.44770885997780585,
+        0.4477351012275282,
+        0.4477170538349552,
+        0.4452164826571275
+      ]
+    },
+    "coefficients": {
+      "e_now": 0.5996176301263483,
+      "e_change1": -0.3772663216400857,
+      "btc_vol24": -0.00013157281016223682,
+      "downside24": -0.0010310220735657196,
+      "intercept": -10.16603896389082
+    },
+    "warnings": []
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "fold": "2025-11",
+    "candidate": 0,
+    "strategy": "persistence",
+    "window": "all",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 1.5309781586064024,
+    "inner_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "train_n": 742,
+    "test_n": 120,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-10-31T17:00:00+00:00",
+    "first_origin": "2025-11-03T11:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2025-10-31T17:00:00+00:00",
+      "fit_n": 1870,
+      "intercept": 0.00011704039592364478,
+      "beta_market": 0.9877109392179103,
+      "beta_g": 0.011612922536093659
+    },
+    "coefficients": {
+      "intercept": -9.93644317963455,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "fold": "2025-11",
+    "candidate": 6,
+    "strategy": "ar_quantile",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.01,
+    "inner_score": 1.258892623282571,
+    "inner_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "train_n": 742,
+    "test_n": 120,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-10-31T17:00:00+00:00",
+    "first_origin": "2025-11-03T11:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2025-10-31T17:00:00+00:00",
+      "fit_n": 1870,
+      "intercept": 0.00011704039592364478,
+      "beta_market": 0.9877109392179103,
+      "beta_g": 0.011612922536093659
+    },
+    "coefficients": {
+      "e_now": 0.23333603810586723,
+      "intercept": -8.210691738668066
+    },
+    "warnings": []
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "fold": "2025-11",
+    "candidate": 18,
+    "strategy": "dynamics_vol",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.01,
+    "inner_score": 1.2622141805192229,
+    "inner_months": [
+      "2025-08",
+      "2025-09",
+      "2025-10"
+    ],
+    "train_n": 742,
+    "test_n": 120,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2025-10-31T17:00:00+00:00",
+    "first_origin": "2025-11-03T11:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2025-10-31T17:00:00+00:00",
+      "fit_n": 1870,
+      "intercept": 0.00011704039592364478,
+      "beta_market": 0.9877109392179103,
+      "beta_g": 0.011612922536093659
+    },
+    "coefficients": {
+      "e_now": 0.2556405187760936,
+      "e_change1": -0.04805482619115168,
+      "btc_vol24": 0.0,
+      "downside24": -0.0004937396385051609,
+      "intercept": -7.848531032514479
+    },
+    "warnings": []
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "fold": "2025-12",
+    "candidate": 1,
+    "strategy": "persistence",
+    "window": "90",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 1.6113038958670278,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "train_n": 428,
+    "test_n": 132,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-11-28T17:00:00+00:00",
+    "first_origin": "2025-12-01T11:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2025-11-28T17:00:00+00:00",
+      "fit_n": 2190,
+      "intercept": 5.386022949116815e-05,
+      "beta_market": 0.9872700133260507,
+      "beta_g": 0.17187105148424378
+    },
+    "coefficients": {
+      "intercept": -10.874126998933226,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "fold": "2025-12",
+    "candidate": 7,
+    "strategy": "ar_quantile",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.4466667684093297,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "train_n": 862,
+    "test_n": 132,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-11-28T17:00:00+00:00",
+    "first_origin": "2025-12-01T11:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2025-11-28T17:00:00+00:00",
+      "fit_n": 2190,
+      "intercept": 5.386022949116815e-05,
+      "beta_market": 0.9872700133260507,
+      "beta_g": 0.17187105148424378
+    },
+    "coefficients": {
+      "e_now": 0.6064271612618685,
+      "intercept": -8.75571687901833
+    },
+    "warnings": []
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "fold": "2025-12",
+    "candidate": 19,
+    "strategy": "dynamics_vol",
+    "window": "all",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.4466667684093297,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "train_n": 862,
+    "test_n": 132,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2025-11-28T17:00:00+00:00",
+    "first_origin": "2025-12-01T11:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2025-11-28T17:00:00+00:00",
+      "fit_n": 2190,
+      "intercept": 5.386022949116815e-05,
+      "beta_market": 0.9872700133260507,
+      "beta_g": 0.17187105148424378
+    },
+    "coefficients": {
+      "e_now": 0.6064271612618685,
+      "e_change1": 0.0,
+      "btc_vol24": 0.0,
+      "downside24": 0.0,
+      "intercept": -8.75571687901833
+    },
+    "warnings": []
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "fold": "2026-01",
+    "candidate": 1,
+    "strategy": "persistence",
+    "window": "90",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 1.93144289278326,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "train_n": 399,
+    "test_n": 126,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-12-31T17:00:00+00:00",
+    "first_origin": "2026-01-02T11:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2025-12-31T17:00:00+00:00",
+      "fit_n": 2555,
+      "intercept": -5.339619319955343e-06,
+      "beta_market": 0.9855630172723772,
+      "beta_g": 0.2857391537493487
+    },
+    "coefficients": {
+      "intercept": -13.112923280508388,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "fold": "2026-01",
+    "candidate": 13,
+    "strategy": "ar_quantile",
+    "window": "90",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.8249641855233856,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "train_n": 399,
+    "test_n": 126,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2025-12-31T17:00:00+00:00",
+    "first_origin": "2026-01-02T11:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2025-12-31T17:00:00+00:00",
+      "fit_n": 2555,
+      "intercept": -5.339619319955343e-06,
+      "beta_market": 0.9855630172723772,
+      "beta_g": 0.2857391537493487
+    },
+    "coefficients": {
+      "e_now": 0.8355959315878825,
+      "intercept": -11.7183731426337
+    },
+    "warnings": []
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "fold": "2026-01",
+    "candidate": 25,
+    "strategy": "dynamics_vol",
+    "window": "90",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.8109282982828152,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "train_n": 399,
+    "test_n": 126,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2025-12-31T17:00:00+00:00",
+    "first_origin": "2026-01-02T11:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2025-12-31T17:00:00+00:00",
+      "fit_n": 2555,
+      "intercept": -5.339619319955343e-06,
+      "beta_market": 0.9855630172723772,
+      "beta_g": 0.2857391537493487
+    },
+    "coefficients": {
+      "e_now": 1.0,
+      "e_change1": -0.2364244400312427,
+      "btc_vol24": 0.0,
+      "downside24": 0.0,
+      "intercept": -11.47606693508253
+    },
+    "warnings": []
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "fold": "2026-02",
+    "candidate": 1,
+    "strategy": "persistence",
+    "window": "90",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 1.9990776898933165,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "train_n": 378,
+    "test_n": 120,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2026-01-30T17:00:00+00:00",
+    "first_origin": "2026-02-02T11:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2026-01-30T17:00:00+00:00",
+      "fit_n": 2901,
+      "intercept": 2.3902215686488475e-05,
+      "beta_market": 0.9854016422286651,
+      "beta_g": 0.13061727263142386
+    },
+    "coefficients": {
+      "intercept": -13.867935243356849,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "fold": "2026-02",
+    "candidate": 13,
+    "strategy": "ar_quantile",
+    "window": "90",
+    "form": "change",
+    "alpha": 0.05,
+    "inner_score": 1.872613618442297,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "train_n": 378,
+    "test_n": 120,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2026-01-30T17:00:00+00:00",
+    "first_origin": "2026-02-02T11:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2026-01-30T17:00:00+00:00",
+      "fit_n": 2901,
+      "intercept": 2.3902215686488475e-05,
+      "beta_market": 0.9854016422286651,
+      "beta_g": 0.13061727263142386
+    },
+    "coefficients": {
+      "e_now": 0.8226267202265894,
+      "intercept": -12.337378700889214
+    },
+    "warnings": []
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "fold": "2026-02",
+    "candidate": 24,
+    "strategy": "dynamics_vol",
+    "window": "90",
+    "form": "change",
+    "alpha": 0.01,
+    "inner_score": 1.839105663872515,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "train_n": 378,
+    "test_n": 120,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2026-01-30T17:00:00+00:00",
+    "first_origin": "2026-02-02T11:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2026-01-30T17:00:00+00:00",
+      "fit_n": 2901,
+      "intercept": 2.3902215686488475e-05,
+      "beta_market": 0.9854016422286651,
+      "beta_g": 0.13061727263142386
+    },
+    "coefficients": {
+      "e_now": 0.8713479803064215,
+      "e_change1": -0.3610751512813292,
+      "btc_vol24": 0.0,
+      "downside24": -0.0002663940848306398,
+      "intercept": -11.384312459596837
+    },
+    "warnings": []
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "fold": "2026-03",
+    "candidate": 1,
+    "strategy": "persistence",
+    "window": "90",
+    "form": "change",
+    "alpha": null,
+    "inner_score": 2.237653343925666,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "train_n": 378,
+    "test_n": 89,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2026-02-27T17:00:00+00:00",
+    "first_origin": "2026-03-02T11:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2026-02-27T17:00:00+00:00",
+      "fit_n": 3225,
+      "intercept": 2.235160069309172e-05,
+      "beta_market": 0.98499906032781,
+      "beta_g": 0.14299152761310915
+    },
+    "coefficients": {
+      "intercept": -15.240369450962156,
+      "e_now": 1.0
+    },
+    "warnings": []
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "fold": "2026-03",
+    "candidate": 12,
+    "strategy": "ar_quantile",
+    "window": "90",
+    "form": "change",
+    "alpha": 0.01,
+    "inner_score": 2.0302040302771185,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "train_n": 378,
+    "test_n": 89,
+    "features": [
+      "e_now"
+    ],
+    "train_last_label": "2026-02-27T17:00:00+00:00",
+    "first_origin": "2026-03-02T11:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2026-02-27T17:00:00+00:00",
+      "fit_n": 3225,
+      "intercept": 2.235160069309172e-05,
+      "beta_market": 0.98499906032781,
+      "beta_g": 0.14299152761310915
+    },
+    "coefficients": {
+      "e_now": 0.49100092707720633,
+      "intercept": -13.05148254215469
+    },
+    "warnings": []
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "fold": "2026-03",
+    "candidate": 23,
+    "strategy": "dynamics_vol",
+    "window": "90",
+    "form": "change",
+    "alpha": 0.0,
+    "inner_score": 1.91840103592569,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "train_n": 378,
+    "test_n": 89,
+    "features": [
+      "e_now",
+      "e_change1",
+      "btc_vol24",
+      "downside24"
+    ],
+    "train_last_label": "2026-02-27T17:00:00+00:00",
+    "first_origin": "2026-03-02T11:00:00+00:00",
+    "residualizer": {
+      "definition": "EQ",
+      "projection": "sequential",
+      "fit_end": "2026-02-27T17:00:00+00:00",
+      "fit_n": 3225,
+      "intercept": 2.235160069309172e-05,
+      "beta_market": 0.98499906032781,
+      "beta_g": 0.14299152761310915
+    },
+    "coefficients": {
+      "e_now": 0.5414801084347204,
+      "e_change1": -0.3594779347900609,
+      "btc_vol24": -0.010241064576046677,
+      "downside24": -0.0017602091256869663,
+      "intercept": -9.773628241769252
+    },
+    "warnings": []
+  }
+]

@@ -1,0 +1,13 @@
+INNER 4 / 28 elapsed 2
+INNER 8 / 28 elapsed 3
+INNER 12 / 28 elapsed 4
+INNER 16 / 28 elapsed 5
+INNER 20 / 28 elapsed 6
+INNER 24 / 28 elapsed 6
+INNER 28 / 28 elapsed 8
+OUTER 4 / 20
+OUTER 8 / 20
+OUTER 12 / 20
+OUTER 16 / 20
+OUTER 20 / 20
+SEALED. No outer scores displayed.

@@ -1,0 +1,5 @@
+mode,definition,reference,calibration,n,block_days,difference_bp,improvement_pct,improvement_lo,improvement_hi,p_centered_boot,winning_months,p_holm,supported_conditional
+available_macro,EQ,persistence,calibrated,1088,5,-0.3993453532062246,19.100340396976602,14.841485394952441,23.39008318245022,0.0005,4,0.002,True
+available_macro,EQ,ar_quantile,calibrated,1088,5,-0.2166319721424072,11.353503702915713,7.520036633276842,14.896308273282576,0.0005,3,0.002,True
+available_macro,EQ,dynamics_vol,calibrated,1088,5,-0.14324183715705743,7.807487719216322,4.492681998179759,11.095911210056405,0.001,4,0.002,True
+available_macro,EQ,threshold,calibrated,1088,5,-0.05689405680261167,3.254204052167553,-1.0381749547867956,8.78054542387862,0.2015,3,0.2015,False
