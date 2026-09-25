@@ -1,0 +1,13 @@
+test_changed_files_and_reopening_rejected (test_integrity.Integrity) ... ok
+test_effect_direction (test_integrity.Integrity) ... ok
+test_full_interactions_match_original (test_integrity.Integrity) ... ok
+test_future_calibration_and_pinball_translation (test_integrity.Integrity) ... ok
+test_groups_and_residual_inputs (test_integrity.Integrity) ... ok
+test_month_boundary_labels (test_integrity.Integrity) ... ok
+test_removed_training_values_cannot_reenter_models (test_integrity.Integrity) ... ok
+test_selection_uses_three_past_months_and_correct_group (test_integrity.Integrity) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 3.345s
+
+OK
