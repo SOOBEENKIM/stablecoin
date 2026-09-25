@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-09-25T15:48:29.628812+00:00",
+  "no_scores_opened": true,
+  "metadata_rows": 3054,
+  "forecast_columns_unchanged": true,
+  "file_sha256": {
+    "experiments/residual_decision_value/dv_alignment.py": "ef9cb02ab46ab2f54c15b12016bccbf8f51a6dcc649ecbc5244b673b2468a75f",
+    "experiments/residual_decision_value/dv_verify_v3.py": "5d83a8fea91dc9c180ec80c891e74e6b86403594ec0de48493a4b5af906457f9",
+    "experiments/residual_decision_value/dv_paths_v2.py": "de40560a0fb8a7fcb13d015ada060545da875b4bd40f9bc8a77d96521032ec21",
+    "experiments/residual_decision_value/ALIGNMENT_AMENDMENT_KO.md": "1e741f3c292d1df8ed4275efe8cdbdeb8886e1d88ddf9647849e02baae9b7509"
+  }
+}
