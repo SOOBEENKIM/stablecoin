@@ -1,0 +1,17 @@
+{
+  "lock_commit": "92f68b5535b8478ca9fc66270424b4a24a2ead64",
+  "lock_sha256": "be2eb99a97d0f71cb5dd1317881baa42cf60ed0f4b62df82a17297d85a9d4c17",
+  "amendment_commit": "c8f5190e1c2664ad8eaeee76542e6141515a3649",
+  "amendment_sha256": "75937cdd11c8589016c9c31b88b30254e365dfb340c2e8235cb70b1599c0e1e7",
+  "verifier_amendment_commit": "a1d4121ada955a193868baab7da5e7ac34715efd",
+  "verifier_amendment_sha256": "a0d6b81a4cfbc9114cbe9e8525051922ca65ed3a6641c4636e202e5871cda6b3",
+  "verified_utc": "2026-09-25T15:48:53.541347+00:00",
+  "archived_predictions_exact": true,
+  "independent_baseline_month_checks": 48,
+  "calibration_max_error": 0.0,
+  "elementary_integral_max_error": 5.329070518200751e-15,
+  "price_identity_max_error_bp": 1.6763479493420164e-11,
+  "exact_state_boundaries": true,
+  "exact_horizons": true,
+  "independent_confirmation": false
+}

@@ -1,0 +1,12 @@
+{
+  "amendment_commit": "c8f5190e1c2664ad8eaeee76542e6141515a3649",
+  "amendment_sha256": "75937cdd11c8589016c9c31b88b30254e365dfb340c2e8235cb70b1599c0e1e7",
+  "verifier_amendment_commit": "a1d4121ada955a193868baab7da5e7ac34715efd",
+  "verifier_amendment_sha256": "a0d6b81a4cfbc9114cbe9e8525051922ca65ed3a6641c4636e202e5871cda6b3",
+  "alignment_commit": "dd36e47a19a1c9078a0fc8c6642c5abf4e157605",
+  "alignment_sha256": "a5ee76ce6a88b6ef54c9d92c68f64a493b050be73834a891a863b4dde6c064c1",
+  "verified_utc": "2026-09-25T15:48:53.543503+00:00",
+  "recovered_current_state_rows": 3054,
+  "raw_archived_forecasts_sha256": "a7455c2afd7de56cf0735b774c95e3f906e6db5761f57d33fd874bfd2d6e146d",
+  "predictions_unchanged": true
+}

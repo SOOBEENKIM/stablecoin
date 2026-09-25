@@ -1,0 +1,10 @@
+{
+  "lock_commit": "92f68b5535b8478ca9fc66270424b4a24a2ead64",
+  "lock_sha256": "be2eb99a97d0f71cb5dd1317881baa42cf60ed0f4b62df82a17297d85a9d4c17",
+  "completed_utc": "2026-09-25T15:49:11.616258+00:00",
+  "same_origins_verified": true,
+  "price_identity_max_error_bp": 1.4992451724538114e-11,
+  "groups_defined_from_frozen_forecasts": true,
+  "causal_identification": false,
+  "independent_confirmation": false
+}

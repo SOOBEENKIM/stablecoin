@@ -1,0 +1,16 @@
+{
+  "lock_commit": "92f68b5535b8478ca9fc66270424b4a24a2ead64",
+  "lock_sha256": "be2eb99a97d0f71cb5dd1317881baa42cf60ed0f4b62df82a17297d85a9d4c17",
+  "sealed_utc": "2026-09-25T15:45:34.992760+00:00",
+  "file_sha256": {
+    "experiments/residual_decision_value/results/context.csv.gz": "222c32bcaf8b9eab02e25613bd0e477445eec3afa58a0761833b5fe853e3ca8b",
+    "experiments/residual_decision_value/results/baseline_streams.csv.gz": "ef1dff3f10d63adab5da8e7d23efb4082e84f8dc05d58fdb6285eb7617c20d8a",
+    "experiments/residual_decision_value/results/archived_forecasts.csv.gz": "a7455c2afd7de56cf0735b774c95e3f906e6db5761f57d33fd874bfd2d6e146d",
+    "experiments/residual_decision_value/results/paths.csv.gz": "854c38fcabb5a6a33506b9277ea2f759ba613598e408a803391304e189076f77",
+    "experiments/residual_decision_value/results/baseline_fits.json": "083698cf681124df98be45395c1f645696b36832549c20eaac2f93e3c4b169c7"
+  },
+  "unique_evaluation_origins": 509,
+  "first_stage_months": 24,
+  "new_ml_fits": 0,
+  "new_empirical_baseline_fits": 48
+}

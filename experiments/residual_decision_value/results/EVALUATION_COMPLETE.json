@@ -1,0 +1,9 @@
+{
+  "lock_commit": "92f68b5535b8478ca9fc66270424b4a24a2ead64",
+  "lock_sha256": "be2eb99a97d0f71cb5dd1317881baa42cf60ed0f4b62df82a17297d85a9d4c17",
+  "completed_utc": "2026-09-25T15:49:07.129173+00:00",
+  "primary_tests": 12,
+  "independent_confusion_cost_max_error": 1.3877787807814457e-17,
+  "state_contributions_add_exactly": true,
+  "independent_confirmation": false
+}
