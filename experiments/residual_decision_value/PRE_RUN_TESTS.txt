@@ -1,0 +1,11 @@
+test_elementary_decision_orientation_and_integral (__main__.ScientificChecks) ... ok
+test_exact_clock_nonoverlap (__main__.ScientificChecks) ... ok
+test_future_poison_cannot_change_states_or_benchmarks (__main__.ScientificChecks) ... ok
+test_missing_outcome_does_not_pollute_other_groups (__main__.ScientificChecks) ... ok
+test_month_state_fits_and_price_accounting_on_existing_data (__main__.ScientificChecks) ... ok
+test_seed_cost_average_is_not_forecast_ensemble (__main__.ScientificChecks) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.589s
+
+OK

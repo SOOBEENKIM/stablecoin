@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-09-25T15:44:19.813432+00:00",
+  "parent_commit": "f352dc8b7cdcb3b5d19c0852175ec3d30364c352",
+  "existing_data_only": true,
+  "independent_confirmation": false,
+  "new_primary_comparisons": 12,
+  "file_sha256": {
+    "experiments/residual_decision_value/test_dv.py": "933b8b0fe1c32d10e9d7c0fe41dad890dd3e6585c79960a84203936fbdac2669",
+    "experiments/residual_decision_value/dv_paths.py": "5c300f7c6d9bdbf2a06539e0f8d9a252d17f4ebae6753c5a53eee605096aa8f7",
+    "experiments/residual_decision_value/dv_core.py": "006eae3b6681954421295e5879dff1d2e4ed4c953c143ebfc28f2d3782eb081d",
+    "experiments/residual_decision_value/dv_verify.py": "41a272c0389adb59fe026e99edf5f97e96a84b0324f1652dfacdc5ae70580068",
+    "experiments/residual_decision_value/dv_prepare.py": "c6e48c5b1a4ee5559728c153e3995bec627a9fb03553da6e4578eb33e666f9df",
+    "experiments/residual_decision_value/dv_evaluate.py": "0f4b802d52f181b670c9c1766f8892b268859dc36a0d021b2aef145457c730c3",
+    "experiments/residual_decision_value/PROTOCOL_KO.md": "0fa0460b0081b6a4fedff12382235b38fc02c1d420344347b8df29419a98e5e1",
+    "experiments/residual_decision_value/REFERENCES_KO.md": "1a983be621eddb0243b8770d5e06212edd76f133ec65d1eb024249f048262380",
+    "experiments/residual_decision_value/PRE_RUN_TESTS.txt": "fe844012c4b6ed4460dbfcf6b1628da2638bfd47c9ba354d09a59ec2e38440d7",
+    "experiments/residual_12h_robustness/LOCK.json": "853a7b1dd2b5bae746bf0103bc6333decbe826d14f2904b887e9aa51576328b7",
+    "experiments/residual_12h_robustness/results/PREDICTIONS_SEALED.json": "29bb6ef24567157e65f84bc437c9ab9f2ac15a3efca89d5b8d41379f563aa185",
+    "experiments/residual_12h_robustness/results/predictions.csv.gz": "0ced875305b4ca5dc20a6e4913d104c7d6761858bbbbf8448c8c9ce76a7b1d18",
+    "experiments/residual_12h_robustness/results/targets.csv.gz": "be282abe8be774a8e9233040a70d628086b7f0ae1a417d1f2f7edc57dddfdf9e",
+    "experiments/residual_12h_robustness/results/VERIFICATION.json": "20c3bef57b32b42435e964a9fffa9bb172e3cf9b2a9db4b6b88b5e54e4764f33"
+  }
+}
