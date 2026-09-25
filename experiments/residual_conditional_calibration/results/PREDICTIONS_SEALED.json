@@ -1,0 +1,27 @@
+{
+  "lock_sha256": "d66747cf720ff6059807765c7d95c36d080a59cd9722626c9a4c17f1c4754edd",
+  "lock_commit": "81a8070c8f3ab2c8e4a93a2a5a4aab2d9efc14b9",
+  "sealed_utc": "2026-09-25T16:18:12.369824+00:00",
+  "new_fits": 192,
+  "independent_confirmation": false,
+  "file_sha256": {
+    "experiments/residual_conditional_calibration/results/choices.csv": "3cb5e5cb67b7f725d138d145185423a8d7c32b6f8b041dd91ae1c547474faf0d",
+    "experiments/residual_conditional_calibration/results/new_fit_metadata.json": "2842f1eb4398891e94b24bc6daf092a3e2a2473dfc783cd872cbea6cdfa31a66",
+    "experiments/residual_conditional_calibration/results/inner_scores.csv": "f0d7316e0337d911a280f73ea0567e58d3776a2bbefccec39f96510ad80ed470",
+    "experiments/residual_conditional_calibration/results/predictions.csv.gz": "82a3333dee723fee34c11f048d86654c241d425219fe2bd6bddd41c61db88bf4",
+    "experiments/residual_conditional_calibration/results/RUN_STARTED.json": "3e05cebf8c3695384cba5fff2da1813b34d978cf63637ccfbee872cf5371c98d",
+    "experiments/residual_conditional_calibration/results/fixed_rule_predictions.csv.gz": "7a2334eefcf990fdd00a102736ae28e220c236b0636fc3221077ddc136cda331",
+    "experiments/residual_conditional_calibration/results/streams/PCA__20260926.csv.gz": "74a83ce8d6a59a5acb67cf1d9ac3a9aa5fde57a8d375d44ae9ee3157d5abbb24",
+    "experiments/residual_conditional_calibration/results/streams/PCA__20260928.csv.gz": "73b077890bfc2d611801d6d2ef75e3a3b0cb7a280aba9ca851ad98bf5d1b535c",
+    "experiments/residual_conditional_calibration/results/streams/CAP__20260925.csv.gz": "1b53ee3630a878410b6230d26f62a0507b0b53ba0be7f1f52f6c78565434184e",
+    "experiments/residual_conditional_calibration/results/streams/CAP__20260926.csv.gz": "314e2ae7767c43cbccbb656d6b1e43dfb87437d56acf1ed0396f236d5762889a",
+    "experiments/residual_conditional_calibration/results/streams/CAP__20260928.csv.gz": "154fdf401323fef7bb977f47faf179c75e229c588896ef56a292365d1a15e07b",
+    "experiments/residual_conditional_calibration/results/streams/EQ__20260928.csv.gz": "7ff4f79d087a0a707f549cfc178cf3e7c9d82fd14b15faed6fd6952cde540f2a",
+    "experiments/residual_conditional_calibration/results/streams/CAP__20260927.csv.gz": "434bd4138b7d46355bb6036a199ad0b961dfeacff68f28ab01a9cb311c33f9ff",
+    "experiments/residual_conditional_calibration/results/streams/PCA__20260927.csv.gz": "8ecdd6ea70ad84b2c3390a137f54a2131b2aaeaaf676e27009ed70eb6bfd27f7",
+    "experiments/residual_conditional_calibration/results/streams/EQ__20260926.csv.gz": "68fd91e9b135b81dc2a366fc07aea7eec477aba3e86fccef49a1f8287819ec7b",
+    "experiments/residual_conditional_calibration/results/streams/PCA__20260925.csv.gz": "b46f9fa974efc33c670aef0de56572000e1d973a4395c9eff9e72b1755a36e9a",
+    "experiments/residual_conditional_calibration/results/streams/EQ__20260925.csv.gz": "76e50786a3225f95d67ed34858b7aaa09010d4a443f39f90692e06cde43665df",
+    "experiments/residual_conditional_calibration/results/streams/EQ__20260927.csv.gz": "009fb80f35c97424598ae73ba9c50b3cfdf95e3b7f087023016a720c971de104"
+  }
+}

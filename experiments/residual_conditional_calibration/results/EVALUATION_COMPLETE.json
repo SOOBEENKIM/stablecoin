@@ -1,0 +1,21 @@
+{
+  "lock_sha256": "d66747cf720ff6059807765c7d95c36d080a59cd9722626c9a4c17f1c4754edd",
+  "lock_commit": "81a8070c8f3ab2c8e4a93a2a5a4aab2d9efc14b9",
+  "completed_utc": "2026-09-25T16:24:51.172471+00:00",
+  "independent_confirmation": false,
+  "cost_verification_error": 1.3877787807814457e-17,
+  "loss_verification_error": 3.9968028886505635e-15,
+  "file_sha256": {
+    "experiments/residual_conditional_calibration/results/choices.csv": "3cb5e5cb67b7f725d138d145185423a8d7c32b6f8b041dd91ae1c547474faf0d",
+    "experiments/residual_conditional_calibration/results/monthly_metrics.csv": "7ba5b4502ac0c711a6346bbd5a732428a1a6c00c41fa4d5baaf36c0366caecf0",
+    "experiments/residual_conditional_calibration/results/fixed_rule_metrics.csv": "cc10c60e453fa2aff2d12f67eae6a0d6e3e8e1e286b4aed3b897ab8d51163713",
+    "experiments/residual_conditional_calibration/results/comparisons.csv": "9229829fefafc9cbb78d9202158f4e810f8f50bf006fce951196668062b30d9b",
+    "experiments/residual_conditional_calibration/results/primary_tests.csv": "c0fd70ad6ae2b5dc8086587398981677e24c180a559b2013054b872ff78f16c0",
+    "experiments/residual_conditional_calibration/results/inner_scores.csv": "f0d7316e0337d911a280f73ea0567e58d3776a2bbefccec39f96510ad80ed470",
+    "experiments/residual_conditional_calibration/results/metrics.csv": "cee81a44dd39132e4c4507a1c434fa8ae0a6290be23656f3b813ffab5ebc2bf9",
+    "experiments/residual_conditional_calibration/results/state_metrics.csv": "40cee9ab4d8491a018cbe4fdcdc4b0f61da3beb3a88da900a1615bb64611c4db",
+    "experiments/residual_conditional_calibration/results/seed_metrics.csv": "04808575254e72e78b2372fb7c25e98243efd1bba8702a769f6cc9bbc99f4e0e",
+    "experiments/residual_conditional_calibration/results/origin_metrics.csv.gz": "fb86a4859ff5cb98f497262095bdbd0f66dbc8b2fa07078cd1604421d8b7514f",
+    "experiments/residual_conditional_calibration/results/SCORES_OPENED.json": "d4b24c2a82154917be157662eef3785e02a66e85389e3e2193b4723fe2f1eb10"
+  }
+}
