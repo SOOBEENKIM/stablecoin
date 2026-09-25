@@ -1,0 +1,16 @@
+{
+  "lock_commit": "69fe1bc5e7cb4131ec05f954ab0b1cd8fcbd0525",
+  "lock_sha256": "b94abdf44127c2af362afd9f1eb2a871d8b22cf42841023250f693d973447fed",
+  "verifier_amendment": {
+    "commit": "643e086351602357fd57fc93f8388d5a6eb07ef4",
+    "amendment_sha256": "f97047fb41a397fd74bf674213a3e08baccfd6575d8faf27fc78ba17bf910418"
+  },
+  "verified_utc": "2026-09-25T14:56:27.381878+00:00",
+  "candidate_streams": 1080,
+  "calibration_max_error": 0.0,
+  "selected_rows_checked": 69000,
+  "actual_refits": 72,
+  "actual_refit_max_error": 0.0,
+  "one_hour_archived_predictions_and_selections_identical": true,
+  "predictions_sha256": "cd63883629edf9b8d28747d5267ed636a8543f53dcff4689cd18cfdf723c0853"
+}

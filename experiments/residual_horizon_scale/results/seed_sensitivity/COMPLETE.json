@@ -1,0 +1,15 @@
+{
+  "completed_utc": "2026-09-25T15:01:19.858003+00:00",
+  "lock_sha256": "fa35ac08a7b7127ddf12e5255eeb8f3cea8c3d902ab702ee270339d3d24392b4",
+  "additional_fits": 48,
+  "label_and_independent_calibration_checks": true,
+  "independent_confirmation": false,
+  "file_sha256": {
+    "experiments/residual_horizon_scale/results/seed_sensitivity/candidate_streams.csv.gz": "1dcc906ceafba30703ba27f3b5e99d0f5eca8a0fa5abaeb4f193b59da413a027",
+    "experiments/residual_horizon_scale/results/seed_sensitivity/monthly.csv": "5539f5e5d3985f26761cacbe4f40b0b4889903cd4eee209f144fffe9b0438d6c",
+    "experiments/residual_horizon_scale/results/seed_sensitivity/four_seed_mean.csv": "0a09bd03846e3c6c49b511dacd388deca2cd6e8358f72893860271d55c9cfcfa",
+    "experiments/residual_horizon_scale/results/seed_sensitivity/per_seed.csv": "2071970cd66a7606fc820314fd31b23ccfe4e4cbf116b147082516607d351d61",
+    "experiments/residual_horizon_scale/results/seed_sensitivity/predictions.csv.gz": "0b5490d0e32d803782c571736d9bb6517e3c803d15a35dfcdd1467fad0a3fe8d",
+    "experiments/residual_horizon_scale/results/seed_sensitivity/RUN_STARTED.json": "1330e69cc312ba4bb8244daa5dc22275084b6bad74a4ba7e4fd9c624ab68ff94"
+  }
+}

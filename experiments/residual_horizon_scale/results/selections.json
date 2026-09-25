@@ -1,0 +1,7922 @@
+[
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.3011242321877492,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.276356466135892,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 35,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.2840114987177003,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.2804069685118895,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.276356466135892,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.5126564752333833,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.4159236115156337,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4145727314738308,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 36,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.0
+    },
+    "inner_score": 1.4097998624930144,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4145727314738308,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.6374004974356529,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.536400651375585,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.5401581530834547,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 36,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.0
+    },
+    "inner_score": 1.5341845997394017,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.536400651375585,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 0,
+    "kind": "linear",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "alpha": 0.0
+    },
+    "inner_score": 1.7133586660192421,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6398811201213759,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.64531808835894,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 36,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.0
+    },
+    "inner_score": 1.6389124891512195,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6398811201213759,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.2996741151565618,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2924624320395173,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 35,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.2974879976309555,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.2810532943342812,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2924624320395173,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.5047920426583856,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.4423938950281734,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4392135530447177,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.464369558990506,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4392135530447177,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.6185250795453696,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.5409913231088435,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.547552317454163,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.5791571446417891,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.5409913231088435,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.6870177371909867,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.646753842395253,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.6449016032275607,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.6712960376377977,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.6449016032275607,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.3007479937132216,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2929531242289962,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3102007001889806,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.2980140941316927,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2929531242289962,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.5167615755663877,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.4366981291018104,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4333156789156558,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4746088907207313,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4333156789156558,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.6349200469233718,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.526137411097425,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.5456389162141062,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.5668748940084603,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.526137411097425,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.685066461579164,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6342918156295065,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.6405375234866006,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.6545072415604807,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6342918156295065,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.296895273799578,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2817025641157085,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 35,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.2856994117242317,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.2783849523993467,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2817025641157085,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.5014376904431774,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.4261676742399605,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4408196941863753,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 42,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.0
+    },
+    "inner_score": 1.4253239484826112,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.4261676742399605,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.599573892614965,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.538724507158257,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.5379902065862343,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.534925620352168,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.5379902065862343,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 0,
+    "kind": "linear",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "alpha": 0.0
+    },
+    "inner_score": 1.6979070009093415,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6498223208178922,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.6336867778373632,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.6507375389686978,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.6336867778373632,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.2973341803846183,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.288980609318641,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 35,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3093096188795044,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.2813488826427646,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.288980609318641,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.5086547927992997,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.442690538600697,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4486747008132446,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.4657217046268023,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.442690538600697,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.6030184802543357,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.5435316871731655,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.55259863932922,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.5723911738100003,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.5435316871731655,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.677666109154624,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.649188406095903,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.6460564313078427,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.6785798198938169,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.6460564313078427,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.2958747286757846,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2856421599135859,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3071076151519745,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.2958753736504807,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2856421599135859,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.493584077382382,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.4305649187098353,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.4547778632839332,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4716166498844956,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.4305649187098353,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.5926851830616868,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.5206770869591912,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.540643877544942,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.5649936489040441,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.5206770869591912,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.6697915890724981,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.625631559462446,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.63066868721594,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.6625614182806878,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 1,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.625631559462446,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.3626927179577821,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.345410233546641,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3498378363720038,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 55,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.3452431276247856,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.345410233546641,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.6637144604914695,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6340659434188571,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.60092721459729,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 55,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.6634196443781224,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.60092721459729,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.8889298073561234,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.718246739369976,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6937642534952877,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.797692677994874,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6937642534952877,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 7,
+    "kind": "linear",
+    "window": "90",
+    "form": "level",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.900804737897623,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7566580982626374,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.7544572778332856,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 46,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.7812298808417935,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.7544572778332856,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.3626927179577824,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3646735112831514,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3814776234345603,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.3980033405433103,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3646735112831514,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.6637144604914695,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.651170725848291,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6097190144802298,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.693482242373618,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6097190144802298,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.8889298073561234,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.730983039647368,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.7108722976920163,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.803991449188862,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.7108722976920163,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9184060964909033,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7635020064095974,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.8048776226680878,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7921016316294525,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7635020064095974,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.3654801875710003,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3452825271026068,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3916933872597252,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.38377526908401,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3452825271026068,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.6637245726936443,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6319286913973596,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 34,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6296806104910206,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.678761232847579,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 34,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6296806104910206,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.8889298073561234,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7289153101232524,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.723538652389359,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.8136934058096197,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.723538652389359,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.936099750194244,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.762768235101644,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.8134963597092326,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.8083691087162805,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.762768235101644,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.3626927179577821,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3565866726578941,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3465089386578906,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 55,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.3407504141637052,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3465089386578906,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.6637144604914695,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6337800677482717,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.635713325036983,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 55,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.670284154507851,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6337800677482717,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 9,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.0
+    },
+    "inner_score": 1.8426812969963986,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7035777557234764,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.7340691704982754,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 55,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.7912882918910011,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7035777557234764,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 6,
+    "kind": "linear",
+    "window": "90",
+    "form": "level",
+    "params": {
+      "alpha": 0.0
+    },
+    "inner_score": 1.8213938424294096,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.759906917246345,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.790947444458903,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 46,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.8031147703348729,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.759906917246345,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.3626927179577824,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.35907803604993,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3749214343890752,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 56,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.389164288432518,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.35907803604993,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.6637144604914695,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6353187579910753,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.627620095864167,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.6856522666567217,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.627620095864167,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.8889298073561234,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.728367094148719,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.738272919430385,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.810157236026638,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.728367094148719,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.8414950817599485,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7772210618898816,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.8252793101444589,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.8078342103422274,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7772210618898816,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.3654801875710003,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.353943817942207,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3867954933024245,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.386631710080908,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.353943817942207,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.6637245726936443,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6324730045738607,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6362866752922267,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.67772322496696,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6324730045738607,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.8889298073561234,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7271437286570157,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.7296731764204372,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.8147487068176225,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7271437286570157,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.861830935690495,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7791244565142412,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.8212579819872563,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.8185617611745108,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 6,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7791244565142412,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.3818146479883402,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3659068065157398,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.365593747438605,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.383975606612739,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.365593747438605,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.755328415339325,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6903233376869964,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 33,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6792095516694423,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.750655295810705,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 33,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6792095516694423,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9444886422821392,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7401352423652383,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 33,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.7588841287193293,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.8314515263966975,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7401352423652383,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 3,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.0
+    },
+    "inner_score": 1.9480107734614796,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 15,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "max_features": 1.0
+    },
+    "inner_score": 1.8005987852655212,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.803056691693731,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.7907129668476804,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 15,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "max_features": 1.0
+    },
+    "inner_score": 1.8005987852655212,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.3743247793074536,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 15,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3556465475584811,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3661913997556294,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.3929574851268187,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 15,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3556465475584811,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.755328415339325,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.680534977340537,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.6955749283928372,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7952659738884647,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.680534977340537,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9348948649416144,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7531814025783865,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.777283037624449,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.9371242565469657,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7531814025783865,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.944850337364147,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.8069708512170615,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.8368652651601451,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 41,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.9410128611270454,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.8069708512170615,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 7,
+    "kind": "linear",
+    "window": "90",
+    "form": "level",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.4132539726073425,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3417465711878014,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3506839651425577,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4186989064746969,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3417465711878014,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.755328415339325,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6581180306762928,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.670641441717811,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7972624955319785,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6581180306762928,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.949094882857172,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7190209683887923,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.7480722866510223,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.8934576260569036,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7190209683887923,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9419662554003612,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7909803380331075,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.8178554778030367,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 41,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.9224798189911179,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7909803380331075,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.3817810251619855,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3608036740496285,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3641733082806864,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.3839782380688546,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3608036740496285,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.755328415339325,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 23,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.69581354159797,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 34,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6948209412246844,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7442650973656553,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 34,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6948209412246844,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.944494071700375,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 23,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.7503232917696538,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.7864908078529096,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.8150228807147317,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 23,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.7503232917696538,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9484449754906674,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.807964741802671,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.8040937175267815,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.7989103163909435,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.8040937175267815,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.3749020319459424,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 21,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3531769813867012,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.371842796402477,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.3966007238955571,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 21,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3531769813867012,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.755328415339325,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.685579025073612,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.7032885848302413,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7965264972451647,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.685579025073612,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9349365598173502,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7602104798834932,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.7798605270940937,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 58,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.927986690784948,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7602104798834932,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.944850337364147,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.8081017083652529,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.8269423972715673,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 41,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.9827884893018837,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.8081017083652529,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 7,
+    "kind": "linear",
+    "window": "90",
+    "form": "level",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.4201779287151812,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3502772479977534,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.358384224917972,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4225775130977891,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3502772479977534,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.755328415339325,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6630322751777586,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.676849571100619,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7952051468911534,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6630322751777586,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.949094882857172,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7271363559770463,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.7493519041754526,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.8722864116384341,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7271363559770463,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9429230154541723,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.788574580709281,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.8124917325747436,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 41,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.9596278288821893,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "horizon": 12,
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.788574580709281,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  }
+]
