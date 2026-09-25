@@ -1,0 +1,242 @@
+[
+  {
+    "definition": "EQ",
+    "fold": "2025-12",
+    "null": "affine",
+    "intercept": -0.18709870984505803,
+    "beta": 0.13708532953811875,
+    "train_n": 963,
+    "noise_n": 1926,
+    "last_train_label": "2025-11-28T17:00:00+00:00"
+  },
+  {
+    "definition": "EQ",
+    "fold": "2025-12",
+    "null": "local_center72",
+    "intercept": 0.0,
+    "beta": 0.15133677189598246,
+    "train_n": 963,
+    "noise_n": 1926,
+    "last_train_label": "2025-11-28T17:00:00+00:00"
+  },
+  {
+    "definition": "EQ",
+    "fold": "2026-01",
+    "null": "affine",
+    "intercept": -0.053117707339654485,
+    "beta": 0.22604461383967914,
+    "train_n": 1102,
+    "noise_n": 2204,
+    "last_train_label": "2025-12-31T17:00:00+00:00"
+  },
+  {
+    "definition": "EQ",
+    "fold": "2026-01",
+    "null": "local_center72",
+    "intercept": 0.0,
+    "beta": 0.27644084950016784,
+    "train_n": 1102,
+    "noise_n": 2204,
+    "last_train_label": "2025-12-31T17:00:00+00:00"
+  },
+  {
+    "definition": "EQ",
+    "fold": "2026-02",
+    "null": "affine",
+    "intercept": 0.00757736277629266,
+    "beta": 0.23863694693705503,
+    "train_n": 1239,
+    "noise_n": 2478,
+    "last_train_label": "2026-01-30T17:00:00+00:00"
+  },
+  {
+    "definition": "EQ",
+    "fold": "2026-02",
+    "null": "local_center72",
+    "intercept": 0.0,
+    "beta": 0.2784984764007427,
+    "train_n": 1239,
+    "noise_n": 2478,
+    "last_train_label": "2026-01-30T17:00:00+00:00"
+  },
+  {
+    "definition": "EQ",
+    "fold": "2026-03",
+    "null": "affine",
+    "intercept": 0.03821998451513047,
+    "beta": 0.20439292552740645,
+    "train_n": 1367,
+    "noise_n": 2734,
+    "last_train_label": "2026-02-27T17:00:00+00:00"
+  },
+  {
+    "definition": "EQ",
+    "fold": "2026-03",
+    "null": "local_center72",
+    "intercept": 0.0,
+    "beta": 0.23818824783200548,
+    "train_n": 1367,
+    "noise_n": 2734,
+    "last_train_label": "2026-02-27T17:00:00+00:00"
+  },
+  {
+    "definition": "CAP",
+    "fold": "2025-12",
+    "null": "affine",
+    "intercept": -0.2534971389006704,
+    "beta": 0.2031998617190734,
+    "train_n": 963,
+    "noise_n": 1926,
+    "last_train_label": "2025-11-28T17:00:00+00:00"
+  },
+  {
+    "definition": "CAP",
+    "fold": "2025-12",
+    "null": "local_center72",
+    "intercept": 0.0,
+    "beta": 0.18454059850980972,
+    "train_n": 963,
+    "noise_n": 1926,
+    "last_train_label": "2025-11-28T17:00:00+00:00"
+  },
+  {
+    "definition": "CAP",
+    "fold": "2026-01",
+    "null": "affine",
+    "intercept": -0.2556460877043006,
+    "beta": 0.17774284827154782,
+    "train_n": 1102,
+    "noise_n": 2204,
+    "last_train_label": "2025-12-31T17:00:00+00:00"
+  },
+  {
+    "definition": "CAP",
+    "fold": "2026-01",
+    "null": "local_center72",
+    "intercept": 0.0,
+    "beta": 0.21151190221872865,
+    "train_n": 1102,
+    "noise_n": 2204,
+    "last_train_label": "2025-12-31T17:00:00+00:00"
+  },
+  {
+    "definition": "CAP",
+    "fold": "2026-02",
+    "null": "affine",
+    "intercept": -0.17892548805522357,
+    "beta": 0.20696024093835524,
+    "train_n": 1239,
+    "noise_n": 2478,
+    "last_train_label": "2026-01-30T17:00:00+00:00"
+  },
+  {
+    "definition": "CAP",
+    "fold": "2026-02",
+    "null": "local_center72",
+    "intercept": 0.0,
+    "beta": 0.21805838501194966,
+    "train_n": 1239,
+    "noise_n": 2478,
+    "last_train_label": "2026-01-30T17:00:00+00:00"
+  },
+  {
+    "definition": "CAP",
+    "fold": "2026-03",
+    "null": "affine",
+    "intercept": -0.14678265193323764,
+    "beta": 0.2004189812128827,
+    "train_n": 1367,
+    "noise_n": 2734,
+    "last_train_label": "2026-02-27T17:00:00+00:00"
+  },
+  {
+    "definition": "CAP",
+    "fold": "2026-03",
+    "null": "local_center72",
+    "intercept": 0.0,
+    "beta": 0.21488178836456914,
+    "train_n": 1367,
+    "noise_n": 2734,
+    "last_train_label": "2026-02-27T17:00:00+00:00"
+  },
+  {
+    "definition": "PCA",
+    "fold": "2025-12",
+    "null": "affine",
+    "intercept": -0.18819619927663425,
+    "beta": 0.1376136854894785,
+    "train_n": 963,
+    "noise_n": 1926,
+    "last_train_label": "2025-11-28T17:00:00+00:00"
+  },
+  {
+    "definition": "PCA",
+    "fold": "2025-12",
+    "null": "local_center72",
+    "intercept": 0.0,
+    "beta": 0.1516704310795203,
+    "train_n": 963,
+    "noise_n": 1926,
+    "last_train_label": "2025-11-28T17:00:00+00:00"
+  },
+  {
+    "definition": "PCA",
+    "fold": "2026-01",
+    "null": "affine",
+    "intercept": -0.055861721713635015,
+    "beta": 0.2262122708688648,
+    "train_n": 1102,
+    "noise_n": 2204,
+    "last_train_label": "2025-12-31T17:00:00+00:00"
+  },
+  {
+    "definition": "PCA",
+    "fold": "2026-01",
+    "null": "local_center72",
+    "intercept": 0.0,
+    "beta": 0.27584500634274994,
+    "train_n": 1102,
+    "noise_n": 2204,
+    "last_train_label": "2025-12-31T17:00:00+00:00"
+  },
+  {
+    "definition": "PCA",
+    "fold": "2026-02",
+    "null": "affine",
+    "intercept": 0.004753978412217953,
+    "beta": 0.23898540824225312,
+    "train_n": 1239,
+    "noise_n": 2478,
+    "last_train_label": "2026-01-30T17:00:00+00:00"
+  },
+  {
+    "definition": "PCA",
+    "fold": "2026-02",
+    "null": "local_center72",
+    "intercept": 0.0,
+    "beta": 0.278016969156857,
+    "train_n": 1239,
+    "noise_n": 2478,
+    "last_train_label": "2026-01-30T17:00:00+00:00"
+  },
+  {
+    "definition": "PCA",
+    "fold": "2026-03",
+    "null": "affine",
+    "intercept": 0.03514670781224507,
+    "beta": 0.20511832721270715,
+    "train_n": 1367,
+    "noise_n": 2734,
+    "last_train_label": "2026-02-27T17:00:00+00:00"
+  },
+  {
+    "definition": "PCA",
+    "fold": "2026-03",
+    "null": "local_center72",
+    "intercept": 0.0,
+    "beta": 0.238213259056659,
+    "train_n": 1367,
+    "noise_n": 2734,
+    "last_train_label": "2026-02-27T17:00:00+00:00"
+  }
+]

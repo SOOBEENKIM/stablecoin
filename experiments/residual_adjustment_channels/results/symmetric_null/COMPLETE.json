@@ -1,0 +1,13 @@
+{
+  "lock_commit": "f0a35c27c4b744697dd97523e0463ee2efe2bf44",
+  "lock_sha256": "e57c74c71d20a3694cc912d3795902695cd4fe6fe0b953042d1e3ecb087b6bd3",
+  "completed_utc": "2026-09-25T17:03:22.323299+00:00",
+  "post_result_falsification": true,
+  "file_sha256": {
+    "experiments/residual_adjustment_channels/results/symmetric_null/quality.csv": "38d839d85ddc42c10c6971be5afe628e1ab63dd49bd6f116c0c3c58d938aec25",
+    "experiments/residual_adjustment_channels/results/symmetric_null/observed_expected.csv": "2575d9e9de4da89200143af82b2c3263e9c5b4406e119f6de451efe4a0e270ff",
+    "experiments/residual_adjustment_channels/results/symmetric_null/primary_tests.csv": "6fca6d62aec09fc1a45faed4bad0c72f798cdeaedbcb81d41cdd7ce4bfd0e8b7",
+    "experiments/residual_adjustment_channels/results/symmetric_null/contrasts.csv": "b2cf8b9156fb889a117e603751d9dea72481696a9d5151019bd39d4f1b611a79",
+    "experiments/residual_adjustment_channels/results/symmetric_null/SCORES_OPENED.json": "fe27d3114924858191b568134d5fc4f80ee691093e10c03f98c2a0da132deeec"
+  }
+}

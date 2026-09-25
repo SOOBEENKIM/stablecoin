@@ -2,6 +2,10 @@
 
 현재 브랜치는 `research/icaif2026-manuscript-development`입니다. 국내 원고 재현본을 보존하고, 수정된 가격·시간 계산에 기반한 **잔차의 미래 하방 예측**으로 연구를 확장했습니다.
 
+**2026-09-26 조정 경로·위험 해석 검증 완료:** 기존 분해를 유지하고 과거 학습 RF로 출발 조건을 통제했습니다. EQ의 상대 할증→할인 부호 전환 대비는 반대 방향보다 **+29.60%p[16.01,43.62]**였고, 정의·선형 통제·3월 제외에서도 방향이 유지됐습니다. 다만 최근 잔차 중심의 이동이라는 단순 대안을 배제하지 못해 구조적 비대칭 법칙으로 주장하지 않습니다. 방향 이동의 차이 **+3.70bp**가 더 큰 절대 괴리 해소를 뜻한다는 근거도 불확실했습니다. 전체509시점 중 잔차가10bp 넘게 하락한104건의 **57건에서는 국내 USDT 가격이 하락하지 않았습니다.** ML 꼬리 예측, 부호 반전, 괴리 악화, 실제 가격 손실을 구별하는 실증 근거를 확보했습니다. 기존 성능 결과는 보존하고, 주 결과 뒤 추가한 해석·반증 검정은 별도로 기록했습니다.
+
+[새 발견과 주장 범위](experiments/residual_adjustment_channels/CONCLUSION_KO.md) · [전체 수치와 그림](experiments/residual_adjustment_channels/RESULTS_KO.md) · [최신 문헌 대조](experiments/residual_adjustment_channels/NOVELTY_UPDATE_KO.md) · [실행 기록](experiments/residual_adjustment_channels/RUN_RECORD_KO.md)
+
 **2026-09-26 동일 보정 기회를 준 최종 비교 완료:** 선형·문턱·QRF/부스팅·단순 경험분위수에 같은 7개 전역/국소/변동성 보정 후보를 적용하고 과거 3개월로 선택했습니다. EQ의 ML 예측손실은 선형 대비 **5.81%**, 문턱형 대비 **7.09%** 낮았으나, 상태별 경험분위수 대비는 **0.34% 높아** 거의 같았습니다. 새 보정·모형 공동선택은 기존 ML 손실을 **0.85% 증가**시켰고, 3월의 선형 대비 손실도 **8.97% 높았습니다**. 전체 평균의 이점은 남지만 상태 보정으로 ML의 추가 우위나 3월 문제가 해결됐다는 결론은 지지되지 않습니다. 모든 모형의 보정 기회와 경보 비용을 함께 비교해야 한다는 근거를 정리했습니다. 사전 테스트 7개, 독립 보정 222개 스트림, 추가 재학습 재현 9건을 통과했으며 같은 과거 자료의 탐색이라는 범위는 유지됩니다.
 
 [최종 비교의 결론과 주장 범위](experiments/residual_conditional_calibration/CONCLUSION_KO.md) · [전체 수치표](experiments/residual_conditional_calibration/RESULTS_KO.md) · [고정한 설계](experiments/residual_conditional_calibration/PROTOCOL_KO.md)
