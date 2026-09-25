@@ -1,0 +1,14 @@
+{
+  "lock_commit": "e492a9c3b7bb81352bbc53e5181f29f14816c3f9",
+  "lock_sha256": "853a7b1dd2b5bae746bf0103bc6333decbe826d14f2904b887e9aa51576328b7",
+  "verified_utc": "2026-09-25T15:18:52.721766+00:00",
+  "candidate_streams": 1194,
+  "calibration_max_error": 0.0,
+  "selected_rows_checked": 73296,
+  "selection_checks": 360,
+  "future_poison_checks": 72,
+  "actual_refits": 72,
+  "actual_refit_max_error": 0.0,
+  "archived_EQ_predictions_identical": true,
+  "predictions_sha256": "0ced875305b4ca5dc20a6e4913d104c7d6761858bbbbf8448c8c9ce76a7b1d18"
+}

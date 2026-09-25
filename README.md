@@ -2,6 +2,10 @@
 
 현재 브랜치는 `research/icaif2026-manuscript-development`입니다. 국내 원고 재현본을 보존하고, 수정된 가격·시간 계산에 기반한 **잔차의 미래 하방 예측**으로 연구를 확장했습니다.
 
+**2026-09-26 후속 안정성·3월 진단 완료:** 같은 509개 예측 시점에서 12시간 ML 선택의 선형 대비 손실 개선은 EQ **14.89%**, 시총가중 대용 CAP **10.23%**, PCA1 **14.90%**였고, 문턱형 대비는 각각 **10.29%, 10.27%, 10.34%**였습니다. 개선 방향은 세 정의에서 유지됐지만 CAP의 다중비교 결과와 포지셔닝의 추가 기여는 불확실합니다. EQ/PCA의 3월에는 보정이 ML도 개선했으나 비교모형을 더 크게 개선해 상대 우위가 역전됐습니다. CAP은 원예측부터 선형보다 불리해 같은 설명을 일반화할 수 없습니다. 아래 이전 실험은 보존하며, 이번 결과 역시 같은 과거 자료를 재사용한 탐색적 검증입니다.
+
+[최신 결론과 3월 해석](experiments/residual_12h_robustness/CONCLUSION_KO.md) · [전체 수치표](experiments/residual_12h_robustness/RESULTS_KO.md) · [실행 전 설계](experiments/residual_12h_robustness/PROTOCOL_KO.md)
+
 **2026-09-26 진단·보완 실험 완료:** 기존 결과를 보존하고 잔차 자체의 최근 변동 폭과 실제1·6·12시간 예측을 교차 비교했습니다. 12시간의 전체 입력 QRF는 같은 입력의 선형·문턱형 대비 개선을 보였고, 결과 개봉 후 고정 설정의 난수 민감도를 추가한 네 seed 평균 손실 개선은 각각 **14.89%, 10.29%**였습니다. 자체 변동 폭 입력은1·6시간 ML 선택에 작은 개선을 줬으나 일부는 모델 선택 변화와 연결됐습니다. **3월 보정 후 성능 악화와 포지셔닝의 추가 기여는 미해결**입니다. 같은 과거 자료의 탐색적 후속이며, 기존 주1시간 분석을 대체하거나 경제적 메커니즘을 입증했다고 주장하지 않습니다.
 
 [새 결과와 해석](experiments/residual_horizon_scale/RESULTS_KO.md) · [설계·검증 기록](experiments/residual_horizon_scale/README.md) · [난수 민감도](experiments/residual_horizon_scale/SEED_SENSITIVITY_KO.md)
@@ -90,6 +94,7 @@ python3 experiments/manuscript_reproduction/run_reproduction.py
 - `experiments/residual_factorial_design/`: 감사 후 동일 입력의 알고리즘 비교·정보 묶음 추가·후보별 보정/선택을 구체화한 설계. 자료 가용성과 합성 규칙만 점검했으며 새 성능 실험은 미실행.
 - `experiments/residual_factorial_execution/`: 해당 고정 설계의 실행기·독립 산술 감사·실제 재적합·전체 후보 예측·주/보조 결과. 기존 설계 폴더를 수정하지 않고 실행·해석을 별도로 기록.
 - `experiments/residual_horizon_scale/`: factorial 이후 자체 잔차 변동 폭과 실제1·6·12시간의 제한된 개발 실험. 원본 대비 추가 입력 효과, 선형/ML/문턱형, 조건별 위험 경계와 포지셔닝 증분을 함께 공개. 검증기 동점 수정과12시간 F의 후속 난수 민감도도 별도 잠금·기록.
+- `experiments/residual_12h_robustness/`: 동일한 12시간 설계를 EQ/CAP/PCA1 잔차에 적용한 안정성 검증과 3월 진단. 보정 전후 상대 손실의 정확한 분해, 부분 월·날짜 민감도, 상태 분포와 후보별 과거 오차를 공개하며 경제적 인과와 구분.
 - `research/`, `docs/`, `context/`의 나머지 파일: `main`에서 물려받은 이전 연구 기록. 이번 원고 재현 결과와 구분합니다.
 
 `main`의 호가·AI 연구는 별도 방향의 과거 기록입니다. 해당 안내는 [기존 연구 흐름](docs/STUDY_GUIDE_KO.md)에 남아 있습니다. 삭제한 ML 분해 실험의 이전 상태는 Git 커밋 `b051620e86bfac07efc90d6b7a257c0ba9d86d1d`에서 확인할 수 있습니다.

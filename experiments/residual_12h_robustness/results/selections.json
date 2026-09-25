@@ -1,0 +1,7922 @@
+[
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.3818146479883402,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3659068065157398,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.365593747438605,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.383975606612739,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.365593747438605,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.755328415339325,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6903233376869964,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 33,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6792095516694423,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.750655295810705,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 33,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6792095516694423,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9444886422821392,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7401352423652383,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 33,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.7588841287193293,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.8314515263966975,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7401352423652383,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 3,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.0
+    },
+    "inner_score": 1.9480107734614796,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 15,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "max_features": 1.0
+    },
+    "inner_score": 1.8005987852655212,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.803056691693731,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.7907129668476804,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 15,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "max_features": 1.0
+    },
+    "inner_score": 1.8005987852655212,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.3743247793074536,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 15,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3556465475584811,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3661913997556294,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.3929574851268187,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 15,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3556465475584811,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.755328415339325,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.680534977340537,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.6955749283928372,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7952659738884647,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.680534977340537,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9348948649416144,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7531814025783865,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.777283037624449,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.9371242565469657,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7531814025783865,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.944850337364147,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.8069708512170615,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.8368652651601451,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 41,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.9410128611270454,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.8069708512170615,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 7,
+    "kind": "linear",
+    "window": "90",
+    "form": "level",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.4132539726073425,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3417465711878014,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3506839651425577,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4186989064746969,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3417465711878014,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.755328415339325,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6581180306762928,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.670641441717811,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7972624955319785,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6581180306762928,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.949094882857172,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7190209683887923,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.7480722866510223,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.8934576260569036,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7190209683887923,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9419662554003612,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7909803380331075,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.8178554778030367,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 41,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.9224798189911179,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7909803380331075,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.3817810251619855,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3608036740496285,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3641733082806864,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.3839782380688546,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3608036740496285,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.755328415339325,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 23,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.69581354159797,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 34,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6948209412246844,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7442650973656553,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 34,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6948209412246844,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.944494071700375,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 23,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.7503232917696538,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.7864908078529096,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.8150228807147317,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 23,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.7503232917696538,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9484449754906674,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.807964741802671,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.8040937175267815,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.7989103163909435,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.8040937175267815,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.3749020319459424,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 21,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3531769813867012,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.371842796402477,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.3966007238955571,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 21,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3531769813867012,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.755328415339325,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.685579025073612,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.7032885848302413,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7965264972451647,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.685579025073612,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9349365598173502,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7602104798834932,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.7798605270940937,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 58,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.927986690784948,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7602104798834932,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.944850337364147,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.8081017083652529,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.8269423972715673,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 41,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.9827884893018837,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.8081017083652529,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 7,
+    "kind": "linear",
+    "window": "90",
+    "form": "level",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.4201779287151812,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3502772479977534,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.358384224917972,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4225775130977891,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3502772479977534,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.755328415339325,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6630322751777586,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.676849571100619,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7952051468911534,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6630322751777586,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.949094882857172,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7271363559770463,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.7493519041754526,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.8722864116384341,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7271363559770463,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9429230154541723,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.788574580709281,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.8124917325747436,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 41,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.9596278288821893,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "EQ",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.788574580709281,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.3729773186967955,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2852662472452099,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2675934084524154,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4266818089920092,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2675934084524154,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.6663095810088517,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.447353164740482,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3992134345507745,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 42,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.0
+    },
+    "inner_score": 1.6883239943249715,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3992134345507745,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.7164350853591628,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.4321827552865523,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3854788208690008,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 42,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.0
+    },
+    "inner_score": 1.676556039055149,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3854788208690008,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.4017025127502358,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.245039727554361,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.24761521392524,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.3525164776778817,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.245039727554361,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.3729773186967953,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2859805428995752,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.267465469971082,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4554477868067575,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.267465469971082,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.6663095810088513,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.4401367782138188,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.377019450321035,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7496224195592032,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.377019450321035,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.7164350853591623,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.4236555461760838,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.366335990242191,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7867032826630174,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.366335990242191,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.4187528306702157,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.2452819059397537,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.237044709275356,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.431506069739558,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.237044709275356,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.3729773186967953,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2823415055698288,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2612440566024223,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4152317074214877,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2612440566024223,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.6663095810088513,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.430426649156905,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3755914349338552,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.710710632928928,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3755914349338552,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.7164350853591623,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.420626837063404,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3775407811066258,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7782363668810706,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3775407811066258,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.4293359919654827,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.241364441183983,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2519965141157299,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4347855257639373,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.241364441183983,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.3729773186967955,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 15,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "max_features": 1.0
+    },
+    "inner_score": 1.2908381373686315,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2675934084524154,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4278338477990073,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2675934084524154,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.6663095810088517,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.4449878378251413,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3990945166147188,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 42,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.0
+    },
+    "inner_score": 1.6755276486128383,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3990945166147188,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.7164350853591628,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.4257747449210105,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3853505883102981,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 36,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.0
+    },
+    "inner_score": 1.6665264845022185,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3853505883102981,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.4114512927046838,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.2535467889077005,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2474882509958316,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.3653935798866461,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2474882509958316,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.3729773186967953,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 15,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "max_features": 1.0
+    },
+    "inner_score": 1.2870075660783236,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.267465469971082,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4397965055823834,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.267465469971082,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.6663095810088513,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.4436995876612684,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.377019450321035,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7523111450203703,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.377019450321035,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.7164350853591623,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.421628845554664,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.366335990242191,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7902326611727348,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.366335990242191,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 8,
+    "kind": "linear",
+    "window": "90",
+    "form": "level",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.4327415133128485,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.2438704662371254,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.237044709275356,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4491230774296293,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.237044709275356,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.3729773186967953,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2786968246597303,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2613958846201996,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.457890513951559,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2613958846201996,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.6663095810088513,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.4293945021382155,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3755914349338552,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7544497426066286,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3755914349338552,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.7164350853591623,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.4156652108004648,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3775407811066258,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7897558766268327,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.3775407811066258,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 2,
+    "kind": "linear",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.4331516959770914,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.239891370812639,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2519965141157299,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4541615485696715,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "CAP",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.239891370812639,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.3771909251314802,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 23,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3576676936161123,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3708655051058807,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.3822985400425676,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 23,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3576676936161123,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.7484577986241532,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.673136833215499,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 33,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6784437090931388,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7446628801899504,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.673136833215499,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9325200764864905,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.721461477093478,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 33,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.74806047513024,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.8224075376250841,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.721461477093478,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 0,
+    "kind": "linear",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "alpha": 0.0
+    },
+    "inner_score": 1.933724997468014,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7763958168127902,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.785381535046601,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.781154491550774,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7763958168127902,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.3720354959648313,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.348314820951884,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.366892991038389,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 56,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.3956790951574125,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.348314820951884,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.7484577986241532,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6637757157245079,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.6784212472185864,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.8043170806589686,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6637757157245079,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9310458394126178,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7403349389482492,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.7641303396188437,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.9573660244409308,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7403349389482492,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.936158090311184,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.8048907376619714,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.8095164355293338,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 41,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.9257630653527984,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.8048907376619714,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 7,
+    "kind": "linear",
+    "window": "90",
+    "form": "level",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.4142315155535163,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3385946506252209,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3483311682478551,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4142179749495354,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3385946506252209,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.7484577986241532,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6548771463451921,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.6585729455055431,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.786941826029979,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6548771463451921,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.9399352356325616,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7182642151799201,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.7283260346515386,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.8875747653322077,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7182642151799201,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.928155206596478,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7834986661743815,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.8063310479220571,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 41,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.907081612451634,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "original",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7834986661743815,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.377173944915115,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 23,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3534190784741695,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3708424478782946,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.3823149820103495,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 23,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3534190784741695,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.7484577986241532,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 23,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.683674941846666,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 34,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6832907769799594,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7267440752245262,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 34,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6832907769799594,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9325950681765118,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 23,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.7449884540451615,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.7749087721143484,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.798905284857268,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 23,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.7449884540451615,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9355689590453757,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7988344357964228,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.7994630010513437,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.7995474002916514,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7988344357964228,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.3714780209707402,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 15,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3532722538649518,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3742031982064267,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 53,
+    "kind": "threshold",
+    "window": "90",
+    "form": "level",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.402357072786173,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 15,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "max_features": 1.0
+    },
+    "inner_score": 1.3532722538649518,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.7484577986241532,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6834471894357996,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.6794078433534523,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.786124713710648,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.6794078433534523,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9319528881934211,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7478875844542257,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.7591551826040859,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.9227231098054693,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7478875844542257,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.936158090311184,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.8036953616337186,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.81493332648818,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 41,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.9716843532188826,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 17,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 40,
+      "max_features": 1.0
+    },
+    "inner_score": 1.8036953616337186,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 7,
+    "kind": "linear",
+    "window": "90",
+    "form": "level",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.4144537037899694,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3446015360840997,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3501098463730852,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4172407963638005,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3446015360840997,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.7484577986241532,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.659650443339268,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.6659465224032348,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7817313032104778,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.659650443339268,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.9399352356325616,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7127438812117288,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.7248642542595674,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.8644530243952824,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7127438812117288,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9309471314067497,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7814912567098484,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.801754878803643,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.9421979940475573,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  },
+  {
+    "definition": "PCA",
+    "variant": "own_scale",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7814912567098484,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ]
+  }
+]
