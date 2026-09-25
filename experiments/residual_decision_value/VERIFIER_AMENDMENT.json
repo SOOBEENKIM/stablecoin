@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-09-25T15:46:57.339111+00:00",
+  "no_scores_opened": true,
+  "exact_boundary_tests": 24,
+  "file_sha256": {
+    "experiments/residual_decision_value/dv_verify_v2.py": "e76c11cddec415521cb1efc16fcac57afbb39cf45b41e37ba284928bb503b1aa",
+    "experiments/residual_decision_value/VERIFIER_AMENDMENT_KO.md": "c091c3c1c852acd0380c907e5df8770504a901cb476ddde6720f7545a09591c3"
+  }
+}
