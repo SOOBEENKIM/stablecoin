@@ -1,0 +1,29 @@
+test_calibration_strict_label_boundary_and_order_statistic (test_mechanics.DesignTests) ... ok
+test_candidate_histories_cannot_be_mixed (test_mechanics.DesignTests) ... ok
+test_choose_calibrated_not_raw_and_exact_tie (test_mechanics.DesignTests) ... ok
+test_finite_grids_and_pure_ml_pool (test_mechanics.DesignTests) ... ok
+test_nested_information_and_common_calendar (test_mechanics.DesignTests) ... ok
+test_old_errors_expire (test_mechanics.DesignTests) ... ok
+test_quantile_direction_and_translation (test_mechanics.DesignTests) ... ok
+test_reject_outer_data_boundary_labels_and_incomplete_pairing (test_mechanics.DesignTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.257s
+
+OK
+test_deterministic_seed_cache_is_exact (test_execution.ExecutionTests) ... ok
+test_empty_bootstrap_draw_is_not_silently_dropped (test_execution.ExecutionTests) ... ok
+test_exact_clock_lag_does_not_jump_missing_hour (test_execution.ExecutionTests) ... ok
+test_full_selection_assembly_uses_own_candidate_history (test_execution.ExecutionTests) ... SELECTED past-only available_macro EQ
+ok
+test_holm_family_and_immutable_file_checks (test_execution.ExecutionTests) ... ok
+test_monthly_residual_fit_ignores_future_panel_values (test_execution.ExecutionTests) ... ok
+test_only_past_three_months_and_no_boundary_labels (test_execution.ExecutionTests) ... ok
+test_paired_bootstrap_against_direct_resampled_rows (test_execution.ExecutionTests) ... ok
+test_qrf_quantile_from_independent_leaf_neighbours (test_execution.ExecutionTests) ... ok
+test_removed_information_cannot_affect_refit_or_prediction (test_execution.ExecutionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 21.533s
+
+OK
