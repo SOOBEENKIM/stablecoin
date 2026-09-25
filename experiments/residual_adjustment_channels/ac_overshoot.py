@@ -58,7 +58,7 @@ def fit(task):
 
 def create_lock():
     verify_parent_results()
-    files=[Path(__file__),HERE/'OVERSHOOT_PROTOCOL_KO.md',HERE/'test_ac_overshoot.py',HERE/'OVERSHOOT_PRE_RUN_TESTS.txt',
+    files=[Path(__file__).resolve(),HERE/'OVERSHOOT_PROTOCOL_KO.md',HERE/'test_ac_overshoot.py',HERE/'OVERSHOOT_PRE_RUN_TESTS.txt',
         LOCK,OUT/'EVALUATION_COMPLETE.json',OUT/'PREDICTIONS_SEALED.json']
     write_new(XLOCK,dict(created_utc=now(),primary_results_already_seen=True,independent_confirmation=False,
         file_sha256={str(p.relative_to(ROOT)):sha(p) for p in files}))

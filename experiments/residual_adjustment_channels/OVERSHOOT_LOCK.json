@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-09-25T16:57:49.587658+00:00",
+  "primary_results_already_seen": true,
+  "independent_confirmation": false,
+  "file_sha256": {
+    "experiments/residual_adjustment_channels/ac_overshoot.py": "d6af69a6456b04dc4648cc70b49b39822d9e22822dd73b66a39316016ba4b12f",
+    "experiments/residual_adjustment_channels/OVERSHOOT_PROTOCOL_KO.md": "5e4b074dd1c898edc304994202b99944afc979c504ec119f96cb691da791bc3f",
+    "experiments/residual_adjustment_channels/test_ac_overshoot.py": "bc5e970e3387a04119266dfd7a5c8df70a972ccb523d13e4b95c78640e080d52",
+    "experiments/residual_adjustment_channels/OVERSHOOT_PRE_RUN_TESTS.txt": "9f29eb05da07b2c00ac58940a6b826afb2b73367d454f0bd688dce5c2620c3a6",
+    "experiments/residual_adjustment_channels/LOCK.json": "62bd83b80017c7517f2a4530e4969783a8571db1bc7af3b865511082f7e2ac6e",
+    "experiments/residual_adjustment_channels/results/EVALUATION_COMPLETE.json": "885bbdffd56b71f441ab89fb794ad1611e90da8c39734790968913221eaa4db9",
+    "experiments/residual_adjustment_channels/results/PREDICTIONS_SEALED.json": "f9513fb3a48c9ea1b01ed94b69c134ebce475dd90e551446987e64b913c7f594"
+  }
+}
