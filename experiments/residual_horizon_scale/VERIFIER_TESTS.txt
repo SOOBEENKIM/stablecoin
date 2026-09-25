@@ -1,0 +1,8 @@
+test_reject_different_frozen_winner (__main__.SelectionCheckTests) ... ok
+test_reject_substantive_score_difference (__main__.SelectionCheckTests) ... ok
+test_reproduce_original_strict_checker_disagreement (__main__.SelectionCheckTests) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.589s
+
+OK

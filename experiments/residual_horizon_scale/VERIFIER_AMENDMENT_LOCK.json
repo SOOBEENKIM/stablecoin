@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-09-25T14:51:24.394500+00:00",
+  "scores_not_opened": true,
+  "predictions_sha256": "cd63883629edf9b8d28747d5267ed636a8543f53dcff4689cd18cfdf723c0853",
+  "seal_sha256": "a48066bb1afa4022c8de5b9ce59bbec80f9a78fe6edc9efb4e68fc848734a844",
+  "file_sha256": {
+    "experiments/residual_horizon_scale/hs_verify_v2.py": "6fa048e2d0bbf71c063b54d204a2cb70240c721798eb4515c115bf6eb6caa1d2",
+    "experiments/residual_horizon_scale/selection_check.py": "e79e632f31f88519ec53f3a7a00f00b5571cff76f80f2becaf980a47ffd2f3a5",
+    "experiments/residual_horizon_scale/test_selection_check.py": "e0915af0fb1c24d0530548341ae531a233cdf299abaae630cac48f10d78dbfba",
+    "experiments/residual_horizon_scale/hs_amendment_guard.py": "e7e1391beb7dd352e684ada8b94775947f838d89d948468450364ea0770b4d3e",
+    "experiments/residual_horizon_scale/VERIFIER_AMENDMENT_KO.md": "bef426dd6165a156665ac1b0274388cfeeaf830934091b62fbda989718b541c5",
+    "experiments/residual_horizon_scale/VERIFIER_TESTS.txt": "f989dc41d47cf19b6973cf580ef58d29e50fae4863db9f5cd3a8b9bd8c00537f"
+  }
+}
