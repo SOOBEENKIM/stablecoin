@@ -1,0 +1,28 @@
+{
+  "completed_utc": "2026-09-25T13:45:30.746936+00:00",
+  "post_result_diagnostic": true,
+  "independent_data_validation": false,
+  "old_sources_and_results_unchanged": true,
+  "independent_metric_rows": 56,
+  "max_metric_error_bp": 4.440892098500626e-16,
+  "independent_calibration_streams": 49,
+  "max_calibration_error_bp": 1.0658141036401503e-14,
+  "independent_retuned_choices": 105,
+  "feature_metadata_checked": 210,
+  "independent_daily_sum_bootstrap_primary_comparisons": 3,
+  "selection_metric": "raw_pinball",
+  "reported_primary_metric": "calibrated_pinball",
+  "volume_equal_evaluation_raw_predictions": true,
+  "volume_calibration_only_affected_origins": 47,
+  "volume_carryover_first": "2025-12-01T03:00:00+00:00",
+  "volume_carryover_last": "2025-12-04T07:00:00+00:00",
+  "redundant_feature_counterexample": {
+    "full_loss": 0.0,
+    "without_a_loss": 0.0,
+    "without_b_loss": 0.0,
+    "without_both_loss": 0.0900899100899101,
+    "note": "Constructed A=B=Y example only; not evidence of redundancy in the stablecoin sample."
+  },
+  "bugs_found_in_checked_score_selection_calibration_arithmetic": false,
+  "overall_pipeline_correctness_proved": false
+}

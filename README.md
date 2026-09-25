@@ -2,6 +2,10 @@
 
 현재 브랜치는 `research/icaif2026-manuscript-development`입니다. 국내 원고 재현본을 보존하고, 수정된 가격·시간 계산에 기반한 **잔차의 미래 하방 예측**으로 연구를 확장했습니다.
 
+**2026-09-25 2단계 후 감사:** 기존 평가 함수를 사용하지 않는 별도 계산으로 56개 손실 요약·49개 보정 계열·주 검정을 대조했고, 확인 범위에서 수치 오류를 발견하지 못했습니다. 다만 한 그룹씩 제거하는 실험만으로 전체 개선의 출처를 분리할 수 없고, 현재 선택 기준은 보정 전 손실인 반면 주 평가는 보정 후 손실이라는 설계 보완점이 있습니다. **3단계로 곧바로 넘어가기보다 동일 입력의 선형/비선형 비교와 입력 묶음 추가 비교를 먼저 보완할 것을 권고합니다.** 해당 보완 실험과 3·4단계는 아직 실행하지 않았습니다.
+
+[계산 감사와 설계 보완 제안](experiments/residual_step2_audit/README.md)
+
 **2026-09-25 후속 2단계 — 변수군 제거·재학습:** 현재 잔차와 직전 변화를 유지하고 글로벌 BTC 시장·국내 USDT 거래량·환율과 거시 입력을 각각 제거했습니다. 과거 세 내부 월에서 같은 84개 후보를 다시 선택한 주 EQ 분석의 손실 증가는 **0.27%, 0.31%, 0.80%**였고, 세 비교 모두 불확실성 구간에 0이 포함됐습니다. **기존 예측 개선은 유지되지만, 그 개선을 특정 정보군의 추가 기여로 설명할 근거는 아직 부족합니다.** PCA의 긍정적 보조 결과와 설정 유지 시 일부 반대 결과도 함께 공개했습니다. 이번 후속의 3단계 경보·4단계 가격 경로는 실행하지 않았습니다.
 
 [2단계 결과](experiments/residual_step2_information/RESULTS_KO.md) · [실행 전 설계](experiments/residual_step2_information/PROTOCOL_KO.md) · [코드·검증 안내](experiments/residual_step2_information/README.md)
@@ -70,6 +74,7 @@ python3 experiments/manuscript_reproduction/run_reproduction.py
 - `experiments/residual_nested_validation/`: 기존 자료만으로 모델 계열·설정 선택을 과거 세 내부 월에 한정하고, 실행 전 잠금과 평가 개봉 기록을 남긴 중첩 시간순 검증.
 - `experiments/residual_step1_dynamics/`: 기존 ML 예측을 보존하고 단순 지속성·잔차 수준 조정·시장 변동성 모형을 추가한 1단계 비교. 2단계 결과는 다음 폴더에 별도로 기록.
 - `experiments/residual_step2_information/`: 현재 잔차·직전 변화·표본을 유지한 세 정보군 제거 실험. 과거 내부 자료의 재선택과 기존 설정 유지 재학습을 비교하며 3·4단계는 미실행.
+- `experiments/residual_step2_audit/`: 별도 계산 구현으로 저장된 2단계 결과를 감사하고, 정보 출처를 설명하기 위해 필요한 후속 비교를 정리. 새로운 예측 성능 실험은 아님.
 - `research/`, `docs/`, `context/`의 나머지 파일: `main`에서 물려받은 이전 연구 기록. 이번 원고 재현 결과와 구분합니다.
 
 `main`의 호가·AI 연구는 별도 방향의 과거 기록입니다. 해당 안내는 [기존 연구 흐름](docs/STUDY_GUIDE_KO.md)에 남아 있습니다. 삭제한 ML 분해 실험의 이전 상태는 Git 커밋 `b051620e86bfac07efc90d6b7a257c0ba9d86d1d`에서 확인할 수 있습니다.

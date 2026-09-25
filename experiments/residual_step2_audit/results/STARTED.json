@@ -1,0 +1,17 @@
+{
+  "started_utc": "2026-09-25T13:45:01.023263+00:00",
+  "script_sha256": "440450f081ba2c980b32a9575218d65d37683df5b0801f8871353f59cc9da986",
+  "inputs": {
+    "experiments/residual_step2_information/LOCK.json": "d84de35a0d80b6341c0f9fd8d7cf7d616362b7c291bb7bb582df25f022b9d954",
+    "experiments/residual_step2_information/design.json": "9a1121655c8097c0984921013ba60b2c1535c33b7ab101152c775a0d204454ec",
+    "experiments/residual_step2_information/results/predictions.csv.gz": "41ed9600ca8ca79c4458993ee8111a96c49fe774388c70fa960f7ecb216f220b",
+    "experiments/residual_step2_information/results/metrics.csv": "9485b2a246f86258228ef9acc66ac64acaebbfe247eb6266d248acdacad63a04",
+    "experiments/residual_step2_information/results/primary_tests.csv": "73ba67783bda89cac3d57ebe1838049ab6345eea5fd2659f202a24fd30dc8d51",
+    "experiments/residual_step2_information/results/inner_scores.csv": "99ed3c75cbe3bd66922aab6c2c70fb1ac25c4ce85d4509602687c279d4fc58c3",
+    "experiments/residual_step2_information/results/selected_models.json": "db1e68ecc24a3563c89df5fc151d74ebac8c22cf6e797157a9058fca5b3a3bd8",
+    "experiments/residual_step2_information/step2_run.py": "40174bd1104639ef9bf5c139b82839d07bcea44f59c2f7632df6b0188fa007b6",
+    "experiments/residual_step2_information/step2_evaluate.py": "c078215e948694a018e71fb9224ef5e1cff788bb372d8cd6d2cdc62b90efa964",
+    "experiments/residual_dynamics_adaptive/adaptive.py": "c97876b775aacbd0194216ae20aa2e910a2fb35952099a253c035690cbff1dde"
+  },
+  "post_result_diagnostic": true
+}
