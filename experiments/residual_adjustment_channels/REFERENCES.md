@@ -1,0 +1,7 @@
+# Focused references and claim boundaries
+
+- Kang et al. (2025), **Stablecoin and cross-border crypto market integration**, Economics Letters 257,112704. https://www.sciencedirect.com/science/article/pii/S0165176525005415 . Publisher abstract/introduction checked; full PDF access limited. Korean BTC/USDT market integration and average error correction motivate examining the constituent price paths conditional on the initial relative gap. Do not attribute unverified omitted tests to this paper or claim that average mean reversion is new.
+- Seo, Koo and Yang (2024), **Nonlinear dynamics of Kimchi premium**, Economic Modelling 135,106726. https://doi.org/10.1016/j.econmod.2024.106726 . Threshold adjustment of crypto premiums means neither nonlinear adjustment nor threshold conditioning alone establishes originality.
+- Chernozhukov et al. (2018), **Double/debiased machine learning for treatment and structural parameters**, The Econometrics Journal 21,C1–C68. https://academic.oup.com/ectj/article/21/1/C1/5056401 . Orthogonal partialling-out motivates nuisance regression. Our chronological observational projection does not establish causal identification or inherit iid asymptotic guarantees. Block intervals are conditional exploratory summaries.
+
+This is a focused comparison, not proof that no previous study has examined a similar mechanism. Final novelty assessment must reflect actual results, verified paper contents, and the difference between residual tail prediction, price accounting and causal price discovery.

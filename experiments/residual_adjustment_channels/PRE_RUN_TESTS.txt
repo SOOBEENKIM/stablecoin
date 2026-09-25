@@ -1,0 +1,11 @@
+test_actual_frames_and_existing_targets (__main__.ChannelTests) ... ok
+test_basket_weight_channel (__main__.ChannelTests) ... ok
+test_exact_product_identity_with_moving_weights (__main__.ChannelTests) ... ok
+test_future_outcomes_not_used_in_nuisance_predictions (__main__.ChannelTests) ... ok
+test_orthogonal_coefficient_and_additivity (__main__.ChannelTests) ... ok
+test_shared_numeraire_and_balanced_prices (__main__.ChannelTests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 3.278s
+
+OK
