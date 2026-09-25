@@ -1,0 +1,72 @@
+{
+  "created_utc": "2026-09-25T14:01:39.763101+00:00",
+  "status": "design_frozen_forecast_runner_not_implemented",
+  "parent_commit": "cdcf12f9f08ab449946b19450648dbfaecf67dfc",
+  "independent_confirmation": false,
+  "previously_seen_evaluation_period": true,
+  "forecast_models_fitted": 0,
+  "new_performance_scores_computed": 0,
+  "synthetic_tests_passed": 8,
+  "environment": {
+    "python": "3.8.10",
+    "numpy": "1.23.5",
+    "pandas": "2.0.3",
+    "scipy": "1.10.1",
+    "sklearn": "1.3.2",
+    "matplotlib": "3.7.5"
+  },
+  "design_and_preflight_sha256": {
+    "experiments/residual_factorial_design/PROTOCOL_KO.md": "3ae31fe349358677304acd1497b8ae63fe14a7b798aa4ed7aacb1a711d0ed08b",
+    "experiments/residual_factorial_design/README.md": "6a7db29b72a4f3c901e72cc1cf78108a147e8f595c43b261dcccc61db39fc3f9",
+    "experiments/residual_factorial_design/design.json": "15dbaae7b1896b5d4014c8617ce5a2a550b8bbd45d1da1be075a926de6b54b95",
+    "experiments/residual_factorial_design/mechanics.py": "50c4c59bc2edab33ab06b0a9536f0ee2e224a5d48d5c84b9ad3e762195079f24",
+    "experiments/residual_factorial_design/preflight/PREFLIGHT.json": "ed49f6081924d3e37ab208d0f9d7426e415dc3f7e27bea179c96def8b5f89a6b",
+    "experiments/residual_factorial_design/preflight/monthly_availability.csv": "d765c05d31fed9b0fe8ca4cc02b6f27a66231e69207b1fc4718945e4408a7fe4",
+    "experiments/residual_factorial_design/preflight/regime_and_feature_counts.csv": "cf37596562c97988ad0cf64fc05afd3c51dd5f2ee4b13feebca5b260667a9270",
+    "experiments/residual_factorial_design/preflight.py": "591a7e4e34162043d8edd2b0975d588f4cdb59a2f52585fc090f26d1b086a3a6",
+    "experiments/residual_factorial_design/test_mechanics.py": "d196c5a5455b118d5443b69730ed2f07e565680307520c2f6508469e28931c92"
+  },
+  "existing_dependency_sha256": {
+    "experiments/residual_dynamics_adaptive/adaptive.py": "c97876b775aacbd0194216ae20aa2e910a2fb35952099a253c035690cbff1dde",
+    "experiments/residual_dynamics_adaptive/analyze_adaptive.py": "1eec0e933140337cf39b6cd94ab53a4758841328b9cff971f8c9b72054a0d3c9",
+    "experiments/residual_dynamics_adaptive/check_seeds.py": "2f8417aeb6c38dcce2730069f5cc31fb9fb1770a02ca21331445f687810a8068",
+    "experiments/residual_dynamics_adaptive/run_adaptive.py": "1781815035140eb0cea2330e881f403883276d85588ab254b32cf4df3c313ed8",
+    "experiments/residual_dynamics_adaptive/test_integrity.py": "8b08668a2d3d0b07b5b777599b71253eebc286aa8f75d87ce8fd70c52b62d44b",
+    "experiments/residual_dynamics_adaptive/verify_replay.py": "dcbf5bba874c447e76d9efcc9666fe4d65886d504a6c2ced3d1223da77a13121",
+    "experiments/residual_dynamics_ml/analyze.py": "2e46a57fa6882ec0c6924d4881c13a4db75e409c227c6461acc6300d54b5d2b2",
+    "experiments/residual_dynamics_ml/data.py": "2d7b4f3812da9d85500dff79deabe51e20ce2dceab14f1b2d437e02dcfc6c9a1",
+    "experiments/residual_dynamics_ml/diagnose_spline.py": "dffe20e4d23556ecf173fe7f86102cef8b66274ac06cf4b16df2f5268d56276a",
+    "experiments/residual_dynamics_ml/models.py": "1d2b27869535bad38c71ce6b8c6b4ec08cbd9a437d8f36e8cfce56126951bd70",
+    "experiments/residual_dynamics_ml/run.py": "d4d33c42cf0fa97da06e3884f76ee126da8d5c85a1ab4c807aed79ca0c31797a",
+    "experiments/residual_dynamics_ml/test_integrity.py": "0c9d8544ab56f7bfdcfc4ecf54ba7f6919b7ef5476741c832b202b3d95d27026",
+    "experiments/residual_dynamics_ml/verify_replay.py": "25a636c8d4fd79997eaf8a6fb19150ddbf94c8c3be0d5735e095904965e5d60e",
+    "experiments/residual_economic_validation/analyze_paths.py": "1907fd2642df4916f0232b7f35115c26ecc033529e6e0edd61b4a2c248b5b54f",
+    "experiments/residual_economic_validation/economic.py": "26492c54a7fba6b5ae275362fd1d0d42e410c553cb6f95c727d07168608ffa5a",
+    "experiments/residual_economic_validation/report_models.py": "0bcecbed2222d6ede9d47f4c6ea00c5fa85aab83d073e1d28b87295b52f52bcc",
+    "experiments/residual_economic_validation/run_models.py": "b7a66a5a339874dab17786dbd96a31e9d54feda40cd1f136b6beb5c4ab71cf6b",
+    "experiments/residual_economic_validation/state_design.py": "764e027d65b80c900608b7a873624eae6df4e548ab6c3ff79eaec48d39e914d8",
+    "experiments/residual_economic_validation/test_integrity.py": "15c48daaf41775d3a21632350c28e7b37e108304c3dd4d5236a2e370f20abe83",
+    "experiments/residual_economic_validation/verify_results.py": "de12990e4b2c182a9e32449bfc90996eec611c2eaed3043695e9e335e8b809dc",
+    "experiments/residual_nested_validation/design.json": "7285ca33b4f9fd65b8e66738d97dd2fcfd1c79e71896c967a67001f5daf53f93",
+    "experiments/residual_nested_validation/evaluate.py": "95b8b31b0a195a5ed16c55fec03f1a0d68c2a171b19eadd9949d5799ce67478e",
+    "experiments/residual_nested_validation/guard.py": "e37f6e5aa500aaf8a1765625f9b4334b26479fd6987ff25b3789dadd430d7288",
+    "experiments/residual_nested_validation/nested.py": "c89d4b6482ba1d98413b4bb43dd54cc7f26b333a1cc791fc0f3f98f909bfe917",
+    "experiments/residual_nested_validation/run.py": "abfff5910dc1be7e1a807d45274080a513f41140653992c87a4579ab726f19ca",
+    "experiments/residual_nested_validation/test_integrity.py": "c44e62b0f72f37d23e2d405df222ce72826d88cb210dba701f526fc48f7d1689",
+    "experiments/residual_nested_validation/verify_locked.py": "1b7a19ece1fc571865c20adf4d61ac153095717e7cb8b3b5e9affc9dd2949642",
+    "experiments/residual_nested_validation/verify_results.py": "de85c0b039bbf9b978aef73c6812f6dced5ac05664bbdf07436e4146064b5805"
+  },
+  "input_sha256": {
+    "research/data/raw data/binance_1h_2025-06-01_2026-03-19.csv": "f32e54fadbedfb38a9514ecb4682bc2bc2e2eb418b314f672af7f783b61af3d0",
+    "research/data/raw data/upbit_1h_2025-06-01_2026-03-19.csv": "c0ea17c465872dafc4e641c5486fe4edd15b7abdc064ed587869882b78ad1efe",
+    "research/data/raw data/USDKRW.csv": "781044d8ceaca50dd2b175681295e9c603cfdfb451058e5a360c1de13dcc6c59",
+    "research/data/raw data/DXY.csv": "31603a17ddc38908580d1472c2157dcc3b092eaeed074288b16545a23baa24c4",
+    "research/data/raw data/VIXY.csv": "80b8e7f03cf4212abfa615badd2887e68e11a7f5095128d13cea0e30cfc8cc12",
+    "research/corrected_outputs/binance_btcusdt_data_vision_metrics.csv": "726610d41d74c0ae4ef612e2c4af58166dd302b8abe6fd47294a148f82acc138",
+    "research/corrected_outputs/binance_btcusdt_funding_rate.csv": "423bd4e8ba1213df39e12350918f87a691a0aa91a477ae747c85f2a3f03dbbb6"
+  },
+  "archived_origin_source_sha256": {
+    "experiments/residual_nested_validation/results/predictions.csv.gz": "1c268ee5d5179d922d0687a3d5ca06ac1cd8b71ea315bc83f3b1499f4a78822e"
+  },
+  "next_run_requires": "Implement and verify forecast runner against this protocol, then commit/push a separate execution lock before fitting or scoring."
+}
