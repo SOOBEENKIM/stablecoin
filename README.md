@@ -2,6 +2,10 @@
 
 현재 브랜치는 `research/icaif2026-manuscript-development`입니다. 국내 원고 재현본을 보존하고, 수정된 가격·시간 계산에 기반한 **잔차의 미래 하방 예측**으로 연구를 확장했습니다.
 
+**2026-09-25 후속 2단계 — 변수군 제거·재학습:** 현재 잔차와 직전 변화를 유지하고 글로벌 BTC 시장·국내 USDT 거래량·환율과 거시 입력을 각각 제거했습니다. 과거 세 내부 월에서 같은 84개 후보를 다시 선택한 주 EQ 분석의 손실 증가는 **0.27%, 0.31%, 0.80%**였고, 세 비교 모두 불확실성 구간에 0이 포함됐습니다. **기존 예측 개선은 유지되지만, 그 개선을 특정 정보군의 추가 기여로 설명할 근거는 아직 부족합니다.** PCA의 긍정적 보조 결과와 설정 유지 시 일부 반대 결과도 함께 공개했습니다. 이번 후속의 3단계 경보·4단계 가격 경로는 실행하지 않았습니다.
+
+[2단계 결과](experiments/residual_step2_information/RESULTS_KO.md) · [실행 전 설계](experiments/residual_step2_information/PROTOCOL_KO.md) · [코드·검증 안내](experiments/residual_step2_information/README.md)
+
 **2026-09-25 후속 1단계 — 단순 동학 비교:** 기존 ML 예측을 유지하고 지속성·잔차 수준 조정·조정과 시장 변동성을 반영한 비교모형을 추가했습니다. 주 EQ에서 ML의 보정 후 하방 예측손실은 각각 **19.10%, 11.35%, 7.81% 낮았고**, 세 비교가 고정한 판정 기준을 통과했습니다. 문턱형 대비 우위는 여전히 불확실했으며 조정·변동성 대비 개선도 CAP/strict 조건과 미보정 결과에서는 통계적으로 뚜렷하지 않았습니다. **주 분석의 개선은 단순 지속성만으로 설명되지 않지만, 모든 정의·표본에서의 우위나 경제적 원인까지 확인한 것은 아닙니다.** 기존 선형 대비 10.65% 결과는 그대로이며, 새 개선율과 더하지 않습니다. 2단계 변수군 분석, 3단계 경보, 4단계 가격 경로는 이번 후속에서 실행하지 않았습니다.
 
 [1단계 결과](experiments/residual_step1_dynamics/RESULTS_KO.md) · [실행 전 설계](experiments/residual_step1_dynamics/PROTOCOL_KO.md) · [코드·검증 안내](experiments/residual_step1_dynamics/README.md)
@@ -64,7 +68,8 @@ python3 experiments/manuscript_reproduction/run_reproduction.py
 - `experiments/residual_dynamics_adaptive/`: 첫 결과 이후 학습 표현·QRF·시간순 보정·정보 가용성·포지셔닝 변화량을 점검한 후속. 최초 실험은 보존.
 - `experiments/residual_economic_validation/`: 변수군 제거, 문턱형 기준선, 출발 조건 매칭과 실제 가격 경로로 예측 개선의 경제적 해석을 검증한 후속.
 - `experiments/residual_nested_validation/`: 기존 자료만으로 모델 계열·설정 선택을 과거 세 내부 월에 한정하고, 실행 전 잠금과 평가 개봉 기록을 남긴 중첩 시간순 검증.
-- `experiments/residual_step1_dynamics/`: 기존 ML 예측을 보존하고 단순 지속성·잔차 수준 조정·시장 변동성 모형을 추가한 1단계 비교. 이후 2~4단계는 별도 승인 후 진행.
+- `experiments/residual_step1_dynamics/`: 기존 ML 예측을 보존하고 단순 지속성·잔차 수준 조정·시장 변동성 모형을 추가한 1단계 비교. 2단계 결과는 다음 폴더에 별도로 기록.
+- `experiments/residual_step2_information/`: 현재 잔차·직전 변화·표본을 유지한 세 정보군 제거 실험. 과거 내부 자료의 재선택과 기존 설정 유지 재학습을 비교하며 3·4단계는 미실행.
 - `research/`, `docs/`, `context/`의 나머지 파일: `main`에서 물려받은 이전 연구 기록. 이번 원고 재현 결과와 구분합니다.
 
 `main`의 호가·AI 연구는 별도 방향의 과거 기록입니다. 해당 안내는 [기존 연구 흐름](docs/STUDY_GUIDE_KO.md)에 남아 있습니다. 삭제한 ML 분해 실험의 이전 상태는 Git 커밋 `b051620e86bfac07efc90d6b7a257c0ba9d86d1d`에서 확인할 수 있습니다.

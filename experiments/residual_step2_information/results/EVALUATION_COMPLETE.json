@@ -1,0 +1,62 @@
+{
+  "lock_commit": "491eb9004f21a1dc5a27d279b4531f49cab48fa5",
+  "lock_sha256": "d84de35a0d80b6341c0f9fd8d7cf7d616362b7c291bb7bb582df25f022b9d954",
+  "completed_utc": "2026-09-25T13:36:16.222246+00:00",
+  "primary_tests": [
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "removed_group": "global_btc",
+      "procedure": "retuned",
+      "calibration": "calibrated",
+      "n": 1088,
+      "block_days": 5,
+      "difference_bp": 0.004533819876076327,
+      "removal_loss_increase_pct": 0.2680464375076852,
+      "increase_lo": -0.2910432416644646,
+      "increase_hi": 0.8167490859815537,
+      "inclusion_gain_pct": 0.2673298693166015,
+      "p_centered_boot": 0.328,
+      "full_winning_months": 3,
+      "p_holm": 0.783,
+      "supported_increment": false
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "removed_group": "local_volume",
+      "procedure": "retuned",
+      "calibration": "calibrated",
+      "n": 1088,
+      "block_days": 5,
+      "difference_bp": 0.005231349222706184,
+      "removal_loss_increase_pct": 0.3092854504221254,
+      "increase_lo": -0.25867312385746394,
+      "increase_hi": 0.8443261770409818,
+      "inclusion_gain_pct": 0.30833182494854894,
+      "p_centered_boot": 0.291,
+      "full_winning_months": 3,
+      "p_holm": 0.783,
+      "supported_increment": false
+    },
+    {
+      "mode": "available_macro",
+      "definition": "EQ",
+      "removed_group": "fx_macro",
+      "procedure": "retuned",
+      "calibration": "calibrated",
+      "n": 1088,
+      "block_days": 5,
+      "difference_bp": 0.013524693414244393,
+      "removal_loss_increase_pct": 0.7996007753200862,
+      "increase_lo": -0.5810182057866439,
+      "increase_hi": 2.259025927489915,
+      "inclusion_gain_pct": 0.7932578791679634,
+      "p_centered_boot": 0.261,
+      "full_winning_months": 2,
+      "p_holm": 0.783,
+      "supported_increment": false
+    }
+  ],
+  "independent_confirmation": false
+}

@@ -1,0 +1,4 @@
+mode,definition,removed_group,procedure,calibration,n,block_days,difference_bp,removal_loss_increase_pct,increase_lo,increase_hi,inclusion_gain_pct,p_centered_boot,full_winning_months,p_holm,supported_increment
+available_macro,EQ,global_btc,retuned,calibrated,1088,5,0.004533819876076327,0.2680464375076852,-0.2910432416644646,0.8167490859815537,0.2673298693166015,0.328,3,0.783,False
+available_macro,EQ,local_volume,retuned,calibrated,1088,5,0.005231349222706184,0.3092854504221254,-0.25867312385746394,0.8443261770409818,0.30833182494854894,0.291,3,0.783,False
+available_macro,EQ,fx_macro,retuned,calibrated,1088,5,0.013524693414244393,0.7996007753200862,-0.5810182057866439,2.259025927489915,0.7932578791679634,0.261,2,0.783,False

@@ -1,0 +1,5 @@
+REFIT VERIFIED available_macro EQ
+REFIT VERIFIED available_macro CAP
+REFIT VERIFIED available_macro PCA
+REFIT VERIFIED strict EQ
+VERIFIED all selections, feature removal, labels, refits and calibration.

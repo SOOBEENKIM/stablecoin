@@ -1,0 +1,27 @@
+INNER 24 / 504 elapsed 6
+INNER 48 / 504 elapsed 16
+INNER 72 / 504 elapsed 29
+INNER 96 / 504 elapsed 43
+INNER 120 / 504 elapsed 58
+INNER 144 / 504 elapsed 68
+INNER 168 / 504 elapsed 77
+INNER 192 / 504 elapsed 89
+INNER 216 / 504 elapsed 103
+INNER 240 / 504 elapsed 120
+INNER 264 / 504 elapsed 131
+INNER 288 / 504 elapsed 139
+INNER 312 / 504 elapsed 149
+INNER 336 / 504 elapsed 163
+INNER 360 / 504 elapsed 180
+INNER 384 / 504 elapsed 190
+INNER 408 / 504 elapsed 196
+INNER 432 / 504 elapsed 200
+INNER 456 / 504 elapsed 205
+INNER 480 / 504 elapsed 211
+INNER 504 / 504 elapsed 220
+OUTER 12 / 60 elapsed 227
+OUTER 24 / 60 elapsed 229
+OUTER 36 / 60 elapsed 231
+OUTER 48 / 60 elapsed 232
+OUTER 60 / 60 elapsed 233
+SEALED all forecasts; no outer scores displayed.
