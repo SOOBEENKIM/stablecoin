@@ -1,0 +1,12 @@
+test_future_poison (__main__.CalibrationTests) ... ok
+test_global_and_warmup (__main__.CalibrationTests) ... ok
+test_neighbors_and_ties (__main__.CalibrationTests) ... ok
+test_real_archived_global60_and_metadata (__main__.CalibrationTests) ... ok
+test_scaling_and_constant_scale (__main__.CalibrationTests) ... ok
+test_selection_ignores_outer_labels (__main__.CalibrationTests) ... ok
+test_strict_clock_and_window (__main__.CalibrationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 5.236s
+
+OK
