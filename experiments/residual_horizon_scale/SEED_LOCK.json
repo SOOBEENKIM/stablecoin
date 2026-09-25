@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-09-25T15:00:02.129770+00:00",
+  "post_result": true,
+  "independent_confirmation": false,
+  "file_sha256": {
+    "experiments/residual_horizon_scale/hs_seed_check.py": "8d0a48cee866eac7f765fc53e33acb68586da69b4ed545fb830cd1003d7e3a38",
+    "experiments/residual_horizon_scale/SEED_SENSITIVITY_KO.md": "e7c2d1b4bb1077158b447e498b1594e59c03f42c7648233b3af89c3e893e7a48",
+    "experiments/residual_horizon_scale/results/predictions.csv.gz": "cd63883629edf9b8d28747d5267ed636a8543f53dcff4689cd18cfdf723c0853",
+    "experiments/residual_horizon_scale/results/selections.json": "1b76dbac68b5159f09d532eddedd2e3bf758cd5d853e88dfa0013ec5a2258a20"
+  }
+}
