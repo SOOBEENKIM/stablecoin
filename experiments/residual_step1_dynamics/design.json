@@ -1,0 +1,31 @@
+{
+  "stage": 1,
+  "previously_seen_evaluation_period": true,
+  "independent_confirmation": false,
+  "legacy_experiment": "residual_nested_validation",
+  "evaluation_start": "2025-12-01T00:00:00Z",
+  "evaluation_end_exclusive": "2026-03-20T00:00:00Z",
+  "primary_case": ["available_macro", "EQ"],
+  "cases": [["available_macro", "EQ"], ["available_macro", "CAP"], ["available_macro", "PCA"], ["strict", "EQ"]],
+  "new_strategies": ["persistence", "ar_quantile", "dynamics_vol"],
+  "windows": ["all", "90"],
+  "forms": ["level", "change"],
+  "alphas": [0.0, 0.01, 0.05],
+  "features": {
+    "persistence": ["e_now"],
+    "ar_quantile": ["e_now"],
+    "dynamics_vol": ["e_now", "e_change1", "btc_vol24", "downside24"]
+  },
+  "legacy_strategies": ["selected", "linear", "threshold"],
+  "legacy_info": "history",
+  "inner_months": 3,
+  "quantile": 0.1,
+  "horizon_hours": 1,
+  "primary_references": ["persistence", "ar_quantile", "dynamics_vol", "threshold"],
+  "primary_score": "calibrated_pinball_loss",
+  "primary_block_days": 5,
+  "sensitivity_block_days": [1, 10],
+  "bootstrap_repetitions": 1999,
+  "calibration": {"past_errors": 60, "minimum": 30, "maximum_age_days": 90},
+  "no_step2_ablation_or_step3_alert_or_step4_attribution": true
+}

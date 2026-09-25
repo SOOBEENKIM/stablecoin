@@ -1,0 +1,11 @@
+test_changed_lock_and_overwrite_rejected (test_integrity.Integrity) ... ok
+test_future_score_rejected_and_boundary_purged (test_integrity.Integrity) ... ok
+test_persistence_is_quantile_and_shift_equivariant (test_integrity.Integrity) ... ok
+test_physical_coefficients_and_no_outcome_feature (test_integrity.Integrity) ... ok
+test_selection_and_missing_month (test_integrity.Integrity) ... ok
+test_translation_loss_and_future_calibration (test_integrity.Integrity) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.088s
+
+OK
