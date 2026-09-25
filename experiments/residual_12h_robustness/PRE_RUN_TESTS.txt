@@ -1,0 +1,9 @@
+test_definitions_same_clocks_and_targets_distinct (__main__.Tests) ... ok
+test_fast_purge_and_tie_selection_match_archive (__main__.Tests) ... ok
+test_future_poison_does_not_change_selection (__main__.Tests) ... ok
+test_independent_clock_scan_matches_production (__main__.Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 6.012s
+
+OK
