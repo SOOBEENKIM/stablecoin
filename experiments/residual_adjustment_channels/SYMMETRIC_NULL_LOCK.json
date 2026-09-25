@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-09-25T17:02:19.395286+00:00",
+  "prior_findings_seen": true,
+  "file_sha256": {
+    "experiments/residual_adjustment_channels/ac_symmetric_null.py": "81d8b85210993dbe12fbc9a367560f5508dc4d735901f5392d3d04d580519118",
+    "experiments/residual_adjustment_channels/SYMMETRIC_NULL_PROTOCOL_KO.md": "62ba5cd6367b8d80ae22c4fc8da8df2f5ebb2ea1ba8cd45d3bdf0e837b0df7df",
+    "experiments/residual_adjustment_channels/test_ac_null.py": "abc942a3a52bdecc764b2fdf0502087dd86f178aef44740a18586bc27b5d4ce1",
+    "experiments/residual_adjustment_channels/NULL_PRE_RUN_TESTS.txt": "d88aa6503b0160281bfffc6ea47e0aab7cbf832501546a406bc293994239864d",
+    "experiments/residual_adjustment_channels/OVERSHOOT_LOCK.json": "175ad38327de90af3cb3702a606b64b88d2171acfdba50386b2b0eb0255c770e",
+    "experiments/residual_adjustment_channels/results/overshoot/COMPLETE.json": "be8c7ab08c9913c6ab1975595f4bd386fe376b9fd57736ac293fc0c29f29a557"
+  }
+}

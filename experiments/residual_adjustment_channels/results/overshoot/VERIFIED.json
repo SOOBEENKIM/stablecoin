@@ -1,0 +1,9 @@
+{
+  "lock_commit": "b11d13758212cdb01d62b2a677eee9fbb2bfef36",
+  "lock_sha256": "175ad38327de90af3cb3702a606b64b88d2171acfdba50386b2b0eb0255c770e",
+  "verified_utc": "2026-09-25T16:59:41.267514+00:00",
+  "piecewise_identity_error": 7.105427357601002e-15,
+  "refits": 9,
+  "refit_error": 0.0,
+  "predictions_sha256": "467b5d52a13bbf6b16754b3193e3c388097c951498076c26e2b90d9c858c4974"
+}

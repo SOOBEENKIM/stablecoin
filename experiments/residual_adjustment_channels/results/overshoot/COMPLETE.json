@@ -1,0 +1,12 @@
+{
+  "lock_commit": "b11d13758212cdb01d62b2a677eee9fbb2bfef36",
+  "lock_sha256": "175ad38327de90af3cb3702a606b64b88d2171acfdba50386b2b0eb0255c770e",
+  "completed_utc": "2026-09-25T16:59:58.454906+00:00",
+  "primary_results_already_seen": true,
+  "file_sha256": {
+    "experiments/residual_adjustment_channels/results/overshoot/primary_tests.csv": "bbde1bdf1ebc95d4605d4addb07493ce67e348fbc7d7c270b975ba440ee72841",
+    "experiments/residual_adjustment_channels/results/overshoot/contrasts.csv": "70634b276e3ac141d06bdf2b415cdffc08de6984ccf0faa20bf61e3d330cb427",
+    "experiments/residual_adjustment_channels/results/overshoot/nuisance_quality.csv": "517aea7311af6260a898263351382b07282aad97c08783c7373611393f0ac0d5",
+    "experiments/residual_adjustment_channels/results/overshoot/SCORES_OPENED.json": "a47aa28bdc9090b66dbb51e383e4aa89021781806923a43bda649aabcfc8c4db"
+  }
+}
