@@ -1,0 +1,8 @@
+{
+  "lock_commit": "7fa819b6c3c8b617db9e26134ae701d356e01af4",
+  "lock_sha256": "4f2efabd4fdaf9eeb21eafaa8757419b5534da3a0dd75f086e4c5418e9e8aec7",
+  "started_utc": "2026-09-25T14:14:17.217936+00:00",
+  "workers": 16,
+  "existing_data_only": true,
+  "independent_confirmation": false
+}

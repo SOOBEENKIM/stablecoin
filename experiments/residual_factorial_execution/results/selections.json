@@ -1,0 +1,6626 @@
+[
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.3011242321877492,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.276356466135892,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 35,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.2840114987177003,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.2804069685118895,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.276356466135892,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.5126564752333833,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.4159236115156337,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4145727314738308,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 36,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.0
+    },
+    "inner_score": 1.4097998624930144,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4145727314738308,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.6374004974356529,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.536400651375585,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.5401581530834547,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 36,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.0
+    },
+    "inner_score": 1.5341845997394017,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.536400651375585,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 0,
+    "kind": "linear",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "alpha": 0.0
+    },
+    "inner_score": 1.7133586660192421,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6398811201213759,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.64531808835894,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 36,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.0
+    },
+    "inner_score": 1.6389124891512195,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6398811201213759,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.2996741151565618,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2924624320395173,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 35,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.2974879976309555,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.2810532943342812,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2924624320395173,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.5047920426583856,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.4423938950281734,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4392135530447177,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.464369558990506,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4392135530447177,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.6185250795453696,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.5409913231088435,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.547552317454163,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.5791571446417891,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.5409913231088435,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.6870177371909867,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.646753842395253,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.6449016032275607,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.6712960376377977,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.6449016032275607,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.3007479937132216,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2929531242289962,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3102007001889806,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.2980140941316927,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2929531242289962,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.5167615755663877,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.4366981291018104,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4333156789156558,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4746088907207313,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4333156789156558,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.6349200469233718,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.526137411097425,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.5456389162141062,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.5668748940084603,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.526137411097425,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.685066461579164,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6342918156295065,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.6405375234866006,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 43,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.002
+    },
+    "inner_score": 1.6545072415604807,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6342918156295065,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2929531242289962,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "matched_full_spec",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4333156789156558,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.526137411097425,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6342918156295065,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2929531242289962,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "matched_full_spec",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4333156789156558,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.526137411097425,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6342918156295065,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2929531242289962,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "matched_full_spec",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4333156789156558,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.526137411097425,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6342918156295065,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.1895707354050036,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.0998972237476288,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 33,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.1122417587007363,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 56,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.1608764811375987,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.0998972237476288,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.3424952491691338,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.1686714781283523,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.1773137156026985,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 56,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.2780143820094685,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.1686714781283523,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.4178277499860152,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2389022338377613,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2462451024937509,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 56,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.374863894673896,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2389022338377613,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 1,
+    "kind": "linear",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.3162118462067416,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.200456143232648,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.209077397331424,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.303715784933321,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.200456143232648,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.2006583943664588,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.1178624987859298,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.1166154491418465,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 47,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.158757268646054,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.1166154491418465,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.3424952491691338,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.1695410695232784,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.172119726889844,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 56,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.267199085565402,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.1695410695232784,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.4178277499860152,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2374285499362165,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.239914795582984,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 56,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.369183472730987,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2374285499362165,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.3157945216192246,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2016965688670502,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2187874943723283,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 56,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.3323067700519755,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2016965688670502,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.2084774290518858,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.1054182097301704,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.1181117814241017,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 56,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.1566069404173163,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.1054182097301704,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.3424952491691338,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.16376183569374,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 27,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.1716573895511284,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 56,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.2743987668706298,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.16376183569374,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.4178277499860152,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2346253569217835,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2201973963552615,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 56,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.355320748715345,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2201973963552615,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 2,
+    "kind": "linear",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.3182924935140417,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2040681182080768,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2039742981843096,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 56,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.3368290684529804,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2039742981843096,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.1054182097301704,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.16376183569374,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "matched_full_spec",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2201973963552615,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "matched_full_spec",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2039742981843096,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.1054182097301704,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.16376183569374,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "matched_full_spec",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2201973963552615,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "matched_full_spec",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2039742981843096,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.1054182097301704,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.16376183569374,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "matched_full_spec",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2201973963552615,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "CAP",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "matched_full_spec",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.2039742981843096,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.2979897992913025,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2737090109977491,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 35,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.277557200614223,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.2756038065727273,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2737090109977491,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.5088101790203672,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.414172560342141,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.4170850414809284,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 36,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.0
+    },
+    "inner_score": 1.4051777776741663,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.414172560342141,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.6331249980103073,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.532627670808706,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.534215298658567,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 36,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.0
+    },
+    "inner_score": 1.5256169722307793,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.532627670808706,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 0,
+    "kind": "linear",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "alpha": 0.0
+    },
+    "inner_score": 1.6969983734680203,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6279690813221268,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.63409324403913,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 36,
+    "kind": "threshold",
+    "window": "all",
+    "form": "level",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.0
+    },
+    "inner_score": 1.6250017023284096,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6279690813221268,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.2964119478560936,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2820705544238011,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 35,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.295940138880126,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.2784035028091751,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.2820705544238011,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.5006055146269468,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.4293079521860248,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4396950742331798,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 56,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.455039575290822,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.4293079521860248,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.6129745529136725,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.5329508188562273,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.5404780295049785,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.5698543830264693,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.5329508188562273,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.672597139282534,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6334089143620163,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.643120285008632,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 56,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.670730992431766,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6334089143620163,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.29591294616363,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.285570409988224,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.3011569115498578,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 56,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.2948766368727134,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.285570409988224,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.510872891382324,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.423682813614671,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.439841178005139,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 56,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4487218635639845,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.423682813614671,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 10,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.6267844883836875,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.5137008502275509,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.537635450481494,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 56,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.5569382479738085,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.5137008502275509,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.6704084032927264,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6093349144227218,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.6307868975287227,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 56,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.6584379238793594,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6093349144227218,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.285570409988224,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.423682813614671,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.5137008502275509,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6093349144227218,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.285570409988224,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.423682813614671,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.5137008502275509,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6093349144227218,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.285570409988224,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.423682813614671,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.5137008502275509,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "available_macro",
+    "definition": "PCA",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "matched_full_spec",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6093349144227218,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 6,
+    "kind": "linear",
+    "window": "90",
+    "form": "level",
+    "params": {
+      "alpha": 0.0
+    },
+    "inner_score": 1.4530322503189,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3935263225240242,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 35,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.4053350613716786,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4142821683959725,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3935263225240242,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.8145935444926318,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 21,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "max_features": 1.0
+    },
+    "inner_score": 1.669430918174938,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.617845022322293,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 54,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.0
+    },
+    "inner_score": 1.6291946466901421,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.617845022322293,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.8934273924113343,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7194859789999843,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6288683842153389,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 54,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.0
+    },
+    "inner_score": 1.6707972103564586,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6288683842153389,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.9296904160356536,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 21,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 5,
+      "min_samples_leaf": 20,
+      "max_features": 1.0
+    },
+    "inner_score": 1.7419147381499605,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6705271512452955,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.6430988167504241,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6705271512452955,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "R"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.456602035514728,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.4052699737763872,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 33,
+    "kind": "boosting",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": 1,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.4530322774699398,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.443496452765548,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.4052699737763872,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.8145935444926318,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6896274371299762,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6921778420259848,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7047248962659707,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6896274371299762,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.8934273924113343,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.6987038593024573,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6786936304270843,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.7179339098259483,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6786936304270843,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 7,
+    "kind": "linear",
+    "window": "90",
+    "form": "level",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.856709774796303,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7279275541955508,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.7016959919532342,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.6308948682079853,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.7016959919532342,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "B"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.456602035514728,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3992944356300732,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "boosting",
+    "candidate": 29,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 250,
+      "min_samples_leaf": 40
+    },
+    "inner_score": 1.4559741056559854,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "threshold",
+    "candidate": 59,
+    "kind": "threshold",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "band": [
+        0.35,
+        0.65
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.4609887739857699,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "ml_selected",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3992944356300732,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "linear",
+    "candidate": 11,
+    "kind": "linear",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.8145935444926318,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.704905487758894,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6856714916410713,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.6938372040600551,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6856714916410713,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "linear",
+    "candidate": 5,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.05
+    },
+    "inner_score": 1.8934273924113343,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "qrf",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.7035142861284434,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6587265444675132,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.702516146817687,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6587265444675132,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "linear",
+    "candidate": 4,
+    "kind": "linear",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "alpha": 0.01
+    },
+    "inner_score": 1.8856693345805768,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "qrf",
+    "candidate": 16,
+    "kind": "qrf",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.725215722418466,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "boosting",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6801644136471787,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "threshold",
+    "candidate": 44,
+    "kind": "threshold",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "band": [
+        0.2,
+        0.8
+      ],
+      "alpha": 0.01
+    },
+    "inner_score": 1.6296982716368835,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "ml_selected",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6801644136471787,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2025-12",
+    "strategy": "matched_full_spec",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3992944356300732,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-01",
+    "strategy": "matched_full_spec",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6856714916410713,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-02",
+    "strategy": "matched_full_spec",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6587265444675132,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "R",
+    "fold": "2026-03",
+    "strategy": "matched_full_spec",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6801644136471787,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2025-12",
+    "strategy": "matched_full_spec",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3992944356300732,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-01",
+    "strategy": "matched_full_spec",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6856714916410713,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-02",
+    "strategy": "matched_full_spec",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6587265444675132,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "B",
+    "fold": "2026-03",
+    "strategy": "matched_full_spec",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6801644136471787,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2025-12",
+    "strategy": "matched_full_spec",
+    "candidate": 22,
+    "kind": "qrf",
+    "window": "90",
+    "form": "change",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 20,
+      "max_features": 0.7
+    },
+    "inner_score": 1.3992944356300732,
+    "inner_months": [
+      "2025-09",
+      "2025-10",
+      "2025-11"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-01",
+    "strategy": "matched_full_spec",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6856714916410713,
+    "inner_months": [
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-02",
+    "strategy": "matched_full_spec",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6587265444675132,
+    "inner_months": [
+      "2025-11",
+      "2025-12",
+      "2026-01"
+    ],
+    "choice_source_information": "F"
+  },
+  {
+    "mode": "strict",
+    "definition": "EQ",
+    "information": "F",
+    "fold": "2026-03",
+    "strategy": "matched_full_spec",
+    "candidate": 28,
+    "kind": "boosting",
+    "window": "all",
+    "form": "change",
+    "params": {
+      "max_depth": 2,
+      "n_estimators": 150,
+      "min_samples_leaf": 20
+    },
+    "inner_score": 1.6801644136471787,
+    "inner_months": [
+      "2025-12",
+      "2026-01",
+      "2026-02"
+    ],
+    "choice_source_information": "F"
+  }
+]

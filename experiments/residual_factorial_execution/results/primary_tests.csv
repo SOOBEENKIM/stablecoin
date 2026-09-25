@@ -1,0 +1,7 @@
+mode,definition,comparison,primary_comparison,calibration,n,reference_information,reference_strategy,candidate_information,candidate_strategy,block_days,difference_bp,improvement_pct,improvement_lo,improvement_hi,p_centered_boot,winning_months,p_holm,supported
+available_macro,EQ,nonlinear_R,True,calibrated,1088,R,linear,R,ml_selected,5,0.07246131001810333,4.126715833467887,-0.0033422793220306397,8.44424025344524,0.0715,3,0.42899999999999994,False
+available_macro,EQ,nonlinear_F,True,calibrated,1088,F,linear,F,ml_selected,5,0.06760462009705198,3.8531976643626287,0.03247480215768199,7.58771529507596,0.0745,2,0.42899999999999994,False
+available_macro,EQ,market_B_vs_R,True,calibrated,1088,R,ml_selected,B,ml_selected,5,-0.00760636617942345,-0.4518330631448908,-2.1515607561624206,1.2790653216122818,0.6195,1,1.0,False
+available_macro,EQ,position_F_vs_B,True,calibrated,1088,B,ml_selected,F,ml_selected,5,0.0041501769986578676,0.24541976240651797,-1.0480961710441052,1.5588828122985878,0.736,3,1.0,False
+available_macro,EQ,total_F_vs_R,True,calibrated,1088,R,ml_selected,F,ml_selected,5,-0.0034561891807655823,-0.20530441310833147,-1.4874240535805112,1.0868877159257053,0.7585,2,1.0,False
+available_macro,EQ,ml_vs_threshold_F,True,calibrated,1088,F,threshold,F,ml_selected,5,0.04640034109439094,2.67699013980639,-1.106975387065768,8.418015645669184,0.2855,3,1.0,False
