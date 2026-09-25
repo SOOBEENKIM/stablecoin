@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-09-25T14:38:43.736472+00:00",
+  "previously_seen_period": true,
+  "independent_confirmation": false,
+  "parent_commit": "b0f539b72c2c473b00cf9f762df4525254e3662f",
+  "file_sha256": {
+    "experiments/residual_horizon_scale/test_hs.py": "44e03a16d4bf5ca5167c5b4b52b0966aac3104a805f0ede83ddba6d2cda40c68",
+    "experiments/residual_horizon_scale/hs_evaluate.py": "6027324a943d822869fc3f574884438ddbef52d87b36ff02e8318dc15fdd1616",
+    "experiments/residual_horizon_scale/hs_run.py": "4a2085c745f79e3add498b1331904ab881b3f8d7647ce885050aa2e03d63fa92",
+    "experiments/residual_horizon_scale/hs_guard.py": "e18a019a174eba9164e8afa3e6ac964bb54aa8567bf8a86fe9754ee7361c10cd",
+    "experiments/residual_horizon_scale/hs_core.py": "b61017c24ad9cf215d9f871f5cc15d45ad4ea04c12deb8e024f9bc25a0db27c7",
+    "experiments/residual_horizon_scale/hs_verify.py": "5777a63477399ffa4152663fdcd7b36ff232e35f9eeb568ad244d24d25eebebd",
+    "experiments/residual_horizon_scale/PROTOCOL_KO.md": "bd62979a938ff1d639625e13cc4582c3735803605736ad91c5c44cc2af536680",
+    "experiments/residual_horizon_scale/PRE_RUN_TESTS.txt": "cfbd40aac0a2fe3d84deffe685bd1cff086d7c559139c912cb8ffe95e2100ccd",
+    "experiments/residual_factorial_execution/LOCK.json": "4f2efabd4fdaf9eeb21eafaa8757419b5534da3a0dd75f086e4c5418e9e8aec7",
+    "experiments/residual_factorial_execution/results/candidates/available_macro__EQ__F__boosting.csv.gz": "a193cdcd06f738ab7b495995d2c250d66315fb37b88ad6a3beae4c09873501a9",
+    "experiments/residual_factorial_execution/results/candidates/available_macro__EQ__F__qrf.csv.gz": "c9a0905e32b150389a749fc25d492623e3014a81c184cc6779f65ddea88e4f61",
+    "experiments/residual_factorial_execution/results/candidates/available_macro__EQ__R__qrf.csv.gz": "8e4c6aac449ba10ae4fa3e46b6472fd83e0a20e94a1a0c491560245504b92c48",
+    "experiments/residual_factorial_execution/results/candidates/available_macro__EQ__R__linear.csv.gz": "39a0b5357da0bc20f5dce4d72bcce2e644e4e53a56dc94ab83ac4dfc7c6e62fa",
+    "experiments/residual_factorial_execution/results/candidates/available_macro__EQ__F__linear.csv.gz": "d793c3ab19a4f0c20d240d467609ab69c8d8c843abf04001dd495b02b585e0bf",
+    "experiments/residual_factorial_execution/results/candidates/available_macro__EQ__B__qrf.csv.gz": "94a8c37aa7b48f663072093b08dd12a4c867f8b6731738ca7de62079cc0a0bf8",
+    "experiments/residual_factorial_execution/results/candidates/available_macro__EQ__B__linear.csv.gz": "29b66d697c5e1d91dfbe8138fa6b5db46f472fb46a92c71689c236f8287b62e0",
+    "experiments/residual_factorial_execution/results/candidates/available_macro__EQ__R__boosting.csv.gz": "16860f4ac48743caf68d7a7c4b070f23c59290e40ffd0b835cfcbb4a21c84474",
+    "experiments/residual_factorial_execution/results/candidates/available_macro__EQ__R__threshold.csv.gz": "8761e7dc1669ab66c2479f7ebff235d304d98d7bfa5cf5c45eabe4f22075fab6",
+    "experiments/residual_factorial_execution/results/candidates/available_macro__EQ__B__boosting.csv.gz": "31358bd53e801e803a56330d083d8b451619743848198015882d8838f84aaca0",
+    "experiments/residual_factorial_execution/results/candidates/available_macro__EQ__F__threshold.csv.gz": "55d23adb52dafabfa8e9daf89e57d73cc01401f0fb48d6f30ebf2617b88bd376",
+    "experiments/residual_factorial_execution/results/candidates/available_macro__EQ__B__threshold.csv.gz": "195320192530bec559ae200afbd482f30fe6ad1cfb497eaf6bc31f50bcf9c644",
+    "experiments/residual_factorial_execution/results/predictions.csv.gz": "8f9d0b00ae0242aceb24c18b76d0f8ca60ce72e8185e6d5c00934cec5aae39c8",
+    "experiments/residual_factorial_execution/results/selections.json": "225b8514026cfab982ec75b9a8800b2bd142ed81987b163c2fddc128f6f037c2"
+  }
+}

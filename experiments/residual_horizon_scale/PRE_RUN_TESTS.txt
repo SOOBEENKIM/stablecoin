@@ -1,0 +1,10 @@
+test_calibration_mature_labels_each_horizon (__main__.MechanicsTests) ... ok
+test_exact_horizon_not_row_shift (__main__.MechanicsTests) ... ok
+test_one_hour_parity_and_sample_support (__main__.MechanicsTests) ... ok
+test_scale_gaps_and_no_future (__main__.MechanicsTests) ... ok
+test_selection_ignores_outer_outcomes_and_matches_old (__main__.MechanicsTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 11.315s
+
+OK
