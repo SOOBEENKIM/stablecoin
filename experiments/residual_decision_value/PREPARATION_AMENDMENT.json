@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-09-25T15:45:15.449134+00:00",
+  "reason": "Restrict archived target comparison to the already specified outer period",
+  "no_scores_opened": true,
+  "file_sha256": {
+    "experiments/residual_decision_value/dv_prepare_v2.py": "057204e1ca6756f6dd262f6821fe0b9e48542176ac78eee9a91507de3472793c",
+    "experiments/residual_decision_value/PREPARATION_AMENDMENT_KO.md": "b7259d80799f3bd91b351d78cb00e16fc8f193e30ea6cc236fd8ae380f60c954"
+  }
+}
